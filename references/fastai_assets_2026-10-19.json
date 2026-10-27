@@ -1,0 +1,152 @@
+[
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00028.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00028.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 108141,
+    "sha256": "0afad30805a994589c8a5719a523248cd0fdeb1f4a9708d0f58a8f839e3a1bae",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00029.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00029.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 165316,
+    "sha256": "7d5f226d74650e07fc5a454fb13b8b5c838cdd7b97a60801f25384159ce9ccbb",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00030.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00030.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 127347,
+    "sha256": "0cd4b39ffb6fa0b3fb3a139e8effdfc8f8aac9d8e1346394bb0b3925fceedab0",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00032.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00032.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 7959,
+    "sha256": "38dba573fd26e1901a6a78abdf327e15a4642f4ed82536de025b59bd2f1014fa",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00033.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00033.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 4908,
+    "sha256": "807d767ae5149be3024f92d70da23226b92c9689ca91e8ab838ac7f067e45cfc",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00034.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00034.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 4555,
+    "sha256": "5a1bc2cf434c85235486f11bab73ad5c3b7210069eb0e14b2f91950cb5bab93a",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00035.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00035.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 85180,
+    "sha256": "e046d79e4ea19a19923a900ea20eb087ab40c928316d8febf79e6146d772abeb",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00036.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00036.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 56979,
+    "sha256": "f5040e6bd79cfb139d7790c7cc845cce56a98cc421abd052500f918908afea93",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00068.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00068.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 23594,
+    "sha256": "6b20f30bf0ca5644082114840c46affc8ac9c4b91045e4b9f21217153ca11d68",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/att_00069.png",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/att_00069.png",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 94600,
+    "sha256": "c728799745458ad49ba46a19c363b480aca9ec528c8185c80956f6709721ea1c",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/chapter9_nopadconv.svg",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/chapter9_nopadconv.svg",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 4811,
+    "sha256": "bf90eb36a2b538c9d28c63d97fc16341d14c8514f9de0f27c3efd23380c28ec0",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/chapter9_padconv.svg",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/chapter9_padconv.svg",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 7768,
+    "sha256": "858e13d355147cdab82f257f6f2979b00c0aafd3fb6903656bde037f02fad555",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/chapter9_rgb_conv_stack.svg",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/chapter9_rgb_conv_stack.svg",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 10392,
+    "sha256": "1e08544f9ea2bb13597271bb2a9cfcb3b8c43d32e496ebef363b0c401e09962d",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/chapter9_rgbconv.svg",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/chapter9_rgbconv.svg",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 19235,
+    "sha256": "b95adb88bd29a4e9a839253e7344fc5537171aa08d986cd760fc2feef26d8620",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": false
+  },
+  {
+    "course_relative_path": "04_fastai_part2/images/grizzly.jpg",
+    "source_url": "https://raw.githubusercontent.com/fastai/course22p2/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/images/grizzly.jpg",
+    "source_commit": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "source_repository": "https://github.com/fastai/course22p2",
+    "bytes": 697626,
+    "sha256": "2f12ed680dca7a5ccd0e9c9522365c7374a154c69ffa2b19f32723f45499f1ac",
+    "used_by_notebook": "04_fastai_part2/07_convolutions.ipynb",
+    "runtime_required": true
+  }
+]

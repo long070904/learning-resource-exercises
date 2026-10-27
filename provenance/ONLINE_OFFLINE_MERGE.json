@@ -1,0 +1,40 @@
+{
+  "prepared_utc": "2026-10-27T03:59:20.724904+00:00",
+  "originals_and_cloud_backup_unchanged": true,
+  "course_source_notebooks": 84,
+  "audited_saved_executions": 64,
+  "pending_exercises": 20,
+  "online_source_files_reviewed": 183,
+  "online_code_decisions": {
+    "exclude_stale_account_specific_launcher": 15,
+    "keep_current_canonical_version": 28,
+    "exclude_source_archive": 7,
+    "exclude_superseded_package_documentation": 12,
+    "exclude_old_smoke_runner": 1,
+    "already_present_exactly": 19,
+    "exclude_data_or_checkpoint": 59,
+    "historical_result_candidate_only": 42
+  },
+  "additional_required_online_code_not_found_locally": 0,
+  "source_policy": "Keep the newer canonical 84-notebook source set and its helpers. Online code is already covered or superseded; old account-specific repair launchers are omitted.",
+  "result_policy": "Combine hash-bound hosted Colab and local native evidence; compact publication derivatives are explicitly identified in results/RESULT_FILES.json.",
+  "cloud_backup": {
+    "date": "2026-10-27",
+    "verified_files": 1778,
+    "verified_bytes": 4244772328,
+    "verification_report_sha256": "5805b70e88524f6131ecfff4847cc921681dfaaf0e8df33c952c7d36576db95e",
+    "folder_name": "Offline_Backup_2026-10-27",
+    "included_in_git": false
+  },
+  "historical_repository_items_omitted": 76,
+  "omitted_material": [
+    "large trained checkpoints",
+    "dataset archives",
+    "environment/cache folders",
+    "repeated failed/repair launches and installation logs",
+    "duplicate result examples",
+    "private assessment documents and account screenshots"
+  ],
+  "new_training_performed": false,
+  "completion_counts_changed": false
+}

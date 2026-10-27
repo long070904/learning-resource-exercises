@@ -1,0 +1,70 @@
+{
+  "originals_unchanged": true,
+  "omitted_private_audit_files": [
+    "PENDING_LEARNER_INPUTS.txt",
+    "completion_criteria/objective_remaining_manual_activity_feasibility.json",
+    "completion_criteria/objective_remaining_MANUAL_ACTIVITY_FEASIBILITY.txt",
+    "completion_criteria/objective_remaining_colab_objective_extensions_preparation.json",
+    "completion_criteria/objective_remaining_frontend_companion_verified.json"
+  ],
+  "changes": [
+    {
+      "path": "03_fastai/wearable_objective_extension.py",
+      "original_sha256": "f9b0a8bf81a5bab8c10aee5e8795e9cef3df58e40925f7705e58301b18b3fbe9",
+      "candidate_sha256": "6ad8d32571ea36b14f0510b466538167c58596b84e2ad9bf65cc65dbc07bed2b",
+      "original_bytes": 16882,
+      "candidate_bytes": 16819,
+      "integrity_literal_rebindings": [],
+      "algorithm_ast_unchanged_except_declared_metadata_strings": true,
+      "change": "Personal names and unpublished assessment filenames replaced with generic metadata. Embedded-helper integrity literal updated where needed."
+    },
+    {
+      "path": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "original_sha256": "3a41ead7901380f32bb01e4c6c29c60f9ec345182488159f86ef3905efb71463",
+      "candidate_sha256": "4d664276c466225dd4e7d9263f90b0fa37b3b0475158c26f6c343b656dbb6fdc",
+      "original_bytes": 57172,
+      "candidate_bytes": 57115,
+      "integrity_literal_rebindings": [
+        {
+          "cell_index": 10,
+          "old_embedded_source_sha256": "b502526c87c17bd60204fdb0cd634ac0fe481ab47c66642384e27adbd7cb036b",
+          "new_embedded_source_sha256": "83fbc46191323840518a5709c4851589f15edd98ad1f4d968774d291c39650f5",
+          "purpose": "Retain exact embedded-helper integrity assertion after metadata redaction"
+        }
+      ],
+      "algorithm_ast_unchanged_except_declared_metadata_strings": true,
+      "change": "Personal names and unpublished assessment filenames replaced with generic metadata. Embedded-helper integrity literal updated where needed.",
+      "saved_outputs_and_execution_counts_unchanged": true
+    },
+    {
+      "path": "results/examples/fastai_training_controls.ipynb",
+      "original_sha256": "3ba61758c0d706c901019811326a6ef913eb4a413b5c6427ebe6d73f64242d73",
+      "candidate_sha256": "9135902a52149ad125c8ff1378800e8b5074e46c5ca68f69f895cd52b9a472c3",
+      "original_bytes": 237132,
+      "candidate_bytes": 237075,
+      "integrity_literal_rebindings": [
+        {
+          "cell_index": 10,
+          "old_embedded_source_sha256": "b502526c87c17bd60204fdb0cd634ac0fe481ab47c66642384e27adbd7cb036b",
+          "new_embedded_source_sha256": "83fbc46191323840518a5709c4851589f15edd98ad1f4d968774d291c39650f5",
+          "purpose": "Retain exact embedded-helper integrity assertion after metadata redaction"
+        }
+      ],
+      "algorithm_ast_unchanged_except_declared_metadata_strings": true,
+      "change": "Personal names and unpublished assessment filenames replaced with generic metadata. Embedded-helper integrity literal updated where needed.",
+      "saved_outputs_and_execution_counts_unchanged": true,
+      "retired_historical_repository_path": true,
+      "replacement_path": "results/saved_notebooks/03_fastai/09_wearable_training_and_ethics.ipynb",
+      "note": "The current publication copy and its hash are recorded in results/RESULT_FILES.json."
+    },
+    {
+      "path": "completion_criteria/fastai_full_run_criteria.json",
+      "original_sha256": "63fe7e89efc0373d5cbf9b90ea73dba99b8912a9c3c997e5f1516a83ef4515ae",
+      "candidate_sha256": "03d3afdea87b0b8ac4e47e5ae9be418188d10c10668201943ec592c56ea6c89f",
+      "change": "Private learner Colab companion link omitted; exercise criteria preserved."
+    }
+  ],
+  "source_notebooks_original": 83,
+  "source_notebooks_privacy_derivative": 1,
+  "new_training_performed": false
+}

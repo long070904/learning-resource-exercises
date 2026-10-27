@@ -1,0 +1,51 @@
+{
+  "prepared_utc": "2026-10-27T03:54:23.293239+00:00",
+  "variant_count": 2,
+  "status": "REVIEWED_PENDING_SOURCE_ALTERNATIVES_NOT_NEW_COMPLETIONS",
+  "original_source_archive_sha256": "ef56695d7417fd343e8701ac934bc1926d2d5c4c86a85117a08e36a7e2a768b9",
+  "licence_notice": "04_fastai_part2/LICENSE (Apache-2.0), retained in the main repository",
+  "records": [
+    {
+      "target": "04_fastai_part2/22_noise-pred.ipynb",
+      "source": "execution/2026-10-24/native22_source_contract_v1/DECLARED_22_noise-pred_pair_return.ipynb",
+      "staged_name": "22_noise-pred_pair_return.ipynb",
+      "original_sha256": "f0577bc4a7e7b889e364ff4227eab95403ec3543b49d1d92f98bb46759a66afe",
+      "variant_sha256": "aed79b71edf7513aebde606b4631412ef4068bab306deef58d09aa3f25131a18",
+      "changed_source_cell_indices_zero_based": [
+        47
+      ],
+      "change": "Return (x0, xt) from the step function instead of only x0, matching the existing two-value sampler unpack. Both values are already computed; no RNG or preceding equations change.",
+      "prior_validation": "Saved tiny CPU fixture compared the original locally computed xt, identical x0 and RNG state, and reproduced the original unpacking failure. Source AST checks passed; no full training/exercise execution.",
+      "validation_source": "execution/2026-10-24/native22_source_contract_v1/FINAL_TINY_CPU_PAIR_RETURN_STDOUT.log",
+      "staged_path": "local_variants/04_fastai_part2/22_noise-pred_pair_return.ipynb",
+      "copy_sha256": "aed79b71edf7513aebde606b4631412ef4068bab306deef58d09aa3f25131a18",
+      "bytes": 29100,
+      "upstream_source_url": "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/22_noise-pred.ipynb",
+      "privacy_substitutions": [],
+      "saved_outputs": 0,
+      "full_exercise_completed": false
+    },
+    {
+      "target": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "source": "execution/2026-10-24/native30simple_assertion_variant_v1/30_lsun_diffusion-simple_numeric_shard_assertions.ipynb",
+      "staged_name": "30_lsun_diffusion-simple_numeric_shard_assertions.ipynb",
+      "original_sha256": "b43757c4748f1d8febdc66220f00209bf67ae36b2747ae765b545e1d6d184d75",
+      "variant_sha256": "960ae992c5d42bed19fed02e4866eeed29d4c4370dcf6b87821fcdbc949be592",
+      "changed_source_cell_indices_zero_based": [
+        15
+      ],
+      "change": "Keep the original [1-9] training and 0 validation shard globs. Assert 173220 training + 19811 validation = 193031 selected images, and compare membership against numeric shards only, while retaining the full 303125-image archive verification.",
+      "prior_validation": "Prepared against the full official archive/split metadata. All other source cells and model/training/sampling logic remain unchanged. No notebook training or full exercise execution.",
+      "validation_source": "execution/2026-10-24/native30simple_assertion_variant_v1/ASSERTION_VARIANT_PREPARATION.json",
+      "staged_path": "local_variants/04_fastai_part2/30_lsun_diffusion-simple_numeric_shard_assertions.ipynb",
+      "copy_sha256": "960ae992c5d42bed19fed02e4866eeed29d4c4370dcf6b87821fcdbc949be592",
+      "bytes": 45466,
+      "upstream_source_url": "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/30_lsun_diffusion-simple.ipynb",
+      "privacy_substitutions": [],
+      "saved_outputs": 0,
+      "full_exercise_completed": false
+    }
+  ],
+  "main84_sources_or_repository_changed": false,
+  "training_or_new_course_execution": false
+}

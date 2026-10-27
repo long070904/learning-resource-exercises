@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-19",
+  "scope": "Signal Processing Onramp and the four-course Core Signal Processing Techniques pathway",
+  "pathway_membership_source": "https://www.mathworks.com/matlabcentral/discussions/highlights/875537-new-online-training-courses",
+  "outline_status": "verified_public_pages",
+  "module_labels": "paraphrased topics in published order, not copied exercise prompts",
+  "total_public_modules": 33,
+  "exact_exercise_count": {
+    "graded_tasks": 172,
+    "verified_ungraded_code_examples": 28,
+    "verified_ungraded_gui_activities": 14,
+    "source": "academy_progress.json",
+    "verified_on": "2026-09-28"
+  },
+  "academy_completed": null,
+  "completion_semantics": "null means unknown, false means no course completion established; public outline or practice execution is not Academy completion",
+  "courses": [
+    {
+      "id": "signalprocessing",
+      "title": "Signal Processing Onramp",
+      "group": "introductory_course",
+      "source_url": "https://matlabacademy.mathworks.com/details/signal-processing-onramp/signalprocessing",
+      "public_modules": [
+        {
+          "position": 1,
+          "topic": "Orientation and initial waveform generation"
+        },
+        {
+          "position": 2,
+          "topic": "Loading recordings and comparing their spectra"
+        },
+        {
+          "position": 3,
+          "topic": "Rate conversion, interval selection, preparation functions, and alignment"
+        },
+        {
+          "position": 4,
+          "topic": "Frequency and time-frequency views"
+        },
+        {
+          "position": 5,
+          "topic": "Lowpass and bandpass processing"
+        },
+        {
+          "position": 6,
+          "topic": "Generated code and quantitative measurements"
+        },
+        {
+          "position": 7,
+          "topic": "Wrap-up and further study"
+        }
+      ],
+      "exercise_status": "all_graded_tasks_passed_awaiting_user_survey",
+      "academy_completed": false,
+      "related_original_practice": [
+        "onramp_signal_workflow.m"
+      ],
+      "verified_passed_tasks": 40
+    },
+    {
+      "id": "otmlsgr",
+      "title": "Signal Generation and Resampling",
+      "group": "core_signal_processing_pathway",
+      "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+      "public_modules": [
+        {
+          "position": 1,
+          "topic": "Orientation and prerequisites"
+        },
+        {
+          "position": 2,
+          "topic": "Sampled waveforms, tones, chirps, and importing recordings"
+        },
+        {
+          "position": 3,
+          "topic": "Rate conversion, aliasing, imaging, audio, and watermark examples"
+        },
+        {
+          "position": 4,
+          "topic": "Square-wave generation and rate-conversion application"
+        },
+        {
+          "position": 5,
+          "topic": "Wrap-up and further study"
+        }
+      ],
+      "exercise_status": "all_graded_tasks_passed_awaiting_user_survey",
+      "academy_completed": false,
+      "related_original_practice": [
+        "signal_generation_resampling.m"
+      ],
+      "verified_passed_tasks": 40
+    },
+    {
+      "id": "otmlsat",
+      "title": "Spectral Analysis Techniques",
+      "group": "core_signal_processing_pathway",
+      "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+      "public_modules": [
+        {
+          "position": 1,
+          "topic": "Orientation and a healthy-fan example"
+        },
+        {
+          "position": 2,
+          "topic": "Fourier computation with the FFT"
+        },
+        {
+          "position": 3,
+          "topic": "PSD estimation from a periodogram"
+        },
+        {
+          "position": 4,
+          "topic": "Zero padding and denser frequency sampling"
+        },
+        {
+          "position": 5,
+          "topic": "Window choice, leakage, and tone separation"
+        },
+        {
+          "position": 6,
+          "topic": "Welch averaging, segment length, and overlap"
+        },
+        {
+          "position": 7,
+          "topic": "Model-based and subspace estimation for short records"
+        },
+        {
+          "position": 8,
+          "topic": "Wrap-up and further study"
+        }
+      ],
+      "exercise_status": "all_graded_tasks_passed_awaiting_user_survey",
+      "academy_completed": false,
+      "related_original_practice": [
+        "spectral_analysis_methods.m"
+      ],
+      "verified_passed_tasks": 31
+    },
+    {
+      "id": "otmltfa",
+      "title": "Time-Frequency Analysis",
+      "group": "core_signal_processing_pathway",
+      "source_url": "https://matlabacademy.mathworks.com/details/time-frequency-analysis/otmltfa",
+      "public_modules": [
+        {
+          "position": 1,
+          "topic": "Orientation and prerequisites"
+        },
+        {
+          "position": 2,
+          "topic": "Signals whose frequencies change over time"
+        },
+        {
+          "position": 3,
+          "topic": "STFT views and temporal resolution"
+        },
+        {
+          "position": 4,
+          "topic": "Wavelet views and frequency resolution"
+        },
+        {
+          "position": 5,
+          "topic": "A fan-fault identification application"
+        },
+        {
+          "position": 6,
+          "topic": "Wrap-up and further study"
+        }
+      ],
+      "exercise_status": "all_graded_tasks_passed_awaiting_user_survey",
+      "academy_completed": false,
+      "related_original_practice": [
+        "time_frequency_methods.m"
+      ],
+      "verified_passed_tasks": 24
+    },
+    {
+      "id": "otmlfdam",
+      "title": "Filter Design and Analysis Methods",
+      "group": "core_signal_processing_pathway",
+      "source_url": "https://matlabacademy.mathworks.com/details/filter-design-and-analysis-methods/otmlfdam",
+      "public_modules": [
+        {
+          "position": 1,
+          "topic": "Orientation and prerequisites"
+        },
+        {
+          "position": 2,
+          "topic": "Specification-driven design and a watermark example"
+        },
+        {
+          "position": 3,
+          "topic": "Algorithm selection and graphical design tools"
+        },
+        {
+          "position": 4,
+          "topic": "Impulse/frequency responses, delay, and transients"
+        },
+        {
+          "position": 5,
+          "topic": "Custom magnitude shapes and an underwater-audio example"
+        },
+        {
+          "position": 6,
+          "topic": "Poles, zeros, and FIR/IIR stability"
+        },
+        {
+          "position": 7,
+          "topic": "Wrap-up and further study"
+        }
+      ],
+      "exercise_status": "all_graded_tasks_passed_awaiting_user_survey",
+      "academy_completed": false,
+      "related_original_practice": [
+        "filter_design_analysis.m"
+      ],
+      "verified_passed_tasks": 37
+    }
+  ],
+  "original_practice_root": "../coding_exercises/04_mathworks",
+  "practice_mapping": [
+    {
+      "file": "onramp_signal_workflow.m",
+      "course_ids": [
+        "signalprocessing"
+      ],
+      "implemented_topics": [
+        "CSV input and time base",
+        "interval selection",
+        "detrending",
+        "lowpass filtering",
+        "Welch PSD",
+        "amplitude and peak measurements"
+      ],
+      "known_gaps": [
+        "alignment absent",
+        "resampling absent",
+        "Signal Analyzer is comment-only",
+        "earthquake assets absent"
+      ]
+    },
+    {
+      "file": "signal_generation_resampling.m",
+      "course_ids": [
+        "otmlsgr"
+      ],
+      "implemented_topics": [
+        "tones, chirp, square wave, and generated watermark",
+        "rational resampling",
+        "aliasing",
+        "zero insertion",
+        "audio rate conversion"
+      ],
+      "known_gaps": [
+        "uses generated assets",
+        "no authenticated task match"
+      ]
+    },
+    {
+      "file": "spectral_analysis_methods.m",
+      "course_ids": [
+        "otmlsat"
+      ],
+      "implemented_topics": [
+        "FFT",
+        "periodograms",
+        "window comparison",
+        "Welch",
+        "Burg",
+        "MUSIC"
+      ],
+      "known_gaps": [
+        "fan course assets absent",
+        "required task parameters unknown"
+      ]
+    },
+    {
+      "file": "time_frequency_methods.m",
+      "course_ids": [
+        "otmltfa"
+      ],
+      "implemented_topics": [
+        "STFT window comparison",
+        "optional wavelet views"
+      ],
+      "known_gaps": [
+        "fan-fault course assets absent",
+        "wavelet branch may be skipped"
+      ]
+    },
+    {
+      "file": "filter_design_analysis.m",
+      "course_ids": [
+        "otmlfdam"
+      ],
+      "implemented_topics": [
+        "FIR and IIR design",
+        "specification-based design",
+        "response and delay",
+        "pole stability",
+        "arbitrary magnitude",
+        "generated watermark recovery"
+      ],
+      "known_gaps": [
+        "Filter Designer is comment-only",
+        "underwater course example absent"
+      ]
+    },
+    {
+      "file": "wearable_preprocessing.m",
+      "course_ids": [],
+      "implemented_topics": [
+        "original research application",
+        "missing samples",
+        "rate alignment",
+        "window features",
+        "subject splits",
+        "training-only scaling"
+      ],
+      "known_gaps": [
+        "not an identified Academy task"
+      ]
+    }
+  ],
+  "practice_completion_equivalence": false,
+  "evidence_required_for_task_completion": [
+    "task identity and short topic summary",
+    "input file identity and availability",
+    "submitted code or GUI actions",
+    "platform feedback"
+  ],
+  "current_practice_root": "practice",
+  "mapping_audit_scope": "Original six files before package revisions; consult README for later fixes.",
+  "details_not_available_from_public_outlines": [
+    "individual task prompts",
+    "required variable names",
+    "course input assets",
+    "expected outputs",
+    "authenticated grader results"
+  ],
+  "authenticated_progress_file": "academy_progress.json",
+  "authentication_status": "signed_in_all_five_requested_courses_exercises_verified"
+}

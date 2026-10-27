@@ -1,0 +1,252 @@
+{
+  "prepared_date": "2026-10-03",
+  "source": "MIT official course notebooks and prior local adaptations; see HOSTED_RUN_REQUIREMENTS.md",
+  "notebooks": [
+    {
+      "filename": "01_pt_tensor_and_gradient_exercises.ipynb",
+      "sha256": "5f3d18b33b8cff48c9c04b843aacbfcd83197ef8e059ef8a7a762480f28ae043",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "tensors_and_computation",
+        "dense_layers_and_models",
+        "automatic_differentiation",
+        "gradient_descent"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "cb82ef4ce5e2059b35d67f1e5149f25353329e8d44bef5a15ffc1c6ed21a45da"
+    },
+    {
+      "filename": "01_tf_tensor_and_gradient_exercises.ipynb",
+      "sha256": "9378c99833814ac0fce3f7dd69398a9b270ddbb5bc2a72eb102883c13ae0b415",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "tensors_and_computation",
+        "dense_layers_and_models",
+        "automatic_differentiation",
+        "gradient_descent"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "647b25a315db65c310a1ea129953430b6031623a8741c1fb1305404efc41ba81"
+    },
+    {
+      "filename": "02_pt_music_generation.ipynb",
+      "sha256": "a9d2e872f2e38795f4f782f48a833b7c5bde81897e2777be4ea3c72c14bbf810",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "vectorisation_and_batches",
+        "model_shapes",
+        "training_and_checkpoint",
+        "autoregressive_sampling",
+        "generated_audio",
+        "hyperparameter_experiments"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "657b50d5240e79fa570aa18e4d8ec9d9dab0d905042c556738fef653a1ef45c9"
+    },
+    {
+      "filename": "02_tf_music_generation.ipynb",
+      "sha256": "b4d7737f464c8fe364c21af93f947472466b22aaa66408966a6e039c1b5ba4b5",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "vectorisation_and_batches",
+        "model_shapes",
+        "training_and_checkpoint",
+        "autoregressive_sampling",
+        "generated_audio",
+        "hyperparameter_experiments"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "02f8d70c8e531305f66cd2651bfef4208d2f3ad1f3aa3821045911986037cea5"
+    },
+    {
+      "filename": "03_wearable_lstm_gru_attention.ipynb",
+      "sha256": "f705cf9629c0751e04f29cd4e0afcc3e9bb6695b9e33281ac281499cd4e50b29",
+      "original_course_notebook": false,
+      "synthetic_practice_prototype": true,
+      "required_evidence_keys": [],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "227d3fc547275c908168bc0ba52959aba3cea50ef653c7e863a1b30245b6ad51"
+    },
+    {
+      "filename": "04_transformer_contrastive_prototype.ipynb",
+      "sha256": "d48a8a52b7ef84d318bcdb6af33ad68f0fc88ce393e18695bc44873cefdd3f21",
+      "original_course_notebook": false,
+      "synthetic_practice_prototype": true,
+      "required_evidence_keys": [],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "f7194c72c045f6776b5bf66968ff7ab7ce8b4ba8161a8d9ae2733c0e965c27b9"
+    },
+    {
+      "filename": "05_pt_lab2_mnist.ipynb",
+      "sha256": "198998133fd46f28772a015629518546097735ce7ce8382775ed2520dc4ae696",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "real_mnist_data",
+        "fc_optimizer_experiments",
+        "cnn_optimizer_experiments",
+        "fc_full_training_and_test",
+        "cnn_full_training_and_test",
+        "cnn_predictions",
+        "checkpoint_round_trip"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "0afaead80ca776bf3a214dcbd07f03dedcb4fb024452e5cd509efa66ca1dcfad"
+    },
+    {
+      "filename": "05_tf_lab2_mnist.ipynb",
+      "sha256": "cd84fead32770b0eb149a464fb6a1826e828e1f012e05115287f8248fed74fa6",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "real_mnist_data",
+        "fc_optimizer_experiments",
+        "cnn_optimizer_experiments",
+        "fc_full_training_and_test",
+        "cnn_full_training_and_test",
+        "cnn_predictions",
+        "gradient_tape_full_epoch",
+        "checkpoint_round_trip"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "hosted_compatibility_repair": "Explicit softmax_v2 mapping for loading the original TensorFlow softmax activation in Keras3",
+      "pre_distribution_bootstrap_sha256": "cd84fead32770b0eb149a464fb6a1826e828e1f012e05115287f8248fed74fa6"
+    },
+    {
+      "filename": "06_pt_lab2_debiasing.ipynb",
+      "sha256": "3e513250ce0d24341ad8912561faa62a1e5eeb2f80f84e0a82dd9b612a148d0c",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "real_face_data",
+        "standard_cnn_training",
+        "training_diagnostic",
+        "dbvae_training",
+        "adaptive_resampling",
+        "demographic_comparison",
+        "analysis_and_plot",
+        "checkpoint_round_trip"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "hosted_performance_repair": "Exact ordered integer-row HDF5 reads instead of fancy selection; unchanged sampling, labels, RGB conversion, batch32, and both original two-epoch schedules.",
+      "performance_repair_evidence": "pt_debiasing_integer_read_repair.json",
+      "pre_distribution_bootstrap_sha256": "3e513250ce0d24341ad8912561faa62a1e5eeb2f80f84e0a82dd9b612a148d0c"
+    },
+    {
+      "filename": "06_tf_lab2_debiasing.ipynb",
+      "sha256": "87a6ff886a1087e8a77f5c942be7e12925822ec733c9218ac95a7d320a0feebc",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "real_face_data",
+        "standard_cnn_training",
+        "training_diagnostic",
+        "dbvae_training",
+        "adaptive_resampling",
+        "demographic_comparison",
+        "analysis_and_plot",
+        "checkpoint_round_trip"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "hosted_performance_repair": "Exact ordered integer-row HDF5 reads instead of fancy selection; unchanged sampling, labels, RGB conversion, batch32, and both original two-epoch schedules.",
+      "performance_repair_evidence": "tf_debiasing_integer_read_repair.json",
+      "pre_distribution_bootstrap_sha256": "87a6ff886a1087e8a77f5c942be7e12925822ec733c9218ac95a7d320a0feebc"
+    },
+    {
+      "filename": "07_lab3_llm_finetuning.ipynb",
+      "sha256": "de35ad31546210e89f3b1355b08f3d58ffed9029cf6e1092d944209dd20a6f6a",
+      "original_course_notebook": true,
+      "synthetic_practice_prototype": false,
+      "required_evidence_keys": [
+        "tokenizer_and_template",
+        "tokenizer_round_trip",
+        "next_token_prediction",
+        "autoregressive_generation",
+        "question_and_temperature_experiments",
+        "lora",
+        "real_style_data_leprechaun",
+        "leprechaun_training",
+        "leprechaun_generation",
+        "real_style_data_yoda",
+        "yoda_training",
+        "judge_setup",
+        "judge_probe_sentences",
+        "heldout_yoda_generation",
+        "judge_controls_and_generations",
+        "judge_prompt_experiments",
+        "training_duration_experiments",
+        "inference_monitoring",
+        "official_yoda_test_nll",
+        "saved_style_adapters",
+        "adapter_checkpoint_round_trip",
+        "experiment_analysis"
+      ],
+      "outputs_cleared": true,
+      "hosted_training_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "1ca39733e3336c0a92d3cf892c7b9d849040a070734d5c2f484db9b44f2210a8"
+    },
+    {
+      "filename": "08_lab3_service_continuation.ipynb",
+      "sha256": "77a36639ce6a19f1e154a0226625c037ae3d444dc0f22f4cf66b66f289fd7fc2",
+      "original_course_notebook": false,
+      "synthetic_practice_prototype": false,
+      "service_continuation_only": true,
+      "continuation_of_original_notebook": "07_lab3_llm_finetuning.ipynb",
+      "prerequisite": "Verified full hosted 07 source/outputs/task JSON/training histories and adapter hashes",
+      "required_service_evidence_keys": [
+        "verified_full_training",
+        "service_configuration",
+        "genuine_opik_custom_metric",
+        "judge_probe_sentences",
+        "judge_controls_and_generations",
+        "judge_prompt_experiments",
+        "training_duration_experiments",
+        "inference_monitoring",
+        "official_yoda_test_nll",
+        "experiment_analysis",
+        "opik_ui_inspection"
+      ],
+      "completion_record": "results/07_lab3_llm_finetuning/<actual-training-run-id>/official_services_<judge-hash>/service_completion.json",
+      "required_completion_values": {
+        "official_api_metric_and_server_trace_exercises_completed": true,
+        "opik_ui_inspection_recorded": true,
+        "official_lab3_service_exercises_completed": true
+      },
+      "external_calls_authorized_by_default": false,
+      "default_judge": "google/gemma-2-9b-it:free",
+      "keys_required": [
+        "OPENROUTER_API_KEY",
+        "OPIK_API_KEY"
+      ],
+      "quota_limited_resume_supported": true,
+      "outputs_cleared": true,
+      "hosted_service_calls_executed_during_preparation": false,
+      "pre_distribution_bootstrap_sha256": "b629678dd8e8e997cf9b8f81b8e7af30bc0317bbea4d2710ff7eb40742b977e0"
+    }
+  ],
+  "original_course_notebooks": 9,
+  "practice_prototypes": 2,
+  "full_mode_required": true,
+  "hosted_execution_required": true,
+  "official_account_or_credit_completion_claimed": false,
+  "lab3_default_service_scope": {
+    "judge": "Public Qwen2.5-3B local adaptation of Gemini/OpenRouter",
+    "tracing": "Local JSON adaptation of hosted Opik",
+    "exact_hosted_service_completion": false
+  },
+  "official_service_continuations": 1
+}

@@ -1,0 +1,38 @@
+{
+  "filename": "08_lab3_service_continuation.ipynb",
+  "sha256": "2c237b42e7c058f7d630ac6b7f1575d447d8df2dfe4f190cc32018ef7bbccd97",
+  "original_course_notebook": false,
+  "synthetic_practice_prototype": false,
+  "service_continuation_only": true,
+  "continuation_of_original_notebook": "07_lab3_llm_finetuning.ipynb",
+  "prerequisite": "Verified full hosted 07 source/outputs/task JSON/training histories and adapter hashes",
+  "required_service_evidence_keys": [
+    "verified_full_training",
+    "service_configuration",
+    "genuine_opik_custom_metric",
+    "judge_probe_sentences",
+    "judge_controls_and_generations",
+    "judge_prompt_experiments",
+    "training_duration_experiments",
+    "inference_monitoring",
+    "restored_performer",
+    "official_yoda_test_nll",
+    "experiment_analysis",
+    "opik_ui_inspection"
+  ],
+  "completion_record": "results/07_lab3_llm_finetuning/<actual-training-run-id>/official_services_<judge-hash>/service_completion.json",
+  "required_completion_values": {
+    "official_api_metric_and_server_trace_exercises_completed": true,
+    "opik_ui_inspection_recorded": true,
+    "official_lab3_service_exercises_completed": true
+  },
+  "external_calls_authorized_by_default": false,
+  "default_judge": "google/gemma-2-9b-it:free",
+  "keys_required": [
+    "OPENROUTER_API_KEY",
+    "OPIK_API_KEY"
+  ],
+  "quota_limited_resume_supported": true,
+  "outputs_cleared": true,
+  "hosted_service_calls_executed_during_preparation": false
+}

@@ -1,0 +1,2 @@
+# Preserve exact source and saved-result bytes for the SHA256 provenance records.
+* -text

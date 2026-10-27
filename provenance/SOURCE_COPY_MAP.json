@@ -1,0 +1,1905 @@
+{
+  "base_collection": "ALL_LEARNING_RESOURCES_2026-10-25",
+  "prepared_date": "2026-10-27",
+  "copy_records": [
+    {
+      "path": "01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "sha256": "ce05340a83bbb343c56481c6b1af875efed356d11587b983b5f076a1b76440ce",
+      "bytes": 53672,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/02_binary_classification_rice.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/02_binary_classification_rice.ipynb",
+      "sha256": "a1ac91e1d225bb62e2780effdf0e441a8d06c3e59756557d94608829ed283597",
+      "bytes": 49482,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "sha256": "4fb7b83febaa35b63a0397b045bfa64c8f96726d08372e3d4fc8e684702b67d7",
+      "bytes": 19653,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "sha256": "1d5b32ffa9712bfb68cb8f1c91c8dca951b4ea0219e2984ddb6525b4583ef48f",
+      "bytes": 52975,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/05_fairness_income_colab.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/05_fairness_income_colab.ipynb",
+      "sha256": "821577946424035aab8d59d76e6a55ee12753e082cbe85304b516721822f6092",
+      "bytes": 56695,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/05b_fairness_portable.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/05b_fairness_portable.ipynb",
+      "sha256": "267d34cbec21fb07d819c14303d81fa695ae62c5c76f03007b42954e150d28b8",
+      "bytes": 11527,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "sha256": "4789586af930a8ae0fd1137f8e8dac9e981ff249a7044c9ed970bc9043bf31f9",
+      "bytes": 9454,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/LICENSE_APACHE_2.txt",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/LICENSE_APACHE_2.txt",
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "bytes": 11359,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "01_google_mlcc/wearable_utils.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/01_google_mlcc/wearable_utils.py",
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9",
+      "bytes": 1849,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "sha256": "5f3d18b33b8cff48c9c04b843aacbfcd83197ef8e059ef8a7a762480f28ae043",
+      "bytes": 34840,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "sha256": "9378c99833814ac0fce3f7dd69398a9b270ddbb5bc2a72eb102883c13ae0b415",
+      "bytes": 35192,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/02_pt_music_generation.ipynb",
+      "sha256": "a9d2e872f2e38795f4f782f48a833b7c5bde81897e2777be4ea3c72c14bbf810",
+      "bytes": 19761,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/02_tf_music_generation.ipynb",
+      "sha256": "b4d7737f464c8fe364c21af93f947472466b22aaa66408966a6e039c1b5ba4b5",
+      "bytes": 19527,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "sha256": "f705cf9629c0751e04f29cd4e0afcc3e9bb6695b9e33281ac281499cd4e50b29",
+      "bytes": 10585,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "sha256": "d48a8a52b7ef84d318bcdb6af33ad68f0fc88ce393e18695bc44873cefdd3f21",
+      "bytes": 9762,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "sha256": "198998133fd46f28772a015629518546097735ce7ce8382775ed2520dc4ae696",
+      "bytes": 46223,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "sha256": "cd84fead32770b0eb149a464fb6a1826e828e1f012e05115287f8248fed74fa6",
+      "bytes": 40276,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "sha256": "3e513250ce0d24341ad8912561faa62a1e5eeb2f80f84e0a82dd9b612a148d0c",
+      "bytes": 71123,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "sha256": "87a6ff886a1087e8a77f5c942be7e12925822ec733c9218ac95a7d320a0feebc",
+      "bytes": 62966,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "sha256": "de35ad31546210e89f3b1355b08f3d58ffed9029cf6e1092d944209dd20a6f6a",
+      "bytes": 73297,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/08_lab3_service_continuation.ipynb",
+      "sha256": "77a36639ce6a19f1e154a0226625c037ae3d444dc0f22f4cf66b66f289fd7fc2",
+      "bytes": 53778,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/08_lab3_service_continuation.py",
+      "sha256": "9d922c5ff5862f7230098a10e1fe838f538cd63dabe9e48a139ba53ac9673f84",
+      "bytes": 43109,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation_README.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/08_lab3_service_continuation_README.md",
+      "sha256": "6dc857d6dc06c4394f13c582ba9104b31a19203320ca0fa6ac9137ed97bd04ae",
+      "bytes": 8706,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/data/irish.abc",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/data/irish.abc",
+      "sha256": "df3782d5f7b5a2f4c66aa7c13f13008d5f48757b3f5f51620cd6c1ceb2c53023",
+      "bytes": 197618,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/LICENSE_MIT.txt",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/LICENSE_MIT.txt",
+      "sha256": "50d8ed007f1bcacd060bb7bcc2e9dca7627062da19df2ac0b8e7cf9c1b4fa195",
+      "bytes": 1123,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "02_mit_6s191/wearable_utils.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/02_mit_6s191/wearable_utils.py",
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9",
+      "bytes": 1849,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/00_image_classifier.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/00_image_classifier.ipynb",
+      "sha256": "99ad6768629fe5595746179c2be4d60a2c23402e705fb5b740128a26e9437041",
+      "bytes": 12457,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "sha256": "21e86bfcfc2e92b1d218a8dbfbe8d1c4e1892742ce166b43c9c865aaa00fab93",
+      "bytes": 8077,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/02_export_and_reload_model.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/02_export_and_reload_model.ipynb",
+      "sha256": "3ab458c06abb27b226c93108ac7ea39e151fa2dcc681cbedbe8e82d62d40a49a",
+      "bytes": 9973,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/03_compare_image_models.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/03_compare_image_models.ipynb",
+      "sha256": "61dfb3818f150b5c6a4f58cee9afdd73bfa02ccf92fb4a5cb685d88ebf40c4e2",
+      "bytes": 9521,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/04_neural_network_foundations.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/04_neural_network_foundations.ipynb",
+      "sha256": "6ca0206773313dd47b5c9a529cce3032ef8bb49a56a2195d2e110d04a92aa4f6",
+      "bytes": 8812,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/05_titanic_models_from_scratch.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/05_titanic_models_from_scratch.ipynb",
+      "sha256": "47c9f598c056840e859cee7067672a11d55817ebb999e270d31ccde0a0d71868",
+      "bytes": 10639,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "sha256": "4d934831960664d87aac82ddc2ae7dae4d78aa9947ccd0512a0c89286e79da8e",
+      "bytes": 9691,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/07_trees_and_random_forests.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/07_trees_and_random_forests.ipynb",
+      "sha256": "706a72b29e815d9b2f1ea15dc73c66e336031072ef76c4f9d511bd20786f5c72",
+      "bytes": 10046,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "sha256": "061b0ae4c519d787ae063e8f246c1b7ec64e0f39bd459869476ca778854cd13f",
+      "bytes": 26922,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/09_wearable_training_and_ethics.ipynb",
+      "sha256": "4d664276c466225dd4e7d9263f90b0fa37b3b0475158c26f6c343b656dbb6fdc",
+      "bytes": 57115,
+      "role": "privacy derivative; see PUBLIC_COPY_CHANGES.json",
+      "original_source_sha256": "3a41ead7901380f32bb01e4c6c29c60f9ec345182488159f86ef3905efb71463"
+    },
+    {
+      "path": "03_fastai/10_paddy_first_steps.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/10_paddy_first_steps.ipynb",
+      "sha256": "9a4291e7b716698204b95348ad68817725750028247bde63515599bdd850aead",
+      "bytes": 20971,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/11_paddy_small_models.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/11_paddy_small_models.ipynb",
+      "sha256": "1142914db00f3ddf4b08ce61737d65b7fc3d7b5eb0d7a531deeae1a6d34a6692",
+      "bytes": 24128,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/12_paddy_scaling_up.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/12_paddy_scaling_up.ipynb",
+      "sha256": "64eb628bb02a8e2184cd424151d926e29213263d27f8a4fa39f119a1fedfcf6c",
+      "bytes": 27314,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/13_paddy_multi_target.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/13_paddy_multi_target.ipynb",
+      "sha256": "7712f6387812f2ffa86b108a0c52067b4b0b19bfc555540b277b6a93ee63b9aa",
+      "bytes": 21498,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/14_nlp_patent_matching.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/14_nlp_patent_matching.ipynb",
+      "sha256": "cc6a1948106c62e99cd27f17f1c1fd07bf98f1882423fa89cb9bbfd953708195",
+      "bytes": 213059,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/15_collaborative_filtering.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/15_collaborative_filtering.ipynb",
+      "sha256": "cf2cd8c9bd885d6df7c750705c2e17f9ab423cf56311362d5761b9b867f6cefc",
+      "bytes": 58414,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/16_convolutions.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/16_convolutions.ipynb",
+      "sha256": "aed6a230824a4bffa759c07af1178e227c6e0c367a4b8791ac897e05b6c4ac58",
+      "bytes": 60819,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/17_original_00_bird_classifier.ipynb",
+      "sha256": "134a5b6cbc4aa57b614b4ddd6e110b5ca7e6323a7d689eeda6c75fdead0ac268",
+      "bytes": 22350,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/18_original_01_jupyter.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/18_original_01_jupyter.ipynb",
+      "sha256": "6f6992566ce99557779a23787273a5b97d620506ac2f31126f343963d0f452fc",
+      "bytes": 21219,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/19_original_02_save_pet_model.ipynb",
+      "sha256": "f9f4af55eb9ace211296394d62ae13d14790cc5ab1a0eb48435ea0b4c6bcf99d",
+      "bytes": 15705,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "sha256": "3d6db88b9d194aac06adc8e9133cca56552ebef13b9bde5cc44b593a668255f8",
+      "bytes": 24916,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "sha256": "1b1dde66911e68c240965f03935f04804264bc692479babe30a2a4e6b297a037",
+      "bytes": 28967,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "sha256": "4def629b86d6a1cc519fb90268ca2f3774e29cbbb7ef211aa7998bc047cb3074",
+      "bytes": 64206,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/23_original_06_titanic_framework.ipynb",
+      "sha256": "2ea26fbb70835a997e6acd70f00e7dd7333c3698ac9e61707e9650d9cebe926a",
+      "bytes": 28034,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/24_original_07_random_forests.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/24_original_07_random_forests.ipynb",
+      "sha256": "e09254b004a28e81b2fb6a970004df2cd95920fbd300d673d393d1fc9d43ee43",
+      "bytes": 44106,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/ATTRIBUTION.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/ATTRIBUTION.md",
+      "sha256": "760e2f6eb60bda5a549cf2e80db97f2af2132f843d6d70c70ec09c2550244e4c",
+      "bytes": 252,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/convolution_workbook_exercise.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/convolution_workbook_exercise.py",
+      "sha256": "ecacb93aef6846c82d6a9eebc4809e1a6766410f04783ac132f247935af3a8fc",
+      "bytes": 16610,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/data/titanic_seaborn.csv",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/data/titanic_seaborn.csv",
+      "sha256": "81787d320d7f7b03df935e91de8bd19e11d45c5bbcab86ef4d4a76dc91b7d4f2",
+      "bytes": 57018,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/fastai_utils.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/fastai_utils.py",
+      "sha256": "a03e913e1c07f55aedd56ee6128096f3f952f4f8be22f83c4a22002589c4bd18",
+      "bytes": 2029,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/LICENSE_FASTBOOK",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/LICENSE_FASTBOOK",
+      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee",
+      "bytes": 35254,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/resources/conv-example.xlsx",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/resources/conv-example.xlsx",
+      "sha256": "28d885e8e07e3fb8fbeea49288c17e25edd0f168f0dbdaabd403017e83c15f0b",
+      "bytes": 239689,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/resources/diffusion_cfg_custom_guidance.svg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/resources/diffusion_cfg_custom_guidance.svg",
+      "sha256": "bc0c2dbd5aa0416e122bf2b29f95a1a0ec9610aac94efaa52564ab7cb2eff1b3",
+      "bytes": 3905,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "03_fastai/wearable_objective_extension.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/wearable_objective_extension.py",
+      "sha256": "6ad8d32571ea36b14f0510b466538167c58596b84e2ad9bf65cc65dbc07bed2b",
+      "bytes": 16819,
+      "role": "privacy derivative; see PUBLIC_COPY_CHANGES.json",
+      "original_source_sha256": "f9b0a8bf81a5bab8c10aee5e8795e9cef3df58e40925f7705e58301b18b3fbe9"
+    },
+    {
+      "path": "03_fastai/wearable_utils.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/03_fastai/wearable_utils.py",
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9",
+      "bytes": 1849,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/01_matmul.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/01_matmul.ipynb",
+      "sha256": "b449b17bdff7221425f0a7c7966279690f8ec92747358c83fc2c5efdf100ca43",
+      "bytes": 46933,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/02_meanshift.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/02_meanshift.ipynb",
+      "sha256": "1425415f7859bef944a524056b0c1592e04114817e65efdd3da93776527d763e",
+      "bytes": 31064,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/03_backprop.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/03_backprop.ipynb",
+      "sha256": "0a200229ef8f6c35db9db45d5df51b13d6ec44fe47a16ae5dc9defbeaadad9d6",
+      "bytes": 23681,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/04_minibatch_training.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/04_minibatch_training.ipynb",
+      "sha256": "bb84165b1c50394e1fca66542e8320f129255924990a2692a85075a53fdd1e22",
+      "bytes": 48580,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/05_datasets.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/05_datasets.ipynb",
+      "sha256": "96e03148c8675558926c30db2410ba7109597e4e7ca020287789eb1aff52727f",
+      "bytes": 24381,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/06_foundations.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/06_foundations.ipynb",
+      "sha256": "a4c04acf0dec556331d1b36ea021d029646310195318c3873a4a1af7054b5f07",
+      "bytes": 22675,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/07_convolutions.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/07_convolutions.ipynb",
+      "sha256": "8345fc5e4bb2fc3ecbae487bae04e0d72aec5d0306c56fce76673bfb578c26ca",
+      "bytes": 176615,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/08_autoencoder.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/08_autoencoder.ipynb",
+      "sha256": "8a6c8b1399ece0caef5d73b317dfb15a376e6917eaad1cd0ed9c3df0cc0f5aeb",
+      "bytes": 16421,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/09_learner.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/09_learner.ipynb",
+      "sha256": "fe6f7e9d324130528c3420eef29c0dda4c0557437ba573cc2d078c53f3ab5e0c",
+      "bytes": 39304,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/10_activations.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/10_activations.ipynb",
+      "sha256": "ce1044c6a59bc9c1e466e919b8d081e3c59ff9d3c25d0a57dc3c2e30f4f5b3ba",
+      "bytes": 27214,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/11_initializing.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/11_initializing.ipynb",
+      "sha256": "fc4650805b04f7cd91b72639c3cab1a3534e3022a99101fba92e812e804d59a7",
+      "bytes": 45911,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/12_accel_sgd.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/12_accel_sgd.ipynb",
+      "sha256": "e6fd7b6cc02151487fd8b734affeddde3417334ce1f65b03b56035a21eea9935",
+      "bytes": 29900,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/13_resnet.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/13_resnet.ipynb",
+      "sha256": "37091d361e7c0cfde809ffa2dc15962a2cda59b934238b611f7f6976f8a0e854",
+      "bytes": 19567,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/14_augment.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/14_augment.ipynb",
+      "sha256": "97d30e187f330c34f0d8e18fbfbba25d10deb67f6ab383aeb4b297da2aa0144d",
+      "bytes": 40127,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/15_DDPM.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/15_DDPM.ipynb",
+      "sha256": "be5f1768e79b47348c81e5ef5bf32eb151b8a28c70eb1f1a199e17775f26df38",
+      "bytes": 21660,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/16A_StyleTransfer.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/16A_StyleTransfer.ipynb",
+      "sha256": "e8c224650d072316e7adc3c846effabab57ffa5520b3d6b00ff4f3da52d4abd7",
+      "bytes": 82656,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/16B_NCA.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/16B_NCA.ipynb",
+      "sha256": "24e48f0e54402088f37bde21131684137c309d4537abc2da8b978ff89f590513",
+      "bytes": 126047,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/17_DDPM_v2.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/17_DDPM_v2.ipynb",
+      "sha256": "d165764f91a34d42d484e94d1a49b4dbdd1a2dcbd1bc99f1b0f5f4355bc4a3e7",
+      "bytes": 26021,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/18_fid.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/18_fid.ipynb",
+      "sha256": "82c04ac3a9cdabbfb53473aca8b728cd3e92445a6cd83f7429e8d527c917fc05",
+      "bytes": 25302,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/19_DDPM_v3.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/19_DDPM_v3.ipynb",
+      "sha256": "a953ed7e2f321e28d1c8f86d478e50020020ef97bb9f689ff3176f7585ef73e2",
+      "bytes": 24099,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/20_DDIM.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/20_DDIM.ipynb",
+      "sha256": "12549ca75577dd1dafb710f01587ffd3efbd6a74faf59d15b768f38819a3e2fb",
+      "bytes": 56809,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/21_cifar10_and_wandb.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/21_cifar10_and_wandb.ipynb",
+      "sha256": "dd1312d9beb07527459db5ecc618669fbef349df72243e27ceac8c890773133b",
+      "bytes": 18708,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/22_cosine.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/22_cosine.ipynb",
+      "sha256": "776bec78b4b1cea1f71aecea6d2d9b5bc6fcfc80b64600f8dacaedcc1a8c9bd7",
+      "bytes": 18893,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/22_noise-pred.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/22_noise-pred.ipynb",
+      "sha256": "f0577bc4a7e7b889e364ff4227eab95403ec3543b49d1d92f98bb46759a66afe",
+      "bytes": 26266,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/23_karras.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/23_karras.ipynb",
+      "sha256": "b320982f6d6740fdcf3b16bf8130c9484b13f83fbe3387ef8c7e3f9d31cf4268",
+      "bytes": 159100,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+      "sha256": "5942b9efc24692c8df988d7b5dda71acceae2983f9c18265b7999515ca5c030b",
+      "bytes": 20067,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+      "sha256": "042c0d970b6b1e86b94eeabcbcbaf94373abbabcca31b73e56ecbf24c93fc588",
+      "bytes": 20221,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/24_imgnet_tiny.ipynb",
+      "sha256": "93729ffa50f6b62b8b044de9356999d2f3b35aa41fc73dbd187120dfe4a4f88b",
+      "bytes": 29146,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+      "sha256": "d276c4fe66edf342024f9e3a4d646920c6bac975a8f5298da7a1584e1d8d3267",
+      "bytes": 20211,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/25_superres.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/25_superres.ipynb",
+      "sha256": "a0c425bf6c7f43ae1a5b04480c2f8e05b5a3b0bd917d65d49418a59d2ed136c5",
+      "bytes": 34576,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/26_diffusion_unet.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/26_diffusion_unet.ipynb",
+      "sha256": "f963e4bdad68988f08b21a0d97bbe54c9c42cc039f1a53233e38bc9e6c84445e",
+      "bytes": 36183,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/27_attention.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/27_attention.ipynb",
+      "sha256": "187f9f92534b703bb511337059227701f9ade6da095dd948b1f8794f4bfcee7c",
+      "bytes": 17886,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/28_diffusion-attn-cond.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/28_diffusion-attn-cond.ipynb",
+      "sha256": "2c11dc178ee0eb029f04d382ceb952137539042ba38b3125d7bb5c02391124f4",
+      "bytes": 31602,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/29_vae.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/29_vae.ipynb",
+      "sha256": "c3cf0e4199b82d51d1c152cbb5e016332cb3b3c9cb55b9050e44f60b7b51c701",
+      "bytes": 20231,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+      "sha256": "fffb40ea33a68ff439966613a8665dc0d1f564233035f705326a2257bcde3808",
+      "bytes": 47644,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "sha256": "b43757c4748f1d8febdc66220f00209bf67ae36b2747ae765b545e1d6d184d75",
+      "bytes": 46222,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/31_imgnet_latents-widish.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/31_imgnet_latents-widish.ipynb",
+      "sha256": "4fe643f1b9753a1414e3a20d64233cb7a9e18206d41ff6c4eb13e354a3cad5e1",
+      "bytes": 73571,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
+      "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15",
+      "bytes": 10000,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/data/ILSVRC/words.txt",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/data/ILSVRC/words.txt",
+      "sha256": "5b8db22d2e2b0ad28b55c9c502eb45e018bc0c907524b8782958cca4805689ea",
+      "bytes": 741401,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "sha256": "bfe0333a066bab68bf166d195d2a3be2d1a9e39992e92106597885dc5d917bd2",
+      "bytes": 626090,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "sha256": "ca43be24ca0fe8d2cb2a2e9e6095e31876429ea030404680c92a0558e2fb1f25",
+      "bytes": 98886,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "sha256": "2af7f82df8ca91e9bb484db737a48dfb94758a37fc75b4c790e35007e60ae0a2",
+      "bytes": 9348,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/learned_embeds.bin",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/learned_embeds.bin",
+      "sha256": "f2e23a8f2d3628ed77acb8151751ecd4efc4017e8da86bc29af10f855ca308d9",
+      "bytes": 3819,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/LICENSE",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/textual_inversion_training.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/diffusion_intro/textual_inversion_training.py",
+      "sha256": "d535b01b23206aa56cee9c9914e47667481cfbfb1f18582933223d7cb7afd06f",
+      "bytes": 8178,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00028.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00028.png",
+      "sha256": "0afad30805a994589c8a5719a523248cd0fdeb1f4a9708d0f58a8f839e3a1bae",
+      "bytes": 108141,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00029.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00029.png",
+      "sha256": "7d5f226d74650e07fc5a454fb13b8b5c838cdd7b97a60801f25384159ce9ccbb",
+      "bytes": 165316,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00030.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00030.png",
+      "sha256": "0cd4b39ffb6fa0b3fb3a139e8effdfc8f8aac9d8e1346394bb0b3925fceedab0",
+      "bytes": 127347,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00032.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00032.png",
+      "sha256": "38dba573fd26e1901a6a78abdf327e15a4642f4ed82536de025b59bd2f1014fa",
+      "bytes": 7959,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00033.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00033.png",
+      "sha256": "807d767ae5149be3024f92d70da23226b92c9689ca91e8ab838ac7f067e45cfc",
+      "bytes": 4908,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00034.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00034.png",
+      "sha256": "5a1bc2cf434c85235486f11bab73ad5c3b7210069eb0e14b2f91950cb5bab93a",
+      "bytes": 4555,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00035.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00035.png",
+      "sha256": "e046d79e4ea19a19923a900ea20eb087ab40c928316d8febf79e6146d772abeb",
+      "bytes": 85180,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00036.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00036.png",
+      "sha256": "f5040e6bd79cfb139d7790c7cc845cce56a98cc421abd052500f918908afea93",
+      "bytes": 56979,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00068.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00068.png",
+      "sha256": "6b20f30bf0ca5644082114840c46affc8ac9c4b91045e4b9f21217153ca11d68",
+      "bytes": 23594,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00069.png",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/att_00069.png",
+      "sha256": "c728799745458ad49ba46a19c363b480aca9ec528c8185c80956f6709721ea1c",
+      "bytes": 94600,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_nopadconv.svg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/chapter9_nopadconv.svg",
+      "sha256": "bf90eb36a2b538c9d28c63d97fc16341d14c8514f9de0f27c3efd23380c28ec0",
+      "bytes": 4811,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_padconv.svg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/chapter9_padconv.svg",
+      "sha256": "858e13d355147cdab82f257f6f2979b00c0aafd3fb6903656bde037f02fad555",
+      "bytes": 7768,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_rgb_conv_stack.svg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/chapter9_rgb_conv_stack.svg",
+      "sha256": "1e08544f9ea2bb13597271bb2a9cfcb3b8c43d32e496ebef363b0c401e09962d",
+      "bytes": 10392,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_rgbconv.svg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/chapter9_rgbconv.svg",
+      "sha256": "b95adb88bd29a4e9a839253e7344fc5537171aa08d986cd760fc2feef26d8620",
+      "bytes": 19235,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/images/grizzly.jpg",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/images/grizzly.jpg",
+      "sha256": "2f12ed680dca7a5ccd0e9c9522365c7374a154c69ffa2b19f32723f45499f1ac",
+      "bytes": 697626,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/LICENSE",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/__init__.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/_modidx.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/_modidx.py",
+      "sha256": "21ec4929aaeca2cde3710b3f069ff8032fc7e6fb57712052d3168abdb4d4d368",
+      "bytes": 28577,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/accel.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/accel.py",
+      "sha256": "d7a25cb63a1ce4fe4cdadd678aa4c13f3f8e3072da15209c160246d3001fda1a",
+      "bytes": 2027,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/activations.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/activations.py",
+      "sha256": "eb7286546ee350919c6d43a39f3fa06747a66cb4ce41b96e55797f24d6842b14",
+      "bytes": 3517,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/augment.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/augment.py",
+      "sha256": "d4c1b69c04dc69dbfd0518251b7aca76e81ef66cc1586ccfcd3729c2d3fc4ac0",
+      "bytes": 4134,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/conv.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/conv.py",
+      "sha256": "5c082f54cac6972126d8d9bf9bf58f5d65a6f720acd750ef4395de27760cc99e",
+      "bytes": 1022,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/datasets.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/datasets.py",
+      "sha256": "4eb870ce05bb575f73dcf0a577317ca3d0b4e08f72e3bca84d1401f94583ff4f",
+      "bytes": 3999,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/diffusion.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/diffusion.py",
+      "sha256": "7b72c0fee42ba7e34d4ea978eb8fbebcdb1c409f7302a36faea43b25ed4f2754",
+      "bytes": 9336,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/diffusion2.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/diffusion2.py",
+      "sha256": "8e298020fd569aead6022f27dcfa4b382eb360e568775f3535ebc96ae3db7090",
+      "bytes": 6962,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/fid.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/fid.py",
+      "sha256": "0865e787167d19cacccba1a5fa7a15f96166df2d8f29c598d43942a2e159e0fe",
+      "bytes": 3257,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/imports.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/imports.py",
+      "sha256": "e58489f0f432eab4d9453a065f3df7daeccfeca52535f40bafc970011eaa87e1",
+      "bytes": 930,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/init.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/init.py",
+      "sha256": "0a524f745040795ad332001946ba0755f1c742ab1b04acfea78007aa14d04a1e",
+      "bytes": 4518,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/learner.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/learner.py",
+      "sha256": "7ac7aac34765b18d3c9448da992a99c6ada8682f365e45d4734f88e296670d8f",
+      "bytes": 9122,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/resnet.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/resnet.py",
+      "sha256": "2e178fc9e049f0a2c16412697d9258434cfc33d36827777e18c7b26ff00f4513",
+      "bytes": 1783,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/sgd.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/sgd.py",
+      "sha256": "00e34f8e3f7c582b6a1878fe7b5691d63359742bf9bb96a9384d5d220574466e",
+      "bytes": 1562,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/stability.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/stability.py",
+      "sha256": "50304fecf52c5fad38db83f3bba255b1735b79758d8d1120764a95e3456da5e2",
+      "bytes": 616,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "04_fastai_part2/miniai/training.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/04_fastai_part2/miniai/training.py",
+      "sha256": "fee9abd077324dde823935917d1d973463efc9903142378aa28416ba65369e6e",
+      "bytes": 1976,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "colab_full_runner.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/colab_full_runner.py",
+      "sha256": "7fe3ff227843517c868157aa6b3b4e08aa9eb9517390ee503d39e4cafe14908c",
+      "bytes": 27593,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "colab_runtime.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/colab_runtime.py",
+      "sha256": "e11bedb13e1bd71a71c01cc49e558d05c89b057259fe52e64301d0c4d626a140",
+      "bytes": 20822,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/audit_mit_hosted.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/audit_mit_hosted.py",
+      "sha256": "ecc87250b55071349f04bb448846419b8303e12f437e10645cc80dc1945ac043",
+      "bytes": 16761,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/fastai_full_run_criteria.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/fastai_full_run_criteria.json",
+      "sha256": "03d3afdea87b0b8ac4e47e5ae9be418188d10c10668201943ec592c56ea6c89f",
+      "bytes": 183212,
+      "role": "privacy derivative; see PUBLIC_COPY_CHANGES.json",
+      "original_source_sha256": "63fe7e89efc0373d5cbf9b90ea73dba99b8912a9c3c997e5f1516a83ef4515ae"
+    },
+    {
+      "path": "completion_criteria/fastai_original_00_07_source_provenance.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/fastai_original_00_07_source_provenance.json",
+      "sha256": "e9359e9b44bc609bdfd65c5079cb87e5304dae4121c5c05188c05023515bd6b3",
+      "bytes": 9371,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/fastai_originals_source_provenance.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/fastai_originals_source_provenance.json",
+      "sha256": "2736f240ddcb83b93275fd5c41558f984836113875d5d984dfc48bd19ee08db7",
+      "bytes": 10259,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/google_completion_criteria.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/google_completion_criteria.json",
+      "sha256": "00d794114b14ca5637ad3ecc7d09d349c7563eba404aeac5142190a98d8508ef",
+      "bytes": 7125,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_hf_public_class_table.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/imagenet_public_metadata_hf_public_class_table.json",
+      "sha256": "79b904f353f934784c981218dfd15bec972df9b89c8ffcc67c12c625d250e07c",
+      "bytes": 49572,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_public_metadata_provenance.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/imagenet_public_metadata_public_metadata_provenance.json",
+      "sha256": "6239a676daeea02ac7daa21ea6ad5f100314cd1ea306bd97418f1b58fd278849",
+      "bytes": 5379,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_tensorflow_LICENSE",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/imagenet_public_metadata_tensorflow_LICENSE",
+      "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385",
+      "bytes": 11512,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/mit_completion_criteria.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/mit_completion_criteria.json",
+      "sha256": "145f659817df02a6db2f0544b5be4561f562ccb1ba993d9de440c2da88057ef6",
+      "bytes": 10878,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0",
+      "bytes": 6373,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/mit_service_continuation_criteria.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/mit_service_continuation_criteria.json",
+      "sha256": "240ebb3edaf3d95b02649e20625b0bee6e2d463203d1322f6677595ebd34111f",
+      "bytes": 1514,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/objective_remaining_deep_dive_objective_experiments_criteria.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/objective_remaining_deep_dive_objective_experiments_criteria.json",
+      "sha256": "c449ae09b8f77e19b60a8c81f87502ccf4f6e29f1a9356c332dc0d8a9f68ca54",
+      "bytes": 3200,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "completion_criteria/prepare_imagenet_public_metadata.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/completion_criteria/prepare_imagenet_public_metadata.py",
+      "sha256": "3c649ace5cff8274b09e26fbde5040a95a1233d7a4c2d9da0894443d6f756360",
+      "bytes": 11822,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "course_persistence.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/course_persistence.py",
+      "sha256": "f14f7282d4b1e718b01858a61a2dca8b60f5135ba9971fc7923c50bf12cca3d2",
+      "bytes": 45724,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "EXERCISE_INDEX.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/EXERCISE_INDEX.md",
+      "sha256": "64462dbf70436d924670eb059ef0990a1b61dccbfbfeeae4fa4e5e021d5d02a1",
+      "bytes": 17518,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "exercise_manifest.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/exercise_manifest.json",
+      "sha256": "c1cd06926edc1e396832de9a9bbd74b0ed9095085e2a29ea04767f425823e2c0",
+      "bytes": 65155,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "references/05_fairness_income_legacy.ipynb.txt",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/references/05_fairness_income_legacy.ipynb.txt",
+      "sha256": "a13478ea18c733240be7e0c50fa8cbad4f3333fa460eec0a176b96a273189212",
+      "bytes": 40156,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "references/fastai_assets_2026-10-19.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/references/fastai_assets_2026-10-19.json",
+      "sha256": "5529240714b7879ce70a03fc31025aee91cd3ecfc2b6a575a965fe6dd516f393",
+      "bytes": 8216,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "RUN_ORDER.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/RUN_ORDER.md",
+      "sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a",
+      "bytes": 6259,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "provenance/ORIGINAL_SOURCE_SHA256SUMS.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/SHA256SUMS.json",
+      "sha256": "35f171fca4821b493730a83b19aec417d0f328dd19a6041b111d2e26953b88ca",
+      "bytes": 28440,
+      "role": "original source package map; five large fixtures are downloaded separately"
+    },
+    {
+      "path": "SOURCES.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/SOURCES.md",
+      "sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1",
+      "bytes": 1848,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "START_HERE_COLAB.ipynb",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/08_Complete_Colab_Code/HaiLong_Colab_Exercises/START_HERE_COLAB.ipynb",
+      "sha256": "57790b3cd837c6244527fff4cc699f8941bcbd5bfad6aa90ce13e260e6cdb27c",
+      "bytes": 6823,
+      "role": "unaltered source notebook, support code, teaching asset or source provenance"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
+      "sha256": "e7c8f7ea2f9cc56976cc15fe5b862b5e615babdf42e24320cebc282d6d69d124",
+      "bytes": 1758,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter_gui.md",
+      "sha256": "c536c2f33d2a2f53cd8f870ccdccdf9a4707d9cf268e5caaf2958e71a632104a",
+      "bytes": 1211,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter.m",
+      "sha256": "0ffa3c4da12f974a3ef16a3a29f98b77ed5c64a6167cf401d301d553b21f7c11",
+      "bytes": 2167,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter_gui.md",
+      "sha256": "4a4105394bc948b82025efe6a07b6f51e1215dcebbbefafdc472ffbb00a7355e",
+      "bytes": 1434,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter.m",
+      "sha256": "9d99cc52d7b0a3b5e84381574b8741bf259915c42912998245e87ac6ef818cf3",
+      "bytes": 1709,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter_gui.md",
+      "sha256": "bfc62d975f28ec813de8756b7de9f3d3f6ea1f0055a881bd5a5cc5228fff5b4c",
+      "bytes": 1246,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer.m",
+      "sha256": "90b19e54906bd74a974f0dd66541979a7c6d9472df9fdd1002912d9eb45d2aee",
+      "bytes": 1541,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer_gui.md",
+      "sha256": "d0e2ef6e1aa844252dc6b250132b254b3c3196d4b9c3c54c0a47459d219129f1",
+      "bytes": 1440,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response.m",
+      "sha256": "83bf8e9ddd2a7c60d3d00fa3dda6667df37bcf3aa8b74f7082f57b2cad6fc4df",
+      "bytes": 1759,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response_gui.md",
+      "sha256": "a0553b6415fb0d45efc25f63bcd1b16f621b9cdc09186c57e8c7f7ec3ed4f1a0",
+      "bytes": 1179,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson06_frequency_response.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson06_frequency_response.m",
+      "sha256": "8062ab2b17c126c0bdf9c16514d1b2c47e6c9b8d800400baa8d261560e62a057",
+      "bytes": 1649,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer.m",
+      "sha256": "2e6613598ec683de0aad83c882c556e7e9f47f73b58c226974da598197083e86",
+      "bytes": 1871,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer_gui.md",
+      "sha256": "6afb88c17e437d6a80a73742d4015c4981a1f1c57dbf4828ca913813b7d38eae",
+      "bytes": 1221,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson08_group_delay.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson08_group_delay.m",
+      "sha256": "2a1c1896da825f17c070fd2609c7470941cfe365be3e4a41472539903d6f8418",
+      "bytes": 1592,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson09_zero_phase.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson09_zero_phase.m",
+      "sha256": "76b2910335068903a41039cc6fe6816a8861ec25aef6625f7178e004cdcc97f5",
+      "bytes": 1149,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson10_filter_to_zero.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson10_filter_to_zero.m",
+      "sha256": "d82fc9518be35e8bbbe27b5d76053d4eba53d7f7a5afb95b5f86f73266f7b1fe",
+      "bytes": 954,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson10_fir_transient.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson10_fir_transient.m",
+      "sha256": "f074165e59d00fb78fc30969f238095da00276ee1aca38ce997485e1a3632c31",
+      "bytes": 1212,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson11_iir_transient.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson11_iir_transient.m",
+      "sha256": "2dfc107cbd2fb08ac0c76616a46c4ae3ec571b5a94528c835e707774c711ba92",
+      "bytes": 1060,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson12_absorption_response.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson12_absorption_response.m",
+      "sha256": "6b20551bd85e677b78fa85db23e14618a1490fcec2f9aa694b32a098a5abdaa2",
+      "bytes": 691,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson13_arbitrary_filter.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson13_arbitrary_filter.m",
+      "sha256": "a656ff7957869b386259df6fd7623726d207a8abf23d2abdbe51abe633d09e4c",
+      "bytes": 1619,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson14_fir_poles.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson14_fir_poles.m",
+      "sha256": "dd1dacba5e00e0a3df16a10dccb888bd5378ea9a7c21f2cbae3a5e93454dc09f",
+      "bytes": 693,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson15_minimum_phase.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson15_minimum_phase.m",
+      "sha256": "7bdfc4a71c5abde373dc9d66324223881d3fd616f75b2ce4847d8fd7b5e14f64",
+      "bytes": 950,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson16_iir_stability.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlfdam/lesson16_iir_stability.m",
+      "sha256": "a407d1d70835b4392f3ec3ed5eb3651e50fb064f91e75c37179b5380fc293b28",
+      "bytes": 1228,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/compwindows.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/compwindows.m",
+      "sha256": "b891b21fa5439745a3b29b7e94f5669365287341f583c56f4b643c209d9cfd3b",
+      "bytes": 1175,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson01_generate_fan_signal.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson01_generate_fan_signal.m",
+      "sha256": "d7d91645548e78aefe722bf5be2bc8adba398a73abaf5309be9df164a65f6803",
+      "bytes": 454,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson02_fft.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson02_fft.m",
+      "sha256": "22267205301245ed71c80ee16b2220ecd802eae6269f48797fd760f03995c8a5",
+      "bytes": 1208,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson03_periodogram.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson03_periodogram.m",
+      "sha256": "bf8c08605f9642a96174356e2b843a9181846c27efc1b39a0cccc26a5c0a89e8",
+      "bytes": 1122,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson04_frequency_spikes.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson04_frequency_spikes.m",
+      "sha256": "fcc921b720b6f9af3df1d0771e65959ce7f6cca4ed98c6fad3f0193fc01004c0",
+      "bytes": 684,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson05_precision.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson05_precision.m",
+      "sha256": "79ea07f7a631427389ace50ec1103c2aac511d3566b66ef9754402033bef7f3f",
+      "bytes": 929,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows.m",
+      "sha256": "39a9ff24c3f2dd441d9f8f73d979e2bf62741fcb01d117ec47feaa460b450707",
+      "bytes": 1420,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows_gui.md",
+      "sha256": "82832d2f7b7055a634c821c729cd612e607e8f7975e398238ca2fe43ec542827",
+      "bytes": 1561,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones.m",
+      "sha256": "90efc37dd1fc611d68503148dec05c505796e3bb6596e9aac83074a90e12f50b",
+      "bytes": 811,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones_gui.md",
+      "sha256": "4b30ad93488c0c5e0632e31662ca48eca738b289136035e4ebe0a5043654bc66",
+      "bytes": 981,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson08_close_tones.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson08_close_tones.m",
+      "sha256": "b6b8a11f99f47abcf43130c528e1c9c22121f9eacd65c765cc3779c911db870b",
+      "bytes": 673,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson09_welch.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson09_welch.m",
+      "sha256": "02d6bcffa9c93122b56ede2605f1427af3689331160bd2743b364703e41256ab",
+      "bytes": 943,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson10_window_length.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson10_window_length.m",
+      "sha256": "88574713c25574b4db44bb37a5e761cd279172148bdd945837e77ab96efecfcf",
+      "bytes": 814,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson11_overlap.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson11_overlap.m",
+      "sha256": "d491e1357a0036ee3a980e4a4ba9e9ad4bbf756a4e2390abe3c0038b308bbc1c",
+      "bytes": 1210,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson12_parametric.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson12_parametric.m",
+      "sha256": "fab1ee13791386d97ba4c15cb4786adf3504e5999a0f0335f104d2a7c0c9a321",
+      "bytes": 1192,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson13_subspace.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsat/lesson13_subspace.m",
+      "sha256": "c27b9991d24ff62e805628f254b6115dce389eac3521b2a86fa2a0e5d3618632",
+      "bytes": 1578,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/07_decimation.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/07_decimation.md",
+      "sha256": "edeed7970ffdd23197c3b8c274c6fad9f1099584712acce34f956ff076e84047",
+      "bytes": 1768,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/09_interpolation.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/09_interpolation.md",
+      "sha256": "cd7f2286384d11e2f3e80ef01fba7b9e46142eadff7b2421f8ce251dc1d10529",
+      "bytes": 1243,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/13_import_signal.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/13_import_signal.md",
+      "sha256": "b398bc00e32849bf87e256da65e9be5c81691b23eae57e2fd7bcfe96a34c2f33",
+      "bytes": 1785,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson01_generate_signal.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson01_generate_signal.m",
+      "sha256": "626c09a7bd2f84227163d7cf3ba57d40b3df82b226f8595a35bbed8585074026",
+      "bytes": 1242,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson02_vary_sine_parameters.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson02_vary_sine_parameters.m",
+      "sha256": "1644ac87b06d8d7c63670c367889b5e7f76e72816d6c7eec9b628ccbaaa623b6",
+      "bytes": 889,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson03_view_sample_points.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson03_view_sample_points.m",
+      "sha256": "79f6378ee1eecf3c32e0d7e73ae0c1c49a9588b1873268a2fe17606fe0d43319",
+      "bytes": 1495,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson04_generate_tone.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson04_generate_tone.m",
+      "sha256": "9ff20eb77588d3f7d6f971f9e196d8fc6a1e70a4c281a10d0823675653367ec6",
+      "bytes": 1527,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson05_generate_chirp.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson05_generate_chirp.m",
+      "sha256": "18ddd3c8485ccbcad2dfe2f425aaa9d5f50a97b9dbbac045d9028031a5b8e44f",
+      "bytes": 1656,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson06_listen_to_aliasing.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson06_listen_to_aliasing.m",
+      "sha256": "dad3ee3eaa23b65496a06a21386e4523e01fadc43f416e95ff616ef71401f672",
+      "bytes": 1278,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson08_listen_to_imaging.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson08_listen_to_imaging.m",
+      "sha256": "3e2087a8d8abdb5077f9907ca6aea657977c17e83aa57f117b685758166ac046",
+      "bytes": 1085,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson10_upsample_audio.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson10_upsample_audio.m",
+      "sha256": "e998d85add601d299fb21fe97bfe22dd48d0b56713b06daa18b538aa26adb135",
+      "bytes": 1831,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson11_resample_watermark.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson11_resample_watermark.m",
+      "sha256": "12f20070603440e3e480aeff06bc720a8a7295f182be85b997cbfae9a4f31cc3",
+      "bytes": 1588,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson12_square_wave.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/lesson12_square_wave.m",
+      "sha256": "3f6869fdd8f54f1e45811dfba680925aa9a6157793b85e51d37dc976e0951081",
+      "bytes": 1185,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/sumOddHarmonics.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmlsgr/sumOddHarmonics.m",
+      "sha256": "2df54de7003b585b877431ea0525abae1fa169ec57baf51fd4fc128c59697231",
+      "bytes": 582,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson01_gear_spectra.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson01_gear_spectra.m",
+      "sha256": "21d79d9535ac5959cc6c9b81e62d25996936e7ed0d130e8f78f562d54a0eb94d",
+      "bytes": 932,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson02_window_length.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson02_window_length.m",
+      "sha256": "10a6ae8998ac018c2e92d770b15bd6b82bf90df7d65051e968dfb6c76566d5f5",
+      "bytes": 670,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson03_spectrogram.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson03_spectrogram.m",
+      "sha256": "3404c285cf54766380855ec0d913b5b22a90ec0c9f24fe1f0bf14319d14224ff",
+      "bytes": 1068,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson04_time_resolution.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson04_time_resolution.m",
+      "sha256": "ec7ea7672ae6c22126da5d9047e18fdc08147c11e0b7b7584c7c9c916dade9dd",
+      "bytes": 883,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson05_spectrogram_matrix.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson05_spectrogram_matrix.m",
+      "sha256": "27dbd2f1be5e337a6c109badae3e6dac084c2ab83d3590867f73d9ea5bd99873",
+      "bytes": 1258,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson06_scalogram.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson06_scalogram.m",
+      "sha256": "4b0ab89f26d2542ad37a9055aa51c99c9258346dea73752640c1486bafc38b35",
+      "bytes": 831,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson07_frequency_resolution.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson07_frequency_resolution.m",
+      "sha256": "3c955d1410d7c7968f7fc0af525a66ee931cb957531c6a4cd3487ca2130c10bf",
+      "bytes": 784,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson08_scalogram_matrix.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson08_scalogram_matrix.m",
+      "sha256": "28cb55dd548ed0a7fd264f4b1a8b37bc9b18b3bbde5db4096d34aaac10ffd0be",
+      "bytes": 1161,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson09_fan_fault_project.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/otmltfa/lesson09_fan_fault_project.m",
+      "sha256": "1a4980eca70cc3bcb40a9edc0b65d49cf918bc8735cfdfd8236d109eb81dcbd8",
+      "bytes": 1999,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/03_power_spectrum.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/03_power_spectrum.md",
+      "sha256": "d43dd922455254086bdfb8cafdbe10bd177f511f7fe4656b3c5daca760eb2b0b",
+      "bytes": 1141,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/04_compare_signals.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/04_compare_signals.md",
+      "sha256": "e39cc9b62d6922119c05df401d728aa16361493793607bc4e22d670bf46bbb2d",
+      "bytes": 1123,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/05_resample_signals.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/05_resample_signals.md",
+      "sha256": "c7f9d716168acac2129e5115f861688587e014df6c668957f44a34c6291882ee",
+      "bytes": 1305,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/06_extract_regions.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/06_extract_regions.md",
+      "sha256": "88cdcdd3f8a8b549c34021748ea6b4a016f116e072d455cd9686f4a446e6ee65",
+      "bytes": 1074,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/07_custom_preprocessing.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/07_custom_preprocessing.md",
+      "sha256": "3cbc065fa2aa3665e0189c78c99d12e64502bae69009d923cb49f0b0d4072e70",
+      "bytes": 1460,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/09_customize_spectrum.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/09_customize_spectrum.md",
+      "sha256": "b8fce1ef418191d19dea33b92731f16926bfd1b5f2dbf8e9b30bbe82bddb6f17",
+      "bytes": 878,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/10_time_frequency_plots.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/10_time_frequency_plots.md",
+      "sha256": "e6f4705655fcab8387b706037d1d29bc293018829b5f31e972eb3c3ee4696af7",
+      "bytes": 1065,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/11_lowpass_filter.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/11_lowpass_filter.md",
+      "sha256": "31e95875bce6c3b5dfb918248f8b8d0bc3adff0dcda2dc99de8b4ca7039c9da5",
+      "bytes": 1462,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/12_bandpass_filter.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/12_bandpass_filter.md",
+      "sha256": "dd8285c0f22b67ab9d595ac0f0e645262297dba04057fb4ac118a701a2c62c15",
+      "bytes": 1224,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/14_signal_measurements_gui.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/14_signal_measurements_gui.md",
+      "sha256": "dab40a6e0e6c176b78832c0bcb3a81633f7cc09047e2f35492b1912e0f1bb0a0",
+      "bytes": 2049,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson01_generate_signals.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/lesson01_generate_signals.m",
+      "sha256": "a70003e1dc92526eea5c6f0b397e963c7816d69c4df1df6e879e17dcb747d552",
+      "bytes": 1546,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson02_import_signal.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/lesson02_import_signal.m",
+      "sha256": "67c4afbf028515b2ceeb22cfd7e80375e0b2756ff060027ad2a36b14618ea3d1",
+      "bytes": 867,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson08_align_signals.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/lesson08_align_signals.m",
+      "sha256": "c792e88848bea370ef423ce68285945d6c8b26c426cd4932234cf24a257d0d95",
+      "bytes": 1405,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson13_generated_code.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/lesson13_generated_code.m",
+      "sha256": "f3cfecb07841728472ae4cf307c503fe07e366d7b332a52543a8f245a38bbfb0",
+      "bytes": 1030,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson14_signal_measurements.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/lesson14_signal_measurements.m",
+      "sha256": "46f7e0c756db0c3ae950b3eaf18b8c6fdc7f33a7e24b688c15050d747f39cbee",
+      "bytes": 1844,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/nm2cm.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/nm2cm.m",
+      "sha256": "80c7c65536279fc60dbe3cd668bd5332f296c75962261e503962d12b86e0e2d9",
+      "bytes": 430,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/preprocess.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/preprocess.m",
+      "sha256": "2455b6dd283bae69c9730dea44c045a061aa16eefb1cfa1c4e39ce41ba9ee414",
+      "bytes": 439,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/steepness_comparison.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/steepness_comparison.m",
+      "sha256": "58a447c5245d025d0364f03fa92e3298ef9646bca50b0d11e28f4fe6c55cc6fb",
+      "bytes": 606,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/wanc_spect.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy/signalprocessing/wanc_spect.m",
+      "sha256": "82d98bca176053e638194f496f84c0b5c0fae2b98e7b386ebedb71f2d3e93066",
+      "bytes": 904,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy_progress.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/academy_progress.json",
+      "sha256": "8f43a3b7df0c8a17f5f592c3d131eeb91c2afa3497b414181c3a8298cd1304d7",
+      "bytes": 160600,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "sha256": "d333d5c477bd477753971b15449d4654ff3d746cabf367bfcda78f9359a49196",
+      "bytes": 60627,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/course_inventory.json",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/course_inventory.json",
+      "sha256": "81026399a15186d3e4d9470099f968db54a82506407e57857405127325526114",
+      "bytes": 10537,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/COURSE_MAP.md",
+      "sha256": "683b899a0615ce115d71cfb21215f24a97f4854202ddd8e3eae40914261308f8",
+      "bytes": 5671,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/data/synthetic_signal.csv",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/data/synthetic_signal.csv",
+      "sha256": "ddfc89e2f808e1ea7e3d3e3db58b40d09961bc0113bcdd7ee1f65f611b8d50bc",
+      "bytes": 89465,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/filter_design_analysis.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/filter_design_analysis.m",
+      "sha256": "eedbb89f80a028f4d1a5481c602e5e7059b7fbbb2a8a6cad09612a53dfe4db76",
+      "bytes": 1997,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/onramp_signal_workflow.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/onramp_signal_workflow.m",
+      "sha256": "8357a6f4e422f990cff59ff6b853cf97bcac82ee897f06167b9f131f4cdb10c9",
+      "bytes": 1578,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/run_all.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/run_all.m",
+      "sha256": "0a3391ba6bee49a48be7815e7d92691f58b509b695ac0e386b473c833be87e6f",
+      "bytes": 628,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/signal_generation_resampling.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/signal_generation_resampling.m",
+      "sha256": "4b70ac470cf9c16052d67b2ab46f8817168b2f80cb86f4503b997b3a1cd35062",
+      "bytes": 1816,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/spectral_analysis_methods.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/spectral_analysis_methods.m",
+      "sha256": "b97a678ebbcbd1bfd042d1bfe3343002f019bdcb0526d1fcc1b1128f68ebb4fc",
+      "bytes": 1711,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/time_frequency_methods.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/time_frequency_methods.m",
+      "sha256": "436f3035270ec670372befbf16d6d58db0e9d51e76a2abdc59ccf5b06eccd281",
+      "bytes": 1235,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af",
+      "bytes": 3087,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/verify_practice.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/verify_practice.m",
+      "sha256": "0a6c6f974b8422efae7b0c42a1e761dae2157a51ecb4e60ee84a04293982b7ea",
+      "bytes": 6010,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/wearable_preprocessing.m",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/practice/wearable_preprocessing.m",
+      "sha256": "a7ccb4eb4f51059a35b5f014f52844e7f337dd0461d94723cf069cca07a9963e",
+      "bytes": 1952,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/README.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/README.md",
+      "sha256": "b29b2e643bd1ec43eb3b8cc4fbb129b353d43c097b09ef135eb748eda7213510",
+      "bytes": 4811,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Academy_and_MATLAB/SURVEYS.md",
+      "sha256": "68b126ff68e3635f9da358a98977f0170bc15143e53d2bd0e5b98537287dec6f",
+      "bytes": 964,
+      "role": "dated MathWorks code and small practice input"
+    },
+    {
+      "path": "05_mathworks/Python_Companion/wearable_utils.py",
+      "source_relative": "ALL_LEARNING_RESOURCES_2026-10-25/05_MathWorks/Python_Companion/wearable_utils.py",
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9",
+      "bytes": 1849,
+      "role": "Python companion helper"
+    },
+    {
+      "path": "results/figures/google_subject_evaluation.png",
+      "source_relative": "Assessment_1B_Canvas_Updated_Pack_2026-10-26/Evidence_Visuals/Figure_C2_Google_saved_output.png",
+      "sha256": "d49533f882da65245d1643d51896d7a6e199f42bc34115bbf8361746efb2182b",
+      "bytes": 24140,
+      "role": "original saved synthetic exercise plot"
+    },
+    {
+      "path": "results/figures/fastai_training_controls.png",
+      "source_relative": "Assessment_1B_Canvas_Updated_Pack_2026-10-26/Evidence_Visuals/Figure_C3_fastai_saved_output.png",
+      "sha256": "04a97353b322e106d668cc829c5aa5bf996a3b8e8f031e4920a1dcddb4a82e9a",
+      "bytes": 20459,
+      "role": "original saved synthetic exercise plot"
+    },
+    {
+      "path": "results/figures/python_signal_processing.png",
+      "source_relative": "Assessment_1B_Canvas_Updated_Pack_2026-10-26/Evidence_Visuals/Figure_C4_Python_signal_saved_output.png",
+      "sha256": "df9653e7ec4e32515a55e2a8dc2e339b884f67531f9eac6ad717d52a5bb0c7fa",
+      "bytes": 80291,
+      "role": "original saved synthetic exercise plot"
+    }
+  ],
+  "large_teaching_inputs_omitted": [
+    {
+      "path": "01_google_mlcc/data/acsincome_raw_2018.csv",
+      "bytes": 99362997,
+      "sha256": "8b55d12b7986cd6c24b604f7681efbd09dcd23835d5c191fa56e6972d368d669",
+      "url": "https://download.mlcc.google.com/mledu-datasets/acsincome_raw_2018.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/california_housing_train.csv",
+      "bytes": 1706430,
+      "sha256": "bb9ca4041a66e0ed691cb825188f16fdab518435c4950a080951be2fdfe30d4d",
+      "url": "https://download.mlcc.google.com/mledu-datasets/california_housing_train.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/chicago_taxi_train.csv",
+      "bytes": 4062826,
+      "sha256": "1aa03dc1c10909223bfc41ff6a90f93f1fd5ba6f64959c0aa1b94dfa94ae76d4",
+      "url": "https://download.mlcc.google.com/mledu-datasets/chicago_taxi_train.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/Rice_Cammeo_Osmancik.csv",
+      "bytes": 405685,
+      "sha256": "15234fbc17f2b57a05e81d1088a18c0f0aded87c4397c72437eda03f54acdc2c",
+      "url": "https://download.mlcc.google.com/mledu-datasets/Rice_Cammeo_Osmancik.csv"
+    },
+    {
+      "path": "03_fastai/data/mnist.npz",
+      "bytes": 11490434,
+      "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+      "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz"
+    }
+  ],
+  "derived_files": [
+    "README.md",
+    ".gitignore",
+    ".gitattributes",
+    "scripts/download_teaching_data.py",
+    "scripts/teaching_data_manifest.json",
+    "results/PROGRESS_SNAPSHOT.json",
+    "results/EXERCISE_STATUS.csv",
+    "05_mathworks/Python_Companion/07_python_signal_processing_companion.ipynb"
+  ],
+  "all84_source_notebooks_unchanged": false,
+  "original_workspace_files_deleted_or_changed": false,
+  "external_upload": false,
+  "source_notebooks_unchanged": 83,
+  "source_notebooks_privacy_derivatives": 1,
+  "omitted_private_audit_files": [
+    "PENDING_LEARNER_INPUTS.txt",
+    "completion_criteria/objective_remaining_manual_activity_feasibility.json",
+    "completion_criteria/objective_remaining_MANUAL_ACTIVITY_FEASIBILITY.txt",
+    "completion_criteria/objective_remaining_colab_objective_extensions_preparation.json",
+    "completion_criteria/objective_remaining_frontend_companion_verified.json"
+  ],
+  "scope_note": "Historical source preparation map. Current repository contents and hashes are in FILES_SHA256.json; later result additions are in results/RESULT_FILES.json and ONLINE_OFFLINE_MERGE.json."
+}

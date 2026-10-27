@@ -1,0 +1,2649 @@
+{
+  "schema_version": 1,
+  "client_date": "2026-10-27",
+  "scope": "Curated public result copies from existing audited saved work; no new execution.",
+  "canonical_exercises": 84,
+  "completed_saved_records": 64,
+  "pending_or_failed": 20,
+  "completed_results_represented": 64,
+  "new_training_or_inference": false,
+  "originals_unchanged": true,
+  "published_files": 73,
+  "published_payload_bytes": 30153663,
+  "exact_result_notebooks": 42,
+  "documented_derivative_result_notebooks": 22,
+  "limitations": [
+    "Saved execution evidence and course completion are different claims.",
+    "Compact publication derivatives preserve original execution counts and do not represent new executions.",
+    "Large inline audio/animations, duplicate image encodings and private metadata are omitted or referenced as documented. Full originals remain offline.",
+    "Some saved notebooks are native Windows execution variants. Use the source course notebooks as launchers.",
+    "The DDPM saved result retains a historical error and includes separate hash-bound additive recovery evidence."
+  ],
+  "files": [
+    {
+      "repo_relative_path": "results/audio/02_pt_music_generation.wav",
+      "exercise_id": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "kind": "selected_generated_audio",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/02_pt_music_generation/Audio/AUDIO_004.wav",
+      "original_sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61",
+      "original_bytes": 4615004,
+      "copy_sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61",
+      "copy_bytes": 4615004,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "selection": "Smallest exact exported WAV for this completed music exercise. Other examples remain offline."
+    },
+    {
+      "repo_relative_path": "results/audio/02_tf_music_generation.wav",
+      "exercise_id": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "kind": "selected_generated_audio",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/02_tf_music_generation/Audio/AUDIO_002.wav",
+      "original_sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2",
+      "original_bytes": 2469540,
+      "copy_sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2",
+      "copy_bytes": 2469540,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "selection": "Smallest exact exported WAV for this completed music exercise. Other examples remain offline."
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "exercise_id": "01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/01_linear_regression_taxi/RESULTS.ipynb",
+      "original_sha256": "80d596ae398ffa3c5005280a1363511643116cf26656bd557950a2a531da0508",
+      "original_bytes": 826458,
+      "copy_sha256": "80d596ae398ffa3c5005280a1363511643116cf26656bd557950a2a531da0508",
+      "copy_bytes": 826458,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/02_binary_classification_rice.ipynb",
+      "exercise_id": "01_google_mlcc/02_binary_classification_rice.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/02_binary_classification_rice/RESULTS.ipynb",
+      "original_sha256": "82536bde3b9a33f93093e3cfdb7425f6dc18876df908a066c43908e5935a8b08",
+      "original_bytes": 1310477,
+      "copy_sha256": "82536bde3b9a33f93093e3cfdb7425f6dc18876df908a066c43908e5935a8b08",
+      "copy_bytes": 1310477,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "exercise_id": "01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/03_numerical_data_statistics/RESULTS.ipynb",
+      "original_sha256": "7da69d92c7bbe18c5cd9057aa3125dfb993d099fbf50fdc4a9f5aa555f36ff9a",
+      "original_bytes": 44236,
+      "copy_sha256": "7da69d92c7bbe18c5cd9057aa3125dfb993d099fbf50fdc4a9f5aa555f36ff9a",
+      "copy_bytes": 44236,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "exercise_id": "01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/04_numerical_data_bad_values/RESULTS.ipynb",
+      "original_sha256": "d98ca3d76ddb0cb4d808af710d689bf7999c4d0f76a961cd9edd3c7c87c1a039",
+      "original_bytes": 317872,
+      "copy_sha256": "d98ca3d76ddb0cb4d808af710d689bf7999c4d0f76a961cd9edd3c7c87c1a039",
+      "copy_bytes": 317872,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/05_fairness_income_colab.ipynb",
+      "exercise_id": "01_google_mlcc/05_fairness_income_colab.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/05_fairness_income_colab/RESULTS.ipynb",
+      "original_sha256": "f479687666dc75c18c831ba511cbd54edf144f099795bfe99e0c939db8e33123",
+      "original_bytes": 279515,
+      "copy_sha256": "f479687666dc75c18c831ba511cbd54edf144f099795bfe99e0c939db8e33123",
+      "copy_bytes": 279515,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/05b_fairness_portable.ipynb",
+      "exercise_id": "01_google_mlcc/05b_fairness_portable.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/05b_fairness_portable/RESULTS.ipynb",
+      "original_sha256": "5ad6ee33b2b086f2bac3a5980654d5c5de52c50fd1fb73b706a31d09d81623c4",
+      "original_bytes": 15880,
+      "copy_sha256": "5ad6ee33b2b086f2bac3a5980654d5c5de52c50fd1fb73b706a31d09d81623c4",
+      "copy_bytes": 15880,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "exercise_id": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/01_Google/06_subject_independent_evaluation/RESULTS.ipynb",
+      "original_sha256": "18de64216d199da586bbca48c702de976c15ef62dcf3d874e7f6cd91557b1e21",
+      "original_bytes": 45554,
+      "copy_sha256": "18de64216d199da586bbca48c702de976c15ef62dcf3d874e7f6cd91557b1e21",
+      "copy_bytes": 45554,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "exercise_id": "02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/01_pt_tensor_and_gradient_exercises/RESULTS.ipynb",
+      "original_sha256": "e0e8e9f6da6ec6bd49fc885ba2e058adc739ab503a67449eb6ae213a9685956e",
+      "original_bytes": 69895,
+      "copy_sha256": "e0e8e9f6da6ec6bd49fc885ba2e058adc739ab503a67449eb6ae213a9685956e",
+      "copy_bytes": 69895,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "exercise_id": "02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/01_tf_tensor_and_gradient_exercises/RESULTS.ipynb",
+      "original_sha256": "e513a375a4ad9f5c190324da87130f307d1e87fa620e4c8dbc4fbe05aa7c5de1",
+      "original_bytes": 66321,
+      "copy_sha256": "e513a375a4ad9f5c190324da87130f307d1e87fa620e4c8dbc4fbe05aa7c5de1",
+      "copy_bytes": 66321,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/02_pt_music_generation.ipynb",
+      "exercise_id": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/02_pt_music_generation/RESULTS.ipynb",
+      "original_sha256": "a9c918ac676edb13594b4203418a15cc96c36a02a217b762b5bb907dc8cb933e",
+      "original_bytes": 117006031,
+      "copy_sha256": "773489070cf94640a16a5717919d9c67ed7313ffe9c88a1b72ef1c881cc498fe",
+      "copy_bytes": 61738,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "omit_nonessential_widget_state",
+          "original_serialized_bytes": 8536
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 0,
+          "decoded_original_wav_sha256": "8a5c6fd1b3a3f4d95a2fcfb27b9b0a0f3f8f6774de0e24104900af58811b7924",
+          "decoded_original_wav_bytes": 50362140
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 1,
+          "decoded_original_wav_sha256": "23d116c9458429d512cc20aaf3abed002a10c3fac593a33cdb2a6e90ef1e39e2",
+          "decoded_original_wav_bytes": 14905740
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 2,
+          "decoded_original_wav_sha256": "9fb5cafc8f1a4ee0413959972962ef7f109edf66b923e91cac7c66e1f64f248e",
+          "decoded_original_wav_bytes": 17816340
+        },
+        {
+          "kind": "replace_selected_inline_wav_uri_with_exact_relative_audio_file",
+          "cell_index": 9,
+          "output_index": 3,
+          "decoded_original_wav_sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61",
+          "decoded_original_wav_bytes": 4615004
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/02_tf_music_generation.ipynb",
+      "exercise_id": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/02_tf_music_generation/RESULTS.ipynb",
+      "original_sha256": "a179b7062acebc09d710cb13ba3523047cc61639baed878ca2cac1ba754137e6",
+      "original_bytes": 30504160,
+      "copy_sha256": "f203fc4a5e36fe4292cd9ec7a2b8ccce99068cc7ae76aed3b36c52a8a24330a0",
+      "copy_bytes": 63487,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "omit_nonessential_widget_state",
+          "original_serialized_bytes": 8536
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 0,
+          "decoded_original_wav_sha256": "15b8377fa729a23b5525c40877b28e96d91d79fa5eb208179d19d7561f6ea48f",
+          "decoded_original_wav_bytes": 5975488
+        },
+        {
+          "kind": "replace_selected_inline_wav_uri_with_exact_relative_audio_file",
+          "cell_index": 9,
+          "output_index": 1,
+          "decoded_original_wav_sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2",
+          "decoded_original_wav_bytes": 2469540
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 2,
+          "decoded_original_wav_sha256": "a67a97c57e175bcedfd4b405e0caec43ba42fe057834fac6b9bec831e559debc",
+          "decoded_original_wav_bytes": 3616140
+        },
+        {
+          "kind": "omit_other_inline_wav_representation_full_original_retained_offline",
+          "cell_index": 9,
+          "output_index": 3,
+          "decoded_original_wav_sha256": "eaf2f0ec1dfe805e8e829c104442148875edb6c177471c1197522ee4288cfe38",
+          "decoded_original_wav_bytes": 10760340
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "exercise_id": "02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/03_wearable_lstm_gru_attention/RESULTS.ipynb",
+      "original_sha256": "e143947a4718a5db457ee3f6d2611ef5cac621a8d6fb200eafb361bfb33c6eb3",
+      "original_bytes": 14474,
+      "copy_sha256": "e143947a4718a5db457ee3f6d2611ef5cac621a8d6fb200eafb361bfb33c6eb3",
+      "copy_bytes": 14474,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "exercise_id": "02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/04_transformer_contrastive_prototype/RESULTS.ipynb",
+      "original_sha256": "d47a93ea4b54b55486c91bd4b32f13202f5045c0e7d373fdfd94c6371835600d",
+      "original_bytes": 12896,
+      "copy_sha256": "d47a93ea4b54b55486c91bd4b32f13202f5045c0e7d373fdfd94c6371835600d",
+      "copy_bytes": 12896,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "exercise_id": "02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/05_pt_lab2_mnist/RESULTS.ipynb",
+      "original_sha256": "9530c6c9906e52b632721e5afc98e1b9003b628d4189a1e708fefdf0b734d24d",
+      "original_bytes": 207166,
+      "copy_sha256": "9530c6c9906e52b632721e5afc98e1b9003b628d4189a1e708fefdf0b734d24d",
+      "copy_bytes": 207166,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "exercise_id": "02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/05_tf_lab2_mnist/RESULTS.ipynb",
+      "original_sha256": "308719ea7302342b1ce8cc62ae5cb27dbd4645e896c0502b0598dcd0c4095a25",
+      "original_bytes": 239870,
+      "copy_sha256": "308719ea7302342b1ce8cc62ae5cb27dbd4645e896c0502b0598dcd0c4095a25",
+      "copy_bytes": 239870,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "exercise_id": "02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/06_pt_lab2_debiasing/RESULTS.ipynb",
+      "original_sha256": "e579124f2845222a38af78665b0295ab776ec018fc20aee4afde478d9318c8f4",
+      "original_bytes": 1739699,
+      "copy_sha256": "8b2cabaf7ed42c57224183a736239bbd2bc5e1693dea5bd78782f6bb79861c94",
+      "copy_bytes": 1737646,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 5,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "exercise_id": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/06_tf_lab2_debiasing/RESULTS.ipynb",
+      "original_sha256": "0eb978ae597ceb72027eee4815e1802dd9e035eeb5d2f67b1ddbedeee7ebf83a",
+      "original_bytes": 103498,
+      "copy_sha256": "0eb978ae597ceb72027eee4815e1802dd9e035eeb5d2f67b1ddbedeee7ebf83a",
+      "copy_bytes": 103498,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "exercise_id": "02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/02_MIT/07_lab3_llm_finetuning/RESULTS.ipynb",
+      "original_sha256": "1655f8f403654e3e65ea9b4ac20884de268868ca4522e9b9890c1794adfef87f",
+      "original_bytes": 568749,
+      "copy_sha256": "1655f8f403654e3e65ea9b4ac20884de268868ca4522e9b9890c1794adfef87f",
+      "copy_bytes": 568749,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/00_image_classifier.ipynb",
+      "exercise_id": "03_fastai/00_image_classifier.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/00_image_classifier/RESULTS.ipynb",
+      "original_sha256": "1f141fe69b790b032bd13e3db54114c521884ad9fbd1a1153a7119fd2310c464",
+      "original_bytes": 28603,
+      "copy_sha256": "1f141fe69b790b032bd13e3db54114c521884ad9fbd1a1153a7119fd2310c464",
+      "copy_bytes": 28603,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "exercise_id": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/01_jupyter_notebook_exercises/RESULTS.ipynb",
+      "original_sha256": "a6e2eff049c86d154a8c4fac404efb29b80b2c0f9c1e9196102d3c59412f3a08",
+      "original_bytes": 46029,
+      "copy_sha256": "2f74e80b1b25367194189614915ada9496240938a3a97c8c9f46160bf941bd0c",
+      "copy_bytes": 46058,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 2
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/02_export_and_reload_model.ipynb",
+      "exercise_id": "03_fastai/02_export_and_reload_model.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/02_export_and_reload_model/RESULTS.ipynb",
+      "original_sha256": "bf5d53ea702d43c2a5ef669f2b2bdde29c4e38d1bc3f1b392d16e087874c1c46",
+      "original_bytes": 17871,
+      "copy_sha256": "bf5d53ea702d43c2a5ef669f2b2bdde29c4e38d1bc3f1b392d16e087874c1c46",
+      "copy_bytes": 17871,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/03_compare_image_models.ipynb",
+      "exercise_id": "03_fastai/03_compare_image_models.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/03_compare_image_models/RESULTS.ipynb",
+      "original_sha256": "2127383b0a748ee7a0c59405fd2055ed617b28f449a6f6046f4713e10b6769e1",
+      "original_bytes": 31004,
+      "copy_sha256": "2127383b0a748ee7a0c59405fd2055ed617b28f449a6f6046f4713e10b6769e1",
+      "copy_bytes": 31004,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/04_neural_network_foundations.ipynb",
+      "exercise_id": "03_fastai/04_neural_network_foundations.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/04_neural_network_foundations/RESULTS.ipynb",
+      "original_sha256": "16bffed7c7d24ea7c68ed96d32e1b0bffe1dcdbdba168f867762366cda48efd5",
+      "original_bytes": 105407,
+      "copy_sha256": "16bffed7c7d24ea7c68ed96d32e1b0bffe1dcdbdba168f867762366cda48efd5",
+      "copy_bytes": 105407,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/05_titanic_models_from_scratch.ipynb",
+      "exercise_id": "03_fastai/05_titanic_models_from_scratch.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/05_titanic_models_from_scratch/RESULTS.ipynb",
+      "original_sha256": "1d4afba190d8e28203cf623f4b91bf6c800fbfc624ed365e044ee160a6a44fc0",
+      "original_bytes": 15942,
+      "copy_sha256": "1d4afba190d8e28203cf623f4b91bf6c800fbfc624ed365e044ee160a6a44fc0",
+      "copy_bytes": 15942,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "exercise_id": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/06_fastai_framework_and_ensemble/RESULTS.ipynb",
+      "original_sha256": "b23b597decb6e2ea9837da1c81b5ff4fc8a13656f94384cc19fe83f45accb4ff",
+      "original_bytes": 38064,
+      "copy_sha256": "b23b597decb6e2ea9837da1c81b5ff4fc8a13656f94384cc19fe83f45accb4ff",
+      "copy_bytes": 38064,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/07_trees_and_random_forests.ipynb",
+      "exercise_id": "03_fastai/07_trees_and_random_forests.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/07_trees_and_random_forests/RESULTS.ipynb",
+      "original_sha256": "af9abb7f56a38521a59bd47248dd12ed094ad51f33612d7d070b7b10c43ee571",
+      "original_bytes": 94076,
+      "copy_sha256": "af9abb7f56a38521a59bd47248dd12ed094ad51f33612d7d070b7b10c43ee571",
+      "copy_bytes": 94076,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "exercise_id": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/08_chapter4_coding_questions_and_mnist/RESULTS.ipynb",
+      "original_sha256": "dfdf57567cae97e5453729e33f100d9264132de802568bb047f7cf6bccb6aa86",
+      "original_bytes": 64611,
+      "copy_sha256": "dfdf57567cae97e5453729e33f100d9264132de802568bb047f7cf6bccb6aa86",
+      "copy_bytes": 64611,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/09_wearable_training_and_ethics.ipynb",
+      "exercise_id": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/09_wearable_training_and_ethics/RESULTS.ipynb",
+      "original_sha256": "3ba61758c0d706c901019811326a6ef913eb4a413b5c6427ebe6d73f64242d73",
+      "original_bytes": 237132,
+      "copy_sha256": "ef47d62efa7a43d1cae12f3431afb19b67b30b9a5de5597f8ea07b8c373549b1",
+      "copy_bytes": 237076,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "reuse_existing_privacy_derivative",
+          "source_repo_path": "results/examples/fastai_training_controls.ipynb",
+          "preferred_source_sha256": "9135902a52149ad125c8ff1378800e8b5074e46c5ca68f69f895cd52b9a472c3",
+          "reference": "provenance/PUBLIC_COPY_CHANGES.json; source metadata redaction and embedded-helper integrity rebinding already documented"
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/10_paddy_first_steps.ipynb",
+      "exercise_id": "03_fastai/10_paddy_first_steps.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/10_paddy_first_steps/RESULTS.ipynb",
+      "original_sha256": "e7ccf87fac5f487a50e484e27481fe6bc114a6c545d501de2d0687747f34226a",
+      "original_bytes": 900806,
+      "copy_sha256": "e7ccf87fac5f487a50e484e27481fe6bc114a6c545d501de2d0687747f34226a",
+      "copy_bytes": 900806,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/11_paddy_small_models.ipynb",
+      "exercise_id": "03_fastai/11_paddy_small_models.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/11_paddy_small_models/RESULTS.ipynb",
+      "original_sha256": "f3728b5ffe1125e0e64f0f3c7dc3cf309119e6ae2c2c2b09d38a630a0d25a78d",
+      "original_bytes": 147478,
+      "copy_sha256": "1bd27d8e74c94872a3be0416f20c7876e58c40999fdaa0cf978d255f2cc6d796",
+      "copy_bytes": 143597,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 4,
+            "private_profile_path": 8
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/13_paddy_multi_target.ipynb",
+      "exercise_id": "03_fastai/13_paddy_multi_target.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/13_paddy_multi_target/RESULTS.ipynb",
+      "original_sha256": "c7c8f9b95d915e873cc8f8d84d567b8f38048b1c18af7cd8849be1d4fd7862db",
+      "original_bytes": 81157,
+      "copy_sha256": "e3a424431a60fdeac9b75ec8a2ce995e87c6f5d52ac4b9d24052aca98d6c6f54",
+      "copy_bytes": 79036,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 4,
+            "private_profile_path": 6
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/14_nlp_patent_matching.ipynb",
+      "exercise_id": "03_fastai/14_nlp_patent_matching.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/14_nlp_patent_matching/RESULTS.ipynb",
+      "original_sha256": "b2acb6fea3514e7dc04250d6719a773280986430192f9d4348526d39cbe0c9bb",
+      "original_bytes": 274524,
+      "copy_sha256": "5236b7313e304debdcc1caabd1f72e2c8de72147f5c24c0aaabc6f25a300db1e",
+      "copy_bytes": 271496,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 6,
+            "private_profile_path": 9
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/15_collaborative_filtering.ipynb",
+      "exercise_id": "03_fastai/15_collaborative_filtering.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/15_collaborative_filtering/RESULTS.ipynb",
+      "original_sha256": "92f3628e784070a6de92580d12d0c35db20925be7c0701b8253afbb59e3411a4",
+      "original_bytes": 77194,
+      "copy_sha256": "54e21c9225f3e7ccd6411f8c1094c6f43fba43546b6adcb3e3cf712663af9f7a",
+      "copy_bytes": 76141,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 23,
+            "private_profile_path": 2
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/16_convolutions.ipynb",
+      "exercise_id": "03_fastai/16_convolutions.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/16_convolutions/RESULTS.ipynb",
+      "original_sha256": "f6355ac3d5f32d28f7ee218c7a88729fe1a0b4709c674dcce0ffe3f507bd75a6",
+      "original_bytes": 1504409,
+      "copy_sha256": "f6355ac3d5f32d28f7ee218c7a88729fe1a0b4709c674dcce0ffe3f507bd75a6",
+      "copy_bytes": 1504409,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/17_original_00_bird_classifier.ipynb",
+      "exercise_id": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/17_original_00_bird_classifier/RESULTS.ipynb",
+      "original_sha256": "d0c2f5cffc4ec58772af3262f1e3a7e3f48d53cdd8d7cf191153641bc3803051",
+      "original_bytes": 824673,
+      "copy_sha256": "d0c2f5cffc4ec58772af3262f1e3a7e3f48d53cdd8d7cf191153641bc3803051",
+      "copy_bytes": 824673,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/18_original_01_jupyter.ipynb",
+      "exercise_id": "03_fastai/18_original_01_jupyter.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/18_original_01_jupyter/RESULTS.ipynb",
+      "original_sha256": "bc22e0cc07c9438d3ce09ba7aea84a2598e004794d4787dd544ff5ea8ee0f198",
+      "original_bytes": 48531,
+      "copy_sha256": "bc22e0cc07c9438d3ce09ba7aea84a2598e004794d4787dd544ff5ea8ee0f198",
+      "copy_bytes": 48531,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/19_original_02_save_pet_model.ipynb",
+      "exercise_id": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/19_original_02_save_pet_model/RESULTS.ipynb",
+      "original_sha256": "564d2188f01e080dbe22aa2343b2a3c633cf1c1325c8711f44755c0729de982c",
+      "original_bytes": 36146,
+      "copy_sha256": "564d2188f01e080dbe22aa2343b2a3c633cf1c1325c8711f44755c0729de982c",
+      "copy_bytes": 36146,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "exercise_id": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/20_original_03_image_model_benchmarks/RESULTS.ipynb",
+      "original_sha256": "f0b86ef498ad787cc654d16fb31fb348f581d1cdd1cc6c0f5c8a115672b81d15",
+      "original_bytes": 152655,
+      "copy_sha256": "f0b86ef498ad787cc654d16fb31fb348f581d1cdd1cc6c0f5c8a115672b81d15",
+      "copy_bytes": 152655,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "exercise_id": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/21_original_04_neural_net_foundations/RESULTS.ipynb",
+      "original_sha256": "39c0fd0c9c5b259821d57840dca16d5eaba552e365cb47dd0d9a7a6b55bc35f7",
+      "original_bytes": 242323,
+      "copy_sha256": "39c0fd0c9c5b259821d57840dca16d5eaba552e365cb47dd0d9a7a6b55bc35f7",
+      "copy_bytes": 242323,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "exercise_id": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/22_original_05_titanic_from_scratch/RESULTS.ipynb",
+      "original_sha256": "3ff7eccb5e2ca585b50c3b8c920aee3cc6d8422e85835e12255172eba30e9602",
+      "original_bytes": 211534,
+      "copy_sha256": "3ff7eccb5e2ca585b50c3b8c920aee3cc6d8422e85835e12255172eba30e9602",
+      "copy_bytes": 211534,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/23_original_06_titanic_framework.ipynb",
+      "exercise_id": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/23_original_06_titanic_framework/RESULTS.ipynb",
+      "original_sha256": "5203e9bd39a549ad32a5e051f7b636e78295112e1ab55df30a4990d99810c27b",
+      "original_bytes": 137012,
+      "copy_sha256": "5203e9bd39a549ad32a5e051f7b636e78295112e1ab55df30a4990d99810c27b",
+      "copy_bytes": 137012,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/03_fastai/24_original_07_random_forests.ipynb",
+      "exercise_id": "03_fastai/24_original_07_random_forests.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/03_fastai_Part1/24_original_07_random_forests/RESULTS.ipynb",
+      "original_sha256": "348248c95b1a1ff995629740729fe998a28f43c99cfc5c3692d40789fa4ebd21",
+      "original_bytes": 236446,
+      "copy_sha256": "348248c95b1a1ff995629740729fe998a28f43c99cfc5c3692d40789fa4ebd21",
+      "copy_bytes": 236446,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/01_matmul.ipynb",
+      "exercise_id": "04_fastai_part2/01_matmul.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/01_matmul/RESULTS.ipynb",
+      "original_sha256": "2cdbe24048538bda181a52ceb30ab3a003097a4b4d29519caf721bc8a28f958c",
+      "original_bytes": 202252,
+      "copy_sha256": "2cdbe24048538bda181a52ceb30ab3a003097a4b4d29519caf721bc8a28f958c",
+      "copy_bytes": 202252,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/02_meanshift.ipynb",
+      "exercise_id": "04_fastai_part2/02_meanshift.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/02_meanshift/RESULTS.ipynb",
+      "original_sha256": "e72c6639e3e6bb9a3ade8d8d0b779537c5c9dee689efc4672f981cca5160870b",
+      "original_bytes": 444034,
+      "copy_sha256": "e72c6639e3e6bb9a3ade8d8d0b779537c5c9dee689efc4672f981cca5160870b",
+      "copy_bytes": 444034,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/03_backprop.ipynb",
+      "exercise_id": "04_fastai_part2/03_backprop.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/03_backprop/RESULTS.ipynb",
+      "original_sha256": "9ac94593478a745b968b61b4b99ad59a0898606d96d6a8f46c7742e75095b206",
+      "original_bytes": 45298,
+      "copy_sha256": "9ac94593478a745b968b61b4b99ad59a0898606d96d6a8f46c7742e75095b206",
+      "copy_bytes": 45298,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/04_minibatch_training.ipynb",
+      "exercise_id": "04_fastai_part2/04_minibatch_training.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/04_minibatch_training/RESULTS.ipynb",
+      "original_sha256": "b5132baf5ade5048b5e43a551f0ea1f7438d0293949153d985d2698f8d5c9cbf",
+      "original_bytes": 119660,
+      "copy_sha256": "b5132baf5ade5048b5e43a551f0ea1f7438d0293949153d985d2698f8d5c9cbf",
+      "copy_bytes": 119660,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/05_datasets.ipynb",
+      "exercise_id": "04_fastai_part2/05_datasets.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/05_datasets/RESULTS.ipynb",
+      "original_sha256": "f54962148544eb25882fdcece2e2c908886fa5c654dd473fd2cb328b0f622042",
+      "original_bytes": 233189,
+      "copy_sha256": "f54962148544eb25882fdcece2e2c908886fa5c654dd473fd2cb328b0f622042",
+      "copy_bytes": 233189,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/06_foundations.ipynb",
+      "exercise_id": "04_fastai_part2/06_foundations.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/06_foundations/RESULTS.ipynb",
+      "original_sha256": "61ce72d6607225f84f00b710240d1e2d4c64276ed3818e7260bfe9a01e85cd68",
+      "original_bytes": 54201,
+      "copy_sha256": "61ce72d6607225f84f00b710240d1e2d4c64276ed3818e7260bfe9a01e85cd68",
+      "copy_bytes": 54201,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/07_convolutions.ipynb",
+      "exercise_id": "04_fastai_part2/07_convolutions.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/07_convolutions/RESULTS.ipynb",
+      "original_sha256": "d9990b64d493dcf70df6f7a5eb216efbbdfb2e8ca0c64cea201c33ad0af374eb",
+      "original_bytes": 329445,
+      "copy_sha256": "d9990b64d493dcf70df6f7a5eb216efbbdfb2e8ca0c64cea201c33ad0af374eb",
+      "copy_bytes": 329445,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/08_autoencoder.ipynb",
+      "exercise_id": "04_fastai_part2/08_autoencoder.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/08_autoencoder/RESULTS.ipynb",
+      "original_sha256": "5f7ac64640efb5f983d81226d71143cfaf0340d30e2e8f555663912ff0fabaa9",
+      "original_bytes": 428367,
+      "copy_sha256": "5f7ac64640efb5f983d81226d71143cfaf0340d30e2e8f555663912ff0fabaa9",
+      "copy_bytes": 428367,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/09_learner.ipynb",
+      "exercise_id": "04_fastai_part2/09_learner.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/09_learner/RESULTS.ipynb",
+      "original_sha256": "ddfc835b4248881f73510e899f8cd45af5c82a05e455551db1864f9126edbae0",
+      "original_bytes": 154149,
+      "copy_sha256": "a0d84a32b85d40b757581915d33de93aabae332385ba4a26f27a2eaa8c8c7bea",
+      "copy_bytes": 149776,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/10_activations.ipynb",
+      "exercise_id": "04_fastai_part2/10_activations.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/10_activations/RESULTS.ipynb",
+      "original_sha256": "4f07aecb9f61aff2568256c9fdd7d14ef57452a403a3be5adeb9a4f28d27e4dd",
+      "original_bytes": 156386,
+      "copy_sha256": "a1db98a4e95e125e3565ec62ea468568ecbbc94e91c8207865da4886fad38c5b",
+      "copy_bytes": 151875,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/11_initializing.ipynb",
+      "exercise_id": "04_fastai_part2/11_initializing.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/11_initializing/RESULTS.ipynb",
+      "original_sha256": "93b6a4a8df63fcd90e035cac800a5ece11e5e73dbac550c17b9fe008e496f00a",
+      "original_bytes": 212903,
+      "copy_sha256": "36e6602845d51305677af8f3bc15bf5a51cc808b80edbeffddb3eada0ace3335",
+      "copy_bytes": 206693,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/12_accel_sgd.ipynb",
+      "exercise_id": "04_fastai_part2/12_accel_sgd.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/12_accel_sgd/RESULTS.ipynb",
+      "original_sha256": "eccddc6c56c0f86e376f9b319d86ac6569308425cc0030cf482b1cdd8bce8201",
+      "original_bytes": 176519,
+      "copy_sha256": "c832793bc264c830416c095a0d1ac6e544e0c6eee969d314955a650ada8600b3",
+      "copy_bytes": 171558,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 7
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/13_resnet.ipynb",
+      "exercise_id": "04_fastai_part2/13_resnet.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/13_resnet/RESULTS.ipynb",
+      "original_sha256": "461192a651d929c9860ad0456cadf8cd526e81953c67a1122019e23a3a3923c3",
+      "original_bytes": 137560,
+      "copy_sha256": "380071c78c3d43ae12ef386d9282e003c2d9ef67218796ab6321a757ee16b68f",
+      "copy_bytes": 133792,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/14_augment.ipynb",
+      "exercise_id": "04_fastai_part2/14_augment.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/14_augment/RESULTS.ipynb",
+      "original_sha256": "7237ebd9fe32960a21f96ef76b97a3485c28c5c463b5ebe3d744b225d10d2660",
+      "original_bytes": 381593,
+      "copy_sha256": "a7678fe6ae96b609ff35d80a49fd5fb76626f099bcb9fdd28a0f218379ca73ad",
+      "copy_bytes": 371796,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/15_DDPM.ipynb",
+      "exercise_id": "04_fastai_part2/15_DDPM.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/15_DDPM/RESULTS.ipynb",
+      "original_sha256": "546ed462a24176f87be745eaaf697b5a76ece4c01b52ba402e0c446c8701752b",
+      "original_bytes": 228143,
+      "copy_sha256": "726594220e54087d881c1f0502d82edbe91a00eea53cfc7cddb840e8874c2fda",
+      "copy_bytes": 225062,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 4
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 1,
+      "historical_error_note": "Historical DDPM error retained; additive recovery final audit supports the canonical completed record.",
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/16A_StyleTransfer.ipynb",
+      "exercise_id": "04_fastai_part2/16A_StyleTransfer.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/16A_StyleTransfer/RESULTS.ipynb",
+      "original_sha256": "5311f23267403459150775971b1c7e911caf8c16d51321da06a785dee8dbd1d1",
+      "original_bytes": 135402,
+      "copy_sha256": "bf8dce20bad3886db55b25f386d6fa1ced57589e95ff18530fa08675167f1292",
+      "copy_bytes": 133115,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 2
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/16B_NCA.ipynb",
+      "exercise_id": "04_fastai_part2/16B_NCA.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/16B_NCA/RESULTS.ipynb",
+      "original_sha256": "8bc50aec48dde0fcc6ccb648daf123f84270db0fd1751ab210cd0493204608ed",
+      "original_bytes": 147121,
+      "copy_sha256": "b98347df9f9025db581a7dbca6112381fc00f141bd3ed1c7d5f4e261ab1f5db0",
+      "copy_bytes": 145956,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 2
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/17_DDPM_v2.ipynb",
+      "exercise_id": "04_fastai_part2/17_DDPM_v2.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/17_DDPM_v2/RESULTS.ipynb",
+      "original_sha256": "b09561c3f602ce7e879dd270a8be038c208f2e0d257c2cdfc5cb147872df38db",
+      "original_bytes": 149952,
+      "copy_sha256": "ee32992921ce6332df9118b90e520c7965b7e1aeed87b290fa41bb55e2a963e2",
+      "copy_bytes": 145600,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "personal_learner_name": 3,
+            "private_profile_path": 5
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/27_attention.ipynb",
+      "exercise_id": "04_fastai_part2/27_attention.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/27_attention/RESULTS.ipynb",
+      "original_sha256": "6ae1a85cd168794125586611c58abc76ddd22a06b11b6d05e02ff69b0721a83e",
+      "original_bytes": 18669,
+      "copy_sha256": "6ae1a85cd168794125586611c58abc76ddd22a06b11b6d05e02ff69b0721a83e",
+      "copy_bytes": 18669,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": true,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_073_output_001.jpg",
+      "exercise_id": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "kind": "exact_decoded_saved_image",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/01_stable_diffusion/RESULTS.ipynb",
+      "original_sha256": "77bd5d42656e9d22645cdc195783594b95fc68f775187736c282c84989cd8f9f",
+      "original_bytes": 69349564,
+      "copy_sha256": "aeaab9f4cf085933675b0b68e129d63a194b40958bd64fbe8fab7069ff42ea08",
+      "copy_bytes": 3750507,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "base64_decode_original_image_representation",
+          "cell_index": 73,
+          "output_index": 1,
+          "mime_type": "image/jpeg",
+          "pixel_content_changed": false
+        }
+      ],
+      "new_training_or_inference": false,
+      "decoded_image_sha256": "aeaab9f4cf085933675b0b68e129d63a194b40958bd64fbe8fab7069ff42ea08",
+      "decoded_image_bytes": 3750507
+    },
+    {
+      "repo_relative_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
+      "exercise_id": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "kind": "exact_decoded_saved_image",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/01_stable_diffusion/RESULTS.ipynb",
+      "original_sha256": "77bd5d42656e9d22645cdc195783594b95fc68f775187736c282c84989cd8f9f",
+      "original_bytes": 69349564,
+      "copy_sha256": "fa6fb5acd42a6826c92d51154dd03d613404c4027fdb00622d97d41489f0f521",
+      "copy_bytes": 695524,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "base64_decode_original_image_representation",
+          "cell_index": 29,
+          "output_index": 0,
+          "mime_type": "image/jpeg",
+          "pixel_content_changed": false
+        }
+      ],
+      "new_training_or_inference": false,
+      "decoded_image_sha256": "fa6fb5acd42a6826c92d51154dd03d613404c4027fdb00622d97d41489f0f521",
+      "decoded_image_bytes": 695524
+    },
+    {
+      "repo_relative_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_067_output_001.jpg",
+      "exercise_id": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "kind": "exact_decoded_saved_image",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/01_stable_diffusion/RESULTS.ipynb",
+      "original_sha256": "77bd5d42656e9d22645cdc195783594b95fc68f775187736c282c84989cd8f9f",
+      "original_bytes": 69349564,
+      "copy_sha256": "473e1ff404e6557b399252910857bb7b609986125c1fb9e5ed05ab497b298e4e",
+      "copy_bytes": 251454,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "base64_decode_original_image_representation",
+          "cell_index": 67,
+          "output_index": 1,
+          "mime_type": "image/jpeg",
+          "pixel_content_changed": false
+        }
+      ],
+      "new_training_or_inference": false,
+      "decoded_image_sha256": "473e1ff404e6557b399252910857bb7b609986125c1fb9e5ed05ab497b298e4e",
+      "decoded_image_bytes": 251454
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "exercise_id": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/01_stable_diffusion/RESULTS.ipynb",
+      "original_sha256": "77bd5d42656e9d22645cdc195783594b95fc68f775187736c282c84989cd8f9f",
+      "original_bytes": 69349564,
+      "copy_sha256": "895fe3a2f4bd69631c9476149d233f8021852bcff3381803318762c4178ef7b3",
+      "copy_bytes": 1632385,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "omit_nonessential_widget_state",
+          "original_serialized_bytes": 564436
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 18,
+          "output_index": 1,
+          "omitted_base64_bytes": 618457,
+          "omitted_base64_sha256": "55d3d8aa9ad6ac5d5659fd5dda5cc7176ab9fa5764480bef8f1072b7f014c611"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 19,
+          "output_index": 1,
+          "omitted_base64_bytes": 534345,
+          "omitted_base64_sha256": "1963e70aee39123c43d4eb1fed02e7056860595df9b741cd1077a752a950ce4f"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 22,
+          "output_index": 1,
+          "omitted_base64_bytes": 752705,
+          "omitted_base64_sha256": "d7be1cbc49bd1da579a09b151e11b94b66eb7dbcf6f52d6d2b293b76ed9235d4"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 23,
+          "output_index": 1,
+          "omitted_base64_bytes": 584693,
+          "omitted_base64_sha256": "8368a326496abb6fbaeeb9d790b60ba7a7e0943c14b2ceeb265f7bba87896bff"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 29,
+          "output_index": 0,
+          "omitted_base64_bytes": 10188133,
+          "omitted_base64_sha256": "61c43a1a18fa414432af4ac36e9c8d5f0ba69cb0f086c26177345c55b3a65cac"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 32,
+          "output_index": 1,
+          "omitted_base64_bytes": 627181,
+          "omitted_base64_sha256": "1af5a396f93eac5a4c745c63e8d430a1c065a3f85f7fb3476d5488e0485d31ee"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 33,
+          "output_index": 1,
+          "omitted_base64_bytes": 633021,
+          "omitted_base64_sha256": "cf2df31b74453bebfd9a9f33d638e6f47a7b0a6089f29c4d597558dc424c3dcf"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 41,
+          "output_index": 2,
+          "omitted_base64_bytes": 58917,
+          "omitted_base64_sha256": "f73188aed9ca70de37190f2d2469bf9d95fe552baf205b1f1aa4034d3748c495"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 42,
+          "output_index": 2,
+          "omitted_base64_bytes": 836253,
+          "omitted_base64_sha256": "992b9bfef89310a023d3d6820c4357fb9da0b2aa7437883328022f8b85dbb870"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 45,
+          "output_index": 1,
+          "omitted_base64_bytes": 1140905,
+          "omitted_base64_sha256": "84d85cf869d33aaa7ed0ca98f9dd17bf701ab0d727878242fb4728658ba1990b"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 62,
+          "output_index": 1,
+          "omitted_base64_bytes": 660669,
+          "omitted_base64_sha256": "e9a37f0d03f99c093677a5c3914c01d6c57d0cd003ac066481c62380f3b5c4f3"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 67,
+          "output_index": 1,
+          "omitted_base64_bytes": 2988141,
+          "omitted_base64_sha256": "5a57a8cd105271a9f3326ad43a57e1633b9c618e9f390ae6f94a90d7f420067d"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 73,
+          "output_index": 1,
+          "omitted_base64_bytes": 37892953,
+          "omitted_base64_sha256": "0d9ca05e8993dd89c8ed1c2524a6594e0a2cdad0dd950dd53bdd971a6a8d21ab"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 115,
+          "output_index": 0,
+          "omitted_base64_bytes": 626617,
+          "omitted_base64_sha256": "119ad6bda7a27ad5792e82d6c42b5e26d56078081e6e7b49a091da4c3f0cb4ce"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 124,
+          "output_index": 0,
+          "omitted_base64_bytes": 628457,
+          "omitted_base64_sha256": "2681c4c6a8cf48c4e4005e0e25eb8100ddc9f5d12d53b53095e6d431ee275298"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 125,
+          "output_index": 0,
+          "omitted_base64_bytes": 666337,
+          "omitted_base64_sha256": "2799f40f9557393ffe34630cf0108639ed8baf546191faa78a1d589e335af083"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 131,
+          "output_index": 0,
+          "omitted_base64_bytes": 628457,
+          "omitted_base64_sha256": "2681c4c6a8cf48c4e4005e0e25eb8100ddc9f5d12d53b53095e6d431ee275298"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 131,
+          "output_index": 1,
+          "omitted_base64_bytes": 666337,
+          "omitted_base64_sha256": "2799f40f9557393ffe34630cf0108639ed8baf546191faa78a1d589e335af083"
+        },
+        {
+          "kind": "externalize_exact_captured_image_and_reference_relative_file",
+          "cell_index": 73,
+          "output_index": 1,
+          "mime_type": "image/jpeg",
+          "image_repo_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_073_output_001.jpg",
+          "decoded_image_sha256": "aeaab9f4cf085933675b0b68e129d63a194b40958bd64fbe8fab7069ff42ea08"
+        },
+        {
+          "kind": "externalize_exact_captured_image_and_reference_relative_file",
+          "cell_index": 29,
+          "output_index": 0,
+          "mime_type": "image/jpeg",
+          "image_repo_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
+          "decoded_image_sha256": "fa6fb5acd42a6826c92d51154dd03d613404c4027fdb00622d97d41489f0f521"
+        },
+        {
+          "kind": "externalize_exact_captured_image_and_reference_relative_file",
+          "cell_index": 67,
+          "output_index": 1,
+          "mime_type": "image/jpeg",
+          "image_repo_path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_067_output_001.jpg",
+          "decoded_image_sha256": "473e1ff404e6557b399252910857bb7b609986125c1fb9e5ed05ab497b298e4e"
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "exercise_id": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/02_stable_diffusion_deep_dive/RESULTS.ipynb",
+      "original_sha256": "4691b5dbdac1ef330f34f3559eaa7afc497bdae82543780000b12182c773b23b",
+      "original_bytes": 13283107,
+      "copy_sha256": "73735c71914d91fe8135316453f3f8716f0187bf75784114496e9629c45e4e75",
+      "copy_bytes": 1184903,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "omit_nonessential_widget_state",
+          "original_serialized_bytes": 70474
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 10,
+          "output_index": 1,
+          "omitted_base64_bytes": 644277,
+          "omitted_base64_sha256": "72630c8c2252c07b5b22a84d7b5818018f2b149d76c5d8a15ebd2568dc17855f"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 16,
+          "output_index": 0,
+          "omitted_base64_bytes": 460809,
+          "omitted_base64_sha256": "1e61156cff56f8186e33c322fae5b8fc27235ba54bf199adb3146df3a19114a3"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 21,
+          "output_index": 0,
+          "omitted_base64_bytes": 502429,
+          "omitted_base64_sha256": "8e43b6fe54f9c0113241fba5f848ead055142cdea7e8078c5b505c8ce43d60d4"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 33,
+          "output_index": 0,
+          "omitted_base64_bytes": 720177,
+          "omitted_base64_sha256": "a9928cde2e86b50938f7f003004e665dadfedf8ce5d7d89f80a3457c56a6992d"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 36,
+          "output_index": 0,
+          "omitted_base64_bytes": 1044625,
+          "omitted_base64_sha256": "d65684b9cf4c9624ea94744b36a6aa36cdd6a9d61c4461b8df97e9354ad95e18"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 40,
+          "output_index": 1,
+          "omitted_base64_bytes": 501801,
+          "omitted_base64_sha256": "a62c3d1c3056112471537045a0b102d76ecbbe03a21be71ed55e5d8f80d1c387"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 42,
+          "output_index": 0,
+          "omitted_base64_bytes": 526565,
+          "omitted_base64_sha256": "43ccf89414a53b4ba2cf7f5a351737ee97e0156eade21546649d8d1c898226ea"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 74,
+          "output_index": 1,
+          "omitted_base64_bytes": 610117,
+          "omitted_base64_sha256": "9f96a3cd8f0eadda832da967aa1bd9d9524d90f7d017209f573c4e149c090a3a"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 78,
+          "output_index": 1,
+          "omitted_base64_bytes": 540973,
+          "omitted_base64_sha256": "d0e6d89776aba4e095398d26e579fcccd8e7ccaae71b46ec35dcf9d295088c00"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 82,
+          "output_index": 1,
+          "omitted_base64_bytes": 707617,
+          "omitted_base64_sha256": "290e9b26946a2ce5a17afa0c6d41392a28b2a5dc249d8b33c90a2b1113cf6e5f"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 86,
+          "output_index": 1,
+          "omitted_base64_bytes": 664777,
+          "omitted_base64_sha256": "fe6fbc194dcd756c51715d354d72b8847a6e989bb2bd262a1547691f1f3a3c28"
+        },
+        {
+          "kind": "omit_large_animation_html_representation",
+          "cell_index": 91,
+          "output_index": 0,
+          "original_representation_sha256": "12374a6c5a4287b6d86ab4c7de319b76b2bc0ffc209fd6fde861014850c554c7",
+          "original_representation_bytes": 2964054,
+          "reason": "Compact static publication copy. Original animation and text/plain result remain in full offline notebook."
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 94,
+          "output_index": 0,
+          "omitted_base64_bytes": 921641,
+          "omitted_base64_sha256": "49aa6955f0e8b60fe4169c86c1413db910c977aec36ac480096db880d4bcb752"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 103,
+          "output_index": 6,
+          "omitted_base64_bytes": 467449,
+          "omitted_base64_sha256": "3ed2549226db1473ea9e097d57740d0894a4bebceaeb4d3199ce4c211f0db237"
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 105,
+          "output_index": 0,
+          "omitted_base64_bytes": 730285,
+          "omitted_base64_sha256": "7c5ed45d62c216d4e9d7379e68baf60f7d7b917f3b3e7a0824f9f580b881d68f"
+        },
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "private_cloud_link": 1
+          }
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": false,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "exercise_id": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "kind": "saved_executed_notebook",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/04_fastai_Part2/03_textual_inversion_inference/RESULTS.ipynb",
+      "original_sha256": "9f7c836367b3d61101fa5a4c8b6b39d569f4337bc470bdfca94a4cbb522014cf",
+      "original_bytes": 2202839,
+      "copy_sha256": "bb8680ea3a99b2312dd39edcbc42a20881385ce84e2aa749b46d20d86e296037",
+      "copy_bytes": 216703,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "omit_nonessential_widget_state",
+          "original_serialized_bytes": 26540
+        },
+        {
+          "kind": "retain_existing_jpeg_remove_duplicate_png",
+          "cell_index": 8,
+          "output_index": 0,
+          "omitted_base64_bytes": 1952181,
+          "omitted_base64_sha256": "fa5436f3e68d40b13cafc19d1133297bb368808b11cb531dd9afd259e3a45674"
+        }
+      ],
+      "new_training_or_inference": false,
+      "canonical_status": "completed_in_saved_audited_record",
+      "saved_error_outputs": 0,
+      "historical_error_note": null,
+      "preferred_source_cells_unchanged_except_declared_privacy_changes": true,
+      "execution_counts_unchanged": true,
+      "all_output_objects_byte_equivalent_to_preferred_copy": false,
+      "new_output_objects_created": false
+    },
+    {
+      "repo_relative_path": "results/metrics/01_google_mlcc/06_subject_independent_evaluation/06_subject_independent_evaluation.json",
+      "exercise_id": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "kind": "hash_bound_completion_or_metric_evidence",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/09_Logs_and_History/Audited_Files/9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895.json",
+      "original_sha256": "9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895",
+      "original_bytes": 1536,
+      "copy_sha256": "9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895",
+      "copy_bytes": 1536,
+      "copy_kind": "exact",
+      "changes": [],
+      "new_training_or_inference": false
+    },
+    {
+      "repo_relative_path": "results/metrics/02_mit_6s191/06_tf_lab2_debiasing/TF06_FULL_FINAL_AUDIT_20261023T010300Z-c781f8.json",
+      "exercise_id": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "kind": "hash_bound_completion_or_metric_evidence",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/09_Logs_and_History/Audited_Files/55fe3d2a1f68327fccffd91936630e4f95282fec7bf46e3705aa56ca87201026.json",
+      "original_sha256": "55fe3d2a1f68327fccffd91936630e4f95282fec7bf46e3705aa56ca87201026",
+      "original_bytes": 65020,
+      "copy_sha256": "9b05973dfc5fb423fcc3e7f7429041c7526ecae262e1e6a7e9d5f6bed702331e",
+      "copy_bytes": 63740,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "private_profile_path": 103
+          }
+        }
+      ],
+      "new_training_or_inference": false
+    },
+    {
+      "repo_relative_path": "results/metrics/03_fastai/15_collaborative_filtering/MOVIELENS_LEDGER_SOURCE_OUTPUT_VALIDATION_2026-10-19_20261019T065112UTC.json",
+      "exercise_id": "03_fastai/15_collaborative_filtering.ipynb",
+      "kind": "hash_bound_completion_or_metric_evidence",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/09_Logs_and_History/Audited_Files/0ec1fe088f27606e7893343e6f77850830ab8510ca25dc66e11bdab05d7b539d.json",
+      "original_sha256": "0ec1fe088f27606e7893343e6f77850830ab8510ca25dc66e11bdab05d7b539d",
+      "original_bytes": 3003,
+      "copy_sha256": "fe4e85cda4d75ba71af13fbde9eb9e2815150a7d7d6f0be5ae79c049e6ff8e20",
+      "copy_bytes": 3009,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "private_profile_path": 2
+          }
+        }
+      ],
+      "new_training_or_inference": false
+    },
+    {
+      "repo_relative_path": "results/metrics/04_fastai_part2/15_DDPM/ADDITIVE_RECOVERY_FINAL_AUDIT_20261021T122126-2e5a7b19_20261021T134255Z-cf4b2b.json",
+      "exercise_id": "04_fastai_part2/15_DDPM.ipynb",
+      "kind": "hash_bound_completion_or_metric_evidence",
+      "original_workspace_relative_path": "ALL_LEARNING_RESOURCES_2026-10-25/09_Logs_and_History/Audited_Files/e4f38330f1c38e1b08123db3937e291cfe443e386d9a4974330cd442bdb2c3fa.json",
+      "original_sha256": "e4f38330f1c38e1b08123db3937e291cfe443e386d9a4974330cd442bdb2c3fa",
+      "original_bytes": 29597,
+      "copy_sha256": "822b1606d1af34a43dcaa60aa7f084cfa7199b066334dce44993a496a118e849",
+      "copy_bytes": 29771,
+      "copy_kind": "documented_derivative",
+      "changes": [
+        {
+          "kind": "privacy_redactions",
+          "counts": {
+            "private_profile_path": 58
+          }
+        }
+      ],
+      "new_training_or_inference": false
+    }
+  ],
+  "exercise_map": [
+    {
+      "exercise_id": "01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "source_repo_path": "01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/02_binary_classification_rice.ipynb",
+      "source_repo_path": "01_google_mlcc/02_binary_classification_rice.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/02_binary_classification_rice.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "source_repo_path": "01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "source_repo_path": "01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/05_fairness_income_colab.ipynb",
+      "source_repo_path": "01_google_mlcc/05_fairness_income_colab.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/05_fairness_income_colab.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/05b_fairness_portable.ipynb",
+      "source_repo_path": "01_google_mlcc/05b_fairness_portable.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/05b_fairness_portable.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "source_repo_path": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "supporting_repo_paths": [
+        "results/metrics/01_google_mlcc/06_subject_independent_evaluation/06_subject_independent_evaluation.json"
+      ]
+    },
+    {
+      "exercise_id": "02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "source_repo_path": "02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "source_repo_path": "02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "source_repo_path": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/02_pt_music_generation.ipynb",
+      "supporting_repo_paths": [
+        "results/audio/02_pt_music_generation.wav"
+      ]
+    },
+    {
+      "exercise_id": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "source_repo_path": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/02_tf_music_generation.ipynb",
+      "supporting_repo_paths": [
+        "results/audio/02_tf_music_generation.wav"
+      ]
+    },
+    {
+      "exercise_id": "02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "source_repo_path": "02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "source_repo_path": "02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "source_repo_path": "02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "source_repo_path": "02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "source_repo_path": "02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "source_repo_path": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "supporting_repo_paths": [
+        "results/metrics/02_mit_6s191/06_tf_lab2_debiasing/TF06_FULL_FINAL_AUDIT_20261023T010300Z-c781f8.json"
+      ]
+    },
+    {
+      "exercise_id": "02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "source_repo_path": "02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "02_mit_6s191/08_lab3_service_continuation.ipynb",
+      "source_repo_path": "02_mit_6s191/08_lab3_service_continuation.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/00_image_classifier.ipynb",
+      "source_repo_path": "03_fastai/00_image_classifier.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/00_image_classifier.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "source_repo_path": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/02_export_and_reload_model.ipynb",
+      "source_repo_path": "03_fastai/02_export_and_reload_model.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/02_export_and_reload_model.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/03_compare_image_models.ipynb",
+      "source_repo_path": "03_fastai/03_compare_image_models.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/03_compare_image_models.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/04_neural_network_foundations.ipynb",
+      "source_repo_path": "03_fastai/04_neural_network_foundations.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/04_neural_network_foundations.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/05_titanic_models_from_scratch.ipynb",
+      "source_repo_path": "03_fastai/05_titanic_models_from_scratch.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/05_titanic_models_from_scratch.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "source_repo_path": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/07_trees_and_random_forests.ipynb",
+      "source_repo_path": "03_fastai/07_trees_and_random_forests.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/07_trees_and_random_forests.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "source_repo_path": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "source_repo_path": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/09_wearable_training_and_ethics.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/10_paddy_first_steps.ipynb",
+      "source_repo_path": "03_fastai/10_paddy_first_steps.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/10_paddy_first_steps.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/11_paddy_small_models.ipynb",
+      "source_repo_path": "03_fastai/11_paddy_small_models.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/11_paddy_small_models.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/12_paddy_scaling_up.ipynb",
+      "source_repo_path": "03_fastai/12_paddy_scaling_up.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/13_paddy_multi_target.ipynb",
+      "source_repo_path": "03_fastai/13_paddy_multi_target.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/13_paddy_multi_target.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/14_nlp_patent_matching.ipynb",
+      "source_repo_path": "03_fastai/14_nlp_patent_matching.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/14_nlp_patent_matching.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/15_collaborative_filtering.ipynb",
+      "source_repo_path": "03_fastai/15_collaborative_filtering.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/15_collaborative_filtering.ipynb",
+      "supporting_repo_paths": [
+        "results/metrics/03_fastai/15_collaborative_filtering/MOVIELENS_LEDGER_SOURCE_OUTPUT_VALIDATION_2026-10-19_20261019T065112UTC.json"
+      ]
+    },
+    {
+      "exercise_id": "03_fastai/16_convolutions.ipynb",
+      "source_repo_path": "03_fastai/16_convolutions.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/16_convolutions.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "source_repo_path": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/17_original_00_bird_classifier.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/18_original_01_jupyter.ipynb",
+      "source_repo_path": "03_fastai/18_original_01_jupyter.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/18_original_01_jupyter.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "source_repo_path": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/19_original_02_save_pet_model.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "source_repo_path": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "source_repo_path": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "source_repo_path": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "source_repo_path": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/23_original_06_titanic_framework.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "03_fastai/24_original_07_random_forests.ipynb",
+      "source_repo_path": "03_fastai/24_original_07_random_forests.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/03_fastai/24_original_07_random_forests.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/01_matmul.ipynb",
+      "source_repo_path": "04_fastai_part2/01_matmul.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/01_matmul.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/02_meanshift.ipynb",
+      "source_repo_path": "04_fastai_part2/02_meanshift.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/02_meanshift.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/03_backprop.ipynb",
+      "source_repo_path": "04_fastai_part2/03_backprop.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/03_backprop.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/04_minibatch_training.ipynb",
+      "source_repo_path": "04_fastai_part2/04_minibatch_training.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/04_minibatch_training.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/05_datasets.ipynb",
+      "source_repo_path": "04_fastai_part2/05_datasets.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/05_datasets.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/06_foundations.ipynb",
+      "source_repo_path": "04_fastai_part2/06_foundations.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/06_foundations.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/07_convolutions.ipynb",
+      "source_repo_path": "04_fastai_part2/07_convolutions.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/07_convolutions.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/08_autoencoder.ipynb",
+      "source_repo_path": "04_fastai_part2/08_autoencoder.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/08_autoencoder.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/09_learner.ipynb",
+      "source_repo_path": "04_fastai_part2/09_learner.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/09_learner.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/10_activations.ipynb",
+      "source_repo_path": "04_fastai_part2/10_activations.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/10_activations.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/11_initializing.ipynb",
+      "source_repo_path": "04_fastai_part2/11_initializing.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/11_initializing.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/12_accel_sgd.ipynb",
+      "source_repo_path": "04_fastai_part2/12_accel_sgd.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/12_accel_sgd.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/13_resnet.ipynb",
+      "source_repo_path": "04_fastai_part2/13_resnet.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/13_resnet.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/14_augment.ipynb",
+      "source_repo_path": "04_fastai_part2/14_augment.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/14_augment.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/15_DDPM.ipynb",
+      "source_repo_path": "04_fastai_part2/15_DDPM.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/15_DDPM.ipynb",
+      "supporting_repo_paths": [
+        "results/metrics/04_fastai_part2/15_DDPM/ADDITIVE_RECOVERY_FINAL_AUDIT_20261021T122126-2e5a7b19_20261021T134255Z-cf4b2b.json"
+      ],
+      "status_note": "Audited completion after additive recovery. Historical error remains visible in the saved notebook."
+    },
+    {
+      "exercise_id": "04_fastai_part2/16A_StyleTransfer.ipynb",
+      "source_repo_path": "04_fastai_part2/16A_StyleTransfer.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/16A_StyleTransfer.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/16B_NCA.ipynb",
+      "source_repo_path": "04_fastai_part2/16B_NCA.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/16B_NCA.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/17_DDPM_v2.ipynb",
+      "source_repo_path": "04_fastai_part2/17_DDPM_v2.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/17_DDPM_v2.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/18_fid.ipynb",
+      "source_repo_path": "04_fastai_part2/18_fid.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/19_DDPM_v3.ipynb",
+      "source_repo_path": "04_fastai_part2/19_DDPM_v3.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/20_DDIM.ipynb",
+      "source_repo_path": "04_fastai_part2/20_DDIM.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/21_cifar10_and_wandb.ipynb",
+      "source_repo_path": "04_fastai_part2/21_cifar10_and_wandb.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/22_cosine.ipynb",
+      "source_repo_path": "04_fastai_part2/22_cosine.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/22_noise-pred.ipynb",
+      "source_repo_path": "04_fastai_part2/22_noise-pred.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/23_karras.ipynb",
+      "source_repo_path": "04_fastai_part2/23_karras.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+      "source_repo_path": "04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+      "source_repo_path": "04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/24_imgnet_tiny.ipynb",
+      "source_repo_path": "04_fastai_part2/24_imgnet_tiny.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+      "source_repo_path": "04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/25_superres.ipynb",
+      "source_repo_path": "04_fastai_part2/25_superres.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/26_diffusion_unet.ipynb",
+      "source_repo_path": "04_fastai_part2/26_diffusion_unet.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/27_attention.ipynb",
+      "source_repo_path": "04_fastai_part2/27_attention.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/27_attention.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/28_diffusion-attn-cond.ipynb",
+      "source_repo_path": "04_fastai_part2/28_diffusion-attn-cond.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/29_vae.ipynb",
+      "source_repo_path": "04_fastai_part2/29_vae.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+      "source_repo_path": "04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "source_repo_path": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/31_imgnet_latents-widish.ipynb",
+      "source_repo_path": "04_fastai_part2/31_imgnet_latents-widish.ipynb",
+      "status": "Pending — not counted complete",
+      "counted_completed": false,
+      "saved_result_repo_path": null,
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "source_repo_path": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "supporting_repo_paths": [
+        "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_073_output_001.jpg",
+        "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
+        "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_067_output_001.jpg"
+      ]
+    },
+    {
+      "exercise_id": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "source_repo_path": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "supporting_repo_paths": []
+    },
+    {
+      "exercise_id": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "source_repo_path": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "status": "Completed in the saved audited record",
+      "counted_completed": true,
+      "saved_result_repo_path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "supporting_repo_paths": []
+    }
+  ]
+}

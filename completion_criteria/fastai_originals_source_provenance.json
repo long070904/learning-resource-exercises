@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-03",
+  "course22_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+  "originals": [
+    {
+      "notebook": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "original_cells": 16,
+      "prepared_cells": 21,
+      "original_nonempty_code_cells": 12,
+      "changed_original_cells": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        12,
+        13,
+        15
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [
+        "learn.fine_tune(3)"
+      ],
+      "prepared_sha256": "134a5b6cbc4aa57b614b4ddd6e110b5ca7e6323a7d689eeda6c75fdead0ac268",
+      "pre_distribution_prepared_sha256": "14d0faeafe62901b555ba9b3db12ee1c40a91193d72af235643dd822d13181c7"
+    },
+    {
+      "notebook": "03_fastai/18_original_01_jupyter.ipynb",
+      "original_cells": 23,
+      "prepared_cells": 28,
+      "original_nonempty_code_cells": 7,
+      "changed_original_cells": [
+        14,
+        21
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [],
+      "prepared_sha256": "6f6992566ce99557779a23787273a5b97d620506ac2f31126f343963d0f452fc",
+      "pre_distribution_prepared_sha256": "ea3d495ee31722b79885c7f840b7fdcd5e5d6504e2707f818cbf29418cf97ac9"
+    },
+    {
+      "notebook": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "original_cells": 8,
+      "prepared_cells": 13,
+      "original_nonempty_code_cells": 7,
+      "changed_original_cells": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [
+        "learn.fine_tune(3)"
+      ],
+      "prepared_sha256": "f9f4af55eb9ace211296394d62ae13d14790cc5ab1a0eb48435ea0b4c6bcf99d",
+      "pre_distribution_prepared_sha256": "4799bba04747e810b424769ccfa09656bd5a64c4cb2b106f9ba54deac59f7f43"
+    },
+    {
+      "notebook": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "original_cells": 18,
+      "prepared_cells": 23,
+      "original_nonempty_code_cells": 13,
+      "changed_original_cells": [
+        2,
+        4,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [],
+      "prepared_sha256": "3d6db88b9d194aac06adc8e9133cca56552ebef13b9bde5cc44b593a668255f8",
+      "pre_distribution_prepared_sha256": "8f84eff48a860272e1797d8cda15701198bfa8b50c8c7b1fec3c4e8e73d2b916"
+    },
+    {
+      "notebook": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "original_cells": 31,
+      "prepared_cells": 36,
+      "original_nonempty_code_cells": 26,
+      "changed_original_cells": [
+        7,
+        22,
+        28
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [],
+      "prepared_sha256": "1b1dde66911e68c240965f03935f04804264bc692479babe30a2a4e6b297a037",
+      "pre_distribution_prepared_sha256": "231fbd7636af95ccdd6fc854cae353ecba0098fccd4ef26a50636a735bf763fa"
+    },
+    {
+      "notebook": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "original_cells": 87,
+      "prepared_cells": 92,
+      "original_nonempty_code_cells": 74,
+      "changed_original_cells": [
+        1,
+        18,
+        40,
+        42,
+        52,
+        60,
+        61,
+        62,
+        63
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [
+        "coeffs = train_model(18, lr=0.2)",
+        "coeffs = train_model(lr=100)",
+        "coeffs = train_model(lr=100)",
+        "coeffs = train_model(lr=1.4)",
+        "coeffs = train_model(lr=20)",
+        "coeffs = train_model(lr=4)"
+      ],
+      "prepared_sha256": "4def629b86d6a1cc519fb90268ca2f3774e29cbbb7ef211aa7998bc047cb3074",
+      "prepared_sha256_history": [
+        {
+          "sha256": "562300809dc697d71bf9fceca41919b471622854dfe084caaa98c0a449468966",
+          "role": "previous_provenance_prepared_revision",
+          "preserved_at_utc": "2026-10-03T11:08:31.222577+00:00"
+        },
+        {
+          "sha256": "694480453d216b4caa808a5abab41c64db4f97cc8441300d09359ddffc77f5e0",
+          "role": "frozen_revision84_before_sigmoid_repair",
+          "preserved_at_utc": "2026-10-03T11:08:31.222577+00:00"
+        }
+      ],
+      "post_distribution_repairs": [
+        {
+          "repair": "explicit_symbolic_sigmoid_plot",
+          "original_cell_index": 52,
+          "prepared_cell_index": 56,
+          "before_prepared_sha256": "694480453d216b4caa808a5abab41c64db4f97cc8441300d09359ddffc77f5e0",
+          "after_prepared_sha256": "4def629b86d6a1cc519fb90268ca2f3774e29cbbb7ef211aa7998bc047cb3074",
+          "formula": "1/(1+exp(-x))",
+          "range": [
+            -5,
+            5
+          ],
+          "training_schedules_changed": false,
+          "hosted_rerun_pending": true,
+          "local_model_training_performed": false,
+          "recorded_utc": "2026-10-03T11:08:31.222577+00:00"
+        }
+      ],
+      "pre_distribution_prepared_sha256": "4def629b86d6a1cc519fb90268ca2f3774e29cbbb7ef211aa7998bc047cb3074"
+    },
+    {
+      "notebook": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "original_cells": 24,
+      "prepared_cells": 29,
+      "original_nonempty_code_cells": 18,
+      "changed_original_cells": [
+        1,
+        5,
+        11,
+        16,
+        17,
+        19,
+        22
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [
+        "learn.fit(16, lr=0.03)",
+        "with learn.no_bar(),learn.no_logging(): learn.fit(16, lr=0.03)",
+        "learns = [ensemble() for _ in range(5)]"
+      ],
+      "prepared_sha256": "2ea26fbb70835a997e6acd70f00e7dd7333c3698ac9e61707e9650d9cebe926a",
+      "pre_distribution_prepared_sha256": "01e903fbe632b468e48c09bc36d023668d9c98a38007b2e05c53ecb9d2e41668"
+    },
+    {
+      "notebook": "03_fastai/24_original_07_random_forests.ipynb",
+      "original_cells": 50,
+      "prepared_cells": 55,
+      "original_nonempty_code_cells": 44,
+      "changed_original_cells": [
+        3,
+        32,
+        39,
+        45,
+        47,
+        48
+      ],
+      "all_original_cells_mapped": true,
+      "omitted_original_cells": [],
+      "original_training_calls": [
+        "m = DecisionTreeClassifier(max_leaf_nodes=4).fit(trn_xs, trn_y);",
+        "m.fit(trn_xs, trn_y)",
+        "return DecisionTreeClassifier(min_samples_leaf=5).fit(trn_xs.iloc[idxs], trn_y.iloc[idxs])",
+        "trees = [get_tree() for t in range(100)]",
+        "rf.fit(trn_xs, trn_y);"
+      ],
+      "prepared_sha256": "e09254b004a28e81b2fb6a970004df2cd95920fbd300d673d393d1fc9d43ee43",
+      "pre_distribution_prepared_sha256": "647861cd8466f2bc11dfa8b4ae0f4abaca9adf12ca2fb977d434a6bba04dcf33"
+    }
+  ],
+  "data_sources": {
+    "titanic_pin": "96c14e776090f7919d15064ed73e3b2788b4288c",
+    "titanic_files": [
+      {
+        "file": "train.csv",
+        "url": "https://raw.githubusercontent.com/minsuk-heo/kaggle-titanic/96c14e776090f7919d15064ed73e3b2788b4288c/input/train.csv",
+        "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
+        "rows": 891,
+        "columns": [
+          "PassengerId",
+          "Survived",
+          "Pclass",
+          "Name",
+          "Sex",
+          "Age",
+          "SibSp",
+          "Parch",
+          "Ticket",
+          "Fare",
+          "Cabin",
+          "Embarked"
+        ],
+        "all_values_equal_independent_dsindy_pin": true,
+        "all_values_equal_datadojo": true
+      },
+      {
+        "file": "test.csv",
+        "url": "https://raw.githubusercontent.com/minsuk-heo/kaggle-titanic/96c14e776090f7919d15064ed73e3b2788b4288c/input/test.csv",
+        "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2",
+        "rows": 418,
+        "columns": [
+          "PassengerId",
+          "Pclass",
+          "Name",
+          "Sex",
+          "Age",
+          "SibSp",
+          "Parch",
+          "Ticket",
+          "Fare",
+          "Cabin",
+          "Embarked"
+        ],
+        "all_values_equal_independent_dsindy_pin": true
+      }
+    ],
+    "timm_pin": "3409bb91568b107a44d82c3552b02ac7edefa032",
+    "timm_files": [
+      {
+        "file": "benchmark-infer-amp-nhwc-pt111-cu113-rtx3090.csv",
+        "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/3409bb91568b107a44d82c3552b02ac7edefa032/results/benchmark-infer-amp-nhwc-pt111-cu113-rtx3090.csv",
+        "sha256": "6b5b489bf7d35a0b37e10aea0d8b4cca03b9f6efc5b33ff3153914e41f8d89a8"
+      },
+      {
+        "file": "benchmark-train-amp-nhwc-pt111-cu113-rtx3090.csv",
+        "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/3409bb91568b107a44d82c3552b02ac7edefa032/results/benchmark-train-amp-nhwc-pt111-cu113-rtx3090.csv",
+        "sha256": "5f2736e337d56bd61ad5d45baa8fdb895ae63056bcb8e3a0713c5b264d16e78c"
+      },
+      {
+        "file": "results-imagenet.csv",
+        "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/3409bb91568b107a44d82c3552b02ac7edefa032/results/results-imagenet.csv",
+        "sha256": "8515c0b07f1135c721beb4a0e64f9813f8a00f172246b4a2da42ed600e1c5fa2"
+      }
+    ],
+    "rejected_mirror": {
+      "repository": "ageron/data",
+      "reason": "Changes 55/24 Names and5/4 infant ages in train/test versus mutually identical Kaggle mirrors."
+    },
+    "provider_checksum_available": false,
+    "test_labels_present": false
+  },
+  "source_raw_backups": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\execution\\2026-10-03\\backups\\fastai_original_additions\\pinned_course22_clean",
+  "local_model_training_performed": false,
+  "hosted_execution_proven_by_preparation": false,
+  "original_source_cells_omitted": 0
+}

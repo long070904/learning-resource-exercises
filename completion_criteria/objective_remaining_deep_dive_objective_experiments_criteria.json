@@ -1,0 +1,129 @@
+{
+  "notebook": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+  "prepared_source_sha256": "60dbd01648092a89c20d3cc26cecca3ee6189ac159efddb91fdde9b19e582820",
+  "previous_source_sha256": "51b7f6229984077ebc568f46849b8879980515dac8356578fd94576974b2f6b8",
+  "objective_experiments_added": [
+    {
+      "group": "noise_timesteps",
+      "source_prompt_original_zero_based": 31,
+      "schedule_steps": 15,
+      "settings": [
+        0,
+        3,
+        7,
+        10,
+        14
+      ],
+      "expected_trials": 5
+    },
+    {
+      "group": "img2img_skipped_steps",
+      "source_prompt_original_zero_based": 36,
+      "schedule_steps": 50,
+      "settings": [
+        0,
+        10,
+        25,
+        40
+      ],
+      "expected_trials": 4,
+      "expected_denoising_steps": [
+        50,
+        40,
+        25,
+        10
+      ]
+    },
+    {
+      "group": "classifier_free_guidance",
+      "source_prompt_original_zero_based": 87,
+      "schedule_steps": 50,
+      "settings": [
+        0,
+        1,
+        4,
+        8,
+        16,
+        32
+      ],
+      "expected_trials": 6,
+      "expected_denoising_steps": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ]
+    },
+    {
+      "group": "blue_guidance",
+      "source_prompt_original_zero_based": 95,
+      "schedule_steps": 50,
+      "settings": [
+        [
+          0,
+          5
+        ],
+        [
+          50,
+          5
+        ],
+        [
+          200,
+          5
+        ],
+        [
+          1000,
+          5
+        ],
+        [
+          40,
+          1
+        ]
+      ],
+      "expected_trials": 5,
+      "expected_denoising_steps": [
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "expected_blue_updates": [
+        0,
+        10,
+        10,
+        10,
+        50
+      ]
+    }
+  ],
+  "shared_controls": {
+    "model": "CompVis/stable-diffusion-v1-4",
+    "seed": 32,
+    "image_size": [
+      512,
+      512
+    ],
+    "fresh_scheduler_per_trial": true,
+    "original_prompt_and_input_preserved": true,
+    "same_noise_sha_per_group_required": true,
+    "unet_compute_policy": "CUDA float16 autocast; float32 latents/VAE guidance"
+  },
+  "evidence_directory": "results/02_stable_diffusion_deep_dive_objective/<actual_colab_run_record_stem>",
+  "required_evidence": [
+    "task_evidence.json all_four_experiments_executed true with all20 saved trial image hashes",
+    "4 comparison.csv files and 4 comparison_grid.png files",
+    "15 per-trial step CSV files matching full schedules",
+    "20 per-trial JSON files and20 generated PNGs",
+    "source_macaw.png and matching encoded/noise fingerprints",
+    "actual current-source hosted execution with saved counts/outputs and no cell errors"
+  ],
+  "extra_denoising_updates": 675,
+  "original_teaching_schedules_reduced": false,
+  "learner_visual_interpretation_required": true,
+  "objective_metrics_are_not_prompt_quality_scores": true,
+  "hosted_execution_status": "not_executed_by_this_preparation",
+  "provider_completion_claimed": false
+}

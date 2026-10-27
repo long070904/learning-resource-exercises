@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-19T06:51:12.308401+00:00",
+  "kind": "independent_text_source_output_and_metadata_checks_for_local_resumed_movielens",
+  "record": {
+    "path": "C:\\Users\\[LOCAL_USER]\\.v\\hr\\20261019T063318-5946e910\\evidence\\record.json",
+    "bytes": 29098,
+    "sha256": "3510e20946ebcda3f49e17dfe1a30cb26a885febbf51a3a4b2e96648de3ee1cb"
+  },
+  "executed_recovery_notebook": {
+    "path": "C:\\Users\\[LOCAL_USER]\\.v\\hr\\20261019T063318-5946e910\\evidence\\executed_recovery.ipynb",
+    "bytes": 77194,
+    "sha256": "92f3628e784070a6de92580d12d0c35db20925be7c0701b8253afbb59e3411a4"
+  },
+  "root_post_validation": {
+    "path": "execution/2026-10-19/status_updates/ROOT_MOVIELENS_RECOVERY_POST_VALIDATION_2026-10-19.json",
+    "bytes": 1229,
+    "sha256": "a7c1c2b0254e95394a9e923ff89379b16213a4a8274e7ffeaeccc3363fde1c7b"
+  },
+  "original_notebook_sha256": "cf2cd8c9bd885d6df7c750705c2e17f9ab423cf56311362d5761b9b867f6cefc",
+  "exact_output_continuation_segments_checked": 15,
+  "segment_errors": 0,
+  "source_segment_canonical_sha256_match": true,
+  "unchanged_original_source_files_presence_size_and_manifest_consistency_checked": 239,
+  "source_files_rehashed_by_ledger_builder": 1,
+  "recovery_support_scripts_rehashed_by_ledger_builder": 4,
+  "artifact_presence_and_sizes_checked": 54,
+  "binary_model_or_data_artifact_hashes_recomputed_by_ledger_builder": false,
+  "root_post_validator_rehashed_artifacts": 54,
+  "root_post_validator_verified_sources": 239,
+  "combined_original_source_cells_covered": 53,
+  "fresh_53_source_cells_claimed": false,
+  "all_original_fits_recorded_complete": 11,
+  "epochs_each": 5,
+  "prior_fits_reused_without_training": 10,
+  "preserved_final_fit_epochs": [
+    0,
+    1,
+    2
+  ],
+  "actual_new_epochs": [
+    3,
+    4
+  ],
+  "new_training_batches": 39064,
+  "all_full_models_source_ratings": 25000095,
+  "validation_rows_per_full_model": 5000019,
+  "recorder_history_precision_limitation": "six-decimal original HTML display values; full-precision accumulator unavailable",
+  "recorder_ema_reset_disclosed": true,
+  "final_strict_marker_equals_record_runtime_evidence": true,
+  "external_exit_zero_receipt_checked": true,
+  "all_owned_processes_absent_basis": "Root post-validator receipt; no fresh process query by this ledger builder.",
+  "local_backup_receipt": {
+    "path": "execution/2026-10-19/status_updates/HaiLong_MOVIELENS_COMPLETED_RECOVERY_20261019T064737UTC.package.json",
+    "bytes": 770,
+    "sha256": "4a7a6e004e7212b8d4958e6d7e8b1ba35c98ad8b36239c834bab4b41fc65237b"
+  },
+  "local_backup_size_checked": 335729760,
+  "local_backup_sha256_as_recorded_by_verified_builder": "066018794a34419eb024a6971785f17c003eea36d62140ef1cc3d659bb26e5e6",
+  "local_backup_crc_and_all337_hashes_reported_verified": true,
+  "backup_archive_bytes_rehashed_by_ledger_builder": false,
+  "backup_uploaded_to_cloud": false,
+  "no_torch_numpy_pickle_ml_or_gpu_used_by_ledger_builder": true,
+  "network_used": false,
+  "old_records_changed": false
+}

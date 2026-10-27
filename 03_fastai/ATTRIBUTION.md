@@ -1,0 +1,1 @@
+Course22 notebooks: Jeremy Howard and fast.ai. Source links are retained in each notebook. No separate LICENSE file was present at the pinned course22 commit. The fastbook chapters retain LICENSE_FASTBOOK. Colab edits are identified in each notebook.

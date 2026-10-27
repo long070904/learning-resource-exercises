@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "01_google_mlcc/data/acsincome_raw_2018.csv",
+      "bytes": 99362997,
+      "sha256": "8b55d12b7986cd6c24b604f7681efbd09dcd23835d5c191fa56e6972d368d669",
+      "url": "https://download.mlcc.google.com/mledu-datasets/acsincome_raw_2018.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/california_housing_train.csv",
+      "bytes": 1706430,
+      "sha256": "bb9ca4041a66e0ed691cb825188f16fdab518435c4950a080951be2fdfe30d4d",
+      "url": "https://download.mlcc.google.com/mledu-datasets/california_housing_train.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/chicago_taxi_train.csv",
+      "bytes": 4062826,
+      "sha256": "1aa03dc1c10909223bfc41ff6a90f93f1fd5ba6f64959c0aa1b94dfa94ae76d4",
+      "url": "https://download.mlcc.google.com/mledu-datasets/chicago_taxi_train.csv"
+    },
+    {
+      "path": "01_google_mlcc/data/Rice_Cammeo_Osmancik.csv",
+      "bytes": 405685,
+      "sha256": "15234fbc17f2b57a05e81d1088a18c0f0aded87c4397c72437eda03f54acdc2c",
+      "url": "https://download.mlcc.google.com/mledu-datasets/Rice_Cammeo_Osmancik.csv"
+    },
+    {
+      "path": "03_fastai/data/mnist.npz",
+      "bytes": 11490434,
+      "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+      "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz"
+    }
+  ],
+  "purpose": "Restore five omitted teaching inputs from their original URLs and verify their saved source hashes."
+}

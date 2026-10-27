@@ -1,0 +1,172 @@
+{
+  "scope": "Five current Google MLCC programming notebooks; website interactive exercises/quizzes separate",
+  "prepared_notebooks": [
+    {
+      "path": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\HaiLong_Colab_Exercises\\01_google_mlcc\\01_linear_regression_taxi.ipynb",
+      "source": "https://raw.githubusercontent.com/google/eng-edu/main/ml/cc/exercises/linear_regression_taxi.ipynb",
+      "required_task_markers": [
+        "describe_data",
+        "correlations_and_visualization",
+        "single_feature_training",
+        "three_hyperparameter_experiments",
+        "two_feature_training",
+        "compare_models_and_units",
+        "predict_fares"
+      ],
+      "dataset": {
+        "filename": "chicago_taxi_train.csv",
+        "required_rows": 31694,
+        "sha256": "1aa03dc1c10909223bfc41ff6a90f93f1fd5ba6f64959c0aa1b94dfa94ae76d4"
+      },
+      "dependencies": [
+        "google-ml-edu==0.1.3",
+        "tensorflow==2.21.0",
+        "keras>=3.12,<4",
+        "numpy>=2,<3",
+        "pandas>=2.2,<3",
+        "matplotlib>=3.9,<4",
+        "plotly>=5,<7",
+        "scikit-learn>=1.5,<2"
+      ],
+      "required_epochs": {
+        "single": 20,
+        "high_lr": 20,
+        "low_lr": 20,
+        "large_batch": 20,
+        "two_feature_minutes": 20,
+        "two_feature_seconds": 20
+      },
+      "visualization_adaptation": null,
+      "required_saved_evidence": "01_linear_regression_taxi_completion.json",
+      "manual_learning_requirement": "User should inspect and understand measured answers/plots; generated answers do not certify personal learning."
+    },
+    {
+      "path": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\HaiLong_Colab_Exercises\\01_google_mlcc\\02_binary_classification_rice.ipynb",
+      "source": "https://raw.githubusercontent.com/google/eng-edu/main/ml/cc/exercises/binary_classification_rice.ipynb",
+      "required_task_markers": [
+        "task_1_describe_data",
+        "task_2_visualize_3d",
+        "training_only_normalization_and_split",
+        "baseline_training_60_epochs",
+        "baseline_validation",
+        "all_features_training_60_epochs",
+        "all_features_validation",
+        "model_comparison",
+        "heldout_test"
+      ],
+      "dataset": {
+        "filename": "Rice_Cammeo_Osmancik.csv",
+        "required_rows": 3810,
+        "sha256": "15234fbc17f2b57a05e81d1088a18c0f0aded87c4397c72437eda03f54acdc2c"
+      },
+      "dependencies": [
+        "google-ml-edu==0.1.3",
+        "tensorflow==2.21.0",
+        "keras>=3.12,<4",
+        "numpy>=2,<3",
+        "pandas>=2.2,<3",
+        "matplotlib>=3.9,<4",
+        "plotly>=5,<7",
+        "scikit-learn>=1.5,<2"
+      ],
+      "required_epochs": {
+        "baseline": 60,
+        "all_features": 60
+      },
+      "visualization_adaptation": null,
+      "required_saved_evidence": "02_binary_classification_rice_completion.json",
+      "manual_learning_requirement": "User should inspect and understand measured answers/plots; generated answers do not certify personal learning."
+    },
+    {
+      "path": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\HaiLong_Colab_Exercises\\01_google_mlcc\\03_numerical_data_statistics.ipynb",
+      "source": "https://raw.githubusercontent.com/google/eng-edu/main/ml/cc/exercises/numerical_data_stats.ipynb",
+      "required_task_markers": [
+        "summary_statistics",
+        "outlier_interpretation"
+      ],
+      "dataset": {
+        "filename": "california_housing_train.csv",
+        "required_rows": 17000,
+        "sha256": "bb9ca4041a66e0ed691cb825188f16fdab518435c4950a080951be2fdfe30d4d"
+      },
+      "dependencies": [
+        "numpy>=1.26,<3",
+        "pandas>=2.2,<3",
+        "matplotlib>=3.9,<4"
+      ],
+      "required_epochs": {},
+      "visualization_adaptation": null,
+      "required_saved_evidence": "03_numerical_data_statistics_completion.json",
+      "manual_learning_requirement": "User should inspect and understand measured answers/plots; generated answers do not certify personal learning."
+    },
+    {
+      "path": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\HaiLong_Colab_Exercises\\01_google_mlcc\\04_numerical_data_bad_values.ipynb",
+      "source": "https://raw.githubusercontent.com/google/eng-edu/main/ml/cc/exercises/numerical_data_bad_values.ipynb",
+      "required_task_markers": [
+        "task_1_summary_statistics",
+        "task_2_visualize_samples",
+        "task_3_all_four_weeks",
+        "task_4_all_seven_days",
+        "task_5_all_four_thursdays"
+      ],
+      "dataset": {
+        "embedded_original_fictional_teaching_data": true,
+        "required_rows": 1400
+      },
+      "dependencies": [
+        "numpy>=1.26,<3",
+        "pandas>=2.2,<3",
+        "matplotlib>=3.9,<4"
+      ],
+      "required_epochs": {},
+      "visualization_adaptation": null,
+      "required_saved_evidence": "04_numerical_data_bad_values_completion.json",
+      "manual_learning_requirement": "User should inspect and understand measured answers/plots; generated answers do not certify personal learning."
+    },
+    {
+      "path": "C:\\Users\\Name Long\\Downloads\\HaiLong_Coding_Exercises\\HaiLong_Colab_Exercises\\01_google_mlcc\\05_fairness_income_colab.ipynb",
+      "source": "https://raw.githubusercontent.com/google/eng-edu/main/ml/cc/exercises/fairness_income.ipynb",
+      "required_task_markers": [
+        "full_acs_data",
+        "baseline_training_10_epochs",
+        "baseline_test_predictions",
+        "task_1_group_metrics",
+        "task_2_positive_sensitive_groups",
+        "task_3_pack_complete_training_data",
+        "mindiff_training_10_epochs",
+        "mindiff_test_predictions",
+        "task_4_measured_comparison"
+      ],
+      "dataset": {
+        "filename": "acsincome_raw_2018.csv",
+        "required_rows": 1664500,
+        "sha256": "8b55d12b7986cd6c24b604f7681efbd09dcd23835d5c191fa56e6972d368d669"
+      },
+      "dependencies": [
+        "tensorflow==2.21.0",
+        "tf-keras==2.21.0",
+        "tensorflow-model-remediation==0.1.7.1",
+        "numpy>=1.26,<3",
+        "pandas>=2.2,<3",
+        "matplotlib>=3.9,<4",
+        "scikit-learn>=1.5,<2"
+      ],
+      "required_epochs": {
+        "baseline": 10,
+        "mindiff": 10,
+        "original_batches_each_epoch": 13316
+      },
+      "visualization_adaptation": "scikit-learn/matplotlib point estimates; historical TFMA widget workflow not claimed",
+      "required_saved_evidence": "05_fairness_income_colab_completion.json",
+      "manual_learning_requirement": "User should inspect and understand measured answers/plots; generated answers do not certify personal learning."
+    }
+  ],
+  "execution_status": "Prepared and syntax checked; hosted full training not run by this repair agent",
+  "not_completion_evidence": [
+    "Notebook existence",
+    "Filled solution cells",
+    "Local QUICK_RUN",
+    "Final cell without task checks",
+    "Synthetic replacement data"
+  ]
+}

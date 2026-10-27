@@ -1,0 +1,77 @@
+# Runtime environments and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.colab-test-venv/
+.cache/
+.pytest_cache/
+.idea/
+.vscode/
+*.part
+# Credentials and private account files
+.env
+.env.*
+*.dpapi
+*.pem
+*.key
+kaggle.json
+credentials.json
+*token*.txt
+*secret*.json
+private/
+# Large datasets, downloaded model state and duplicate exports
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+**/models/
+**/checkpoints/
+**/outputs/
+**/wandb/
+**/runs/
+**/data/
+!02_mit_6s191/data/
+02_mit_6s191/data/*
+!02_mit_6s191/data/irish.abc
+!03_fastai/data/
+03_fastai/data/*
+!03_fastai/data/titanic_seaborn.csv
+!04_fastai_part2/data/
+04_fastai_part2/data/*
+!04_fastai_part2/data/ILSVRC/
+04_fastai_part2/data/ILSVRC/*
+!04_fastai_part2/data/ILSVRC/words.txt
+!04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt
+!05_mathworks/Academy_and_MATLAB/practice/data/
+05_mathworks/Academy_and_MATLAB/practice/data/*
+!05_mathworks/Academy_and_MATLAB/practice/data/synthetic_signal.csv
+# Keep the tiny original course fixture, not future trained weights
+*.bin
+!04_fastai_part2/diffusion_intro/learned_embeds.bin
+# Optional future full execution copies should stay local
+/results/executed_notebooks/
+*.log
+Thumbs.db
+.DS_Store
+
+# Additional generated stores and model formats
+*.onnx
+*.parquet
+*.arrow
+*.tfrecord*
+*.sqlite
+*.db
+.conda/
+*.crdownload

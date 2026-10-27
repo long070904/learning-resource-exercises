@@ -1,0 +1,116 @@
+{
+  "updated_at": "2026-10-03T12:35:53.722082+00:00",
+  "status": "public_metadata_prepared_and_validated",
+  "scope": "Two class metadata files only; no image/model/gated-dataset download, credential access, or notebook/helper edits",
+  "tensorflow_repository": "https://github.com/tensorflow/models",
+  "revision": "930a6f98f7debcc32ca7afbca4a176dbf9211e03",
+  "revision_resolution": "Public git ls-remote HEAD; subsequent sources use the immutable40-character commit URL",
+  "sources": {
+    "imagenet_lsvrc_2015_synsets.txt": {
+      "url": "https://raw.githubusercontent.com/tensorflow/models/930a6f98f7debcc32ca7afbca4a176dbf9211e03/research/slim/datasets/imagenet_lsvrc_2015_synsets.txt",
+      "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15",
+      "bytes": 10000
+    },
+    "imagenet_metadata.txt": {
+      "url": "https://raw.githubusercontent.com/tensorflow/models/930a6f98f7debcc32ca7afbca4a176dbf9211e03/research/slim/datasets/imagenet_metadata.txt",
+      "sha256": "5b8db22d2e2b0ad28b55c9c502eb45e018bc0c907524b8782958cca4805689ea",
+      "bytes": 741401
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/tensorflow/models/930a6f98f7debcc32ca7afbca4a176dbf9211e03/LICENSE",
+      "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385",
+      "bytes": 11512
+    },
+    "imagenet.py": {
+      "url": "https://raw.githubusercontent.com/tensorflow/models/930a6f98f7debcc32ca7afbca4a176dbf9211e03/research/slim/datasets/imagenet.py",
+      "sha256": "3307986bd71e1c5de4317f55f4230dcf2a080045cfa8ae4e06ce2ccabacd1b8f",
+      "bytes": 7295
+    }
+  },
+  "license": {
+    "repository_license": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/tensorflow/models/930a6f98f7debcc32ca7afbca4a176dbf9211e03/LICENSE",
+    "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385",
+    "preserved_text": "execution/2026-10-03/imagenet_public_metadata/tensorflow_LICENSE",
+    "dataset_access_unchanged": "This public metadata preparation grants no ImageNet image access and does not accept ImageNet Terms of Access."
+  },
+  "prepared_files": {
+    "imagenet_lsvrc_2015_synsets.txt": {
+      "relative_path": "HaiLong_Colab_Exercises/04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
+      "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15",
+      "bytes": 10000,
+      "transformation": "Byte-for-byte original"
+    },
+    "words.txt": {
+      "relative_path": "HaiLong_Colab_Exercises/04_fastai_part2/data/ILSVRC/words.txt",
+      "sha256": "5b8db22d2e2b0ad28b55c9c502eb45e018bc0c907524b8782958cca4805689ea",
+      "bytes": 741401,
+      "transformation": "Byte-for-byte imagenet_metadata.txt, renamed to words.txt expected by original course; no subset or label transformation"
+    }
+  },
+  "validation": {
+    "wnids": 1000,
+    "distinct_wnids": 1000,
+    "valid_n_plus8_digit_ids": true,
+    "original_order_retained": true,
+    "order_is_lexicographic": true,
+    "metadata_rows": 21842,
+    "mapped_required_classes": 1000,
+    "all_required_class_descriptions_nonempty": true,
+    "distinct_full_descriptions": 999,
+    "duplicate_human_descriptions_retained_from_original": {
+      "crane": [
+        "n02012849",
+        "n03126707"
+      ]
+    },
+    "first5_wnids": [
+      "n01440764",
+      "n01443537",
+      "n01484850",
+      "n01491361",
+      "n01494475"
+    ],
+    "last5_wnids": [
+      "n13044778",
+      "n13052670",
+      "n13054560",
+      "n13133613",
+      "n15075141"
+    ],
+    "upstream_course_revision": "df9323235bc395b5c2f58a3d08b83761947b9b93",
+    "upstream_order_cell_1based": 20,
+    "upstream_words_cell_1based": 25,
+    "original_course_cell_sources_unchanged_in_prepared": true,
+    "prepared_metadata_validator_passed": true,
+    "prepared_validator_fingerprints": {
+      "synset_order_sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15",
+      "words_sha256": "5b8db22d2e2b0ad28b55c9c502eb45e018bc0c907524b8782958cca4805689ea"
+    },
+    "original_display_name_expression_all1000_passed": true,
+    "class_index_rule": "Zero-based index of preserved source synset-file lines, per original enumerate(id2str); no numeric labels inferred from human names"
+  },
+  "huggingface_public_metadata_comparison": {
+    "url": "https://huggingface.co/datasets/ILSVRC/imagenet-1k",
+    "authenticated": false,
+    "dataset_files_accessed": false,
+    "approved_access_verified": false,
+    "live_revision_features_verified": false,
+    "page_sha256": "47923b7ebb6e358e49ef675d8bda96ef7c8340cec18ee1a348ddcf8f042d1834",
+    "public_card_rows": 1000,
+    "exact_display_name_matches_in_synset_order": 999,
+    "display_name_discrepancies": [
+      {
+        "index": 517,
+        "wnid": "n03126707",
+        "tensorflow": "crane",
+        "public_card": "crane_1"
+      }
+    ],
+    "public_card_order_statement": "Labels are indexed based on a sorted list of synset IDs.",
+    "limitation": "Public display-name table/order is a cross-check only. It cannot certify authenticated immutable-revision ClassLabel WNIDs required by notebook31."
+  },
+  "full_image_training_executed": false,
+  "imagenet_approved_access_verified": false,
+  "all_coursework_complete": false
+}

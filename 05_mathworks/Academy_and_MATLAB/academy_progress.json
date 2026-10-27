@@ -1,0 +1,3977 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-09-28",
+  "authentication": "signed_in",
+  "runtime": {
+    "hosted_academy": "working",
+    "local_native_matlab": "startup_failed_before_script_execution",
+    "local_native_error_code": 5201,
+    "local_practice_execution_pass_claimed": false
+  },
+  "evidence_basis": "Grader outcomes observed in the authenticated Academy browser by the parent task agent.",
+  "courses": [
+    {
+      "id": "signalprocessing",
+      "title": "Signal Processing Onramp",
+      "status": "all_graded_tasks_passed_awaiting_user_survey",
+      "course_completed": false,
+      "course_header_observation": {
+        "percent": 96,
+        "context": "Final survey open",
+        "completion_evidence": false
+      },
+      "course_header_history": [
+        {
+          "percent": 4,
+          "context": "after overview"
+        },
+        {
+          "percent": 8,
+          "context": "after Generate Signals Task 5"
+        },
+        {
+          "percent": 12,
+          "context": "navigation to Earthquake Example"
+        },
+        {
+          "percent": 20,
+          "context": "Signal Analyzer"
+        },
+        {
+          "percent": 24,
+          "context": "View Power Spectrum"
+        },
+        {
+          "percent": 28,
+          "context": "Compare Signals"
+        },
+        {
+          "percent": 32,
+          "context": "Before Resample Signals"
+        },
+        {
+          "percent": 36,
+          "context": "After Resample Signals tasks"
+        },
+        {
+          "percent": 40,
+          "context": "Before Custom Preprocessing Function"
+        },
+        {
+          "percent": 44,
+          "context": "Before Align Signals"
+        },
+        {
+          "percent": 52,
+          "context": "Before Customize Power Spectrum Plot task"
+        },
+        {
+          "percent": 60,
+          "context": "Time-Frequency Analysis summary"
+        },
+        {
+          "percent": 68,
+          "context": "Filtering summary"
+        },
+        {
+          "percent": 72,
+          "context": "Lowpass Filter lesson"
+        },
+        {
+          "percent": 76,
+          "context": "Bandpass Filter lesson"
+        },
+        {
+          "percent": 80,
+          "context": "View Generated Code lesson"
+        },
+        {
+          "percent": 96,
+          "context": "Final survey open"
+        }
+      ],
+      "informational_material": [
+        {
+          "topic": "Course overview",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Earthquake example",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Signal Analyzer",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Preprocessing Techniques",
+          "location": "chapter=3v1 lesson=1",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Frequency Analysis",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Time-Frequency Analysis",
+          "location": "chapter=4v1 lesson=3",
+          "status": "summary_reviewed",
+          "video_played": false,
+          "summary_topics": [
+            "overall spectrum versus timing information",
+            "spectrograms",
+            "scalograms"
+          ]
+        },
+        {
+          "topic": "Filtering",
+          "location": "chapter=5v1 lesson=1",
+          "status": "summary_reviewed",
+          "video_played": false,
+          "summary_topics": [
+            "lowpass suppression of higher frequencies",
+            "transition-band steepness tradeoff"
+          ]
+        },
+        {
+          "topic": "Conclusion summary",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Signal-processing resources",
+          "status": "reviewed"
+        },
+        {
+          "topic": "MATLAB resources",
+          "status": "reviewed"
+        }
+      ],
+      "next_exercise": {
+        "topic": "User final survey",
+        "status": "awaiting_user_personal_feedback",
+        "graded": false
+      },
+      "exact_total_tasks": 40,
+      "lessons": [
+        {
+          "title": "Generate Signals",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=1v1&lesson=2&section=1",
+          "saved_code": "academy/signalprocessing/lesson01_generate_signals.m",
+          "status": "five_graded_tasks_passed_and_ungraded_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "fs=100;\nt=0:1/fs:1;",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "sig=sin(2*pi*5*t);\nplot(t,sig);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "noise=0.1*randn(size(sig));",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "submitted_code": "sigNoisy = sig + noise;\nplot(t,sigNoisy);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 5,
+              "submitted_code": "sq = square(2*pi*5*t);\nplot(t,sq);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "sqNoisy = sq + noise;\nplot(t,sqNoisy);",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true
+          },
+          "remaining_tasks": "No graded tasks remain in this lesson."
+        },
+        {
+          "title": "Import a Signal",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=2v1&lesson=2&section=1",
+          "saved_code": "academy/signalprocessing/lesson02_import_signal.m",
+          "status": "one_graded_task_passed_and_ungraded_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "harp = readmatrix(\"harp.csv\");\nplot(harp);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "harpTT = readtimetable(\"harp.csv\",SampleRate=50);\nplot(harpTT,\"Var1\");",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true
+          },
+          "input_assets": [
+            {
+              "name": "harp.csv",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "remaining_tasks": "No graded tasks remain in this lesson."
+        },
+        {
+          "title": "View Power Spectrum",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=2v1&lesson=4&section=1",
+          "saved_steps": "academy/signalprocessing/03_power_spectrum.md",
+          "status": "four_gui_tasks_passed_and_ungraded_followup_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Dragged the course harp array (126000x1) from Workspace Browser into the axes.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Analyzer > Time Values > Sample Rate and Start Time: 50 Hz, start 0 seconds.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Display > Spectrum enabled.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "action": "Spectrum frequency limits set to 0-1 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "action": "Enabled data cursors and moved the spectrum cursor to the peak.",
+            "performed": true,
+            "graded": false,
+            "observed_frequency_hz": 0.05,
+            "observed_power_db": 116.9,
+            "measurement_precision": "app display rounded"
+          },
+          "input_assets": [
+            {
+              "name": "harp",
+              "shape": [
+                126000,
+                1
+              ],
+              "availability": "hosted_course_workspace",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Compare Signals",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=2v1&lesson=5&section=1",
+          "saved_steps": "academy/signalprocessing/04_compare_signals.md",
+          "status": "three_gui_tasks_passed_and_followup_notes_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Selected pax, assigned explicit time vector paxT in Analyzer Time Values, and enabled its checkbox.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "sampling_observation": "Irregular sample times retained; UI showed *Fs:50.0000Hz."
+            },
+            {
+              "number": 2,
+              "action": "Selected wanc, set sample rate 100 Hz and start 0 seconds, and enabled its checkbox.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Kept all three signals visible, enabled Spectrum, and set frequency limits to 0-1 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "explanatory_notes_reviewed",
+            "additional_action_requested": false,
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Resample Signals",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=3v1&lesson=2&section=1",
+          "saved_steps": "academy/signalprocessing/05_resample_signals.md",
+          "status": "three_gui_tasks_passed_and_ungraded_followup_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Duplicated pax as pax_uniform; Resample sample rate 50 Hz, default linear interpolation; Apply, OK, Accept All; displayed pax and pax_uniform.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Displayed wanc alone with full power spectrum from 0 to 50 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Duplicated wanc as wanc_slow; Resample sample factor 0.5; Apply, OK, Accept All; displayed both.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_result": {
+                "samples": 126000,
+                "sample_rate_hz": 50
+              }
+            }
+          ],
+          "ungraded_followup": {
+            "action": "Checked all five signals with time and power spectrum visible.",
+            "performed": true,
+            "graded": false,
+            "observed_spectrum_endpoints_hz": {
+              "wanc_slow": 25,
+              "harp": 25,
+              "pax_uniform": 25,
+              "wanc": 50
+            }
+          }
+        },
+        {
+          "title": "Extract Interesting Regions",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=3v1&lesson=3&section=1",
+          "saved_steps": "academy/signalprocessing/06_extract_regions.md",
+          "status": "two_gui_tasks_passed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Enabled Display Region of Interest Panner, dragged selection, then set Time Limits min 900 and max 1800 seconds.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Used Region of Interest Extract Signals; created harp_ROI, pax_ROI, wanc_ROI and checked all three for display.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "progression_message_only",
+            "additional_action_requested": false,
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Custom Preprocessing Function",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=3v1&lesson=4&section=1",
+          "saved_steps": "academy/signalprocessing/07_custom_preprocessing.md",
+          "helper_code": "academy/signalprocessing/nm2cm.m",
+          "helper_provenance": "Provided by the course and applied through Signal Analyzer.",
+          "status": "three_gui_tasks_passed_and_followup_notes_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Duplicated harp as harp_cm, added provided nm2cm custom function, applied and accepted it, and displayed the result.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Duplicated pax and wanc as pax_cm and wanc_cm, selected both for preprocessing, applied nm2cm, accepted changes, and displayed all three converted signals.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Exported harp_cm, pax_cm, and wanc_cm to MATLAB workspace.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "attempt_note": "First attempt exported only harp_cm; exporting pax_cm and wanc_cm corrected the missing exports."
+            }
+          ],
+          "ungraded_followup": {
+            "status": "timetable_export_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Align Signals",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=3v1&lesson=5&section=1",
+          "saved_code": "academy/signalprocessing/lesson08_align_signals.m",
+          "status": "two_graded_tasks_passed_and_ungraded_followup_executed",
+          "lesson_completed": null,
+          "input_assets": [
+            {
+              "name": "processedsignals.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "observed_pair_delays": {
+            "harp_pax": -596,
+            "harp_wanc": 1167,
+            "pax_wanc": 1770
+          },
+          "reference_arrival": "wanc latest",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[harp,wanc]=alignsignals(harp,wanc);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "[pax,wanc]=alignsignals(pax,wanc);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "original=load(\"processedsignals.mat\");\nplot([original.harp,original.pax,original.wanc]);\ntitle(\"Before alignment\");",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true,
+            "note": "Compared unaligned plot with course-provided aligned plot; graded code remained intact."
+          }
+        },
+        {
+          "title": "Customize Power Spectrum Plot",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=4v1&lesson=2&section=1",
+          "saved_steps": "academy/signalprocessing/09_customize_spectrum.md",
+          "status": "one_gui_task_passed_and_followup_notes_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Displayed harp, pax, and wanc; enabled Spectrum under Display; Spectrum Scale Frequency Scale set to Log.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "comparison_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Create Time-Frequency Plots",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=4v1&lesson=4&section=1",
+          "saved_steps": "academy/signalprocessing/10_time_frequency_plots.md",
+          "status": "five_gui_tasks_passed_and_reflective_questions_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Displayed wanc alone; enabled Display Time-Frequency default Spectrogram.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Set Spectrogram frequency limits to 2-10 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Set Power Limits minimum to -80 dB.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "action": "Selected Scalogram in the Display Time-Frequency dropdown; verified frequency limits retained at 2-10 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 5,
+              "action": "Set Scalogram Magnitude Limits maximum to 0.1.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "reflective_questions_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Lowpass Filter",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=5v1&lesson=2&section=1",
+          "saved_steps": "academy/signalprocessing/11_lowpass_filter.md",
+          "followup_code": "academy/signalprocessing/steepness_comparison.m",
+          "status": "three_gui_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Copied wanc to wanc_filt; applied Lowpass passband 0.1 Hz, default steepness 0.85 and stopband attenuation 60 dB; accepted changes and displayed both spectra.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Displayed harp, pax, and wanc_filt in time and spectrum views.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Copied original wanc to wanc_steep; applied Lowpass passband 0.1 Hz, steepness 0.95; displayed harp, pax, and wanc_steep in time and spectrum views.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "soft=lowpass(wanc,0.1,50,Steepness=0.5);sharp=lowpass(wanc,0.1,50,Steepness=0.99);figure;plot([soft sharp]);legend(\"0.5\",\"0.99\");",
+            "run_status": "completed",
+            "graded": false,
+            "execution_success_verified": true,
+            "evidence": [
+              "Command prompt returned without error",
+              "soft and sharp each 45107x1 in workspace",
+              "Figure 1 tab created"
+            ],
+            "figure_visually_inspected": false,
+            "visual_limitation": "Signal Analyzer overlay obscured the new graphic."
+          },
+          "input_assets": [
+            {
+              "name": "wanc",
+              "availability": "hosted_course_workspace",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Bandpass Filter",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=5v1&lesson=3&section=1",
+          "saved_steps": "academy/signalprocessing/12_bandpass_filter.md",
+          "status": "two_gui_tasks_passed_and_ungraded_followup_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Copied wanc to wanc_bandpass; applied 2-10 Hz Bandpass, default steepness 0.85 and stopband attenuation 60 dB; accepted and displayed both time and spectrum views.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "action": "Displayed wanc_lowpass and wanc_bandpass, enabled panner, set Time Limits to 180-300 seconds.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "optional_action": "Time-plot amplitude limits set to -0.2 to 0.2."
+            }
+          ],
+          "ungraded_followup": {
+            "status": "performed",
+            "action": "Displayed harp and wanc_bandpass over 3-5 minutes with panner enabled and wanc_lowpass unchecked.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_followup": true,
+            "visual_observation": "Screenshot showed the slow harp wave and bandpass pulses.",
+            "axis_note": "Adding harp autoscaled the amplitude axis; the earlier -0.2 to 0.2 limits did not persist."
+          }
+        },
+        {
+          "title": "View Generated Code",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=6v1&lesson=1&section=1",
+          "saved_code": "academy/signalprocessing/lesson13_generated_code.m",
+          "helper_files": [
+            "academy/signalprocessing/preprocess.m",
+            "academy/signalprocessing/wanc_spect.m"
+          ],
+          "helper_provenance": {
+            "source": "course-provided generated code",
+            "matlab_version": "9.14",
+            "signal_processing_toolbox_version": "9.2",
+            "export_date": "2023-03-23"
+          },
+          "status": "two_ungraded_code_examples_executed",
+          "graded": false,
+          "lesson_completed": null,
+          "tasks": [],
+          "input_assets": [
+            {
+              "name": "after_filtering.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "ungraded_examples": [
+            {
+              "name": "Generated spectrum script",
+              "submitted_code": "wanc_spect;",
+              "run_status": "completed",
+              "graded": false,
+              "execution_success_verified": true,
+              "evidence": "Command prompt returned without errors."
+            },
+            {
+              "name": "Apply preprocessing function to HARP",
+              "submitted_code": "h=preprocess(harp,t); figure;plot(t,h);",
+              "run_status": "completed",
+              "graded": false,
+              "execution_success_verified": true,
+              "figure_visually_inspected": true,
+              "visual_observation": "Amplitude on order of 1e-3, with edge artifacts.",
+              "evidence": "Command prompt returned without errors and resulting plot was visually verified."
+            }
+          ]
+        },
+        {
+          "title": "Signal Measurements",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=6v1&lesson=2&section=1",
+          "saved_code": "academy/signalprocessing/lesson14_signal_measurements.m",
+          "saved_gui_steps": "academy/signalprocessing/14_signal_measurements_gui.md",
+          "status": "six_graded_tasks_passed_and_ungraded_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[p,f,t]=pspectrum(wanc_bandpass,50,\"spectrogram\");",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_sizes": {
+                "p": [
+                  1024,
+                  522
+                ],
+                "f": [
+                  1024,
+                  1
+                ],
+                "t": [
+                  522,
+                  1
+                ]
+              }
+            },
+            {
+              "number": 2,
+              "submitted_code": "psum=sum(p);plot(t,psum);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "pwr=db(psum,\"power\");plot(t,pwr);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "action": "Inserted Find Local Extrema Live Editor task in Tasks 4-5 section, input pwr, output maxIndices, X-axis t.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 5,
+              "action": "Set minimum prominence 10; retained maxima, maximum count 522, minimum separation 0, and center selection for flat regions.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 6,
+              "submitted_code": "quakeSec=t(maxIndices);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "tvec=(0:numel(wanc_bandpass)-1)/50;plot(tvec,wanc_bandpass);xline(quakeSec);xlabel(\"Time (seconds)\");",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true
+          },
+          "plain_code_live_task_alternative": {
+            "code": "maxIndices=islocalmax(pwr,MinProminence=10);",
+            "status": "verified_exact_output_match_on_course_data",
+            "enabled_in_saved_script": true,
+            "verification_code": "assert(isequal(maxIndices,islocalmax(pwr,MinProminence=10)));disp(quakeSec.');",
+            "evidence": "Hosted command prompt returned without errors.",
+            "counted_as_additional_exercise": false
+          },
+          "input_assets": [
+            {
+              "name": "wanc_bandpass",
+              "availability": "hosted_course_workspace",
+              "downloaded_to_package": false
+            }
+          ],
+          "displayed_event_times_seconds": [
+            115.33,
+            149.73,
+            184.13,
+            211.65,
+            235.73,
+            273.57,
+            388.81,
+            521.25,
+            572.85,
+            584.89,
+            624.45,
+            698.41,
+            713.89,
+            825.69
+          ],
+          "event_time_precision": "Displayed decimal precision"
+        }
+      ],
+      "remaining_lessons": "No graded tasks remain; final personal survey is unanswered.",
+      "graded_exercises_complete": true,
+      "final_survey": {
+        "status": "left_unanswered_for_user",
+        "submission_required_for_100_percent": true,
+        "requirement_source": "Course resource page observed in authenticated Academy",
+        "submit_enabled": false,
+        "personal_topics": [
+          "how the user heard about the course",
+          "difficulty",
+          "content rating",
+          "recommendation rating",
+          "comments"
+        ],
+        "tab_left_open": false,
+        "submitted": false,
+        "tab_active": false,
+        "tab_note": "Original user tab 3 reused for otmlsgr; duplicate tab 4 closed. Survey is no longer open.",
+        "survey_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=signalprocessing#chapter=7v1&lesson=3&section=1"
+      },
+      "verified_passed_tasks": 40,
+      "verified_ungraded_runs": 7,
+      "verified_ungraded_gui_followups": 3
+    },
+    {
+      "id": "otmlsgr",
+      "title": "Signal Generation and Resampling",
+      "status": "all_graded_tasks_passed_awaiting_user_survey",
+      "course_completed": false,
+      "authenticated_access": true,
+      "course_header_observation": {
+        "percent": 95,
+        "context": "After successful import tasks, optional cursor/playback follow-up",
+        "completion_evidence": false
+      },
+      "course_header_history": [
+        {
+          "percent": 4,
+          "context": "Course Overview"
+        },
+        {
+          "percent": 8,
+          "context": "Learning outcomes"
+        },
+        {
+          "percent": 12,
+          "context": "Digital watermarking course example"
+        },
+        {
+          "percent": 20,
+          "context": "Vary Sine Parameters"
+        },
+        {
+          "percent": 25,
+          "context": "Sampling Theorem summary"
+        },
+        {
+          "percent": 29,
+          "context": "View Sample Points"
+        },
+        {
+          "percent": 37,
+          "context": "Before Generate a Tone activity"
+        },
+        {
+          "percent": 45,
+          "context": "Generate a Chirp activity"
+        },
+        {
+          "percent": 54,
+          "context": "Before Listen to Aliasing activity"
+        },
+        {
+          "percent": 62,
+          "context": "Decimation of Signals"
+        },
+        {
+          "percent": 70,
+          "context": "Interpolation of Signals"
+        },
+        {
+          "percent": 75,
+          "context": "Upsample Audio follow-up"
+        },
+        {
+          "percent": 79,
+          "context": "Resample a Watermark follow-up"
+        },
+        {
+          "percent": 83,
+          "context": "Square-wave project"
+        },
+        {
+          "percent": 91,
+          "context": "Conclusion and final survey"
+        },
+        {
+          "percent": 95,
+          "context": "After successful import tasks",
+          "observed_on": "2026-09-20"
+        }
+      ],
+      "informational_material": [
+        {
+          "topic": "Course Overview",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Learning Outcomes",
+          "status": "text_reviewed"
+        },
+        {
+          "topic": "Course Example: Digital Watermarking",
+          "status": "text_reviewed"
+        },
+        {
+          "topic": "Signal Sampling: Sampling Theorem",
+          "status": "summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Analog and Digital Signals",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Aliasing background",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Time Vector",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Upsampling",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Downsampling",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Aliasing and Imaging",
+          "status": "video_summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Effect of Aliasing background",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Effect of Imaging background",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Conclusion summary",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Signal Analyzer workflow",
+          "status": "slides_reviewed",
+          "slide_count": 4
+        },
+        {
+          "topic": "Next Steps resources",
+          "status": "reviewed"
+        }
+      ],
+      "lessons": [
+        {
+          "title": "Generate a Signal (1/2)",
+          "module": "Generate Digital Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson01_generate_signal.m",
+          "status": "three_graded_tasks_passed_and_ungraded_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "fs=100;t=0:1/fs:3;",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "sig=sin(2*pi*5*t);plot(t,sig);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "sig=sig+sin(2*pi*3*t);plot(t,sig);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "pspectrum(sig,fs);",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true
+          }
+        },
+        {
+          "title": "Generate a Signal (2/2): Vary Sine Parameters",
+          "module": "Generate Digital Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson02_vary_sine_parameters.m",
+          "status": "ungraded_gui_activity_performed",
+          "graded": false,
+          "lesson_completed": null,
+          "tasks": [],
+          "ungraded_gui_activity": {
+            "source_live_script": "varyparams.mlx",
+            "actions": [
+              "Amplitude 1 to 2",
+              "Frequency 1 to 3",
+              "Phase 0 to 1.57"
+            ],
+            "performed": true,
+            "graded": false,
+            "each_wave_plot_visually_verified": true,
+            "final_live_script_run_status": "completed",
+            "output_count": 1,
+            "code_provenance": "Final code revealed through Output on Right",
+            "final_parameters": {
+              "A": 2,
+              "f": 3,
+              "phi": 1.57,
+              "fs": 8000,
+              "T": 2
+            },
+            "counted_as_gui_activity": true,
+            "counted_as_additional_code_example": false
+          }
+        },
+        {
+          "title": "Import a Signal",
+          "module": "Generate Digital Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "status": "three_gui_tasks_passed_and_ungraded_followup_performed",
+          "lesson_completed": null,
+          "total_graded_tasks": 3,
+          "verified_passed_tasks": 3,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Dragged flute into fresh GUI and set sample rate to 16000 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "action": "Used panner for 0-7 seconds; extracted flute_ROI and renamed fluteShort; displayed both recordings and used Fit to View to restore full range.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "action": "Displayed Spectrum for flute and fluteShort.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "troubleshooting_counted_as_practice": false,
+          "verified_on": "2026-09-20",
+          "saved_steps": "academy/otmlsgr/13_import_signal.md",
+          "previous_attempt_note": "Earlier GUI checks and direct signalAnalyzer workaround failed; fresh GUI import and subsequent tasks passed on 2026-09-20.",
+          "ungraded_followup": {
+            "status": "cursor_and_playback_actions_performed",
+            "action": "Enabled data cursors, set frequency view to 0-1000 Hz, positioned cursor at the peak, then invoked Play with only fluteShort displayed.",
+            "performed": true,
+            "graded": false,
+            "observed_peak": {
+              "frequency_khz": 0.52,
+              "fluteShort_db": -37.6,
+              "flute_db": -37.7,
+              "precision": "rounded UI display; no sub-Hz precision claimed"
+            },
+            "audio_listening_or_quality_assessment_claimed": false,
+            "counted_as_gui_activity": true,
+            "final_control_state": {
+              "play_enabled": true,
+              "stop_enabled": false
+            }
+          }
+        },
+        {
+          "title": "View Sample Points (3/3)",
+          "module": "Signal Sampling",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson03_view_sample_points.m",
+          "source_live_script": "samppts.mlx",
+          "status": "three_gui_tasks_passed_and_ungraded_gui_followup_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "signal_frequency_hz": 1,
+              "sample_rate_hz": 10,
+              "action": "Set GUI parameters above twice the signal frequency.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "signal_frequency_hz": 1,
+              "sample_rate_hz": 1.5,
+              "action": "Set GUI parameters below twice the signal frequency.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "signal_frequency_hz": 2,
+              "sample_rate_hz": 3,
+              "action": "Set GUI parameters demonstrating an alias at 1 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "action": "Set f=3 Hz and fs=4 Hz in samppts.mlx.",
+            "performed": true,
+            "graded": false,
+            "run_status": "completed",
+            "output_count": 2,
+            "counted_as_gui_activity": true,
+            "counted_as_additional_code_example": false
+          },
+          "saved_script_adaptation": "Loops over verified parameter pairs and creates independent waveform/spectrum figures; this .m arrangement was not separately executed."
+        },
+        {
+          "title": "Generate a Tone (2/2)",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson04_generate_tone.m",
+          "status": "four_graded_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:7*fs);pspectrum(flute,fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "t=(0:numel(flute)-1)';",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "t=t/fs;",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "wm=sin(2*pi*6000*t);pspectrum(wm,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "submitted_code": "marked=flute+wm;pspectrum(marked,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "marked=0.001*wm+flute;pspectrum(marked,fs);soundsc(marked,fs);",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true,
+            "audio_command_executed": true,
+            "audio_listening_or_quality_assessment_claimed": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Generate a Chirp",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson05_generate_chirp.m",
+          "status": "three_graded_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:7*fs);n=numel(flute);t=(0:n-1)'/fs;pspectrum(flute,fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "wm=chirp(t,6000,t(end),7000);pspectrum(wm,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "pspectrum(wm,fs,\"spectrogram\");",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "marked=flute+wm;pspectrum(marked,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "pspectrum(marked,fs,\"spectrogram\");marked=flute+0.002*wm;pspectrum(marked,fs,\"spectrogram\");",
+            "run_status": "completed",
+            "output_count": 2,
+            "graded": false,
+            "execution_success_verified": true,
+            "audio_listening_or_quality_assessment_claimed": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Listen to Aliasing",
+          "module": "Effect of Aliasing",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson06_listen_to_aliasing.m",
+          "status": "two_graded_tasks_passed_and_followup_notes_reviewed",
+          "lesson_completed": null,
+          "startup_code": "fs=24000;t=0:1/fs:0.5;sig=sin(2*pi*300*t)+sin(2*pi*3000*t);pspectrum(sig,fs);xline(2,\"r--\",\"New Nyquist Frequency\");",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "sigbad=downsample(sig,6);pspectrum(sigbad,fs/6);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "sigfilt=lowpass(sig,fs/12,fs);sigfilt=downsample(sigfilt,6);pspectrum(sigfilt,fs/6);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "attempt_note": "Earlier output-variable attempt using sigbad was rejected. Hint clarified that sigfilt must contain both filtered and downsampled result."
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "audio_listening_or_quality_assessment_claimed": false
+        },
+        {
+          "title": "Decimation of Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_steps": "academy/otmlsgr/07_decimation.md",
+          "status": "three_gui_tasks_passed_and_ungraded_playback_actions_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Duplicated sig as sigdect, resampled with sample factor 0.167, accepted and displayed it.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_samples": 2005,
+              "observed_sample_rate_hz": 4008
+            },
+            {
+              "number": 2,
+              "action": "Imported the provided sigfilt, assigned 4000 Hz, displayed sigfilt and sigdect spectra, and unchecked sig.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Exported sigdect to the MATLAB workspace.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_shape": [
+                2005,
+                1
+              ],
+              "observed_type": "double"
+            }
+          ],
+          "input_asset_note": "This GUI lesson supplied sigfilt as 1x12001. It is not identified with the 2001-element output of the earlier filtering/downsampling exercise.",
+          "ungraded_followup": {
+            "status": "playback_actions_performed",
+            "action": "Imported sigbad at 4000 Hz, displayed one signal at a time, and clicked enabled Play for sig at 24000 Hz, sigbad at 4000 Hz, and sigdect at 4008 Hz after prior playback became idle.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "counted_as_additional_code_example": false,
+            "final_control_state": {
+              "play_enabled": true,
+              "stop_enabled": false
+            },
+            "audio_heard_by_agent": false,
+            "audio_analyzed_by_agent": false,
+            "audio_listening_or_quality_assessment_claimed": false
+          }
+        },
+        {
+          "title": "Listen to Imaging",
+          "module": "Effect of Imaging",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson08_listen_to_imaging.m",
+          "status": "two_graded_tasks_passed_and_followup_notes_reviewed",
+          "lesson_completed": null,
+          "startup_code": "fs=3000;t=0:1/fs:0.5;sig=sin(2*pi*1200*t);pspectrum(sig,fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "sigbad=upsample(sig,6);pspectrum(sigbad,fs*6);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "sigfilt=lowpass(sigbad,fs/2,fs*6);pspectrum(sigfilt,fs*6);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "explanatory_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "audio_listening_or_quality_assessment_claimed": false
+        },
+        {
+          "title": "Interpolation of Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_steps": "academy/otmlsgr/09_interpolation.md",
+          "status": "three_gui_tasks_passed_and_ungraded_playback_actions_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Duplicated sig as sigint, resampled with sample factor 6, accepted and displayed it.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_samples": 9006,
+              "observed_sample_rate_hz": 18000
+            },
+            {
+              "number": 2,
+              "action": "Imported the provided 9006-sample sigfilt, assigned 18000 Hz, displayed sigfilt and sigint spectra, and unchecked sig.",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "action": "Exported sigint to the MATLAB workspace.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "observed_shape": [
+                9006,
+                1
+              ],
+              "observed_type": "double"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "playback_actions_performed",
+            "action": "Imported sigbad at 18000 Hz, displayed one signal at a time, and invoked enabled Play for sig at 3000 Hz, sigbad at 18000 Hz, and sigint at 18000 Hz.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "counted_as_additional_code_example": false,
+            "final_control_state": {
+              "play_enabled": true,
+              "stop_enabled": false
+            },
+            "audio_heard_by_agent": false,
+            "audio_listening_or_quality_assessment_claimed": false
+          }
+        },
+        {
+          "title": "Upsample Audio",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson10_upsample_audio.m",
+          "status": "five_graded_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:7*fs);n=numel(flute);t=(0:n-1)';t=t/fs;pspectrum(flute,fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "fluteup=upsample(flute,2);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "stage": "historical accepted zero insertion, replaced by Task 3"
+            },
+            {
+              "number": 2,
+              "submitted_code": "fsup=2*fs;pspectrum(fluteup,fsup);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "fluteup=resample(flute,2,1);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "stage": "replacement of Task 1 operation before spectrum"
+            },
+            {
+              "number": 4,
+              "submitted_code": "tup=(0:numel(fluteup)-1)'/fsup;wm=chirp(tup,12000,tup(end),14000);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 5,
+              "submitted_code": "marked=fluteup+0.0001*wm;pspectrum(marked,fsup);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "soundsc(fluteup,fsup);pause(numel(fluteup)/fsup+0.2);soundsc(marked,fsup);",
+            "run_status": "completed",
+            "output_count": 0,
+            "graded": false,
+            "execution_success_verified": true,
+            "audio_command_executed": true,
+            "audio_heard_by_agent": false,
+            "audio_listening_or_quality_assessment_claimed": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Resample a Watermark",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson11_resample_watermark.m",
+          "status": "four_graded_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:7*fs);fluteup=resample(flute,2,1);fsup=fs*2;pspectrum(fluteup,fsup);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[birds,fsb]=audioread(\"bird-call-in-spring.mp3\");pspectrum(birds,fsb);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "birds=mean(birds,2);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "[p,q]=rat(fsup/fsb);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "submitted_code": "birdsdown=resample(birds,p,q);pspectrum(birdsdown,fsup);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "soundsc(birds,fsb);pause(numel(birds)/fsb+0.2);soundsc(birdsdown,fsup);",
+            "run_status": "completed",
+            "output_count": 0,
+            "graded": false,
+            "execution_success_verified": true,
+            "audio_command_executed": true,
+            "audio_heard_by_agent": false,
+            "audio_listening_or_quality_assessment_claimed": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "bird-call-in-spring.mp3",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate figures added to retain spectra outside the Live Editor; figure arrangement not separately executed in Academy."
+        },
+        {
+          "title": "Generate and Resample a Square Wave",
+          "module": "Project",
+          "source_url": "https://matlabacademy.mathworks.com/details/signal-generation-and-resampling/otmlsgr",
+          "saved_code": "academy/otmlsgr/lesson12_square_wave.m",
+          "helper_code": "academy/otmlsgr/sumOddHarmonics.m",
+          "helper_provenance": "Course-provided source opened and reviewed; saved computations preserved with explicit closing end.",
+          "status": "five_graded_tasks_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "fs=100;t=(0:1/fs:3)';",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 2,
+              "submitted_code": "y1=sin(2*pi*t);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 3,
+              "submitted_code": "y3=sin(2*pi*3*t)/3;plot(t,y1+y3);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 4,
+              "submitted_code": "fsup=200;[p,q]=rat(fsup/fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            },
+            {
+              "number": 5,
+              "submitted_code": "squareup=resample(y1+y3,p,q);pspectrum(squareup,fsup);",
+              "result": "passed",
+              "observed_grader_text": "Correct!"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "sumOddHarmonics(10);",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true
+          },
+          "saved_script_adaptation": "Separate named figures retain plots outside the Live Editor; this .m display arrangement was not separately executed."
+        }
+      ],
+      "exact_total_tasks": 40,
+      "verified_passed_tasks": 40,
+      "verified_ungraded_runs": 6,
+      "verified_ungraded_gui_followups": 5,
+      "next_exercise": {
+        "topic": "User final survey",
+        "status": "awaiting_user_personal_feedback",
+        "graded": false
+      },
+      "module_progress_observations": [
+        {
+          "module": "Resample Signals",
+          "percent": 100,
+          "whole_course_completion_evidence": false
+        },
+        {
+          "module": "Project",
+          "percent": 100,
+          "whole_course_completion_evidence": false
+        }
+      ],
+      "final_survey": {
+        "status": "left_unanswered_for_user",
+        "personal_ratings_unanswered": true,
+        "submitted": false,
+        "survey_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlsgr#chapter=5v1&lesson=3&section=1"
+      },
+      "identified_total_graded_tasks": 40,
+      "pending_graded_work": "None; all 40 graded tasks passed.",
+      "graded_exercises_complete": true
+    },
+    {
+      "id": "otmlsat",
+      "title": "Spectral Analysis Techniques",
+      "status": "all_graded_tasks_passed_awaiting_user_survey",
+      "course_completed": false,
+      "authenticated_access": true,
+      "course_header_observation": {
+        "percent": 96,
+        "context": "Final survey open and unanswered",
+        "completion_evidence": false,
+        "observed_on": "2026-09-25"
+      },
+      "course_header_history": [
+        {
+          "percent": 17,
+          "context": "Healthy-fan example and FFT lesson",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 21,
+          "context": "After FFT tasks",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 28,
+          "context": "Before Find Frequency Spikes tasks",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 46,
+          "context": "Create and Apply Windows",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 53,
+          "context": "Resolve Tiny Tones",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 64,
+          "context": "Welch method lesson",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 67,
+          "context": "Before window-length lesson completion",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 75,
+          "context": "Downsides of Welch Method page",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 78,
+          "context": "Increase Overlap",
+          "observed_on": "2026-09-20"
+        },
+        {
+          "percent": 85,
+          "context": "Resumed at the parametric-method lesson",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 89,
+          "context": "Subspace Methods",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 96,
+          "context": "Final survey open and unanswered",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        }
+      ],
+      "informational_material": [
+        {
+          "topic": "Course Overview video page",
+          "status": "visited_only",
+          "video_played": false,
+          "summary_reviewed": false
+        },
+        {
+          "topic": "Fourier",
+          "status": "slides_reviewed",
+          "slide_count": 3
+        },
+        {
+          "topic": "Is FFT Enough",
+          "status": "video_summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Number of DFT Points",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Windowing",
+          "status": "video_summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Windowing background",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Compare Different Windows",
+          "status": "slides_reviewed",
+          "slide_count": 3
+        },
+        {
+          "topic": "Noisy Signals introduction",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Spectrum of Noisy Signals",
+          "status": "video_summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Window-length background",
+          "status": "slides_reviewed",
+          "slide_count": 2
+        },
+        {
+          "topic": "Window-length final background",
+          "status": "reviewed",
+          "described_outcomes": "Noise level around -45 to -40 dB and merging of the first two tones."
+        },
+        {
+          "topic": "Downsides of Welch Method",
+          "status": "page_reviewed"
+        },
+        {
+          "topic": "Conclusion summary",
+          "status": "reviewed",
+          "reviewed_on": "2026-09-25"
+        },
+        {
+          "topic": "Conclusion zero-padding",
+          "status": "slides_reviewed",
+          "slide_count": 2,
+          "reviewed_on": "2026-09-25"
+        },
+        {
+          "topic": "Conclusion windowing",
+          "status": "slides_reviewed",
+          "slide_count": 3,
+          "reviewed_on": "2026-09-25"
+        },
+        {
+          "topic": "Next Steps",
+          "status": "reviewed",
+          "reviewed_on": "2026-09-25"
+        }
+      ],
+      "course_reference_values": {
+        "rotation_rpm": 4000,
+        "rotation_hz_approx": 66.67,
+        "fault_frequencies_hz": {
+          "ball": 211.96,
+          "inner_race": 256.87,
+          "outer_race": 143.13,
+          "cage": 23.85
+        },
+        "evidence_type": "Course background values, not measured detection results."
+      },
+      "verified_passed_tasks": 31,
+      "verified_ungraded_runs": 5,
+      "verified_ungraded_gui_followups": 2,
+      "exact_total_tasks": 31,
+      "lessons": [
+        {
+          "title": "Generate Healthy Fan Signals",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson01_generate_fan_signal.m",
+          "source_live_script": "genfansig.mlx",
+          "status": "ungraded_code_example_executed",
+          "graded": false,
+          "tasks": [],
+          "ungraded_examples": [
+            {
+              "name": "Healthy fan signal",
+              "run_status": "completed",
+              "output_count": 1,
+              "graded": false,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "title": "Fast Fourier Transform",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "status": "five_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "saved_code": "academy/otmlsat/lesson02_fft.m",
+          "lesson_completed": null,
+          "startup_code": "load psdsig.mat; whos",
+          "observed_workspace": {
+            "fr": "scalar",
+            "fs": "scalar",
+            "n": "scalar",
+            "sig": "2400x1",
+            "t": "2400x1"
+          },
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "Y=fft(sig);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "submitted_code": "n=length(sig);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "submitted_code": "f=(0:n-1)*(fs/n);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 4,
+              "submitted_code": "p=abs(Y).^2;plot(f,p);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 5,
+              "submitted_code": "plot(f,10*log10(p));",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "remaining_tasks": "No graded tasks remain in this lesson.",
+          "ungraded_followup": {
+            "status": "conceptual_peak_inspection_only",
+            "observed_plot": "Three lower-frequency peaks and their high-frequency mirrored peaks.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "saved_script_adaptation": "Independent named figures preserve both plots; this .m display arrangement was not separately executed."
+        },
+        {
+          "title": "Calculate the Periodogram",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson03_periodogram.m",
+          "status": "five_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load psdsig;sig=1e-3*sin(2*pi*fr*t);n=length(sig);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "w=ones(n,1);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "submitted_code": "nfft=n;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "submitted_code": "periodogram(sig,w,nfft,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 4,
+              "submitted_code": "periodogram(sig,[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 5,
+              "submitted_code": "[p,f]=periodogram(sig,w,nfft,fs);plot(f,p);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_guidelines_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Independent named figures preserve the three displays; this .m arrangement was not separately executed."
+        },
+        {
+          "title": "Find Frequency Spikes",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson04_frequency_spikes.m",
+          "status": "two_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load psdsig;sig=1e-3*sin(2*pi*fr*t);n=length(sig);[p,f]=periodogram(sig,ones(n,1),n*1,fs);pwr=10*log10(p);plot(f,pwr,\"o\");",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[peak,loc]=findpeaks(pwr,f,NPeaks=1,SortStr=\"descend\");",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "submitted_code": "e=abs(fr-loc);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Improve Precision",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson05_precision.m",
+          "status": "one_graded_slider_task_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set the transform-length slider exponent to 18.",
+              "verified_code_parameter": "nfft=2^18;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20",
+              "run_status": "completed",
+              "output_count": 6,
+              "observed_values": {
+                "nfft": 262144,
+                "location_hz": 66.6687,
+                "absolute_error_hz": 0.002,
+                "precision": "rounded display values"
+              },
+              "counted_as_additional_ungraded_activity": false
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_recommendation_reviewed",
+            "recommendation": "Use 2^12 transform points for remaining course work.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Create and Apply Windows",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson06_windows.m",
+          "saved_gui_steps": "academy/otmlsat/lesson06_windows_gui.md",
+          "followup_code": "academy/otmlsat/compwindows.m",
+          "status": "five_graded_tasks_passed_and_ungraded_code_example_executed",
+          "lesson_completed": null,
+          "startup_code": "load psdsig;sig=1e-3*sin(2*pi*fr*t);n=length(sig);",
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Launched windowDesigner, created w as Rectangular length 2400, applied and saved to workspace; plotted t against w.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "submitted_code": "periodogram(sig,w,2^12,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "action": "Replaced w through Window Designer with Hamming length 2400; applied and saved.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 4,
+              "action": "Replaced w through Window Designer with Kaiser length 2400 and beta 1; applied and saved.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 5,
+              "action": "Set Kaiser beta 20, applied and saved w through Window Designer.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_examples": [
+            {
+              "name": "compwindows.mlx",
+              "run_status": "completed",
+              "output_count": 2,
+              "graded": false,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-20",
+              "saved_code": "academy/otmlsat/compwindows.m",
+              "scale_note": "Preserves original 10*log10(abs(h)) and Power (dB) label; no calibrated PSD claim."
+            }
+          ],
+          "saved_script_adaptation": "lesson06_windows.m replays GUI settings with ones/hamming/kaiser and named figures; neither this replay nor its sample-for-sample equivalence to GUI exports was verified. compwindows.m adds separate figures without changing supplied computations.",
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Resolve Tiny Tones",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson07_tiny_tones.m",
+          "saved_gui_steps": "academy/otmlsat/lesson07_tiny_tones_gui.md",
+          "status": "one_graded_slider_task_passed_and_ungraded_gui_followup_performed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set Kaiser beta slider to 10.",
+              "verified_code_parameter": "beta=10;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20",
+              "visual_observation": "All three peak markers aligned with reference-frequency lines."
+            }
+          ],
+          "ungraded_followup": {
+            "action": "In Window Designer applied window_1 Rectangular length 64, added window_2 Kaiser beta 10 length 64, and selected both using the list with Shift+Up.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "visual_observation": "Screenshot showed both time and frequency overlays.",
+            "verified_on": "2026-09-20"
+          },
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Resolve Closely Spaced Tones",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson08_close_tones.m",
+          "status": "one_graded_slider_task_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set Kaiser beta slider to 0 for the 25 Hz and 26 Hz tones.",
+              "verified_code_parameter": "beta=0;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20",
+              "visual_observation": "Both peak markers aligned with the reference lines."
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "Welch Method",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson09_welch.m",
+          "status": "four_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load psdsig.mat;whos;",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "w=ones(n,1);nfft=2^12;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "submitted_code": "numoverlap=0;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "submitted_code": "pwelch(sig,w,numoverlap,nfft,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 4,
+              "submitted_code": "pwelch(sig,[],[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "psdsig.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Independent named figures preserve the two plots; this display arrangement was not separately executed."
+        },
+        {
+          "title": "Decrease Window Length",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson10_window_length.m",
+          "status": "four_graded_slider_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load brokenouterrace.mat;",
+          "verified_calculation": "winlen=n/numsegments;w=kaiser(round(winlen),19);figure;pwelch(sig,w,0,2^12,fs);ylim([-80 10]);",
+          "observed_n": 12000,
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set numsegments slider to 2.",
+              "verified_numsegments": 2,
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 2,
+              "action": "Set numsegments slider to 3.",
+              "verified_numsegments": 3,
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 3,
+              "action": "Set numsegments slider to 15.",
+              "verified_numsegments": 15,
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            },
+            {
+              "number": 4,
+              "action": "Set numsegments slider to 20.",
+              "verified_numsegments": 20,
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "brokenouterrace.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Loop replays verified settings 2, 3, 15, 20 with separate figures; the complete .m replay was not separately executed."
+        },
+        {
+          "title": "Increase Overlap",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson11_overlap.m",
+          "status": "one_graded_slider_task_passed_and_ungraded_code_followup_executed",
+          "lesson_completed": null,
+          "startup_code": "load brokenouterrace.mat;winlen=n/5;w=kaiser(round(winlen),19);",
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set overlap fraction to 0.5.",
+              "verified_calculation": "numoverlap=round(0.5*winlen);figure;pwelch(sig,w,numoverlap,2^12,fs);ylim([-80 10]);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-20"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "numoverlap=round(0.8*winlen);figure;pwelch(sig,w,numoverlap,2^12,fs);ylim([-80 10]);loc=[2*fr frO 2*frO 3*frO 4*frO 5*frO];xline(loc/1000,\"m--\");",
+            "run_status": "completed",
+            "output_count": 1,
+            "graded": false,
+            "execution_success_verified": true,
+            "observed_winlen": 2400,
+            "observed_numoverlap": 1920,
+            "visual_observation": "Six vertical reference lines overlaid on the plot.",
+            "verified_on": "2026-09-20"
+          },
+          "input_assets": [
+            {
+              "name": "brokenouterrace.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Independent named figures preserve graded and follow-up stages; standalone .m display arrangement was not separately executed."
+        },
+        {
+          "title": "Parametric Methods",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlsat#chapter=7v1&lesson=2&section=1",
+          "saved_code": "academy/otmlsat/lesson12_parametric.m",
+          "status": "one_graded_sample_count_task_passed_and_ungraded_comparison_executed",
+          "lesson_completed": null,
+          "verified_signal_code": "n=50;fs=2000;t=(0:n-1)'/fs;x1=sin(2*pi*200*t);x2=sin(2*pi*250*t);rng default;y=x1+x2+1e-2*randn(size(t));",
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Compared the n=20, n=30, and n=50 plots, then submitted n=50.",
+              "verified_code_parameter": "n=50;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "submitted_code": "pburg(y,8,2^10,fs);pyulear(y,8,2^10,fs);pcov(y,8,2^10,fs);pmcov(y,8,2^10,fs);periodogram(y,[],2^10,fs);",
+            "run_status": "completed",
+            "output_count": 5,
+            "graded": false,
+            "execution_success_verified": true,
+            "verified_on": "2026-09-25",
+            "count_note": "One activity comparing three additional parametric methods; the five outputs are not five activities."
+          },
+          "saved_script_adaptation": "Separate named figures preserve the five displays; the standalone .m display arrangement was not separately executed."
+        },
+        {
+          "title": "Subspace Methods",
+          "source_url": "https://matlabacademy.mathworks.com/details/spectral-analysis-techniques/otmlsat",
+          "saved_code": "academy/otmlsat/lesson13_subspace.m",
+          "status": "one_graded_task_passed_with_ungraded_gui_and_code_comparisons",
+          "lesson_completed": null,
+          "verified_signal_code": "fs=1000;t=(0:1/fs:0.5)';disp(numel(t)+\" samples\");x=sin(2*pi*220*t)+sin(2*pi*200*t)+0.1*sin(2*pi*100*t);rng default;xn=x+0.1*randn(size(x));numtones=6;",
+          "course_comparison_code": "peig(xn,numtones,2^10,fs);pwelch(xn,[],[],2^10,fs);periodogram(xn,[],2^10,fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set duration to 0.5 seconds with numtones=6.",
+              "observed_sample_count": 501,
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_gui_followup": {
+            "action": "Changed numtones to 10, inspected the additional spurious peaks, and restored 6.",
+            "run_status": "completed",
+            "output_count": 4,
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "verified_on": "2026-09-25",
+            "visual_observation": "Additional spurious peaks at numtones=10."
+          },
+          "ungraded_examples": [
+            {
+              "name": "Try MUSIC",
+              "submitted_code": "pmusic(xn,numtones,2^10,fs);",
+              "action": "Uncommented the provided MUSIC line and ran the course section.",
+              "run_status": "completed",
+              "output_count": 3,
+              "graded": false,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures preserve each plot; a final peig call replays the numtones=10 GUI experiment. This complete standalone arrangement was not separately executed."
+        }
+      ],
+      "next_exercise": {
+        "topic": "User final survey",
+        "status": "awaiting_user_personal_feedback",
+        "graded": false,
+        "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlsat#chapter=8v1&lesson=3&section=1"
+      }
+    },
+    {
+      "id": "otmltfa",
+      "title": "Time-Frequency Analysis",
+      "status": "all_graded_tasks_passed_awaiting_user_survey",
+      "course_completed": false,
+      "authenticated_access": true,
+      "verified_passed_tasks": 24,
+      "verified_ungraded_runs": 0,
+      "verified_ungraded_gui_followups": 1,
+      "exact_total_tasks": 24,
+      "course_header_observation": {
+        "percent": 95,
+        "context": "Final survey open and unanswered",
+        "completion_evidence": false,
+        "observed_on": "2026-09-25"
+      },
+      "course_header_history": [
+        {
+          "percent": 20,
+          "context": "Time-Varying Gear Box Signal",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 40,
+          "context": "Spectrogram Function input page",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 45,
+          "context": "Time Resolution before completion",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 55,
+          "context": "Spectrogram Matrix",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 70,
+          "context": "Scalogram lesson",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 75,
+          "context": "Improve Frequency Resolution",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 80,
+          "context": "Scalogram Matrix",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 85,
+          "context": "Identify Fan Faults project",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 95,
+          "context": "Final survey open and unanswered",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        }
+      ],
+      "informational_material": [
+        {
+          "topic": "Course Overview",
+          "status": "visited_only",
+          "video_played": false,
+          "summary_reviewed": false
+        },
+        {
+          "topic": "Outcomes and prerequisites",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Gear Box example",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Time-Varying Signals introduction",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Time-Frequency Visualizations",
+          "status": "video_summary_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Spectrogram Function input page",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Scalogram and continuous wavelet transform",
+          "status": "concept_page_reviewed"
+        },
+        {
+          "topic": "Wavelets",
+          "status": "concept_page_reviewed"
+        },
+        {
+          "topic": "Conclusion summary",
+          "status": "reviewed",
+          "reviewed_on": "2026-09-25"
+        },
+        {
+          "topic": "Next Steps",
+          "status": "reviewed",
+          "reviewed_on": "2026-09-25"
+        }
+      ],
+      "lessons": [
+        {
+          "title": "Time-Varying Gear Box Signal",
+          "source_url": "https://matlabacademy.mathworks.com/details/time-frequency-analysis/otmltfa",
+          "saved_code": "academy/otmltfa/lesson01_gear_spectra.m",
+          "status": "two_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;whos;",
+          "observed_workspace": {
+            "healthyGear": "1x15000",
+            "monitoredGear": "1x40000",
+            "fs": "scalar; numeric value not inferred"
+          },
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "pspectrum(healthyGear,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "pspectrum(monitoredGear,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures retain both spectra; this standalone display arrangement was not independently executed."
+        },
+        {
+          "title": "Effect of Window Length on Spectrogram",
+          "source_url": "https://matlabacademy.mathworks.com/details/time-frequency-analysis/otmltfa",
+          "source_live_script": "spectropara.mlx",
+          "saved_code": "academy/otmltfa/lesson02_window_length.m",
+          "status": "ungraded_gui_activity_performed",
+          "graded": false,
+          "tasks": [],
+          "verified_code": "fs=100;t=(0:1/fs:10)';y1=sin(2*pi*25*t);y2=sin(2*pi*26*t);y=y1+y2;w=hamming(500);spectrogram(y,w,[],[],fs);",
+          "ungraded_followup": {
+            "action": "Changed window length from 260 to 500 through the Live Editor control.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "run_status": "completed",
+            "output_count": 1,
+            "visual_observation": "25 Hz and 26 Hz bands were separated.",
+            "verified_on": "2026-09-25"
+          },
+          "saved_script_adaptation": "Fixed verified GUI control value at 500; standalone replay not independently executed."
+        },
+        {
+          "title": "Spectrogram Function",
+          "source_url": "https://matlabacademy.mathworks.com/details/time-frequency-analysis/otmltfa",
+          "saved_code": "academy/otmltfa/lesson03_spectrogram.m",
+          "status": "three_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;n=length(monitoredGear);",
+          "observed_n": 40000,
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "spectrogram(monitoredGear,ones(n,1),0,[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "spectrogram(monitoredGear,[],[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "submitted_code": "spectrogram(monitoredGear,[],[],[],fs,\"yaxis\");",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_defaults_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures preserve the three displays; standalone arrangement not independently executed."
+        },
+        {
+          "title": "Time Resolution",
+          "source_url": "https://matlabacademy.mathworks.com/details/time-frequency-analysis/otmltfa",
+          "saved_code": "academy/otmltfa/lesson04_time_resolution.m",
+          "status": "two_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;spectrogram(monitoredGear,[],[],[],fs);",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "w=hamming(2500);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "spectrogram(monitoredGear,w,[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "course_feedback": "Additional frequencies appear at 3 seconds.",
+            "feedback_provenance": "Course explanation, not a new numerical measurement.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures retain starting and adjusted displays; standalone arrangement not independently executed."
+        },
+        {
+          "title": "Spectrogram Matrix",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=3v1&lesson=2&section=3",
+          "source_live_script": "gearspecmatrix.mlx",
+          "saved_code": "academy/otmltfa/lesson05_spectrogram_matrix.m",
+          "status": "three_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;",
+          "observed_outputs": {
+            "s": "2049x31 complex",
+            "f": "2049x1",
+            "t": "1x31",
+            "ps": "2049x31"
+          },
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[s,f,t,ps] = spectrogram(monitoredGear,hamming(2500),[],[],fs)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "firstslice = ps(:,1); plot(f,firstslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "submitted_code": "lastslice = ps(:,end); plot(f,lastslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "course_feedback": "The initial slice is healthy; a 2 kHz component is added when the fault occurs.",
+            "feedback_provenance": "Course explanation, not a new measured result.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures retain first and last slices; a semicolon suppresses the large Task 1 matrix display. Standalone arrangement not independently executed."
+        },
+        {
+          "title": "Time-Frequency Analysis - Scalogram",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=4v1&lesson=1&section=3",
+          "source_live_script": "gearscal.mlx",
+          "saved_code": "academy/otmltfa/lesson06_scalogram.m",
+          "status": "two_graded_tasks_passed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;",
+          "required_toolboxes": [
+            "Wavelet Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "cwt(monitoredGear,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "cwt(monitoredGear,fs,FrequencyLimits=[1 2500]);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "verification_note": "Task 2 passed initially. When Task 1 was revisited, Task 2 was temporarily commented because its later plot could replace the full-range display during whole-file execution; Task 1 then showed Correct! and Task 2 was restored. The accepted tasks are recorded individually. After restoration, Task 2 was resubmitted and Correct! was observed again; the final state was successful.",
+          "ungraded_followup": {
+            "status": "progression_only",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures retain the full-range and limited-range scalograms; standalone arrangement not independently executed."
+        },
+        {
+          "title": "Improve Frequency Resolution",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=4v1&lesson=2&section=1",
+          "source_live_script": "gearfreqres.mlx",
+          "saved_code": "academy/otmltfa/lesson07_frequency_resolution.m",
+          "status": "one_graded_task_passed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;cwt(monitoredGear,fs);",
+          "required_toolboxes": [
+            "Wavelet Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "cwt(monitoredGear,\"bump\",fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "progression_only",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures preserve default and bump-wavelet displays; standalone arrangement not independently executed."
+        },
+        {
+          "title": "Scalogram Matrix",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=4v1&lesson=2&section=2",
+          "source_live_script": "scalmatrix.mlx",
+          "saved_code": "academy/otmltfa/lesson08_scalogram_matrix.m",
+          "status": "four_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredgearbox.mat;",
+          "required_toolboxes": [
+            "Wavelet Toolbox"
+          ],
+          "observed_outputs": {
+            "w": "110x40000 complex"
+          },
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[w,f] = cwt(monitoredGear,\"bump\",fs)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "p=abs(w).^2;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "submitted_code": "firstslice=p(:,1); plot(f,firstslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 4,
+              "submitted_code": "lastslice=p(:,end); plot(f,lastslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "course_feedback": "2 kHz fault component.",
+            "feedback_provenance": "Supplied course explanation, not a new measured result.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredgearbox.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Task 1 semicolon suppresses the large matrix display; separate figures retain first and last slices. Standalone arrangement not independently executed."
+        },
+        {
+          "title": "Project: Identify Fan Faults",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=5v1&lesson=1&section=1",
+          "source_live_script": "project.mlx",
+          "saved_code": "academy/otmltfa/lesson09_fan_fault_project.m",
+          "status": "seven_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "load monitoredfan.mat;",
+          "required_toolboxes": [
+            "Signal Processing Toolbox",
+            "Wavelet Toolbox"
+          ],
+          "observed_workspace": {
+            "fs": 2400,
+            "monitoredfan": "30001x1",
+            "n": 30001,
+            "fr": 66.6667,
+            "frO": 143.13,
+            "frR": 211.96,
+            "precision": "Displayed numeric precision"
+          },
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "spectrogram(monitoredfan,[],[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "w=kaiser(2048,19); spectrogram(monitoredfan,w,[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "submitted_code": "ylim([3 5]);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 4,
+              "submitted_code": "[s,f,t,ps] = spectrogram(monitoredfan,w,[],[],fs)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 5,
+              "submitted_code": "firstslice=ps(:,1); plot(f,firstslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 6,
+              "submitted_code": "lastslice=ps(:,end); plot(f,lastslice)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 7,
+              "submitted_code": "cwt(monitoredfan,\"bump\",fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "verification_note": "Task 5 encountered a transient Live Editor error (line numbers may not exceed the last expression). Resubmitting the unchanged code produced Correct!.",
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "course_feedback": "Strongest component near 573 Hz is an outer-race harmonic (about 143.14 Hz), indicating a broken outer race.",
+            "feedback_provenance": "Course explanation; workspace displayed frO=143.1300. Not a new measured diagnosis.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "monitoredfan.mat",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Separate named figures preserve displays; Task 3 ylim remains attached to Task 2 axes. A semicolon suppresses the large Task 4 output. Standalone arrangement not independently executed."
+        }
+      ],
+      "next_exercise": {
+        "topic": "User final survey",
+        "status": "awaiting_user_personal_feedback",
+        "graded": false,
+        "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmltfa#chapter=6v1&lesson=3&section=1"
+      },
+      "module_completion_observations": [
+        {
+          "module": "Project",
+          "percent": 100,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "module": "Wavelet",
+          "percent": 100,
+          "observed_on": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "otmlfdam",
+      "title": "Filter Design and Analysis Methods",
+      "status": "all_graded_tasks_passed_awaiting_user_survey",
+      "course_completed": false,
+      "authenticated_access": true,
+      "verified_passed_tasks": 37,
+      "verified_ungraded_runs": 10,
+      "verified_ungraded_gui_followups": 3,
+      "exact_total_tasks": 37,
+      "lessons": [
+        {
+          "title": "Interactively Design a Filter",
+          "source_url": "https://matlabacademy.mathworks.com/details/filter-design-and-analysis-methods/otmlfdam",
+          "source_live_script": "flutesetuptask.mlx",
+          "saved_code": "academy/otmlfdam/lesson01_design_filter.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson01_design_filter_gui.md",
+          "status": "three_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;pwelch(marked,[],[],[],fs);",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Inserted the Design Filter Live Editor task using Bandpass FIR defaults and output designedFilter.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "submitted_code": "yout=filter(designedFilter,marked);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "submitted_code": "pwelch(yout,[],[],[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "observed_generated_code": "designedFilter=designfilt('bandpassfir','StopbandFrequency1',0.35,'PassbandFrequency1',0.45,'PassbandFrequency2',0.55,'StopbandFrequency2',0.65,'StopbandAttenuation1',60,'PassbandRipple',1,'StopbandAttenuation2',60);freqz(designedFilter);",
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false,
+            "note": "Optional Run repeated already-graded code; no extra execution count."
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Task 1 is replayed using observed generated code, with separate named figures. This standalone replay was not independently executed or graded as a GUI task."
+        },
+        {
+          "title": "Design an FIR Filter",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=2v1&lesson=3&section=2",
+          "source_live_script": "flutefiltpassstop.mlx",
+          "saved_code": "academy/otmlfdam/lesson02_fir_filter.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson02_fir_filter_gui.md",
+          "status": "three_graded_tasks_passed_with_ungraded_gui_and_code_activities",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;pwelch(marked,[],[],[],fs);",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set frequency units to Hz and sample rate to fs.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "action": "Set a minimum-order bandpass FIR with edges 2100, 2200, 2500, 2600 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 3,
+              "action": "Set StopbandAttenuation1=80 dB, retaining PassbandRipple=1 dB and StopbandAttenuation2=60 dB.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "observed_generated_code": "designedFilter=designfilt('bandpassfir','StopbandFrequency1',2100,'PassbandFrequency1',2200,'PassbandFrequency2',2500,'StopbandFrequency2',2600,'StopbandAttenuation1',80,'PassbandRipple',1,'StopbandAttenuation2',60,'SampleRate',16000);freqz(designedFilter,[],fs);info(designedFilter);",
+          "downstream_code": "yout=filter(designedFilter,marked);pwelch(yout,[],[],[],fs);",
+          "ungraded_gui_followup": {
+            "action": "Selected Filter Information, compared first-stopband attenuation at 80 and 60 dB, then restored 80 dB.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "observed_filter_lengths": {
+              "80_dB": 425,
+              "60_dB": 317,
+              "restored_80_dB": 425
+            },
+            "derived_order_comparison": {
+              "80_dB": 424,
+              "60_dB": 316,
+              "additional_coefficients": 108
+            },
+            "verified_on": "2026-09-25"
+          },
+          "ungraded_examples": [
+            {
+              "name": "Play original and filtered watermark",
+              "submitted_code": "soundsc(yin,fs);pause(3.5);soundsc(yout,fs);",
+              "run_status": "completed",
+              "output_count": 0,
+              "graded": false,
+              "execution_success_verified": true,
+              "listening_or_quality_comparison_claimed": false,
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Replays observed generated code with separate figures; standalone arrangement not independently executed or graded as a GUI task."
+        },
+        {
+          "title": "Design an IIR Filter",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=2v1&lesson=3&section=4",
+          "source_live_script": "flutefiltiir.mlx",
+          "saved_code": "academy/otmlfdam/lesson03_iir_filter.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson03_iir_filter_gui.md",
+          "status": "two_graded_tasks_passed_and_ungraded_playback_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;pwelch(marked,[],[],[],fs);",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Set Bandpass IIR, Hz units, sample rate fs, and output designedFilter; corrected the initial automatic designedFilter2 output name.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "action": "Set minimum-order design edges 2100, 2200, 2500, 2600 Hz.",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "observed_generated_code": "designedFilter=designfilt('bandpassiir','StopbandFrequency1',2100,'PassbandFrequency1',2200,'PassbandFrequency2',2500,'StopbandFrequency2',2600,'StopbandAttenuation1',60,'PassbandRipple',1,'StopbandAttenuation2',60,'SampleRate',16000,'ScaleSOS',true);freqz(designedFilter,[],fs);",
+          "downstream_code": "yout=filter(designedFilter,marked);pwelch(yout,[],[],[],fs);",
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Replays observed generated code with separate figures; standalone arrangement not independently executed or graded as a GUI task.",
+          "ungraded_examples": [
+            {
+              "name": "Play original and IIR-filtered watermark",
+              "submitted_code": "soundsc(yin,fs);pause(3.5);soundsc(yout,fs);",
+              "run_status": "completed",
+              "output_count": 0,
+              "stop_button_disabled": true,
+              "graded": false,
+              "execution_success_verified": true,
+              "listening_or_quality_comparison_claimed": false,
+              "verified_on": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "title": "Design a Filter Using Filter Designer",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=3v1&lesson=2&section=2",
+          "saved_code": "academy/otmlfdam/lesson04_filter_designer.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson04_filter_designer_gui.md",
+          "status": "ungraded_gui_workflow_completed",
+          "graded": false,
+          "tasks": [],
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;pwelch(marked,[],[],[],fs);xline(2200/1000,\"m--\");xline(2500/1000,\"m--\");",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "ungraded_followup": {
+            "action": "Launched Filter Designer; chose Bandpass FIR, Algorithm > Window > Rectangular, fs=16000, specified order 200, and 6 dB cutoffs 2200/2500 Hz. Updated the filter, exported coefficients to MATLAB Workspace, closed Designer, then filtered marked and plotted its spectrum.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "integrated_code": "yout=filter(bandpassfir1_Num,1,marked);pwelch(yout,[],[],[],fs);",
+            "code_execution_observation": "Command Window prompt returned.",
+            "observed_export": {
+              "name": "bandpassfir1_Num",
+              "shape": "1x201 double"
+            },
+            "order_selection_note": "The exercise allowed an order choice; 200 was selected.",
+            "verified_on": "2026-09-25"
+          },
+          "reconstruction_check": {
+            "submitted_code": "bReplay=fir1(200,[2200 2500]/(fs/2),rectwin(201));max(abs(bReplay-bandpassfir1_Num))",
+            "observed_max_abs_difference": 0,
+            "verified_on": "2026-09-25",
+            "counted_as_additional_activity": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Uses the reconstruction verified equal to the GUI export, with separate figures. The complete standalone arrangement was not independently executed."
+        },
+        {
+          "title": "Impulse Response",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=2&section=1",
+          "source_live_script": "fluteimp.mlx",
+          "saved_code": "academy/otmlfdam/lesson05_impulse_response.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson05_impulse_response_gui.md",
+          "status": "two_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Selected Impulse Response for designedFIR using the accepted 80/1/60 dB FIR bandpass design.",
+              "observed_generated_analysis": "freqz(designedFIR,[],fs);impz(designedFIR,[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            },
+            {
+              "number": 2,
+              "action": "Selected Impulse Response for designedIIR using the accepted 60/1/60 dB IIR bandpass design with ScaleSOS=true.",
+              "observed_generated_analysis": "impz(designedIIR,[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "filter_specifications": {
+            "frequency_edges_hz": [
+              2100,
+              2200,
+              2500,
+              2600
+            ],
+            "sample_rate_hz": 16000,
+            "FIR": {
+              "stopband_attenuation1_db": 80,
+              "passband_ripple_db": 1,
+              "stopband_attenuation2_db": 60
+            },
+            "IIR": {
+              "stopband_attenuation1_db": 60,
+              "passband_ripple_db": 1,
+              "stopband_attenuation2_db": 60,
+              "ScaleSOS": true
+            }
+          },
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "topic": "Automatic selection of IIR impulse-response length.",
+            "additional_action_performed": false,
+            "graded": false,
+            "counted_as_run": false
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Replays generated designs and analysis calls with separate named figures; standalone arrangement not independently executed or GUI-graded."
+        },
+        {
+          "title": "Compute Frequency Response",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=3&section=1",
+          "source_live_script": "flutefreqz.mlx",
+          "saved_code": "academy/otmlfdam/lesson06_frequency_response.m",
+          "status": "one_graded_task_passed_and_ungraded_code_example_executed",
+          "lesson_completed": null,
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "action": "Selected Display filter response > Group delay for designedFIR.",
+              "observed_generated_analysis": "freqz(designedFIR,[],fs);grpdelay(designedFIR,[],fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "filter_specifications": {
+            "frequency_edges_hz": [
+              2100,
+              2200,
+              2500,
+              2600
+            ],
+            "sample_rate_hz": 16000,
+            "stopband_attenuation1_db": 80,
+            "passband_ripple_db": 1,
+            "stopband_attenuation2_db": 60
+          },
+          "course_feedback": {
+            "constant_delay_samples": 212,
+            "provenance": "Course feedback, not a new numerical measurement."
+          },
+          "ungraded_examples": [
+            {
+              "name": "Extract and plot magnitude response",
+              "submitted_code": "[h,f]=freqz(designedFIR,[],fs);plot(f,abs(h));",
+              "run_status": "completed",
+              "output_count": 1,
+              "graded": false,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-25"
+            }
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Replays generated design/analyses and verified example with separate figures; standalone arrangement not independently executed."
+        },
+        {
+          "title": "Filter Analyzer App",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=3&section=2",
+          "source_live_script": "filtanaly.mlx",
+          "saved_code": "academy/otmlfdam/lesson07_filter_analyzer.m",
+          "saved_gui_steps": "academy/otmlfdam/lesson07_filter_analyzer_gui.md",
+          "status": "ungraded_gui_comparison_completed",
+          "graded": false,
+          "tasks": [],
+          "startup_code": "[flute,fs]=audioread(\"NoisyFlute.wav\");flute=flute(1:3*fs);t=((0:numel(flute)-1)/fs)';yin=chirp(t,2200,t(end),2500)*0.0005;marked=flute+yin;",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "provided_design_notes": "designedFIR uses the earlier 80/1/60 dB bandpass specifications; designedIIR uses 60/1/60 dB. Both calls use SampleRate=fs. This lesson's provided IIR code has no ScaleSOS argument.",
+          "ungraded_followup": {
+            "action": "Launched filterAnalyzer, imported designedFIR and designedIIR as Filter Objects, verified both 16 kHz rows, inspected Group Delay and Phase for both, then closed the app.",
+            "performed": true,
+            "graded": false,
+            "counted_as_gui_activity": true,
+            "launch_code": "filterAnalyzer",
+            "launch_run_status": "completed",
+            "launch_output_count": 0,
+            "visual_observation": "FIR group delay constant at 212 samples; IIR delay nonconstant with peaks around 2.2 and 2.5 kHz. Both objects displayed in Phase view.",
+            "verified_on": "2026-09-25",
+            "count_note": "Launch is part of the GUI activity, not another code example."
+          },
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Preserves supplied setup and app launch; standalone setup not independently executed. Import and plot selection remain manual UI steps."
+        },
+        {
+          "title": "Compensate for Group Delay",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=4&section=1",
+          "source_live_script": "flutecompdelay.mlx",
+          "saved_code": "academy/otmlfdam/lesson08_group_delay.m",
+          "status": "four_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "gd=grpdelay(designedFIR);delay=gd(1);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "yfir(1:delay)=[];",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 3,
+              "submitted_code": "tadj=t(1:end-delay);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 4,
+              "submitted_code": "plot(t,yin);hold on;plot(tadj,yfir);xlim([0.007 0.01]);hold off;legend([\"original\" \"filtered\"])",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "availability": "hosted_course_runtime",
+              "downloaded_to_package": false
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "counted_as_run": false
+          },
+          "runtime_note": "Task 4 initially encountered the transient Live Editor error 'Line numbers may not exceed the last expression.' Running its section and resubmitting produced Correct!.",
+          "saved_script_adaptation": "Separate figures added for standalone replay, not independently executed."
+        },
+        {
+          "title": "Zero-Phase Filtering",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=4&section=2",
+          "source_live_script": "flutefiltfilt.mlx",
+          "saved_code": "academy/otmlfdam/lesson09_zero_phase.m",
+          "status": "one_graded_task_passed_and_conceptual_followup_reviewed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "yiir = filtfilt(designedIIR,marked);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "downloaded_to_package": false
+            }
+          ],
+          "ungraded_followup": {
+            "status": "conceptual_notes_reviewed",
+            "counted_as_run": false
+          }
+        },
+        {
+          "title": "FIR Filter Transient",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=5&section=2",
+          "source_live_script": "flutetransientfir.mlx",
+          "saved_code": "academy/otmlfdam/lesson10_fir_transient.m",
+          "status": "four_graded_tasks_passed_and_two_ungraded_examples_executed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "o = filtord(designedFIR);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "[hi,ti] = impz(designedFIR,500,fs); plot(ti,hi)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 3,
+              "submitted_code": "tc = t(o);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 4,
+              "submitted_code": "plot(t,yfir); xline(tc)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "downloaded_to_package": false
+            }
+          ],
+          "additional_verified_code_runs": 2,
+          "ungraded_examples": [
+            {
+              "name": "Zoom and trim FIR transient",
+              "submitted_code": "xlim([0 0.1]); figure; plot(t(o:end),yfir(o:end))",
+              "run_status": "completed",
+              "output_count": 2,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-28"
+            },
+            {
+              "name": "Filter a low-frequency tone with a highpass filter",
+              "source_live_script": "filtertozero.mlx",
+              "saved_code": "academy/otmlfdam/lesson10_filter_to_zero.m",
+              "run_status": "completed",
+              "execution_success_verified": true,
+              "verification": "Three expected output plots visible and Stop disabled.",
+              "recovery": "Converted unrestorable Design Filter task to its displayed generated code.",
+              "verified_on": "2026-09-28"
+            }
+          ]
+        },
+        {
+          "title": "IIR Filter Transient",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=4v1&lesson=5&section=3",
+          "source_live_script": "flutetransientiir.mlx",
+          "saved_code": "academy/otmlfdam/lesson11_iir_transient.m",
+          "status": "two_graded_tasks_passed_and_ungraded_zoom_playback_executed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[hi,ti] = impz(designedIIR,2000,fs); plot(ti,hi)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "plot(t,yiir)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "NoisyFlute.wav",
+              "downloaded_to_package": false
+            }
+          ],
+          "additional_verified_code_runs": 1,
+          "ungraded_examples": [
+            {
+              "name": "IIR transient zoom and playback",
+              "submitted_code": "xlim([0 0.3]);soundsc(yiir,fs)",
+              "run_status": "completed",
+              "output_count": 1,
+              "execution_success_verified": true,
+              "listening_or_quality_comparison_claimed": false,
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "module_completion_evidence": "Filter Analysis 100%, including all five subsections, observed in end-of-module dialog."
+        },
+        {
+          "title": "Create Desired Absorption Filter",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=5v1&lesson=2&section=1",
+          "source_live_script": "whaleabsfilt.mlx",
+          "saved_code": "academy/otmlfdam/lesson12_absorption_response.m",
+          "status": "two_graded_tasks_passed_and_ungraded_annotation_executed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "waterabs = absorption(fr);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "plot(fr,waterabs)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "input_assets": [
+            {
+              "name": "whalesound.wav",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "absorption.m",
+              "downloaded_to_package": false
+            }
+          ],
+          "additional_verified_code_runs": 1,
+          "ungraded_examples": [
+            {
+              "name": "Label absorption plot",
+              "submitted_code": "xlabel(\"Frequency (Hz)\");ylabel(\"Absorption (mag / km)\")",
+              "run_status": "completed",
+              "output_count": 1,
+              "execution_success_verified": true,
+              "verified_on": "2026-09-28"
+            }
+          ]
+        },
+        {
+          "title": "Arbitrary Filter Response",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=5v1&lesson=2&section=3",
+          "source_live_script": "whalefirfilt.mlx",
+          "saved_code": "academy/otmlfdam/lesson13_arbitrary_filter.m",
+          "status": "six_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "b=fir2(10,fabs,waterabs);a=1;",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "whalefilt=filter(b,a,whaley);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 3,
+              "submitted_code": "[h,f]=freqz(b,a,512,fs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 4,
+              "submitted_code": "plot(fr,waterabs);hold on;plot(f,abs(h));hold off",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 5,
+              "submitted_code": "b=fir2(30,fabs,waterabs);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 6,
+              "submitted_code": "[b,a]=yulewalk(10,fabs,waterabs); % replaces FIR design and removes a=1",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "whalesound.wav",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "absorption.m",
+              "downloaded_to_package": false
+            }
+          ],
+          "saved_script_adaptation": "Replays each successive design and repeats dependent calculations using separate figures. Full standalone replay not independently executed.",
+          "additional_verified_code_runs": 1,
+          "ungraded_examples": [
+            {
+              "name": "Whale audio playback",
+              "submitted_code": "sound(whaley,fs);pause(numel(whaley)/fs+0.5);sound(whalefilt,fs)",
+              "run_status": "completed",
+              "output_count": 0,
+              "execution_success_verified": true,
+              "listening_or_quality_comparison_claimed": false,
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "module_completion_evidence": "Arbitrary Response Filter Design and Analysis 100% observed in module-completion dialog."
+        },
+        {
+          "title": "FIR Zero-Pole Plot",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=6v1&lesson=2&section=1",
+          "source_live_script": "movavgzp.mlx",
+          "saved_code": "academy/otmlfdam/lesson14_fir_poles.m",
+          "status": "two_graded_tasks_passed_and_conceptual_followup_reviewed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[z,p,k]=tf2zpk(b,a);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "zplane(z,p)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "whalesound.wav",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "absorption.m",
+              "downloaded_to_package": false
+            }
+          ]
+        },
+        {
+          "title": "Reduce FIR Filter Delay",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=6v1&lesson=2&section=2",
+          "source_live_script": "whalemindelay.mlx",
+          "saved_code": "academy/otmlfdam/lesson15_minimum_phase.m",
+          "status": "three_graded_tasks_passed_and_ungraded_phase_checks_executed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "bmin=polystab(b);bmin=bmin*norm(b)/norm(bmin);",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "[z,p]=tf2zpk(bmin,1);zplane(z,p)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 3,
+              "submitted_code": "grpdelay(b,1,[],fs);hold on;grpdelay(bmin,1,[],fs);hold off",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "whalesound.wav",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "absorption.m",
+              "downloaded_to_package": false
+            }
+          ],
+          "additional_verified_code_runs": 1,
+          "ungraded_examples": [
+            {
+              "name": "Phase property checks",
+              "submitted_code": "islinphase(b);isminphase(bmin)",
+              "run_status": "completed",
+              "output_count": 2,
+              "observed_results": [
+                true,
+                true
+              ],
+              "execution_success_verified": true,
+              "verified_on": "2026-09-28"
+            }
+          ]
+        },
+        {
+          "title": "IIR Filter Stability",
+          "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=6v1&lesson=3&section=1",
+          "source_live_script": "iirabsfiltstability.mlx",
+          "saved_code": "academy/otmlfdam/lesson16_iir_stability.m",
+          "status": "two_graded_tasks_passed_and_ungraded_stability_plots_executed",
+          "tasks": [
+            {
+              "number": 1,
+              "submitted_code": "[z,p]=tf2zpk(b,a);zplane(z,p)",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            },
+            {
+              "number": 2,
+              "submitted_code": "[b,a]=yulewalk(100,fabs,waterabs); % change earlier design and rerun",
+              "result": "passed",
+              "observed_grader_text": "Correct!",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "required_toolboxes": [
+            "Signal Processing Toolbox"
+          ],
+          "input_assets": [
+            {
+              "name": "whalesound.wav",
+              "downloaded_to_package": false
+            },
+            {
+              "name": "absorption.m",
+              "downloaded_to_package": false
+            }
+          ],
+          "additional_verified_code_runs": 1,
+          "ungraded_examples": [
+            {
+              "name": "High-order IIR time-domain and impulse-response plots",
+              "run_status": "completed",
+              "output_count": 2,
+              "execution_success_verified": true,
+              "observed_warning": "Rank deficient, rank = 48, tol = 6.461220e+01",
+              "visual_observation": "Filtered time-domain plot uses a 10^304 scale. The default finite impulse-response plot was also produced; it does not alone establish long-term stability.",
+              "verified_on": "2026-09-28"
+            }
+          ],
+          "module_completion_evidence": "Filter Stability 100%, all three subsections 100%, observed in module-completion dialog."
+        }
+      ],
+      "course_header_observation": {
+        "percent": 96,
+        "context": "Final personal survey open and unanswered",
+        "completion_evidence": false,
+        "observed_on": "2026-09-28"
+      },
+      "access_available_until": "2027-01-30",
+      "next_exercise": {
+        "topic": "User final survey",
+        "status": "awaiting_user_personal_feedback",
+        "graded": false,
+        "portal_url": "https://matlabacademy.mathworks.com/v1/portal.html?course=otmlfdam#chapter=7v1&lesson=3&section=1"
+      },
+      "course_header_history": [
+        {
+          "percent": 0,
+          "context": "Course start",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 18,
+          "context": "Interactively Design a Filter",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 21,
+          "context": "Design an FIR Filter",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 28,
+          "context": "Design an IIR Filter",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 37,
+          "context": "Filter Designer workflow",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 43,
+          "context": "Impulse Response",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 46,
+          "context": "Compute Frequency Response",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 50,
+          "context": "Filter Analyzer App",
+          "completion_evidence": false,
+          "observed_on": "2026-09-25"
+        },
+        {
+          "percent": 53,
+          "context": "Compensate for Group Delay",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 56,
+          "context": "Zero-Phase Filtering",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 62,
+          "context": "FIR Filter Transient",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 62,
+          "context": "FIR Filter Transient",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 65,
+          "context": "IIR Filter Transient",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 71,
+          "context": "Create Desired Absorption Filter",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 78,
+          "context": "Arbitrary Filter Response",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 78,
+          "context": "Arbitrary Filter Response",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 84,
+          "context": "FIR Zero-Pole Plot",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 87,
+          "context": "Reduce FIR Filter Delay",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 90,
+          "context": "IIR Filter Stability",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 90,
+          "context": "IIR Filter Stability",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "percent": 96,
+          "context": "Final personal survey open and unanswered",
+          "completion_evidence": false,
+          "observed_on": "2026-09-28"
+        }
+      ],
+      "informational_material": [
+        {
+          "topic": "Introduction",
+          "status": "reviewed"
+        },
+        {
+          "topic": "Filter configurations",
+          "status": "slides_reviewed",
+          "slide_count": 4
+        },
+        {
+          "topic": "Introductory filtering videos",
+          "status": "summaries_reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Filter Transients summary",
+          "status": "reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Underwater Sound Absorption example",
+          "status": "reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Filter Coefficients",
+          "status": "reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Zeros and Poles summary",
+          "status": "reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Course Summary",
+          "status": "reviewed",
+          "video_played": false
+        },
+        {
+          "topic": "Next Steps",
+          "status": "reviewed",
+          "video_played": false
+        }
+      ],
+      "module_completion_observations": [
+        {
+          "module": "Filter Analysis",
+          "percent": 100,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "module": "Arbitrary Response Filter Design and Analysis",
+          "percent": 100,
+          "observed_on": "2026-09-28"
+        },
+        {
+          "module": "Filter Stability",
+          "percent": 100,
+          "observed_on": "2026-09-28"
+        }
+      ]
+    }
+  ],
+  "verified_passed_tasks": 172,
+  "verified_ungraded_runs": 28,
+  "certificate_completion_claimed": false,
+  "verified_ungraded_gui_followups": 14,
+  "active_course_id": "otmlfdam",
+  "runtime_recovery_notes": [
+    {
+      "course_id": "otmlsgr",
+      "topic": "Import GUI session recovery",
+      "status": "resolved_all_three_import_tasks_passed",
+      "observations": [
+        "Initial drag attempts in tab 4 did not import the signal.",
+        "The signalAnalyzer(flute,SampleRate=16000) call errored in Academy.",
+        "After reopening the course and handing the active session to the original user tab 3, the normal GUI drag imported the signal.",
+        "Tab 3 displayed flute in a checked plot row with Fs 16000 Hz, but the official Task 1 grader repeatedly marked both plotting and sample rate incorrect.",
+        "Resetting Task 1 and repeating the GUI import did not resolve the grader mismatch.",
+        "The course was exited, duplicate tab 4 was closed, and original user tab 3 was reloaded to start a fresh runtime. No new task pass has been observed.",
+        "Continued to the sampling-theorem summary while retaining Import a Signal as unresolved; no recovery activity was counted as an exercise.",
+        "2026-09-20 Australia/Sydney: fresh GUI import at 16000 Hz passed Task 1; region extraction and spectrum tasks also passed. Only the three actual task passes were added to totals."
+      ],
+      "counted_as_graded_task": false,
+      "counted_as_ungraded_code_example": false,
+      "counted_as_ungraded_gui_activity": false,
+      "grade_result_recorded": true,
+      "latest_grader_result": "All three Import a Signal tasks received Correct! on 2026-09-20.",
+      "recovered_runtime_success_confirmed": true
+    }
+  ],
+  "date_timezone": "Australia/Sydney",
+  "access_gate": {
+    "status": "resolved",
+    "observed_on": "2026-09-25",
+    "encountered_when": "Opening Time-Frequency Analysis after completing the graded Spectral Analysis tasks",
+    "page_url": "https://www.mathworks.com/mwaccount/account/incomplete/acceptance",
+    "agreement_url": "https://www.mathworks.com/company/aboutus/policies_statements/online-services-agreement.html",
+    "accept_clicked": false,
+    "permanent_course_block_claimed": false,
+    "user_authorized_acceptance": true,
+    "resolution": "Before the agent could click Accept, the agreement prompt was gone and the MathWorks MATLAB homepage was active. Navigation to Time-Frequency Analysis then succeeded with a 0% header and Start Course available.",
+    "resolved_on": "2026-09-25",
+    "agent_acceptance_claimed": false
+  },
+  "all_requested_graded_exercises_passed": true,
+  "remaining_work": "Personal course surveys; no exercise submissions remain."
+}

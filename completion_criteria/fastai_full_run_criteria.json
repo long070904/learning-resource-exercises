@@ -1,0 +1,4381 @@
+{
+ "date": "2026-10-03",
+ "notebooks": [
+  {
+   "notebook": "03_fastai/00_image_classifier.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Use the real photographic branch and retain its split, class counts, held-out results and model artefacts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/00-is-it-a-bird-creating-a-model-from-your-own-data.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "with learn.no_bar():learn.fine_tune(1 if SMOKE else 3)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/01-jupyter-notebook-101.ipynb",
+    "https://course.fast.ai/"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/02_export_and_reload_model.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Use the real photographic branch and retain its split, class counts, held-out results and model artefacts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/02-saving-a-basic-fastai-model.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/03_compare_image_models.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Use the real photographic branch and retain its split, class counts, held-out results and model artefacts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/03-which-image-models-are-best.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "    with learn.no_bar(),learn.no_logging():learn.fine_tune(1 if SMOKE else 3)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/04_neural_network_foundations.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/04-how-does-a-neural-net-really-work.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/05_titanic_models_from_scratch.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/05-linear-model-and-neural-net-from-scratch.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/06-why-you-should-use-a-framework.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "    with learn.no_bar(),learn.no_logging():learn.fit(5 if SMOKE else 16,lr=.01)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/07_trees_and_random_forests.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/master/07-how-random-forests-really-work.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "shallow=DecisionTreeClassifier(max_leaf_nodes=4,random_state=42).fit(features[tr],target[tr])",
+    "    trees.append(DecisionTreeClassifier(min_samples_leaf=5,random_state=seed).fit(features[bootstrap],target[bootstrap]))",
+    "forest=RandomForestClassifier(n_estimators=100,min_samples_leaf=5,random_state=42,n_jobs=1,oob_score=True).fit(features[tr],target[tr])"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Use all 60,000 source training images with a documented validation split, all 10,000 test images and ten full-mode epochs.",
+    "Review the labeled authored objective answers alongside genuine saved exercise outputs; prepared prose does not certify hosted execution, personal reflection or independent learner recall."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/fastbook/blob/master/04_mnist_basics.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "history=learner.fit(3 if SMOKE else 10)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_prose_coverage": {
+    "answer_cell_id": "worked-chapter4-questionnaire",
+    "question_or_topic_numbers": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ],
+    "original_prompt_cells_one_based": [
+     346,
+     348
+    ],
+    "source_url": "https://github.com/fastai/fastbook/blob/4aefe0a9050d9894255a878c7d72c04458d60de8/04_mnist_basics.ipynb",
+    "source_sha256": "80179e43c0e5660f1c66f04ca543ad04247bf3ab9b4906fbde9f7be223dc9b6e",
+    "authored_date": "2026-10-03",
+    "status": "authored_worked_answers_prepared",
+    "hosted_execution_claim": false,
+    "independent_recall_claim": false,
+    "further_research_implementation_references": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "notebook": "03_fastai/09_wearable_training_and_ethics.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Complete the objective audit and supply the learner's own reflection. Synthetic data remain teaching examples.",
+    "Worked objective answers are present as labeled learning notes; review them alongside saved coding outputs. Retain empty learner-only observations/personal reflection until supplied by the learner. Prepared prose is not hosted execution or independent recall evidence.",
+    "Review the 18 linked-book objective ethics answers and eight labeled research analyses; supply only your own requested judgments/project/team facts and actual wearable reflection. Book additions remain separate from the discussion-based course lesson.",
+    "Run the objective synthetic failed-case extraction and two 8-epoch LR fits with identical initial state, subject split, preprocessing and verified ordered batches; save actual predictions, histories, controls, checkpoints and validation-selected test evidence. Synthetic results are not real participant or personal practice evidence."
+   ],
+   "official_or_source_links": [
+    "https://course.fast.ai/Lessons/lesson1.html",
+    "https://course.fast.ai/Lessons/lesson8a.html"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "with learn.no_bar(),learn.no_logging():learn.fit_one_cycle(8,lr_max=.01)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_questionnaire": {
+    "all_personal_reflection_text_remains_blank": true,
+    "answer_cell_id": "worked-objective-ethics-notes",
+    "code_reference_answers": [
+     3,
+     4
+    ],
+    "conceptual_answers": [
+     1,
+     2,
+     5
+    ],
+    "further_research_conceptual_answers": [],
+    "further_research_execution_references": [],
+    "hosted_execution_claimed": false,
+    "learner_activity_pending": [
+     3,
+     4
+    ],
+    "learner_understanding_or_experience_claimed": false,
+    "prompt_count": 5,
+    "status": "authored_worked_notes"
+   },
+   "linked_book_ethics_coverage": {
+    "source_url": "https://github.com/fastai/fastbook/blob/4aefe0a9050d9894255a878c7d72c04458d60de8/03_ethics.ipynb",
+    "source_sha256": "ca10e58e62b0345a9d0a508ba594b1af06d8f315ccfefd0a6dc34d37b8543b0a",
+    "original_questionnaire_cell_one_based": 104,
+    "original_further_research_cell_one_based": 106,
+    "objective_question_numbers": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "objective_research_notes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "learner_judgment_or_actual_context_required": [
+     2,
+     3,
+     5,
+     6,
+     7,
+     8
+    ],
+    "answer_cell_ids": [
+     "worked-book-ethics-questionnaire",
+     "worked-book-ethics-research"
+    ],
+    "authored_date": "2026-10-03",
+    "status": "authored_worked_notes_prepared",
+    "hosted_execution_claim": false,
+    "personal_response_fabricated": false
+   },
+   "colab_objective_extensions": {
+    "status": "code_prepared_not_hosted_executed",
+    "added_cell_ids": [
+     "colab-wearable-objective-context",
+     "colab-wearable-objective-execution"
+    ],
+    "source_helper": "03_fastai/wearable_objective_extension.py",
+    "added_full_fits": 2,
+    "epochs_per_fit": 8,
+    "train_validation_test_rows": [
+     216,
+     36,
+     36
+    ],
+    "dataset": "synthetic",
+    "drop_last": false,
+    "required_controls": [
+     "initial weights/buffers",
+     "input and split fingerprints",
+     "train-only preprocessing",
+     "actual epoch batch order",
+     "216 training rows each epoch"
+    ],
+    "required_artifacts": [
+     "wearable_baseline_test_predictions.csv",
+     "wearable_failed_prediction_case.json",
+     "wearable_controlled_validation_comparison.csv",
+     "wearable_controlled_comparison_evidence.json",
+     "wearable_project_analysis_planned_unknown_performed.json",
+     "wearable_controlled_initial_state.pt",
+     "wearable_controlled_lr_0p01.pth",
+     "wearable_controlled_lr_0p003.pth"
+    ],
+    "no_wrong_case_policy": "record no baseline test error observed; do not fabricate",
+    "personal_reflection_fabricated": false,
+    "original_schedule_and_outputs_preserved": true
+   },
+   "prepared_notebook_sha256": "8e741faf840107eeb74a600f66aebfd5e8877a8528a4bb618ab4e58b301956d4"
+  },
+  {
+   "notebook": "03_fastai/10_paddy_first_steps.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Supply the original competition ZIP after accepting its rules; predictions and submission CSVs are local evidence, not submission receipts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/08-first-steps-road-to-the-top-part-1.ipynb",
+    "https://www.kaggle.com/code/jhoward/iterate-like-a-grandmaster",
+    "https://www.kaggle.com/competitions/paddy-disease-classification",
+    "https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fine_tune(3, 0.01)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/11_paddy_small_models.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Supply the original competition ZIP after accepting its rules; predictions and submission CSVs are local evidence, not submission receipts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/09-small-models-road-to-the-top-part-2.ipynb",
+    "https://www.kaggle.com/code/jhoward/first-steps-road-to-the-top-part-1",
+    "https://www.kaggle.com/competitions/paddy-disease-classification",
+    "https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "    learn.fine_tune(epochs, 0.01)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/12_paddy_scaling_up.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Supply the original competition ZIP after accepting its rules; predictions and submission CSVs are local evidence, not submission receipts."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/10-scaling-up-road-to-the-top-part-3.ipynb",
+    "https://www.kaggle.com/code/jhoward/first-steps-road-to-the-top-part-1",
+    "https://www.kaggle.com/competitions/paddy-disease-classification",
+    "https://github.com/fastai/fastai/blob/master/fastai/callback/training.py#L26"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "        learn.fine_tune(epochs, 0.01)",
+    "        learn.fit_one_cycle(epochs, 0.01)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/13_paddy_multi_target.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Supply the original competition ZIP after accepting its rules; predictions and submission CSVs are local evidence, not submission receipts."
+   ],
+   "official_or_source_links": [
+    "https://www.kaggle.com/code/jhoward/multi-target-road-to-the-top-part-4",
+    "https://www.kaggle.com/code/jhoward/first-steps-road-to-the-top-part-1",
+    "https://www.kaggle.com/competitions/paddy-disease-classification"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fine_tune(5, lr)",
+    "learn.fine_tune(5, lr)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/14_nlp_patent_matching.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Supply the original competition ZIP after accepting its rules; predictions and submission CSVs are local evidence, not submission receipts."
+   ],
+   "official_or_source_links": [
+    "https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners",
+    "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/",
+    "https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching",
+    "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/data",
+    "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/overview/evaluation",
+    "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/113195",
+    "https://www.kaggle.com/code/jhoward/iterate-like-a-grandmaster/"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 1 if QUICK_RUN else 4"
+   ],
+   "training_calls": [
+    "    model.fit(x, y)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/15_collaborative_filtering.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Run all ML-25M ratings through the five-epoch regression, ten-class cross-entropy and genre-feature models on the same recorded split; preserve common metrics, histories, models, class confusion matrices and benchmark-protocol differences.",
+    "Preserve executable questionnaire crosstab and pure-Python dot-product results.",
+    "Worked objective answers are present as labeled learning notes; review them alongside saved coding outputs. Retain empty learner-only observations/personal reflection until supplied by the learner. Prepared prose is not hosted execution or independent recall evidence."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/fastbook/blob/4aefe0a9050d9894255a878c7d72c04458d60de8/clean/08_collab.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3, wd=0.1)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3, wd=0.1)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3, wd=0.1)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3, wd=0.01)",
+    "learn.fit_one_cycle(1 if QUICK_RUN else 5, 5e-3, wd=0.1)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_homework_requirements": [
+    "Run all ML-25M ratings through the five-epoch regression, ten-class cross-entropy and genre-feature models on the same recorded split; preserve common metrics, histories, models, class confusion matrices and benchmark-protocol differences.",
+    "Preserve executable questionnaire crosstab and pure-Python dot-product results."
+   ],
+   "objective_questionnaire": {
+    "prompt_count": 31,
+    "conceptual_answers": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     8,
+     9,
+     10,
+     11,
+     12,
+     14,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ],
+    "code_reference_answers": [
+     5,
+     7,
+     13,
+     15
+    ],
+    "learner_activity_pending": [],
+    "independent_without_peeking_not_claimed": [
+     13,
+     15,
+     20,
+     21
+    ],
+    "further_research_conceptual_answers": [
+     1,
+     2
+    ],
+    "further_research_execution_references": [
+     3,
+     4
+    ],
+    "status": "authored_worked_notes",
+    "hosted_execution_claimed": false,
+    "learner_understanding_or_experience_claimed": false,
+    "answer_cell_id": "worked-objective-questionnaire"
+   }
+  },
+  {
+   "notebook": "03_fastai/16_convolutions.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Run six normalization/order configurations on all 60,000 training and 10,000 validation MNIST images for five epochs across three seeds; retain metrics, paired order differences, seed variability, histories, models, activation plots and interpretation references.",
+    "Worked objective answers are present as labeled learning notes; review them alongside saved coding outputs. Retain empty learner-only observations/personal reflection until supplied by the learner. Prepared prose is not hosted execution or independent recall evidence.",
+    "Run the pinned original deterministic convolution workbook's Colab formula dependency exercise, verify all cached/formula values, trace real cell precedents, perturb one original input pixel in memory and save numerical/graph evidence. Label Excel UI Trace Precedents unperformed."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/fastbook/blob/4aefe0a9050d9894255a878c7d72c04458d60de8/clean/13_convolutions.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit_one_cycle(1 if QUICK_RUN else 2, 0.01)",
+    "    learn.fit(epochs, 0.06)",
+    "    learn.fit_one_cycle(epochs, lr)"
+   ],
+   "gpu_required": false,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_homework_requirements": [
+    "Run six normalization/order configurations on all 60,000 training and 10,000 validation MNIST images for five epochs across three seeds; retain metrics, paired order differences, seed variability, histories, models, activation plots and interpretation references."
+   ],
+   "objective_questionnaire": {
+    "prompt_count": 40,
+    "conceptual_answers": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ],
+    "code_reference_answers": [
+     7,
+     18
+    ],
+    "learner_activity_pending": [
+     19
+    ],
+    "arithmetic_corrections": {
+     "15": "Third original stride-2 layer output is 4x4; 18,432 kernel multiplications, excluding bias addition."
+    },
+    "further_research_conceptual_answers": [
+     1
+    ],
+    "further_research_execution_references": [
+     2,
+     3
+    ],
+    "status": "authored_worked_notes",
+    "hosted_execution_claimed": false,
+    "learner_understanding_or_experience_claimed": false,
+    "answer_cell_id": "worked-objective-questionnaire",
+    "optional_original_manual_activity": [
+     18
+    ]
+   },
+   "colab_formula_dependency_adaptation": {
+    "status": "code_prepared_not_hosted_executed",
+    "added_cell_ids": [
+     "colab-convolution-workbook-context",
+     "colab-convolution-workbook-execution"
+    ],
+    "source_helper": "03_fastai/convolution_workbook_exercise.py",
+    "original_workbook": "03_fastai/resources/conv-example.xlsx",
+    "original_workbook_sha256": "28d885e8e07e3fb8fbeea49288c17e25edd0f168f0dbdaabd403017e83c15f0b",
+    "sheet": "conv-example",
+    "required_formula_count": 2865,
+    "trace_target": "BM4",
+    "required_trace_nodes": 80,
+    "required_trace_edges": 360,
+    "required_artifacts": [
+     "convolution_workbook_formula_checks.csv",
+     "convolution_workbook_dependency_nodes.csv",
+     "convolution_workbook_dependency_edges.csv",
+     "convolution_workbook_dependencies.dot",
+     "convolution_workbook_pixel_perturbation.csv",
+     "convolution_workbook_patch_kernel_comparison.png",
+     "convolution_workbook_dependency_branch.png",
+     "convolution_workbook_colab_evidence.json"
+    ],
+    "adaptation_preserves": "Original workbook convolution/formula precedents, kernels, activations and upstream-change propagation",
+    "excel_ui_performed": false,
+    "learner_independent_practice_claimed": false,
+    "source_workbook_modified": false,
+    "private_likes_accessed": false,
+    "public_resource_candidate": "https://course.fast.ai/Lessons/lesson1.html",
+    "personal_interest_left_blank": true,
+    "official_equivalence_claimed": false
+   },
+   "prepared_notebook_sha256": "1c6a2dd8a2a02014599f5ac927abefd3eaaacfbd3c4f63606b9ea1e1a8a0a2ca"
+  },
+  {
+   "notebook": "04_fastai_part2/01_matmul.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/01_matmul.ipynb",
+    "https://github.com/fastai/numerical-linear-algebra"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/02_meanshift.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Execute the CPU/GPU k-means comparison on the original clustering data; preserve timing samples, agreement/inertia checks and the cluster plot."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/02_meanshift.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_homework_requirements": [
+    "Execute the CPU/GPU k-means comparison on the original clustering data; preserve timing samples, agreement/inertia checks and the cluster plot."
+   ]
+  },
+  {
+   "notebook": "04_fastai_part2/03_backprop.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/03_backprop.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/04_minibatch_training.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/04_minibatch_training.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 3 # how many epochs to train for"
+   ],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/05_datasets.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/05_datasets.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/06_foundations.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/06_foundations.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/07_convolutions.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/07_convolutions.ipynb",
+    "https://github.com/Yangqing/caffe/wiki/Convolution-in-Caffe:-a-memo",
+    "https://github.com/3outeille/CNNumpy/blob/5394f13e7ed67a808a3e39fd381f168825d65ff5/src/fast/utils.py#L360"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/08_autoencoder.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/08_autoencoder.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/09_learner.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/09_learner.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(1)",
+    "learn.fit(1)",
+    "learn.fit(1)",
+    "learn.fit(1)",
+    "learn.fit(2)",
+    "learn.fit(1)",
+    "learn.fit(1)",
+    "learn.fit(1)",
+    "learn.fit(3, cbs=LRFinderCB())",
+    "    self.fit(max_epochs, lr=start_lr, cbs=LRFinderCB(gamma=gamma, max_mult=max_mult))"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/10_activations.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/10_activations.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "    learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/11_initializing.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/11_initializing.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(1)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(2)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/12_accel_sgd.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Review the labeled authored objective answers alongside genuine saved exercise outputs; prepared prose does not certify hosted execution, personal reflection or independent learner recall."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/12_accel_sgd.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "lr,epochs = 6e-2,5"
+   ],
+   "training_calls": [
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(1)",
+    "learn.fit(3)",
+    "learn.fit(3)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_prose_coverage": {
+    "answer_cell_id": "worked-weight-decay-l2",
+    "question_or_topic_numbers": [
+     "weight_decay_vs_l2"
+    ],
+    "original_prompt_cells_one_based": [
+     13
+    ],
+    "source_url": "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/12_accel_sgd.ipynb",
+    "source_sha256": "01f4081fc1f98ebea7d8500045065a827c10391cadad9e315049131da5987932",
+    "authored_date": "2026-10-03",
+    "status": "authored_worked_answers_prepared",
+    "hosted_execution_claim": false,
+    "independent_recall_claim": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/13_resnet.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/13_resnet.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "lr,epochs = 6e-2,5"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "with Hooks(model, _print_shape) as hooks: learn.fit(1, train=False)",
+    "    with Hooks(self.model, _f) as hooks: self.fit(1, lr=1, train=False, cbs=SingleBatchCB())",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/14_augment.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/14_augment.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "lr,epochs = 6e-2,5",
+    "epochs = 20",
+    "epochs = 50",
+    "epochs = 25",
+    "epochs=5",
+    "epochs = 20"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "    with Hooks(self.model, _f) as hooks: self.fit(1, lr=1, cbs=SingleBatchCB())",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(1)",
+    "    self.fit(1, cbs=[SingleBatchCB()]+fc.L(cbs))",
+    "learn.fit(epochs)",
+    "    self.fit(1, train=False, cbs=[cp]+fc.L(cbs))",
+    "learn.fit(1)",
+    "learn.fit(epochs)",
+    "learn.fit(1)",
+    "learn.fit(epochs)",
+    "learn2.fit(epochs)",
+    "learn.fit(1, train=False, cbs=cp1)",
+    "learn2.fit(1, train=False, cbs=cp2)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/15_DDPM.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/15_DDPM.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 5"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/16A_StyleTransfer.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Review the labeled authored objective answers alongside genuine saved exercise outputs; prepared prose does not certify hosted execution, personal reflection or independent learner recall."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/16A_StyleTransfer.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(1)",
+    "learn.fit(1, cbs=[ImageLogCB(30)])",
+    "learn.fit(1, cbs=[ImageLogCB(log_every=30)])",
+    "learn.fit(1, cbs=[ImageLogCB(log_every=30)])",
+    "learn.fit(1, cbs=[ImageLogCB(30)])",
+    "learn.fit(1, cbs=[ImageLogCB(60)])"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_prose_coverage": {
+    "answer_cell_id": "worked-style-transfer-loop-comparison",
+    "question_or_topic_numbers": [
+     "learner_and_plain_loop_tradeoffs"
+    ],
+    "original_prompt_cells_one_based": [
+     77
+    ],
+    "source_url": "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/16A_StyleTransfer.ipynb",
+    "source_sha256": "7ab03d9394ab209c5640db107a998d4dcd5534a1dd01a28301ff6f3506da8259",
+    "authored_date": "2026-10-03",
+    "status": "authored_worked_answers_prepared",
+    "hosted_execution_claim": false,
+    "independent_recall_claim": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/16B_NCA.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Review the labeled authored objective answers alongside genuine saved exercise outputs; prepared prose does not certify hosted execution, personal reflection or independent learner recall."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/16B_NCA.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(1)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_prose_coverage": {
+    "answer_cell_id": "worked-zero-final-nca",
+    "question_or_topic_numbers": [
+     "zero_final_residual_weights"
+    ],
+    "original_prompt_cells_one_based": [
+     22
+    ],
+    "source_url": "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/16B_NCA.ipynb",
+    "source_sha256": "56c34f501f5e58c722adafb0d36f1fa2728bc1dfa2802eb06c1bc6c5a2257c0e",
+    "authored_date": "2026-10-03",
+    "status": "authored_worked_answers_prepared",
+    "hosted_execution_claim": false,
+    "independent_recall_claim": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/17_DDPM_v2.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/17_DDPM_v2.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 5",
+    "epochs = 8"
+   ],
+   "training_calls": [
+    "learn.fit(train=False, cbs=[ddpm_cb,SingleBatchCB()])",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/18_fid.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/18_fid.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(1, train=False, cbs=[hcb])"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/19_DDPM_v3.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/19_DDPM_v3.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/20_DDIM.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/20_DDIM.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/21_cifar10_and_wandb.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/21_cifar10_and_wandb.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 1",
+    "epochs = 10"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/22_cosine.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/22_cosine.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/22_noise-pred.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/22_noise-pred.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 20",
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(1, train=False)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/23_karras.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/23_karras.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/24_imgnet_tiny-wide.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "\nepochs = 25",
+    "epochs = 50"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/24_imgnet_tiny-widish.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "\nepochs = 25",
+    "epochs = 50"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/24_imgnet_tiny.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/24_imgnet_tiny.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25",
+    "\nepochs = 25",
+    "epochs = 50"
+   ],
+   "training_calls": [
+    "learn.fit(1)",
+    "learn.fit(epochs)",
+    "learn.fit(1)",
+    "learn.fit(epochs)",
+    "learn.fit(1)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/24a_imgnet_tiny-200.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 200"
+   ],
+   "training_calls": [
+    "learn.fit(1)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/25_superres.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/25_superres.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 5",
+    "epochs = 20",
+    "epochs = 20",
+    "epochs = 1",
+    "epochs = 20",
+    "epochs = 1",
+    "epochs = 20"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/26_diffusion_unet.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/26_diffusion_unet.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25",
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [
+    "        # TODO: remove act func from 1st MLP layer"
+   ],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/27_attention.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/27_attention.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/28_diffusion-attn-cond.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/28_diffusion-attn-cond.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25",
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/29_vae.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/29_vae.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 20",
+    "epochs = 20"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)",
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Before training, verify all303,125 original LSUN JPEGs against the exact course archive and all303,125 finite float32(4,32,32) latent rows. Resume missing/corrupt rows from a per-row SHA256 ledger; file allocation/existence is insufficient."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/30_lsun_diffusion-latents.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 25"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "full_source_and_cache_criteria": {
+    "expected_original_images": 303125,
+    "latent_shape": [
+     303125,
+     4,
+     32,
+     32
+    ],
+    "latent_dtype": "float32",
+    "latent_payload_bytes": 4966400000,
+    "preserved_epochs": 25,
+    "data_and_latents_runtime_local": true,
+    "compact_manifest_and_models_results_drive": true,
+    "source_precomputed_latents_not_used": true,
+    "hosted_execution_claimed": false,
+    "course_completion_claimed": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Before the original15-epoch training, verify the full303,125-image LSUN subset against the course archive. Preserve original folder0 validation versus folders1–9 training, with no overlapping/omitted JPEGs."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/30_lsun_diffusion-simple.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 15"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "full_source_and_cache_criteria": {
+    "expected_original_images": 303125,
+    "preserved_epochs": 15,
+    "original_folder_split_preserved": true,
+    "data_runtime_local": true,
+    "compact_source_manifest_drive": true,
+    "hosted_execution_claimed": false,
+    "course_completion_claimed": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/31_imgnet_latents-widish.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Supply the full ILSVRC image and synset inputs permitted by their terms. Tiny ImageNet is a different experiment.",
+    "Before the original40-epoch1,000-class classifier, require1,281,167 training and50,000 validation originals with exact synset mapping/order; validate every finite float32(4,32,32) latent against current source SHA256 and exact VAE/preprocessing identity. Repair only missing/corrupt/current-source-invalid rows; partial caches cannot pass.",
+    "Original ImageNet may use local JPEGs or explicitly approved official streaming; verify pinned revision, actual WNID ClassLabel mapping, complete ordered row/source/label/output ledger and exact full counts before original40-epoch classification training."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22p2/blob/df9323235bc395b5c2f58a3d08b83761947b9b93/nbs/31_imgnet_latents-widish.ipynb"
+   ],
+   "preserved_epoch_assignments": [
+    "epochs = 40"
+   ],
+   "training_calls": [
+    "learn.fit(epochs)"
+   ],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "full_source_and_cache_criteria": {
+    "expected_train_images": 1281167,
+    "expected_validation_images": 50000,
+    "expected_classes": 1000,
+    "latent_shape_per_image": [
+     4,
+     32,
+     32
+    ],
+    "latent_dtype": "float32",
+    "train_val_latent_payload_bytes": 21809840128,
+    "optional_unlabelled_test_images": 100000,
+    "test_required_for_classifier": false,
+    "preserved_epochs": 40,
+    "data_and_latents_runtime_local": true,
+    "compact_manifest_and_models_results_drive": true,
+    "official_precomputed_latent_download_found": false,
+    "official_input_access_required": true,
+    "streaming_adapter_implemented": true,
+    "validation_flat_layout_supported_with_official_xml_or_csv": true,
+    "hosted_execution_claimed": false,
+    "course_completion_claimed": false,
+    "streaming_source": "ILSVRC/imagenet-1k only",
+    "streaming_is_opt_in": true,
+    "streaming_requires_user_approved_access_and_token": true,
+    "unverifiable_class_mapping_refused": true,
+    "streaming_exact_train_validation_counts_required": true,
+    "source_replay_needed_for_resume_verification": true,
+    "streaming_raw_images_not_retained": true,
+    "npy_logical_bytes_with_headers": 21980229504,
+    "npy_allocated_bytes_on_4096_block_filesystem": 27262300160,
+    "streaming_hosted_execution_claimed": false,
+    "streaming_requires_pinned_revision": true,
+    "streaming_requires_verified_actual_wnid_classlabel_features": true,
+    "live_official_label_features_verified": false
+   }
+  },
+  {
+   "notebook": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/diffusion-nbs/blob/f565e05aae20b3c0cf958de29c21776572e38505/stable_diffusion.ipynb",
+    "https://github.com/huggingface/diffusers",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_img2img.py#L124",
+    "https://github.com/fastai/diffusion-nbs/blob/43a090286e5742f807d4ff58524c02a1888b3004/suggested_tools.md",
+    "https://github.com/huggingface/diffusers/tree/main/examples/textual_inversion",
+    "https://github.com/huggingface/diffusers/tree/main/examples/dreambooth",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/schedulers/scheduling_pndm.py",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/schedulers/scheduling_ddim.py",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/schedulers/scheduling_lms_discrete.py",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py#L204",
+    "https://github.com/crowsonkb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models.",
+    "Run all four added original-prompt parameter comparisons with their recorded shared controls and complete schedules; retain20 generated images,4 grids,4 comparison CSVs,15 step traces and task JSON. Interpret actual images yourself; pixel statistics do not certify visual quality."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/diffusion-nbs/blob/f565e05aae20b3c0cf958de29c21776572e38505/Stable%20Diffusion%20Deep%20Dive.ipynb",
+    "https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py#L200",
+    "https://github.com/johnowhitaker/tglcourse/raw/main/images/text_encoder_noborder.png"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [
+    "# TODO maybe show timestep as well",
+    "# TODO call out that 6829 is puppy"
+   ],
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "objective_experiments_added": [
+    {
+     "group": "noise_timesteps",
+     "source_prompt_original_zero_based": 31,
+     "schedule_steps": 15,
+     "settings": [
+      0,
+      3,
+      7,
+      10,
+      14
+     ],
+     "expected_trials": 5
+    },
+    {
+     "group": "img2img_skipped_steps",
+     "source_prompt_original_zero_based": 36,
+     "schedule_steps": 50,
+     "settings": [
+      0,
+      10,
+      25,
+      40
+     ],
+     "expected_trials": 4,
+     "expected_denoising_steps": [
+      50,
+      40,
+      25,
+      10
+     ]
+    },
+    {
+     "group": "classifier_free_guidance",
+     "source_prompt_original_zero_based": 87,
+     "schedule_steps": 50,
+     "settings": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32
+     ],
+     "expected_trials": 6,
+     "expected_denoising_steps": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+     ]
+    },
+    {
+     "group": "blue_guidance",
+     "source_prompt_original_zero_based": 95,
+     "schedule_steps": 50,
+     "settings": [
+      [
+       0,
+       5
+      ],
+      [
+       50,
+       5
+      ],
+      [
+       200,
+       5
+      ],
+      [
+       1000,
+       5
+      ],
+      [
+       40,
+       1
+      ]
+     ],
+     "expected_trials": 5,
+     "expected_denoising_steps": [
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "expected_blue_updates": [
+      0,
+      10,
+      10,
+      10,
+      50
+     ]
+    }
+   ],
+   "shared_controls": {
+    "model": "CompVis/stable-diffusion-v1-4",
+    "seed": 32,
+    "image_size": [
+     512,
+     512
+    ],
+    "fresh_scheduler_per_trial": true,
+    "original_prompt_and_input_preserved": true,
+    "same_noise_sha_per_group_required": true,
+    "unet_compute_policy": "CUDA float16 autocast; float32 latents/VAE guidance"
+   },
+   "evidence_directory": "results/02_stable_diffusion_deep_dive_objective/<actual_colab_run_record_stem>",
+   "required_evidence": [
+    "task_evidence.json all_four_experiments_executed true with all20 saved trial image hashes",
+    "4 comparison.csv files and 4 comparison_grid.png files",
+    "15 per-trial step CSV files matching full schedules",
+    "20 per-trial JSON files and20 generated PNGs",
+    "source_macaw.png and matching encoded/noise fingerprints",
+    "actual current-source hosted execution with saved counts/outputs and no cell errors"
+   ],
+   "extra_denoising_updates": 675,
+   "original_teaching_schedules_reduced": false,
+   "learner_visual_interpretation_required": true,
+   "objective_metrics_are_not_prompt_quality_scores": true,
+   "provider_completion_claimed": false,
+   "objective_experiment_source": {
+    "original_url": "https://github.com/fastai/diffusion-nbs/blob/f565e05aae20b3c0cf958de29c21776572e38505/Stable%20Diffusion%20Deep%20Dive.ipynb",
+    "original_sha256": "c6d8f1b3034c16bc454213a1a4ac4529d116a13c49409034ba3806f7229856cf",
+    "original_prompt_cells_zero_based": [
+     31,
+     36,
+     87,
+     95
+    ]
+   },
+   "prepared_source_sha256": "b5ba6d11ba1a1c2d8c2db3e91900754c2cb1dbc40bf95fa879f82be1f51ac538",
+   "authored_digital_diagram_adaptation": {
+    "status": "authored_digital_aid_prepared",
+    "original_prompt_cell_one_based": 91,
+    "original_prompt_id": "cec8cc24-e818-473b-a6d3-4d14c8f3b009",
+    "added_cell_ids": [
+     "colab-authored-diffusion-diagram-context",
+     "colab-authored-diffusion-diagram"
+    ],
+    "asset": "03_fastai/resources/diffusion_cfg_custom_guidance.svg",
+    "saved_output": "authored_diffusion_cfg_custom_guidance.svg",
+    "physical_paper_activity_performed": false,
+    "learner_independent_practice_claimed": false,
+    "objective_model_results_claimed": false
+   },
+   "prepared_notebook_sha256": "ed1e1eed183df5b50fd1f0a55b14b3c029285005b36599d6923fe5bf49c6945c"
+  },
+  {
+   "notebook": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+   "full_run_requirements": [
+    "Run all exercise cells top to bottom in hosted Colab and preserve their outputs, errors and execution counts.",
+    "Keep QUICK_RUN=False; shortened checks or synthetic replacements for real datasets do not count as full original exercises.",
+    "Preserve plots, models, metrics and run configurations in Drive; a final-cell marker alone is insufficient.",
+    "Retain original datasets, model definitions, training schedules and instructional comparisons.",
+    "Run prerequisite checkpoint-producing notebooks first; do not replace missing weights with untrained models."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/diffusion-nbs/blob/f565e05aae20b3c0cf958de29c21776572e38505/textual_inversion_inference.ipynb"
+   ],
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": true,
+   "upstream_editorial_todo_comments": [],
+   "hosted_execution_status": "not_executed_by_this_preparation"
+  },
+  {
+   "notebook": "03_fastai/17_original_00_bird_classifier.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Use real photograph searches for forest/bird plus sun/shade (200 maximum results per query), validate files, split .2 seed42, resize192, pretrained ResNet18 fine_tune(3), and classify separately downloaded bird.jpg."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/00-is-it-a-bird-creating-a-model-from-your-own-data.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 16,
+    "original_nonempty_code_cells": 12,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "950261348c5cf8c69200aa869a8da509660d171bc2e8d70ba98a5b1f1f1b3556",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "b724486746c6f00aaebb2e9b118d0d1ba401859fbbbfac47499cd9fb2442916e",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "5604d9d73f35b3b8ce0ac281db2aebc2930536faa429b54f5b1d607d82d8b1f0",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "2b300a1185970a210a0af4cbf24fe60cdcd2601ee09cfbf57a1c60a0974678ec",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "a28dba0a6fe9253a9fdc47b0dc0a533293ba949d718cab807457fa8c05f7c954",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "8a44f3df8c260bb66509f744c29bc02ef8edd96e579e4b5a524eb75bbabdf7a6",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "00fa4f02f027f342f3019fea6f61c08ef4fa9ac6c9e600152d58bd8426d618d5",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "52533e5f2442e203add727e747c6c0c18e82e9903926b0698283c9096de41194",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "code",
+      "original_source_sha256": "ce53da4368fb868b16cb2f87ae47deb44e43d96239ea5e261dc13749bd4df4f6",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "f346a408a1f6b0ab6e994cacffa3f9f80fa7f9067e9ccbe3934999c6627d6ae5",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "927bfca49be71281a788b5a2176bd5d940b330c9991dcbab81a472fc542ccc8d",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "157d7871707a1b936fe28f2cdb54d9d0f73e8161d339b2dbbcfc06ac79388821",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "code",
+      "original_source_sha256": "060c6749d8b21213da821a2a8dd45a3a46e65c4ebbdf71aaa1a03162522c4c25",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "code",
+      "original_source_sha256": "270aaf6ff1f97cf4eb1ad1d539a7e1014a1f29b7abbfeefa8f0de0b16966a064",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "fed7cc41bdb4810f1bd81d8659d6b3313e87562c547793df55daa3f72093411f",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "b26fc8ee3fd5e42ff09a9928121e5bd9119101c78df133b8d783d687340ee1a9",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fine_tune(3)"
+   ],
+   "gpu_required": true,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Kaggle connectivity/pip cells adapted to Colab and checked dependency profile; renamed duckduckgo_search to ddgs. Original six200-result searches, delays, full data split and three fine-tune epochs retained."
+   ]
+  },
+  {
+   "notebook": "03_fastai/18_original_01_jupyter.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Retain arithmetic, notebook mode/Markdown/headings/lists/image/shortcut prompts, shell pwd, print help, and timeit demonstration. User practice of interface shortcuts is a separate learning action."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/01-jupyter-notebook-101.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 23,
+    "original_nonempty_code_cells": 7,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d753efbab681fa4da82470d9a83b1c202de58f92fd498e77a269c1163bc4714b",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "4a1b21d876ae00c8ed5c4d1cde09c61f8a61b50fe370a801b10c339831f370ab",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "8a3be42367ec71c0ccbd17d357bdf2b297b545450013e77a72773ac7ae76eee4",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "code",
+      "original_source_sha256": "6d27ca189b30af4f85eab024881ab00a37ef4bab14248c18349e900f40510397",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "f3f173976d49aa4812a2744ccc28fc49d1229afe4f5da80ec4024e3019e11abb",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d33512fb6ed1a21405a11da2f5ab039ad85eae12f4969bf0e700a6da65355987",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "51468a576e04305823d62820e95e5de6de9494533b773f7412335190f626ba27",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "837a409f6038468165a811798bff86ff1dfb65ac05f25eb566827ff3025df770",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "5b42fe2d45bcb81a9a26b16bbbd3d4314f8dfef88d79c632184adadf48a0e5c7",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "a7e1c4b239cdc256c47566cf3a53091f0e7e1914e91fa75e15f4064d51309f23",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "50117fe86cdc954e7bf21f545cf260bb86c4e615212defcbb18ba4d60be86f81",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "3f1494896a9c44d8e6b0e42ee19cbe68faacee47a9ae2717125ec29922df6929",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "b0261bacee1ad3cc24a81015867b1a94a2b2c10af12412b9c5e05debc9477e52",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "code",
+      "original_source_sha256": "22972a568130a5b7aa3ab197f0d83b902639cb9679ff29871cc9bb340daf4624",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "2e04d036c67bf482cbc051b1e10d059cecc4b3d748188fe0224758cff5d8721d",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "10b725c62e10392740238ca260e7fd79b8d3b557a419361bcd852afc8990de2a",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "64763f4cb2fa2001159f8a6de355f9ae8478d41c78cee42ef9300eda3792d093",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "ec8ceb653093f5fb3221feba30c62038b175640e8d68329b35d7a6050f0003ad",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 18,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "824babdb748334009446443894c040a7f3bcce4845ec63229c284b411cdaed8c",
+      "prepared_cell_index": 22,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 19,
+      "original_cell_type": "code",
+      "original_source_sha256": "dc62d74245fc27cc267c478bd580da9e9b097ba81dc2727056a0ee3f9cf9c9db",
+      "prepared_cell_index": 23,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 20,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d5b39a6ba4d44da991f1dbaa5b840f21baddbb12a03e59b144c984e7e6a2f7ee",
+      "prepared_cell_index": 24,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 21,
+      "original_cell_type": "code",
+      "original_source_sha256": "0071f45ac231ceefb8eca6b4070955c3c7416849424b2cf12cdda80f82149314",
+      "prepared_cell_index": 25,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 22,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "f3fc91e35030e91ff3f8ef891d934412d1013edbd08e53c0070febcd858de71b",
+      "prepared_cell_index": 26,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "All original code/magics and Markdown prompts retained. Code execution does not attest that the learner practiced notebook keyboard/UI actions."
+   ],
+   "colab_frontend_supplement": {
+    "url": "[private account link omitted]",
+    "notebook_name": "HaiLong_fastai_Jupyter_Colab_UI_Practice_2026-10-03.ipynb",
+    "status": "assistant_demo_verified_saved",
+    "date": "2026-10-03",
+    "actor": "Codex",
+    "verification_source": "Parent agent's actual live Colab browser observations and embedded captured screenshot",
+    "saved_state_observed": "All changes saved",
+    "actual_frontend_actions": [
+     "Code cell edited and executed with Shift+Enter; a next code cell was inserted",
+     "Markdown source opened with the actual Edit checkbox, rendered with Shift+Return and focus moved to the next editor",
+     "Native move-up and move-down controls succeeded with observed confirmation notifications"
+    ],
+    "actual_computational_results": {
+     "one_plus_one": 2,
+     "arithmetic_sequence": [
+      1,
+      2,
+      4,
+      8
+     ],
+     "matplotlib_plot": "Generated and displayed from the arithmetic sequence",
+     "pwd": "/content",
+     "print_documentation": "Actual first documentation line displayed; no unobserved help-popup action claimed",
+     "original_timeit": {
+      "expression": "[i+1 for i in range(1000)]",
+      "mean_microseconds": 33.2,
+      "reported_plus_minus_nanoseconds": 400,
+      "runs": 7,
+      "loops_per_run": 10000
+     }
+    },
+    "actual_rendered_markdown": [
+     "Headings",
+     "Italics",
+     "Bold",
+     "Strikethrough",
+     "Inline code",
+     "Blockquote",
+     "Link",
+     "Ordered list",
+     "Unordered list",
+     "Code fence",
+     "Real generated plot embedded as a data-URI image"
+    ],
+    "screenshot": {
+     "status": "Actual unaltered cropped JPEG embedded in companion Markdown cell 5 and saved",
+     "width": 640,
+     "height": 125,
+     "bytes": 14763,
+     "local_backup_obtained": false
+    },
+    "source_prompt_mapping": {
+     "original18_prepared_cells_one_based": [
+      9,
+      12,
+      13,
+      14,
+      15,
+      16,
+      21,
+      22,
+      23
+     ],
+     "original18_demonstration_cells_one_based": [
+      11,
+      18,
+      19,
+      24,
+      26
+     ],
+     "adaptation": "Actual Colab interface exercise; source headings and original code demonstrations retained"
+    },
+    "observed_limit": "Escape did not change the editor focus. Classic Jupyter mode behavior is not claimed.",
+    "original_notebook_source_modified": false,
+    "original_notebook_sha256": "6f6992566ce99557779a23787273a5b97d620506ac2f31126f343963d0f452fc",
+    "learner_independent_practice_claimed": false,
+    "provider_course_completion_claimed": false,
+    "offline_copy_of_companion_available": false
+   }
+  },
+  {
+   "notebook": "03_fastai/19_original_02_save_pet_model.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Download all Oxford-IIIT Pets images, cat/dog labels from filenames, valid_pct .2 seed42, resize192, pretrained ResNet18 fine_tune(3), export and reload the trained model. Public deployment is separate."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/02-saving-a-basic-fastai-model.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 8,
+    "original_nonempty_code_cells": 7,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "9998fc5f87ac10d7a198c35deb01ab21638e6fb07e4a2bf84b6cb6343cbb4dde",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "c6d64295e3643dd1b19d01e1ea4da964c081e893b053b6d9af29e3d995734e09",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "12e9e1833a35b7a14dab32165c6bd7807018312ae84fe52ec8f066bd528aa13a",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "code",
+      "original_source_sha256": "74925fdb8a8e80e946fbcfcce4e83455c029287c23c13a0ece20e3d6e712f3ad",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "a240a056782ad636590293929cee23d79fea0b55f36b5428abe5e2c8946c0748",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "70b18d1c643d9ef5de69101765d339002d4c78946769bb28ea03b4b409b1b22b",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "270aaf6ff1f97cf4eb1ad1d539a7e1014a1f29b7abbfeefa8f0de0b16966a064",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "296cbc42a2577261b21fb6d77d00f337c5af45a16c69d4f525d39c05f7af372b",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fine_tune(3)"
+   ],
+   "gpu_required": true,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Preserved full Oxford-IIIT Pets cat/dog training, .2 split, seed42, resize192, ResNet18 and fine_tune(3). Export path isolated and a trusted local reload demonstration added. No public deployment."
+   ]
+  },
+  {
+   "notebook": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Analyze pinned original RTX3090/PyTorch1.11 inference and training benchmark tables, all family filtering/scatter/OLS/parameter analyses; these are historical source benchmarks, not measurements of the Colab T4."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/03-which-image-models-are-best.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 18,
+    "original_nonempty_code_cells": 13,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "def69f49e15da8074adda7ea2aaf8e746a379f1d931728cbee409634d2438f84",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "336baab3215db8583bd3d7283656b32f43f4ac355f9c33667c286b2f669e727f",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "353a363fedb054fc64c22c082c67be398f0bccbe9031bdf4b02d797927dca48c",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "code",
+      "original_source_sha256": "532071e4c5473808266f9f510d12ebc5f749b555efd92f4d21bdccc028303885",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "f384a8e343372802e0018dcad2589389197bc18f41d4952cc6493427f95cde83",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "5ac56ed154c22cb5689a2f2a2c531ae01a92892a092908cada98ff46e063a3e4",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "ff59800d2681a2b1c9e2976d10d6a2c5262d7a7e1fedad42ecb944938916d9a3",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "f97db6d9c6a5da3235762187f82152b61dc23d271baddb5a74f611ce009a4688",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "code",
+      "original_source_sha256": "a5e4ac3cdb29b11631ebc386b49e0179a087122db341bce98fc0c33ac2a98feb",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "ac93be7e3efcf1593028949cf69ef3c9a81d4abbb9092c16d3560c14e91b2354",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "code",
+      "original_source_sha256": "0ac3c90109b030b7e9262be0da36f8f8e7893a112de365f8dcbe80cc8e21de48",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "a927da7d50dee4cc9ffd625245285e63d6548253ec3aa477beab1ef8bc2fbd6b",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "code",
+      "original_source_sha256": "ecf4986185b46c15aa76472be7ae0b1aed981686f6ccb35e71ccef6a30addc85",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "415f001e97978339bb203411503f92b0b519d1dfc0d2d47f375475bdf7fb158a",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "3228cd84d224789ac5ee705be5f39177fb6de4373463f4c377dde4f9eb116beb",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "291751f9538a5456b0127b7e6bbb6e5cb3cc9f1d30dd194f0cb102bdcf7433ef",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "code",
+      "original_source_sha256": "6867331d1a77f5c7ac008444f921be18df4b4aa90982e2b90f40df6a48b22589",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained",
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "code",
+      "original_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Historical CSVs deleted from modern timm are restored from the contemporaneous2022-05-13 commit; all rows in the original inference/training benchmark tables and their matching ImageNet catalogue are retained. Current ImageNet table would match just one legacy model and is not used. Original analyses/filters/OLS preserved."
+   ]
+  },
+  {
+   "notebook": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Retain noisy20-point quadratic MAE examples, widgets, explicit gradients, manual .01 update and10-step source loop, clipped/F.relu plots and double-ReLU exploration. Preserve the source accumulation demonstration and separately show gradient-reset behavior."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/04-how-does-a-neural-net-really-work.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 31,
+    "original_nonempty_code_cells": 26,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "758d632b66f3f7401af3e855f324ac6e37ab98279a0f0e301d80c1a316d29251",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "653ed2c8785c280b4f50767f65d62e36d6c279a40450c861e96829348f6dc1fa",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "de72bfde9cb0f8a424d36f6680dad0dff46ccbf4a25e60ef56fa6b5a7493cc53",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "code",
+      "original_source_sha256": "9b8f6732bad61206291faf9a7e403ef9b24558e1e3ef7fc0f782b46d180c6790",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "ec7c767f2f84818917392d714d79225771bf2e14b337d04b44758442ccc35cd7",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "451068033c60a33ee26f59f8f0e31efa0c2561f4f7276800dd883fe928514ce4",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "12f043ad435996ca6fe241a40580ac6e7c904a4c0e708b22b41063ceeee63302",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "4794a37a110f39d0d522ed7c139ad968f6174f28524f7fac566af9c50da10877",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "code",
+      "original_source_sha256": "e12709a11ce4d57572657e53f9bd43cf9fdd46bca43c1b8803976cc3addcc72d",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "71034a7fe8e42f8d20296bd2d1e6c9d99996d2aa56864e499dc95671e19edc9d",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "code",
+      "original_source_sha256": "56b681b78ab443988ed12418335592015ee9dbcdd7e5c56544a7c8fb08d1498c",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "b309b51b31982eec5f78606ce02cbcd5f12270dc42384c5bfc96b63f1b0488b5",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "code",
+      "original_source_sha256": "eccf5b4816f73ddec77564231ca1dd7ce38eb4368d26c315f07f89aa73ce9d2a",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "6f81845ce67d3f46f325c85b814e0e600f66a8d00ac5a46934cabcf361960099",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "04133f7c89d45f4a8db09f96b1dd214d057d00420078e473f62e0c99ed13616a",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "be08ee0a499468a14d736c5cb8f53d73ea15b0a0e52c062c4e1ae1589641f38e",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "code",
+      "original_source_sha256": "b38addd1975eb9e3efda9117b116649dddd3616e5c4249d33b68b2926bc10197",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "code",
+      "original_source_sha256": "e1a569fad885e8d19a9439d4032e6bb49c01d7dbca65cf34c749c0b742135a86",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 18,
+      "original_cell_type": "code",
+      "original_source_sha256": "bfc86731c24d845c78dbd9a3f045a5f81d0194b1ac4011b9f74074f329ba9e87",
+      "prepared_cell_index": 22,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 19,
+      "original_cell_type": "code",
+      "original_source_sha256": "227fe80da08b6d02955034947b207abea315364b3d84ee7b1732f8e8c3b31d8d",
+      "prepared_cell_index": 23,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 20,
+      "original_cell_type": "code",
+      "original_source_sha256": "21f4ddc7fdaded36c828d7142da936792458ea940163c6b609b3b456b88d1d43",
+      "prepared_cell_index": 24,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 21,
+      "original_cell_type": "code",
+      "original_source_sha256": "0e2d81ad9b2fa5cfecc5d2e13b92ced4da6c76b6a6c145044a407771f0185f05",
+      "prepared_cell_index": 25,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 22,
+      "original_cell_type": "code",
+      "original_source_sha256": "2420ce65fbd1a327bd3cbce707d6e9ec1374f23c3addf876e63b9e34f558d4ed",
+      "prepared_cell_index": 26,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 23,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "92c6fc22fbf647c9545f7d6a188a3bbdbd6dab0d537978f8814be59f19772452",
+      "prepared_cell_index": 27,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 24,
+      "original_cell_type": "code",
+      "original_source_sha256": "a22d87683926bb64a50ababf2917a52d7ea71dff0073ba28fd46e841b3188bfc",
+      "prepared_cell_index": 28,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 25,
+      "original_cell_type": "code",
+      "original_source_sha256": "e16229560bed29a63bf7d74b2456cce37d8c61b86b4b677a54f6ace371df7bf5",
+      "prepared_cell_index": 29,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 26,
+      "original_cell_type": "code",
+      "original_source_sha256": "daf0fa89348f1311d867e0bd870e1c705974536932b1e1f459d1f34ea337093b",
+      "prepared_cell_index": 30,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 27,
+      "original_cell_type": "code",
+      "original_source_sha256": "9b687a3fede7c1a2afbb0a6ff2dd9feda87f06db552c40c802873b716d4523e0",
+      "prepared_cell_index": 31,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 28,
+      "original_cell_type": "code",
+      "original_source_sha256": "465882a7835ae62cb80914631b68fba2cd691e51186bbf342034cb2ba32fa72b",
+      "prepared_cell_index": 32,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 29,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "dea935fe320225b5dc2956d4d272aadf400d9b0142698744753dcb8528c1a2e6",
+      "prepared_cell_index": 33,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 30,
+      "original_cell_type": "code",
+      "original_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_cell_index": 34,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "All original quadratic/MAE/gradient/ReLU experiments and widgets retained. y is explicitly a tensor for current PyTorch. Original gradient-accumulating loop is preserved and labelled; a separate10-step zero-grad comparison is added."
+   ]
+  },
+  {
+   "notebook": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Use the full original891 training/418 unlabeled test passengers and all12 source features. Preserve raw linear18 epochs lr.2; sigmoid30 lr100; matrix30 lr100; hidden20 networks30 lr1.4 and30 lr20; deep[10,10]30 lr4; all gradients, preprocessing, validation and test CSV experiments."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/05-linear-model-and-neural-net-from-scratch.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 87,
+    "original_nonempty_code_cells": 74,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d753efbab681fa4da82470d9a83b1c202de58f92fd498e77a269c1163bc4714b",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "56396803d1cbfc0a161d5c9aa38fdf29bc913673c22cbdcfb667733bc0e3f7f7",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "06c4e5742eb89aca3070da8af663dec67b39d2681ec9d810e41ee0e64f2302ac",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "ad4cc61554e1ca5216895c849df9ffd856b466d0eea44ec2a5e42d8aaea93e13",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "e6dcf32a1634140dc0f50aae84c2987396a5e0978819acc7b3589966fa7c07f4",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "ec96216d511a9fbf3fd53c477446e6f478364ff5ec7a0b52b00876ad58acdd5f",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "88631e77bc67d7eda04023f61f1c000ad93d9834c8177965d302d87df8369772",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "728718b4b5833df8b2f5374b1317618fc693d3782fa1dd41bc2757c664243724",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "code",
+      "original_source_sha256": "ec96216d511a9fbf3fd53c477446e6f478364ff5ec7a0b52b00876ad58acdd5f",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "eb332a455857eaee07053a3c48029e66cb454982d71851cead2ebd8b52f5a753",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "code",
+      "original_source_sha256": "e130afe7305d1096383eb83f9c9096434e09b05bfadb19b26d8513de1a01e65c",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "547df393409c45a11f4af37b4e474a53a5b8623fc5771826080dea3a5977f7ec",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "code",
+      "original_source_sha256": "934d34253fc5b5395e5bbb664e06b5fdaaf33eb88f45de70efdf07dc0fee6faf",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "code",
+      "original_source_sha256": "f14d2226ba5d13cb251f0349659e2ca60688fd45e52d4128d91fcff88142c6e7",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "2fa2a55c4c0ab683213bccd40a1d0f8e52a8385724369636b67a2df009aaf338",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "1170057614f85ffaef8175dc1097344f2d60cf2dc4a28a484bd70bbb5266a79d",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "code",
+      "original_source_sha256": "58009b17bad035ceb1abc4dd9a7d59dbb04dad30525e85923b3f767a8dbafde3",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "code",
+      "original_source_sha256": "4e084c4217d7f07e0eaa1dc24b7dde8f00b20354be41b766b5d7ccd120e4412c",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 18,
+      "original_cell_type": "code",
+      "original_source_sha256": "0bd49cb4774419daf2f26489b997931323a7d35b59d8d6e8309c5ab0de54c593",
+      "prepared_cell_index": 22,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 19,
+      "original_cell_type": "code",
+      "original_source_sha256": "0aab9580a77fd1c7ff34dfb0b4336a38379e002bbbe76ccc7082073050d1c0de",
+      "prepared_cell_index": 23,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 20,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "c0a9a7d868a019bc011fea3b400dbcc24a0748ebfaf0fae86f8d9bba8a27c847",
+      "prepared_cell_index": 24,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 21,
+      "original_cell_type": "code",
+      "original_source_sha256": "650647f847e1fb6c5aa3df93cd718402226cf383f9f7e1000baa4c3b42a584f1",
+      "prepared_cell_index": 25,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 22,
+      "original_cell_type": "code",
+      "original_source_sha256": "9b1013b88ba88813ed2cf3e80cca91f7d580cc90898477177400847617a354c8",
+      "prepared_cell_index": 26,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 23,
+      "original_cell_type": "code",
+      "original_source_sha256": "05cf98ed947c503a04a670b223ac81ed52569e9fadcbabe73e47a66ff3461d94",
+      "prepared_cell_index": 27,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 24,
+      "original_cell_type": "code",
+      "original_source_sha256": "9b1013b88ba88813ed2cf3e80cca91f7d580cc90898477177400847617a354c8",
+      "prepared_cell_index": 28,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 25,
+      "original_cell_type": "code",
+      "original_source_sha256": "fd1f31670f37228637f6b540667ac4089482a5635e6f4aa20386cc9640a8a2cb",
+      "prepared_cell_index": 29,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 26,
+      "original_cell_type": "code",
+      "original_source_sha256": "56c8724d9199be1f55eeb727d679b4af6de3820076f7fc53b71d071a636173b8",
+      "prepared_cell_index": 30,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 27,
+      "original_cell_type": "code",
+      "original_source_sha256": "cc31fd61c6efa3f68338adea6523b23cd98cd7d9cd728ffbc56cbbeebf0b6a17",
+      "prepared_cell_index": 31,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 28,
+      "original_cell_type": "code",
+      "original_source_sha256": "93dd1126d3f9dff323ef8c7b28c015147ddfe24df189978623d0775d0745da67",
+      "prepared_cell_index": 32,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 29,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "18c39ee2411cce571b7d699a7c5d9227d73e1a17ec550aeb0f157e191941242a",
+      "prepared_cell_index": 33,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 30,
+      "original_cell_type": "code",
+      "original_source_sha256": "8afe3837a046b6adc452b90a17b3cf7496cc1ace784195a58c407b8ba4513918",
+      "prepared_cell_index": 34,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 31,
+      "original_cell_type": "code",
+      "original_source_sha256": "46061fde00a4f0a74bf515148c83010a42755bff3b08aaa8e142d9193e6b0b4d",
+      "prepared_cell_index": 35,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 32,
+      "original_cell_type": "code",
+      "original_source_sha256": "227fe80da08b6d02955034947b207abea315364b3d84ee7b1732f8e8c3b31d8d",
+      "prepared_cell_index": 36,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 33,
+      "original_cell_type": "code",
+      "original_source_sha256": "5baa696fdc4e9f1a72e7864c4fa18c3ebb9eda92ef7999dd975b5428bb8003ae",
+      "prepared_cell_index": 37,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 34,
+      "original_cell_type": "code",
+      "original_source_sha256": "eac3cc88fe3af0f0c2698f65df7a1a9d0b34263ccb6cb50ad073f2ab7fb68f4e",
+      "prepared_cell_index": 38,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 35,
+      "original_cell_type": "code",
+      "original_source_sha256": "64805ce1864d3832c365af641da0b42d1d8b4ebb56d8025e443c8922e3e5e766",
+      "prepared_cell_index": 39,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 36,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "478cd1e572a019d3324095263f1826a8c4a885757d2b5210da36aeec8b646607",
+      "prepared_cell_index": 40,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 37,
+      "original_cell_type": "code",
+      "original_source_sha256": "a5c0a563e92e275954ca551c7d0d8a25227c22b2cfd97685fb7680e817ddf7d6",
+      "prepared_cell_index": 41,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 38,
+      "original_cell_type": "code",
+      "original_source_sha256": "0a992e19f089ceb89b6ffb3ba24680a84acebc5ea9fa5483d7ac362497d61025",
+      "prepared_cell_index": 42,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 39,
+      "original_cell_type": "code",
+      "original_source_sha256": "8d262c71be25aa6c71e975480b2bf5d8740dd60a1ef136542a65663d319dfb85",
+      "prepared_cell_index": 43,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 40,
+      "original_cell_type": "code",
+      "original_source_sha256": "6f451698a1325a512fcdf8a799725f803dabcc6ee901a9eb3bde28c32ce88e81",
+      "prepared_cell_index": 44,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 41,
+      "original_cell_type": "code",
+      "original_source_sha256": "976ea99de7703ae1b506558aa00e8e1376900c11af806d234201e557a5e37338",
+      "prepared_cell_index": 45,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 42,
+      "original_cell_type": "code",
+      "original_source_sha256": "022ffb2c7754280a6ab15b0ed3f883ca276913b33833f414a8b4fc0894878130",
+      "prepared_cell_index": 46,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 43,
+      "original_cell_type": "code",
+      "original_source_sha256": "a22e3d0ca057e0d2aaafac5fc0ab563378d5e11783cb84f207bf81bcfb7a28fa",
+      "prepared_cell_index": 47,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 44,
+      "original_cell_type": "code",
+      "original_source_sha256": "c35ee3ef85c2ce86dd5750f106ca38945b003704d733e025ed4e22e149c82500",
+      "prepared_cell_index": 48,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 45,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "2d4320f619f6abcab4c956b2844307f67cfcd7c51867df1c2b8a6eca5055a40f",
+      "prepared_cell_index": 49,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 46,
+      "original_cell_type": "code",
+      "original_source_sha256": "609ae84d003f830f25c0ed72c30a40661691768ab3b2fea5a949d19471ef7a20",
+      "prepared_cell_index": 50,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 47,
+      "original_cell_type": "code",
+      "original_source_sha256": "c326c6c6e6df43bc54bdf168fbe1fdc95ce2bc4f83a03b0a3aa5cc60365a41c3",
+      "prepared_cell_index": 51,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 48,
+      "original_cell_type": "code",
+      "original_source_sha256": "af4c33095015c79470b39a7e810ad2eb3f61d8116894f6174e294e49e10b6291",
+      "prepared_cell_index": 52,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 49,
+      "original_cell_type": "code",
+      "original_source_sha256": "5170e5a3ab4ee1a9a1ccf42b803791bb98b98d42dc9a1751f2fe0bf6383474d1",
+      "prepared_cell_index": 53,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 50,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "a0631fae63cd3ae50c5bdc3c2ec49181ac44e237e579ccd0964e1f5672dce459",
+      "prepared_cell_index": 54,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 51,
+      "original_cell_type": "code",
+      "original_source_sha256": "bf5fd93d462e977b29bef1658a7868ddc0e914c18a1b2eb122e0059ed973faf6",
+      "prepared_cell_index": 55,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 52,
+      "original_cell_type": "code",
+      "original_source_sha256": "2dfbd5372c803d86f831a93c1ef4904f35a8cc1d6f7a40b19ef1095a3858a309",
+      "prepared_cell_index": 56,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 53,
+      "original_cell_type": "code",
+      "original_source_sha256": "0d7ca9415b4dbeb0687ecfad041a85600a76d1f0c823d7a00718c16e27b40a65",
+      "prepared_cell_index": 57,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 54,
+      "original_cell_type": "code",
+      "original_source_sha256": "3a4c3e0a937b96659daa2a111305af145efcb6c03930ef88ecf7c4459c41cc9a",
+      "prepared_cell_index": 58,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 55,
+      "original_cell_type": "code",
+      "original_source_sha256": "b1d3602e10375cf8a3570e3ae75819bc163048f007d4406ac80cd971459860a7",
+      "prepared_cell_index": 59,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 56,
+      "original_cell_type": "code",
+      "original_source_sha256": "59bb6e9a6e8ed8bf00cbdd68fd0891bdb6dde4fc34e279c35f1b7ad8ffb74a11",
+      "prepared_cell_index": 60,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 57,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "32a546095a869a5f975f333db9950d4ed356013d81c41e8814e7b08084456721",
+      "prepared_cell_index": 61,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 58,
+      "original_cell_type": "code",
+      "original_source_sha256": "ea799e3d4394f4c2c2888f47cea57eb34190fd72d0bd1d5efb25a7b1f01a96e1",
+      "prepared_cell_index": 62,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 59,
+      "original_cell_type": "code",
+      "original_source_sha256": "a77bd76f1640ec104f6608f288eff9c97676e36e75e6fd41acd556fe411fd5c2",
+      "prepared_cell_index": 63,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 60,
+      "original_cell_type": "code",
+      "original_source_sha256": "de3341980304b2abaf7f5ea080f281bd86f6936c6805ec94332d21ac87ae5e42",
+      "prepared_cell_index": 64,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 61,
+      "original_cell_type": "code",
+      "original_source_sha256": "67e2271e767faec6324ac1b47b7840e1b72fdb6ab6fa78defbf16b1246687781",
+      "prepared_cell_index": 65,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 62,
+      "original_cell_type": "code",
+      "original_source_sha256": "a219b7f239fdc0c4357f7cb047791856834976e0791197a209e4664b37ba10da",
+      "prepared_cell_index": 66,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 63,
+      "original_cell_type": "code",
+      "original_source_sha256": "6486a7a415b679f9698a93015800d17d0730cd16567242f27f45f093e7738b54",
+      "prepared_cell_index": 67,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 64,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "3b05052e6fe79e11d94a8db4afbe408ec77d85737be56fedc74cd341aaf3cdca",
+      "prepared_cell_index": 68,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 65,
+      "original_cell_type": "code",
+      "original_source_sha256": "9f262bbad5ece1f7d5a800da94299d8d8d046f1de128986319921d7934ea6cc6",
+      "prepared_cell_index": 69,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 66,
+      "original_cell_type": "code",
+      "original_source_sha256": "09093dc83c5aad348821993c02fc057c957b384ce65c362c07002f8c6b94f8c4",
+      "prepared_cell_index": 70,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 67,
+      "original_cell_type": "code",
+      "original_source_sha256": "b705184f1ac942b3a446eb5563791554d7211e77a713ac7e7b8dc4c467aee2f6",
+      "prepared_cell_index": 71,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 68,
+      "original_cell_type": "code",
+      "original_source_sha256": "2eaed0071fc07db9f8fbea992ac35961cd309f56ba563e79d1d13a0d4238c7df",
+      "prepared_cell_index": 72,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 69,
+      "original_cell_type": "code",
+      "original_source_sha256": "07cbd55b08c000860b7806883a9d0e431b6dcbbcbf21bec9c1a53eb9952817a7",
+      "prepared_cell_index": 73,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 70,
+      "original_cell_type": "code",
+      "original_source_sha256": "3a4c3e0a937b96659daa2a111305af145efcb6c03930ef88ecf7c4459c41cc9a",
+      "prepared_cell_index": 74,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 71,
+      "original_cell_type": "code",
+      "original_source_sha256": "b1d3602e10375cf8a3570e3ae75819bc163048f007d4406ac80cd971459860a7",
+      "prepared_cell_index": 75,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 72,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "5890479cb592614297df95cdb2cd6c25032c2c355f2fbf8d6727b8ceb2fb335a",
+      "prepared_cell_index": 76,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 73,
+      "original_cell_type": "code",
+      "original_source_sha256": "0dd015877b6422c97b9315e0183051d1d34a3175453e21cec63e0c7a37fc9909",
+      "prepared_cell_index": 77,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 74,
+      "original_cell_type": "code",
+      "original_source_sha256": "cd10ca44bd851c0162fd6acef7ffc6cfb4351f0b33dfe96ef0ec231936287fd1",
+      "prepared_cell_index": 78,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 75,
+      "original_cell_type": "code",
+      "original_source_sha256": "14edfadc725ca3f4418ec47cffe28c261ec7ea9d4138d93f5ead4bfbd7d92de3",
+      "prepared_cell_index": 79,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 76,
+      "original_cell_type": "code",
+      "original_source_sha256": "c5d983889655d53c7cae2d03830b04beada6f5238e56528f472207557cd42246",
+      "prepared_cell_index": 80,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 77,
+      "original_cell_type": "code",
+      "original_source_sha256": "cf9ba2ec8e5c0196d986d03de1c6131d96e2bf20881fd4b73d26b1b9bc3a4f05",
+      "prepared_cell_index": 81,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 78,
+      "original_cell_type": "code",
+      "original_source_sha256": "b1d3602e10375cf8a3570e3ae75819bc163048f007d4406ac80cd971459860a7",
+      "prepared_cell_index": 82,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 79,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "e241edc105d02be33dc811860c99b04949f23f4af46afe14d857c79cd6f9ccf7",
+      "prepared_cell_index": 83,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 80,
+      "original_cell_type": "code",
+      "original_source_sha256": "69233bb022f3d405e80a7ed1bd2309a2bceadb2e6fb3cc45116e481234632915",
+      "prepared_cell_index": 84,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 81,
+      "original_cell_type": "code",
+      "original_source_sha256": "cb710b7ec54d8595867b715e64199ac1ee7e587428c37e2e15374ab77154a4c7",
+      "prepared_cell_index": 85,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 82,
+      "original_cell_type": "code",
+      "original_source_sha256": "37e87560f864b917222736b319f5a84ce39df7724d5e54d2cd847d58c709ded8",
+      "prepared_cell_index": 86,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 83,
+      "original_cell_type": "code",
+      "original_source_sha256": "8e918b86f49842094664f7c2e6f0702e6f633b71cf8a0b87530400a21ac6ff7f",
+      "prepared_cell_index": 87,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 84,
+      "original_cell_type": "code",
+      "original_source_sha256": "b1d3602e10375cf8a3570e3ae75819bc163048f007d4406ac80cd971459860a7",
+      "prepared_cell_index": 88,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 85,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "9cbe53196c3e323b679e3b0a85955f4be1d8060f79f25d5b1ff06278a316d248",
+      "prepared_cell_index": 89,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 86,
+      "original_cell_type": "code",
+      "original_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_cell_index": 90,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "coeffs = train_model(18, lr=0.2)",
+    "coeffs = train_model(lr=100)",
+    "coeffs = train_model(lr=100)",
+    "coeffs = train_model(lr=1.4)",
+    "coeffs = train_model(lr=20)",
+    "coeffs = train_model(lr=4)"
+   ],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Original Kaggle train/test data sourced from pinned public teaching copies. All891/418 passengers, column names, values and Name/Ticket/Cabin features verified against a second independent competition mirror; training values also equal the DataScienceDojo copy. No Kaggle provider checksum/terms acceptance/account score is claimed. Test labels remain unavailable.",
+    "Pandas2 bool dummy columns converted explicitly to float32 before constructing tensors. Corrected argument order in sigmoid test prediction. Original full feature normalization before the split is retained as an identified teaching limitation. All six training experiments preserve epochs, learning rates, MAE objective and seed442; checkpoints/validation evidence added for every epoch/experiment."
+   ]
+  },
+  {
+   "notebook": "03_fastai/23_original_06_titanic_framework.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Retain all engineered features with documented source bug repairs, original layers[10,10], LR finder slide/valley, one16-epoch lr.03 model and five16-epoch lr.03 ensemble models; export418 test predictions for standalone and ensemble."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/06-why-you-should-use-a-framework.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 24,
+    "original_nonempty_code_cells": 18,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "fc4d5e523752069e518c190e2a5bb234e00cb2c7144185b6cc6987a65e37fe6b",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "b554fed61a385ffe8eb13b34024d08eecedc00c75217d71d606d50fa19e6d890",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "code",
+      "original_source_sha256": "fa24784e0195005b6a1c86a973eb5f8caf46cd50bf457fedc5ea2d91e3e8daff",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "3809158e9f31ab95fc6f17734fe38f016b6e6cdea9296c67af8aa1f8035f47bc",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "b35414054399531f21425df87ea95ba60b700d87f5c1bfb5e47c8afd05655642",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "2afd3edd5e9caea739b197473c7ef175b8ece10640bf8c3b5610c5d852cc876f",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained",
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "49f563800d571ef093dab7850f00a07eb52ede2e00afc68a3d06de18d01ac000",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "9a5781a194e5742a4eaace0808c2424c1c78afacb75c0790ba0ff898e0d85dd8",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "c24df6cb1a17e2dfef2a31c021e1de7ccfec166f753c7ff9bd7b85fd5f6a87bb",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "6548159c583937cd6131ec08a91122cee2c6ab49a8b184f7fdd402252331cd16",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "code",
+      "original_source_sha256": "b6f7d29f9904e1863b16bc9035715feaaf495531e0a9146e9a0de130bf5ea4e8",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "c82eb9e24d169d5879f3a854e2018fc4a9008535ba5becfe0c7dc8fdfa8d64ec",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "4c998ea87cbf07b7ba27b6cf6e2ed18e54280f0686e51a559ba5af9f926a6793",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "code",
+      "original_source_sha256": "44ea2c47957f5bed2862eec56535043dbf4f5beb6387cac86625d28671d9fd1c",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "f981503f9612c02b37b26767b2ff643514bd461dae76e3158fea56fa8dcf5fe1",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "4691dd10e5ee68f9a7301e1e1446effc0f26f4ad74ccd9e2fcb19d2fdf212205",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "code",
+      "original_source_sha256": "73cd6c55976a31881a0f34fe21bc24bdc25a46aec8c290eeffd46eae3b8988ce",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "code",
+      "original_source_sha256": "6486a7a415b679f9698a93015800d17d0730cd16567242f27f45f093e7738b54",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 18,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "5704d462ae6ffbcce4ee367d3534508090af165fa974a35d0eae5aa345304b96",
+      "prepared_cell_index": 22,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 19,
+      "original_cell_type": "code",
+      "original_source_sha256": "ce49c76e2f98dbf7d5938243c92c1f6027f87f6f848d46ad85a85f5054a53b42",
+      "prepared_cell_index": 23,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 20,
+      "original_cell_type": "code",
+      "original_source_sha256": "e52802edbf2183cc220798357d19706f4e0a2907fd4b123d6d1bc6b22f0e60ef",
+      "prepared_cell_index": 24,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 21,
+      "original_cell_type": "code",
+      "original_source_sha256": "213a98520ee5f70e0aec05c438abe29744a821cc9f04f90d06e003714ec7ef01",
+      "prepared_cell_index": 25,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 22,
+      "original_cell_type": "code",
+      "original_source_sha256": "922491364044e90fa4a7ad77238f488ec644e2c6fa9fc4e1fc242da4cf41eff3",
+      "prepared_cell_index": 26,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 23,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "9cbe53196c3e323b679e3b0a85955f4be1d8060f79f25d5b1ff06278a316d248",
+      "prepared_cell_index": 27,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "learn.fit(16, lr=0.03)",
+    "with learn.no_bar(),learn.no_logging(): learn.fit(16, lr=0.03)",
+    "learns = [ensemble() for _ in range(5)]"
+   ],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Original Kaggle train/test data sourced from pinned public teaching copies. All891/418 passengers, column names, values and Name/Ticket/Cabin features verified against a second independent competition mirror; training values also equal the DataScienceDojo copy. No Kaggle provider checksum/terms acceptance/account score is claimed. Test labels remain unavailable.",
+    "Repaired two upstream feature bugs: Title mapping now assigns its per-passenger Series instead of value_counts; Alone is true for zero relatives, since Family counts relatives. Preserved original per-table TicketFreq calculation (an identified transductive feature) and all source training schedules."
+   ]
+  },
+  {
+   "notebook": "03_fastai/24_original_07_random_forests.ipynb",
+   "full_run_requirements": [
+    "Execute every nonempty original code cell top to bottom in hosted Colab; retain outputs and execution records.",
+    "QUICK_RUN=False. Original experiment data coverage, epochs and learning rates are preserved.",
+    "Original source attribution and the per-cell provenance map distinguish original exercises from companions.",
+    "Save full notebook outputs and actual stage/checkpoint/artifact evidence in Drive.",
+    "No provider badge, external publishing, competition submission or personal authorship is certified by execution.",
+    "Retain sex/fare baselines, weighted standard-deviation split scores and widgets, Age and per-sex best split searches, two source trees/diagrams/Gini,100 manual75%-size bootstrap trees and100-tree RF, validation MAE, feature importance, and418-row tree/RF test CSVs."
+   ],
+   "official_or_source_links": [
+    "https://github.com/fastai/course22/blob/230390584ba5b990e20487d68681a9ec5b258eff/clean/07-how-random-forests-really-work.ipynb"
+   ],
+   "upstream_commit": "230390584ba5b990e20487d68681a9ec5b258eff",
+   "source_coverage": {
+    "original_cells": 50,
+    "original_nonempty_code_cells": 44,
+    "preserved_original_cell_map": [
+     {
+      "original_cell_index": 0,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d753efbab681fa4da82470d9a83b1c202de58f92fd498e77a269c1163bc4714b",
+      "prepared_cell_index": 4,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 1,
+      "original_cell_type": "code",
+      "original_source_sha256": "77d1c09e43dfa13c2b6cb3738c093e81ac789c86d04895299883cf0e439c7ae1",
+      "prepared_cell_index": 5,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 2,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "df0732816ee0202159f6f73301792b468cf7fade1e53d9f95a730697386d05cc",
+      "prepared_cell_index": 6,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 3,
+      "original_cell_type": "code",
+      "original_source_sha256": "c5bcd1c3260f94cc34282b65f7abfb64091c766e3b56b706e5375213aa1def5b",
+      "prepared_cell_index": 7,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 4,
+      "original_cell_type": "code",
+      "original_source_sha256": "600e5ac300fda0f3b5f76b477aa56c6fded9a38f1eb5c2278fe142d4cbcae28c",
+      "prepared_cell_index": 8,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 5,
+      "original_cell_type": "code",
+      "original_source_sha256": "8f9977508e6aee5f3ebb54ee929d730513cb3285573aed72677601e7cc2d8d16",
+      "prepared_cell_index": 9,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 6,
+      "original_cell_type": "code",
+      "original_source_sha256": "9ffeff02c71cdfb83607d27633ece787faa7f5bedf924b4d5f170097dc2db3f4",
+      "prepared_cell_index": 10,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 7,
+      "original_cell_type": "code",
+      "original_source_sha256": "41fa47b1cffb63a0df8c75e7f814b4b1704e43dd7da8776c2a63bd6a70bc35f8",
+      "prepared_cell_index": 11,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 8,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "05474f7063d63c6d709fe5d405dfaa5261a4c5ff3dfedbbae35486439bb99ca6",
+      "prepared_cell_index": 12,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 9,
+      "original_cell_type": "code",
+      "original_source_sha256": "ac64b35c344daac78f32ba3864d47e9960884bd333a6b249b6a9c006ca060df5",
+      "prepared_cell_index": 13,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 10,
+      "original_cell_type": "code",
+      "original_source_sha256": "76b791bbe0ba0506167dd2151fe0fbd6d3f7d5d539e1bad4d033419ec7b1a5fc",
+      "prepared_cell_index": 14,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 11,
+      "original_cell_type": "code",
+      "original_source_sha256": "4ec9526397f88287f9f5039d0b6f410aa0347665583b43cdcafa5af4e8106e59",
+      "prepared_cell_index": 15,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 12,
+      "original_cell_type": "code",
+      "original_source_sha256": "576dd1843057c5c7a3475c71e13e740a662119dc4485cdc4e623b03acb84e49b",
+      "prepared_cell_index": 16,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 13,
+      "original_cell_type": "code",
+      "original_source_sha256": "e9ac293fdb136a35a5fa489108d09e36ea48cb55afc7890db51514fb89bf2622",
+      "prepared_cell_index": 17,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 14,
+      "original_cell_type": "code",
+      "original_source_sha256": "afe2830742c17f5038c2c6af0719be0db50be829555d28aa12013887569f126c",
+      "prepared_cell_index": 18,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 15,
+      "original_cell_type": "code",
+      "original_source_sha256": "2787105ece578f776f708ef994d18de0d484bacab0b291d0bd4a3c9369a9be5d",
+      "prepared_cell_index": 19,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 16,
+      "original_cell_type": "code",
+      "original_source_sha256": "e347b07fd848f84c27ee75228e5b672e0de9f7f654df5ca54fbd05a8c1580dd9",
+      "prepared_cell_index": 20,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 17,
+      "original_cell_type": "code",
+      "original_source_sha256": "1fe4c5c182eb638ad808b16fd19c972ad14293f12074b59d47e80288aa5ab625",
+      "prepared_cell_index": 21,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 18,
+      "original_cell_type": "code",
+      "original_source_sha256": "38033cd042e5af7b7843097972ea30a5f08d8c56c21356d68f75e79974296e7e",
+      "prepared_cell_index": 22,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 19,
+      "original_cell_type": "code",
+      "original_source_sha256": "72d44aecfbe03b7f80970449f90db8a1d9d30e8fc6584f2d9ef1e1948cbf6969",
+      "prepared_cell_index": 23,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 20,
+      "original_cell_type": "code",
+      "original_source_sha256": "f16717e16d647b4bb37dd885525b16480ddcd8b9df40a6406b40b8b3f9f60b38",
+      "prepared_cell_index": 24,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 21,
+      "original_cell_type": "code",
+      "original_source_sha256": "4da6060738e5697f4645af5fa8cc5cdefb663fb8c772904e8395c859179ebc7d",
+      "prepared_cell_index": 25,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 22,
+      "original_cell_type": "code",
+      "original_source_sha256": "36a26ddc191e4150764cb206d099cf920384c36d55598bc88b86d1bb414c117f",
+      "prepared_cell_index": 26,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 23,
+      "original_cell_type": "code",
+      "original_source_sha256": "9ada57e0b37587e921e4daef624e003ecbb5c70a29cfdfcd91e15df6f5479745",
+      "prepared_cell_index": 27,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 24,
+      "original_cell_type": "code",
+      "original_source_sha256": "04b88ed7f30b0d5ec365bd870a43f829d29d3865bfdb43b75b7b57a3ce48cdac",
+      "prepared_cell_index": 28,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 25,
+      "original_cell_type": "code",
+      "original_source_sha256": "21bff2284d484d50ab7b51e4a2dfcb1c0fc160e5d6f8daae3ffaa055a75fb796",
+      "prepared_cell_index": 29,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 26,
+      "original_cell_type": "code",
+      "original_source_sha256": "09c0acc4e729218433a4ce4d0ccaf194cb669e0bc4f314671d8ecc7b0c3e927c",
+      "prepared_cell_index": 30,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 27,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "d2f76ab76ba5a2555e7ae19a51a34c7f71470f8b592e7f62d45624133d780dd4",
+      "prepared_cell_index": 31,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 28,
+      "original_cell_type": "code",
+      "original_source_sha256": "861d0395a98081457c72833304b12dc9b0b32c384762bc399823b1b1caa9ff3b",
+      "prepared_cell_index": 32,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 29,
+      "original_cell_type": "code",
+      "original_source_sha256": "ad70471856b29a3a3a2f61df48b8747ea5915b0cce25270d91f54bc59a5c8bd2",
+      "prepared_cell_index": 33,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 30,
+      "original_cell_type": "code",
+      "original_source_sha256": "341a3b825d5c4b43353ff91f138b110fd5927592d65f3beca536e7018d02b816",
+      "prepared_cell_index": 34,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 31,
+      "original_cell_type": "code",
+      "original_source_sha256": "4ab01a96c3b2fc6ba2d41102bfbb7ffaee95f7cc0ac91a8bc37c80f7b4d716b5",
+      "prepared_cell_index": 35,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 32,
+      "original_cell_type": "code",
+      "original_source_sha256": "0c56e7ac2c334ec02795f929be5b8a890d65cf7a9c5fac1fa522b01c7f576c09",
+      "prepared_cell_index": 36,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 33,
+      "original_cell_type": "code",
+      "original_source_sha256": "d3440799e4f45729d22fbf0a4a9a63f2949a1325675b0bfc714811c6fa3b3413",
+      "prepared_cell_index": 37,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 34,
+      "original_cell_type": "code",
+      "original_source_sha256": "bfdc8dec9772917ea99f8ec3aa78b4199eeaa7d7750200ce98f1d7f7477754c7",
+      "prepared_cell_index": 38,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 35,
+      "original_cell_type": "code",
+      "original_source_sha256": "77f2f67753c8190cead774151e43dcc7c28bcd3be06b5105385b1b6698998759",
+      "prepared_cell_index": 39,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 36,
+      "original_cell_type": "code",
+      "original_source_sha256": "ad39aba29d77182c989882cbcc73c3b30158331b8f62297bac8b3b21a5113d95",
+      "prepared_cell_index": 40,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 37,
+      "original_cell_type": "code",
+      "original_source_sha256": "7e34aa6b774d091f60c25d68335e5e3541f03ce861640be81accfffb19ba8109",
+      "prepared_cell_index": 41,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 38,
+      "original_cell_type": "code",
+      "original_source_sha256": "ad39aba29d77182c989882cbcc73c3b30158331b8f62297bac8b3b21a5113d95",
+      "prepared_cell_index": 42,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 39,
+      "original_cell_type": "code",
+      "original_source_sha256": "5591fa17191ce0fa29dc0556eda37395ec7e05935f34184feef72247f4aa3fa3",
+      "prepared_cell_index": 43,
+      "original_code_nonempty": true,
+      "changes": [
+       "compatibility/data/persistence adaptation; full experiment purpose retained"
+      ]
+     },
+     {
+      "original_cell_index": 40,
+      "original_cell_type": "code",
+      "original_source_sha256": "2ccd589a2baedb8b2b6f3ed598fb3d9c24649a578ab7528faa86bade5ca2d8a7",
+      "prepared_cell_index": 44,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 41,
+      "original_cell_type": "code",
+      "original_source_sha256": "34b48e2f46c0798c61aefc19786d05fdddb5cde3d7b2dadad11b160bc4a163d7",
+      "prepared_cell_index": 45,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 42,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "48c1b3e52c36db96bdb11f547823da3f4ec3484bffa4d4d80c05ffe6f3a8244b",
+      "prepared_cell_index": 46,
+      "original_code_nonempty": false,
+      "changes": []
+     },
+     {
+      "original_cell_index": 43,
+      "original_cell_type": "code",
+      "original_source_sha256": "251612ed03e7953fccb41fe057ebba6abdc80a20795530b028f241304078baa5",
+      "prepared_cell_index": 47,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 44,
+      "original_cell_type": "code",
+      "original_source_sha256": "90783f3c572e8b6306fe514654d317e2276a96a7eca2a9d60c8ffcd8737dbd0f",
+      "prepared_cell_index": 48,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 45,
+      "original_cell_type": "code",
+      "original_source_sha256": "c752d5045107081db166813e72b33c103585d589402fc6355b271bd8f6e1b310",
+      "prepared_cell_index": 49,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 46,
+      "original_cell_type": "code",
+      "original_source_sha256": "9b3967be564486ba04ef34db04dd538767829b5bebeb8514c8da32f72a1a1db7",
+      "prepared_cell_index": 50,
+      "original_code_nonempty": true,
+      "changes": []
+     },
+     {
+      "original_cell_index": 47,
+      "original_cell_type": "code",
+      "original_source_sha256": "6ce087aeebfa2a289e35b732b0e63508efd4e1c87436ae500b74b921cfb2791c",
+      "prepared_cell_index": 51,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 48,
+      "original_cell_type": "code",
+      "original_source_sha256": "91ab97e6c0ec521ec92974af86b74aec699500c37503786d22c3470126f36c25",
+      "prepared_cell_index": 52,
+      "original_code_nonempty": true,
+      "changes": [
+       "extra evidence or worked comparison"
+      ]
+     },
+     {
+      "original_cell_index": 49,
+      "original_cell_type": "markdown",
+      "original_source_sha256": "be031d37bb75d96ef08ca9ec5b0e83bb6f91172f60d3c31a78feae8d7dc4a0b0",
+      "prepared_cell_index": 53,
+      "original_code_nonempty": false,
+      "changes": []
+     }
+    ],
+    "omitted_original_cells": []
+   },
+   "preserved_epoch_assignments": [],
+   "training_calls": [
+    "m = DecisionTreeClassifier(max_leaf_nodes=4).fit(trn_xs, trn_y);",
+    "m.fit(trn_xs, trn_y)",
+    "return DecisionTreeClassifier(min_samples_leaf=5).fit(trn_xs.iloc[idxs], trn_y.iloc[idxs])",
+    "trees = [get_tree() for t in range(100)]",
+    "rf.fit(trn_xs, trn_y);"
+   ],
+   "gpu_required": false,
+   "hosted_execution_status": "not_executed_by_this_preparation",
+   "compatibility_notes": [
+    "Original Kaggle train/test data sourced from pinned public teaching copies. All891/418 passengers, column names, values and Name/Ticket/Cabin features verified against a second independent competition mirror; training values also equal the DataScienceDojo copy. No Kaggle provider checksum/terms acceptance/account score is claimed. Test labels remain unavailable.",
+    "All source baselines, split searches, Gini, trees and100*.75 bagging/RF preserved. Graphviz DOT/SVG saved when available; equivalent sklearn tree plots are the documented fallback if dot is absent."
+   ]
+  }
+ ],
+ "prepared_count": 57,
+ "hosted_runs_performed": 0,
+ "personal_reflections_fabricated": false,
+ "competition_submissions_performed": false
+}

@@ -1,0 +1,1820 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 92,
+      "sha256": "83b25950fbe19d7a1a499f6664ad3e51a2806da99890eb4c5a4ded1aa2583a9b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1464,
+      "sha256": "13d54c4f99253818285bb0d15f003f9edb51ec64ff310e96ee1dd7cabdedbba1"
+    },
+    {
+      "path": "01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "bytes": 53672,
+      "sha256": "ce05340a83bbb343c56481c6b1af875efed356d11587b983b5f076a1b76440ce"
+    },
+    {
+      "path": "01_google_mlcc/02_binary_classification_rice.ipynb",
+      "bytes": 49482,
+      "sha256": "a1ac91e1d225bb62e2780effdf0e441a8d06c3e59756557d94608829ed283597"
+    },
+    {
+      "path": "01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "bytes": 19653,
+      "sha256": "4fb7b83febaa35b63a0397b045bfa64c8f96726d08372e3d4fc8e684702b67d7"
+    },
+    {
+      "path": "01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "bytes": 52975,
+      "sha256": "1d5b32ffa9712bfb68cb8f1c91c8dca951b4ea0219e2984ddb6525b4583ef48f"
+    },
+    {
+      "path": "01_google_mlcc/05_fairness_income_colab.ipynb",
+      "bytes": 56695,
+      "sha256": "821577946424035aab8d59d76e6a55ee12753e082cbe85304b516721822f6092"
+    },
+    {
+      "path": "01_google_mlcc/05b_fairness_portable.ipynb",
+      "bytes": 11527,
+      "sha256": "267d34cbec21fb07d819c14303d81fa695ae62c5c76f03007b42954e150d28b8"
+    },
+    {
+      "path": "01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "bytes": 9454,
+      "sha256": "4789586af930a8ae0fd1137f8e8dac9e981ff249a7044c9ed970bc9043bf31f9"
+    },
+    {
+      "path": "01_google_mlcc/LICENSE_APACHE_2.txt",
+      "bytes": 11359,
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac"
+    },
+    {
+      "path": "01_google_mlcc/wearable_utils.py",
+      "bytes": 1849,
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9"
+    },
+    {
+      "path": "02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "bytes": 34840,
+      "sha256": "5f3d18b33b8cff48c9c04b843aacbfcd83197ef8e059ef8a7a762480f28ae043"
+    },
+    {
+      "path": "02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "bytes": 35192,
+      "sha256": "9378c99833814ac0fce3f7dd69398a9b270ddbb5bc2a72eb102883c13ae0b415"
+    },
+    {
+      "path": "02_mit_6s191/02_pt_music_generation.ipynb",
+      "bytes": 19761,
+      "sha256": "a9d2e872f2e38795f4f782f48a833b7c5bde81897e2777be4ea3c72c14bbf810"
+    },
+    {
+      "path": "02_mit_6s191/02_tf_music_generation.ipynb",
+      "bytes": 19527,
+      "sha256": "b4d7737f464c8fe364c21af93f947472466b22aaa66408966a6e039c1b5ba4b5"
+    },
+    {
+      "path": "02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "bytes": 10585,
+      "sha256": "f705cf9629c0751e04f29cd4e0afcc3e9bb6695b9e33281ac281499cd4e50b29"
+    },
+    {
+      "path": "02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "bytes": 9762,
+      "sha256": "d48a8a52b7ef84d318bcdb6af33ad68f0fc88ce393e18695bc44873cefdd3f21"
+    },
+    {
+      "path": "02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "bytes": 46223,
+      "sha256": "198998133fd46f28772a015629518546097735ce7ce8382775ed2520dc4ae696"
+    },
+    {
+      "path": "02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "bytes": 40276,
+      "sha256": "cd84fead32770b0eb149a464fb6a1826e828e1f012e05115287f8248fed74fa6"
+    },
+    {
+      "path": "02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "bytes": 71123,
+      "sha256": "3e513250ce0d24341ad8912561faa62a1e5eeb2f80f84e0a82dd9b612a148d0c"
+    },
+    {
+      "path": "02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "bytes": 62966,
+      "sha256": "87a6ff886a1087e8a77f5c942be7e12925822ec733c9218ac95a7d320a0feebc"
+    },
+    {
+      "path": "02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "bytes": 73297,
+      "sha256": "de35ad31546210e89f3b1355b08f3d58ffed9029cf6e1092d944209dd20a6f6a"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation.ipynb",
+      "bytes": 53778,
+      "sha256": "77a36639ce6a19f1e154a0226625c037ae3d444dc0f22f4cf66b66f289fd7fc2"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation.py",
+      "bytes": 43109,
+      "sha256": "9d922c5ff5862f7230098a10e1fe838f538cd63dabe9e48a139ba53ac9673f84"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation_README.md",
+      "bytes": 8706,
+      "sha256": "6dc857d6dc06c4394f13c582ba9104b31a19203320ca0fa6ac9137ed97bd04ae"
+    },
+    {
+      "path": "02_mit_6s191/LICENSE_MIT.txt",
+      "bytes": 1123,
+      "sha256": "50d8ed007f1bcacd060bb7bcc2e9dca7627062da19df2ac0b8e7cf9c1b4fa195"
+    },
+    {
+      "path": "02_mit_6s191/data/irish.abc",
+      "bytes": 197618,
+      "sha256": "df3782d5f7b5a2f4c66aa7c13f13008d5f48757b3f5f51620cd6c1ceb2c53023"
+    },
+    {
+      "path": "02_mit_6s191/wearable_utils.py",
+      "bytes": 1849,
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9"
+    },
+    {
+      "path": "03_fastai/00_image_classifier.ipynb",
+      "bytes": 12457,
+      "sha256": "99ad6768629fe5595746179c2be4d60a2c23402e705fb5b740128a26e9437041"
+    },
+    {
+      "path": "03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "bytes": 8077,
+      "sha256": "21e86bfcfc2e92b1d218a8dbfbe8d1c4e1892742ce166b43c9c865aaa00fab93"
+    },
+    {
+      "path": "03_fastai/02_export_and_reload_model.ipynb",
+      "bytes": 9973,
+      "sha256": "3ab458c06abb27b226c93108ac7ea39e151fa2dcc681cbedbe8e82d62d40a49a"
+    },
+    {
+      "path": "03_fastai/03_compare_image_models.ipynb",
+      "bytes": 9521,
+      "sha256": "61dfb3818f150b5c6a4f58cee9afdd73bfa02ccf92fb4a5cb685d88ebf40c4e2"
+    },
+    {
+      "path": "03_fastai/04_neural_network_foundations.ipynb",
+      "bytes": 8812,
+      "sha256": "6ca0206773313dd47b5c9a529cce3032ef8bb49a56a2195d2e110d04a92aa4f6"
+    },
+    {
+      "path": "03_fastai/05_titanic_models_from_scratch.ipynb",
+      "bytes": 10639,
+      "sha256": "47c9f598c056840e859cee7067672a11d55817ebb999e270d31ccde0a0d71868"
+    },
+    {
+      "path": "03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "bytes": 9691,
+      "sha256": "4d934831960664d87aac82ddc2ae7dae4d78aa9947ccd0512a0c89286e79da8e"
+    },
+    {
+      "path": "03_fastai/07_trees_and_random_forests.ipynb",
+      "bytes": 10046,
+      "sha256": "706a72b29e815d9b2f1ea15dc73c66e336031072ef76c4f9d511bd20786f5c72"
+    },
+    {
+      "path": "03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "bytes": 26922,
+      "sha256": "061b0ae4c519d787ae063e8f246c1b7ec64e0f39bd459869476ca778854cd13f"
+    },
+    {
+      "path": "03_fastai/09_wearable_training_and_ethics.ipynb",
+      "bytes": 57115,
+      "sha256": "4d664276c466225dd4e7d9263f90b0fa37b3b0475158c26f6c343b656dbb6fdc"
+    },
+    {
+      "path": "03_fastai/10_paddy_first_steps.ipynb",
+      "bytes": 20971,
+      "sha256": "9a4291e7b716698204b95348ad68817725750028247bde63515599bdd850aead"
+    },
+    {
+      "path": "03_fastai/11_paddy_small_models.ipynb",
+      "bytes": 24128,
+      "sha256": "1142914db00f3ddf4b08ce61737d65b7fc3d7b5eb0d7a531deeae1a6d34a6692"
+    },
+    {
+      "path": "03_fastai/12_paddy_scaling_up.ipynb",
+      "bytes": 27314,
+      "sha256": "64eb628bb02a8e2184cd424151d926e29213263d27f8a4fa39f119a1fedfcf6c"
+    },
+    {
+      "path": "03_fastai/13_paddy_multi_target.ipynb",
+      "bytes": 21498,
+      "sha256": "7712f6387812f2ffa86b108a0c52067b4b0b19bfc555540b277b6a93ee63b9aa"
+    },
+    {
+      "path": "03_fastai/14_nlp_patent_matching.ipynb",
+      "bytes": 213059,
+      "sha256": "cc6a1948106c62e99cd27f17f1c1fd07bf98f1882423fa89cb9bbfd953708195"
+    },
+    {
+      "path": "03_fastai/15_collaborative_filtering.ipynb",
+      "bytes": 58414,
+      "sha256": "cf2cd8c9bd885d6df7c750705c2e17f9ab423cf56311362d5761b9b867f6cefc"
+    },
+    {
+      "path": "03_fastai/16_convolutions.ipynb",
+      "bytes": 60819,
+      "sha256": "aed6a230824a4bffa759c07af1178e227c6e0c367a4b8791ac897e05b6c4ac58"
+    },
+    {
+      "path": "03_fastai/17_original_00_bird_classifier.ipynb",
+      "bytes": 22350,
+      "sha256": "134a5b6cbc4aa57b614b4ddd6e110b5ca7e6323a7d689eeda6c75fdead0ac268"
+    },
+    {
+      "path": "03_fastai/18_original_01_jupyter.ipynb",
+      "bytes": 21219,
+      "sha256": "6f6992566ce99557779a23787273a5b97d620506ac2f31126f343963d0f452fc"
+    },
+    {
+      "path": "03_fastai/19_original_02_save_pet_model.ipynb",
+      "bytes": 15705,
+      "sha256": "f9f4af55eb9ace211296394d62ae13d14790cc5ab1a0eb48435ea0b4c6bcf99d"
+    },
+    {
+      "path": "03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "bytes": 24916,
+      "sha256": "3d6db88b9d194aac06adc8e9133cca56552ebef13b9bde5cc44b593a668255f8"
+    },
+    {
+      "path": "03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "bytes": 28967,
+      "sha256": "1b1dde66911e68c240965f03935f04804264bc692479babe30a2a4e6b297a037"
+    },
+    {
+      "path": "03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "bytes": 64206,
+      "sha256": "4def629b86d6a1cc519fb90268ca2f3774e29cbbb7ef211aa7998bc047cb3074"
+    },
+    {
+      "path": "03_fastai/23_original_06_titanic_framework.ipynb",
+      "bytes": 28034,
+      "sha256": "2ea26fbb70835a997e6acd70f00e7dd7333c3698ac9e61707e9650d9cebe926a"
+    },
+    {
+      "path": "03_fastai/24_original_07_random_forests.ipynb",
+      "bytes": 44106,
+      "sha256": "e09254b004a28e81b2fb6a970004df2cd95920fbd300d673d393d1fc9d43ee43"
+    },
+    {
+      "path": "03_fastai/ATTRIBUTION.md",
+      "bytes": 252,
+      "sha256": "760e2f6eb60bda5a549cf2e80db97f2af2132f843d6d70c70ec09c2550244e4c"
+    },
+    {
+      "path": "03_fastai/LICENSE_FASTBOOK",
+      "bytes": 35254,
+      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee"
+    },
+    {
+      "path": "03_fastai/convolution_workbook_exercise.py",
+      "bytes": 16610,
+      "sha256": "ecacb93aef6846c82d6a9eebc4809e1a6766410f04783ac132f247935af3a8fc"
+    },
+    {
+      "path": "03_fastai/data/titanic_seaborn.csv",
+      "bytes": 57018,
+      "sha256": "81787d320d7f7b03df935e91de8bd19e11d45c5bbcab86ef4d4a76dc91b7d4f2"
+    },
+    {
+      "path": "03_fastai/fastai_utils.py",
+      "bytes": 2029,
+      "sha256": "a03e913e1c07f55aedd56ee6128096f3f952f4f8be22f83c4a22002589c4bd18"
+    },
+    {
+      "path": "03_fastai/resources/conv-example.xlsx",
+      "bytes": 239689,
+      "sha256": "28d885e8e07e3fb8fbeea49288c17e25edd0f168f0dbdaabd403017e83c15f0b"
+    },
+    {
+      "path": "03_fastai/resources/diffusion_cfg_custom_guidance.svg",
+      "bytes": 3905,
+      "sha256": "bc0c2dbd5aa0416e122bf2b29f95a1a0ec9610aac94efaa52564ab7cb2eff1b3"
+    },
+    {
+      "path": "03_fastai/wearable_objective_extension.py",
+      "bytes": 16819,
+      "sha256": "6ad8d32571ea36b14f0510b466538167c58596b84e2ad9bf65cc65dbc07bed2b"
+    },
+    {
+      "path": "03_fastai/wearable_utils.py",
+      "bytes": 1849,
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9"
+    },
+    {
+      "path": "04_fastai_part2/01_matmul.ipynb",
+      "bytes": 46933,
+      "sha256": "b449b17bdff7221425f0a7c7966279690f8ec92747358c83fc2c5efdf100ca43"
+    },
+    {
+      "path": "04_fastai_part2/02_meanshift.ipynb",
+      "bytes": 31064,
+      "sha256": "1425415f7859bef944a524056b0c1592e04114817e65efdd3da93776527d763e"
+    },
+    {
+      "path": "04_fastai_part2/03_backprop.ipynb",
+      "bytes": 23681,
+      "sha256": "0a200229ef8f6c35db9db45d5df51b13d6ec44fe47a16ae5dc9defbeaadad9d6"
+    },
+    {
+      "path": "04_fastai_part2/04_minibatch_training.ipynb",
+      "bytes": 48580,
+      "sha256": "bb84165b1c50394e1fca66542e8320f129255924990a2692a85075a53fdd1e22"
+    },
+    {
+      "path": "04_fastai_part2/05_datasets.ipynb",
+      "bytes": 24381,
+      "sha256": "96e03148c8675558926c30db2410ba7109597e4e7ca020287789eb1aff52727f"
+    },
+    {
+      "path": "04_fastai_part2/06_foundations.ipynb",
+      "bytes": 22675,
+      "sha256": "a4c04acf0dec556331d1b36ea021d029646310195318c3873a4a1af7054b5f07"
+    },
+    {
+      "path": "04_fastai_part2/07_convolutions.ipynb",
+      "bytes": 176615,
+      "sha256": "8345fc5e4bb2fc3ecbae487bae04e0d72aec5d0306c56fce76673bfb578c26ca"
+    },
+    {
+      "path": "04_fastai_part2/08_autoencoder.ipynb",
+      "bytes": 16421,
+      "sha256": "8a6c8b1399ece0caef5d73b317dfb15a376e6917eaad1cd0ed9c3df0cc0f5aeb"
+    },
+    {
+      "path": "04_fastai_part2/09_learner.ipynb",
+      "bytes": 39304,
+      "sha256": "fe6f7e9d324130528c3420eef29c0dda4c0557437ba573cc2d078c53f3ab5e0c"
+    },
+    {
+      "path": "04_fastai_part2/10_activations.ipynb",
+      "bytes": 27214,
+      "sha256": "ce1044c6a59bc9c1e466e919b8d081e3c59ff9d3c25d0a57dc3c2e30f4f5b3ba"
+    },
+    {
+      "path": "04_fastai_part2/11_initializing.ipynb",
+      "bytes": 45911,
+      "sha256": "fc4650805b04f7cd91b72639c3cab1a3534e3022a99101fba92e812e804d59a7"
+    },
+    {
+      "path": "04_fastai_part2/12_accel_sgd.ipynb",
+      "bytes": 29900,
+      "sha256": "e6fd7b6cc02151487fd8b734affeddde3417334ce1f65b03b56035a21eea9935"
+    },
+    {
+      "path": "04_fastai_part2/13_resnet.ipynb",
+      "bytes": 19567,
+      "sha256": "37091d361e7c0cfde809ffa2dc15962a2cda59b934238b611f7f6976f8a0e854"
+    },
+    {
+      "path": "04_fastai_part2/14_augment.ipynb",
+      "bytes": 40127,
+      "sha256": "97d30e187f330c34f0d8e18fbfbba25d10deb67f6ab383aeb4b297da2aa0144d"
+    },
+    {
+      "path": "04_fastai_part2/15_DDPM.ipynb",
+      "bytes": 21660,
+      "sha256": "be5f1768e79b47348c81e5ef5bf32eb151b8a28c70eb1f1a199e17775f26df38"
+    },
+    {
+      "path": "04_fastai_part2/16A_StyleTransfer.ipynb",
+      "bytes": 82656,
+      "sha256": "e8c224650d072316e7adc3c846effabab57ffa5520b3d6b00ff4f3da52d4abd7"
+    },
+    {
+      "path": "04_fastai_part2/16B_NCA.ipynb",
+      "bytes": 126047,
+      "sha256": "24e48f0e54402088f37bde21131684137c309d4537abc2da8b978ff89f590513"
+    },
+    {
+      "path": "04_fastai_part2/17_DDPM_v2.ipynb",
+      "bytes": 26021,
+      "sha256": "d165764f91a34d42d484e94d1a49b4dbdd1a2dcbd1bc99f1b0f5f4355bc4a3e7"
+    },
+    {
+      "path": "04_fastai_part2/18_fid.ipynb",
+      "bytes": 25302,
+      "sha256": "82c04ac3a9cdabbfb53473aca8b728cd3e92445a6cd83f7429e8d527c917fc05"
+    },
+    {
+      "path": "04_fastai_part2/19_DDPM_v3.ipynb",
+      "bytes": 24099,
+      "sha256": "a953ed7e2f321e28d1c8f86d478e50020020ef97bb9f689ff3176f7585ef73e2"
+    },
+    {
+      "path": "04_fastai_part2/20_DDIM.ipynb",
+      "bytes": 56809,
+      "sha256": "12549ca75577dd1dafb710f01587ffd3efbd6a74faf59d15b768f38819a3e2fb"
+    },
+    {
+      "path": "04_fastai_part2/21_cifar10_and_wandb.ipynb",
+      "bytes": 18708,
+      "sha256": "dd1312d9beb07527459db5ecc618669fbef349df72243e27ceac8c890773133b"
+    },
+    {
+      "path": "04_fastai_part2/22_cosine.ipynb",
+      "bytes": 18893,
+      "sha256": "776bec78b4b1cea1f71aecea6d2d9b5bc6fcfc80b64600f8dacaedcc1a8c9bd7"
+    },
+    {
+      "path": "04_fastai_part2/22_noise-pred.ipynb",
+      "bytes": 26266,
+      "sha256": "f0577bc4a7e7b889e364ff4227eab95403ec3543b49d1d92f98bb46759a66afe"
+    },
+    {
+      "path": "04_fastai_part2/23_karras.ipynb",
+      "bytes": 159100,
+      "sha256": "b320982f6d6740fdcf3b16bf8130c9484b13f83fbe3387ef8c7e3f9d31cf4268"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny-wide.ipynb",
+      "bytes": 20067,
+      "sha256": "5942b9efc24692c8df988d7b5dda71acceae2983f9c18265b7999515ca5c030b"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny-widish.ipynb",
+      "bytes": 20221,
+      "sha256": "042c0d970b6b1e86b94eeabcbcbaf94373abbabcca31b73e56ecbf24c93fc588"
+    },
+    {
+      "path": "04_fastai_part2/24_imgnet_tiny.ipynb",
+      "bytes": 29146,
+      "sha256": "93729ffa50f6b62b8b044de9356999d2f3b35aa41fc73dbd187120dfe4a4f88b"
+    },
+    {
+      "path": "04_fastai_part2/24a_imgnet_tiny-200.ipynb",
+      "bytes": 20211,
+      "sha256": "d276c4fe66edf342024f9e3a4d646920c6bac975a8f5298da7a1584e1d8d3267"
+    },
+    {
+      "path": "04_fastai_part2/25_superres.ipynb",
+      "bytes": 34576,
+      "sha256": "a0c425bf6c7f43ae1a5b04480c2f8e05b5a3b0bd917d65d49418a59d2ed136c5"
+    },
+    {
+      "path": "04_fastai_part2/26_diffusion_unet.ipynb",
+      "bytes": 36183,
+      "sha256": "f963e4bdad68988f08b21a0d97bbe54c9c42cc039f1a53233e38bc9e6c84445e"
+    },
+    {
+      "path": "04_fastai_part2/27_attention.ipynb",
+      "bytes": 17886,
+      "sha256": "187f9f92534b703bb511337059227701f9ade6da095dd948b1f8794f4bfcee7c"
+    },
+    {
+      "path": "04_fastai_part2/28_diffusion-attn-cond.ipynb",
+      "bytes": 31602,
+      "sha256": "2c11dc178ee0eb029f04d382ceb952137539042ba38b3125d7bb5c02391124f4"
+    },
+    {
+      "path": "04_fastai_part2/29_vae.ipynb",
+      "bytes": 20231,
+      "sha256": "c3cf0e4199b82d51d1c152cbb5e016332cb3b3c9cb55b9050e44f60b7b51c701"
+    },
+    {
+      "path": "04_fastai_part2/30_lsun_diffusion-latents.ipynb",
+      "bytes": 47644,
+      "sha256": "fffb40ea33a68ff439966613a8665dc0d1f564233035f705326a2257bcde3808"
+    },
+    {
+      "path": "04_fastai_part2/30_lsun_diffusion-simple.ipynb",
+      "bytes": 46222,
+      "sha256": "b43757c4748f1d8febdc66220f00209bf67ae36b2747ae765b545e1d6d184d75"
+    },
+    {
+      "path": "04_fastai_part2/31_imgnet_latents-widish.ipynb",
+      "bytes": 73571,
+      "sha256": "4fe643f1b9753a1414e3a20d64233cb7a9e18206d41ff6c4eb13e354a3cad5e1"
+    },
+    {
+      "path": "04_fastai_part2/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
+      "bytes": 10000,
+      "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15"
+    },
+    {
+      "path": "04_fastai_part2/data/ILSVRC/words.txt",
+      "bytes": 741401,
+      "sha256": "5b8db22d2e2b0ad28b55c9c502eb45e018bc0c907524b8782958cca4805689ea"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "bytes": 626090,
+      "sha256": "bfe0333a066bab68bf166d195d2a3be2d1a9e39992e92106597885dc5d917bd2"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "bytes": 98886,
+      "sha256": "ca43be24ca0fe8d2cb2a2e9e6095e31876429ea030404680c92a0558e2fb1f25"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "bytes": 9348,
+      "sha256": "2af7f82df8ca91e9bb484db737a48dfb94758a37fc75b4c790e35007e60ae0a2"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/learned_embeds.bin",
+      "bytes": 3819,
+      "sha256": "f2e23a8f2d3628ed77acb8151751ecd4efc4017e8da86bc29af10f855ca308d9"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/textual_inversion_training.py",
+      "bytes": 8178,
+      "sha256": "d535b01b23206aa56cee9c9914e47667481cfbfb1f18582933223d7cb7afd06f"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00028.png",
+      "bytes": 108141,
+      "sha256": "0afad30805a994589c8a5719a523248cd0fdeb1f4a9708d0f58a8f839e3a1bae"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00029.png",
+      "bytes": 165316,
+      "sha256": "7d5f226d74650e07fc5a454fb13b8b5c838cdd7b97a60801f25384159ce9ccbb"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00030.png",
+      "bytes": 127347,
+      "sha256": "0cd4b39ffb6fa0b3fb3a139e8effdfc8f8aac9d8e1346394bb0b3925fceedab0"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00032.png",
+      "bytes": 7959,
+      "sha256": "38dba573fd26e1901a6a78abdf327e15a4642f4ed82536de025b59bd2f1014fa"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00033.png",
+      "bytes": 4908,
+      "sha256": "807d767ae5149be3024f92d70da23226b92c9689ca91e8ab838ac7f067e45cfc"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00034.png",
+      "bytes": 4555,
+      "sha256": "5a1bc2cf434c85235486f11bab73ad5c3b7210069eb0e14b2f91950cb5bab93a"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00035.png",
+      "bytes": 85180,
+      "sha256": "e046d79e4ea19a19923a900ea20eb087ab40c928316d8febf79e6146d772abeb"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00036.png",
+      "bytes": 56979,
+      "sha256": "f5040e6bd79cfb139d7790c7cc845cce56a98cc421abd052500f918908afea93"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00068.png",
+      "bytes": 23594,
+      "sha256": "6b20f30bf0ca5644082114840c46affc8ac9c4b91045e4b9f21217153ca11d68"
+    },
+    {
+      "path": "04_fastai_part2/images/att_00069.png",
+      "bytes": 94600,
+      "sha256": "c728799745458ad49ba46a19c363b480aca9ec528c8185c80956f6709721ea1c"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_nopadconv.svg",
+      "bytes": 4811,
+      "sha256": "bf90eb36a2b538c9d28c63d97fc16341d14c8514f9de0f27c3efd23380c28ec0"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_padconv.svg",
+      "bytes": 7768,
+      "sha256": "858e13d355147cdab82f257f6f2979b00c0aafd3fb6903656bde037f02fad555"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_rgb_conv_stack.svg",
+      "bytes": 10392,
+      "sha256": "1e08544f9ea2bb13597271bb2a9cfcb3b8c43d32e496ebef363b0c401e09962d"
+    },
+    {
+      "path": "04_fastai_part2/images/chapter9_rgbconv.svg",
+      "bytes": 19235,
+      "sha256": "b95adb88bd29a4e9a839253e7344fc5537171aa08d986cd760fc2feef26d8620"
+    },
+    {
+      "path": "04_fastai_part2/images/grizzly.jpg",
+      "bytes": 697626,
+      "sha256": "2f12ed680dca7a5ccd0e9c9522365c7374a154c69ffa2b19f32723f45499f1ac"
+    },
+    {
+      "path": "04_fastai_part2/miniai/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04_fastai_part2/miniai/_modidx.py",
+      "bytes": 28577,
+      "sha256": "21ec4929aaeca2cde3710b3f069ff8032fc7e6fb57712052d3168abdb4d4d368"
+    },
+    {
+      "path": "04_fastai_part2/miniai/accel.py",
+      "bytes": 2027,
+      "sha256": "d7a25cb63a1ce4fe4cdadd678aa4c13f3f8e3072da15209c160246d3001fda1a"
+    },
+    {
+      "path": "04_fastai_part2/miniai/activations.py",
+      "bytes": 3517,
+      "sha256": "eb7286546ee350919c6d43a39f3fa06747a66cb4ce41b96e55797f24d6842b14"
+    },
+    {
+      "path": "04_fastai_part2/miniai/augment.py",
+      "bytes": 4134,
+      "sha256": "d4c1b69c04dc69dbfd0518251b7aca76e81ef66cc1586ccfcd3729c2d3fc4ac0"
+    },
+    {
+      "path": "04_fastai_part2/miniai/conv.py",
+      "bytes": 1022,
+      "sha256": "5c082f54cac6972126d8d9bf9bf58f5d65a6f720acd750ef4395de27760cc99e"
+    },
+    {
+      "path": "04_fastai_part2/miniai/datasets.py",
+      "bytes": 3999,
+      "sha256": "4eb870ce05bb575f73dcf0a577317ca3d0b4e08f72e3bca84d1401f94583ff4f"
+    },
+    {
+      "path": "04_fastai_part2/miniai/diffusion.py",
+      "bytes": 9336,
+      "sha256": "7b72c0fee42ba7e34d4ea978eb8fbebcdb1c409f7302a36faea43b25ed4f2754"
+    },
+    {
+      "path": "04_fastai_part2/miniai/diffusion2.py",
+      "bytes": 6962,
+      "sha256": "8e298020fd569aead6022f27dcfa4b382eb360e568775f3535ebc96ae3db7090"
+    },
+    {
+      "path": "04_fastai_part2/miniai/fid.py",
+      "bytes": 3257,
+      "sha256": "0865e787167d19cacccba1a5fa7a15f96166df2d8f29c598d43942a2e159e0fe"
+    },
+    {
+      "path": "04_fastai_part2/miniai/imports.py",
+      "bytes": 930,
+      "sha256": "e58489f0f432eab4d9453a065f3df7daeccfeca52535f40bafc970011eaa87e1"
+    },
+    {
+      "path": "04_fastai_part2/miniai/init.py",
+      "bytes": 4518,
+      "sha256": "0a524f745040795ad332001946ba0755f1c742ab1b04acfea78007aa14d04a1e"
+    },
+    {
+      "path": "04_fastai_part2/miniai/learner.py",
+      "bytes": 9122,
+      "sha256": "7ac7aac34765b18d3c9448da992a99c6ada8682f365e45d4734f88e296670d8f"
+    },
+    {
+      "path": "04_fastai_part2/miniai/resnet.py",
+      "bytes": 1783,
+      "sha256": "2e178fc9e049f0a2c16412697d9258434cfc33d36827777e18c7b26ff00f4513"
+    },
+    {
+      "path": "04_fastai_part2/miniai/sgd.py",
+      "bytes": 1562,
+      "sha256": "00e34f8e3f7c582b6a1878fe7b5691d63359742bf9bb96a9384d5d220574466e"
+    },
+    {
+      "path": "04_fastai_part2/miniai/stability.py",
+      "bytes": 616,
+      "sha256": "50304fecf52c5fad38db83f3bba255b1735b79758d8d1120764a95e3456da5e2"
+    },
+    {
+      "path": "04_fastai_part2/miniai/training.py",
+      "bytes": 1976,
+      "sha256": "fee9abd077324dde823935917d1d973463efc9903142378aa28416ba65369e6e"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "bytes": 60627,
+      "sha256": "d333d5c477bd477753971b15449d4654ff3d746cabf367bfcda78f9359a49196"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
+      "bytes": 5671,
+      "sha256": "683b899a0615ce115d71cfb21215f24a97f4854202ddd8e3eae40914261308f8"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/README.md",
+      "bytes": 4811,
+      "sha256": "b29b2e643bd1ec43eb3b8cc4fbb129b353d43c097b09ef135eb748eda7213510"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
+      "bytes": 964,
+      "sha256": "68b126ff68e3635f9da358a98977f0170bc15143e53d2bd0e5b98537287dec6f"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
+      "bytes": 1758,
+      "sha256": "e7c8f7ea2f9cc56976cc15fe5b862b5e615babdf42e24320cebc282d6d69d124"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter_gui.md",
+      "bytes": 1211,
+      "sha256": "c536c2f33d2a2f53cd8f870ccdccdf9a4707d9cf268e5caaf2958e71a632104a"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter.m",
+      "bytes": 2167,
+      "sha256": "0ffa3c4da12f974a3ef16a3a29f98b77ed5c64a6167cf401d301d553b21f7c11"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter_gui.md",
+      "bytes": 1434,
+      "sha256": "4a4105394bc948b82025efe6a07b6f51e1215dcebbbefafdc472ffbb00a7355e"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter.m",
+      "bytes": 1709,
+      "sha256": "9d99cc52d7b0a3b5e84381574b8741bf259915c42912998245e87ac6ef818cf3"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter_gui.md",
+      "bytes": 1246,
+      "sha256": "bfc62d975f28ec813de8756b7de9f3d3f6ea1f0055a881bd5a5cc5228fff5b4c"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer.m",
+      "bytes": 1541,
+      "sha256": "90b19e54906bd74a974f0dd66541979a7c6d9472df9fdd1002912d9eb45d2aee"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer_gui.md",
+      "bytes": 1440,
+      "sha256": "d0e2ef6e1aa844252dc6b250132b254b3c3196d4b9c3c54c0a47459d219129f1"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response.m",
+      "bytes": 1759,
+      "sha256": "83bf8e9ddd2a7c60d3d00fa3dda6667df37bcf3aa8b74f7082f57b2cad6fc4df"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response_gui.md",
+      "bytes": 1179,
+      "sha256": "a0553b6415fb0d45efc25f63bcd1b16f621b9cdc09186c57e8c7f7ec3ed4f1a0"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson06_frequency_response.m",
+      "bytes": 1649,
+      "sha256": "8062ab2b17c126c0bdf9c16514d1b2c47e6c9b8d800400baa8d261560e62a057"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer.m",
+      "bytes": 1871,
+      "sha256": "2e6613598ec683de0aad83c882c556e7e9f47f73b58c226974da598197083e86"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer_gui.md",
+      "bytes": 1221,
+      "sha256": "6afb88c17e437d6a80a73742d4015c4981a1f1c57dbf4828ca913813b7d38eae"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson08_group_delay.m",
+      "bytes": 1592,
+      "sha256": "2a1c1896da825f17c070fd2609c7470941cfe365be3e4a41472539903d6f8418"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson09_zero_phase.m",
+      "bytes": 1149,
+      "sha256": "76b2910335068903a41039cc6fe6816a8861ec25aef6625f7178e004cdcc97f5"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson10_filter_to_zero.m",
+      "bytes": 954,
+      "sha256": "d82fc9518be35e8bbbe27b5d76053d4eba53d7f7a5afb95b5f86f73266f7b1fe"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson10_fir_transient.m",
+      "bytes": 1212,
+      "sha256": "f074165e59d00fb78fc30969f238095da00276ee1aca38ce997485e1a3632c31"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson11_iir_transient.m",
+      "bytes": 1060,
+      "sha256": "2dfc107cbd2fb08ac0c76616a46c4ae3ec571b5a94528c835e707774c711ba92"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson12_absorption_response.m",
+      "bytes": 691,
+      "sha256": "6b20551bd85e677b78fa85db23e14618a1490fcec2f9aa694b32a098a5abdaa2"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson13_arbitrary_filter.m",
+      "bytes": 1619,
+      "sha256": "a656ff7957869b386259df6fd7623726d207a8abf23d2abdbe51abe633d09e4c"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson14_fir_poles.m",
+      "bytes": 693,
+      "sha256": "dd1dacba5e00e0a3df16a10dccb888bd5378ea9a7c21f2cbae3a5e93454dc09f"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson15_minimum_phase.m",
+      "bytes": 950,
+      "sha256": "7bdfc4a71c5abde373dc9d66324223881d3fd616f75b2ce4847d8fd7b5e14f64"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson16_iir_stability.m",
+      "bytes": 1228,
+      "sha256": "a407d1d70835b4392f3ec3ed5eb3651e50fb064f91e75c37179b5380fc293b28"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/compwindows.m",
+      "bytes": 1175,
+      "sha256": "b891b21fa5439745a3b29b7e94f5669365287341f583c56f4b643c209d9cfd3b"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson01_generate_fan_signal.m",
+      "bytes": 454,
+      "sha256": "d7d91645548e78aefe722bf5be2bc8adba398a73abaf5309be9df164a65f6803"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson02_fft.m",
+      "bytes": 1208,
+      "sha256": "22267205301245ed71c80ee16b2220ecd802eae6269f48797fd760f03995c8a5"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson03_periodogram.m",
+      "bytes": 1122,
+      "sha256": "bf8c08605f9642a96174356e2b843a9181846c27efc1b39a0cccc26a5c0a89e8"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson04_frequency_spikes.m",
+      "bytes": 684,
+      "sha256": "fcc921b720b6f9af3df1d0771e65959ce7f6cca4ed98c6fad3f0193fc01004c0"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson05_precision.m",
+      "bytes": 929,
+      "sha256": "79ea07f7a631427389ace50ec1103c2aac511d3566b66ef9754402033bef7f3f"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows.m",
+      "bytes": 1420,
+      "sha256": "39a9ff24c3f2dd441d9f8f73d979e2bf62741fcb01d117ec47feaa460b450707"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows_gui.md",
+      "bytes": 1561,
+      "sha256": "82832d2f7b7055a634c821c729cd612e607e8f7975e398238ca2fe43ec542827"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones.m",
+      "bytes": 811,
+      "sha256": "90efc37dd1fc611d68503148dec05c505796e3bb6596e9aac83074a90e12f50b"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones_gui.md",
+      "bytes": 981,
+      "sha256": "4b30ad93488c0c5e0632e31662ca48eca738b289136035e4ebe0a5043654bc66"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson08_close_tones.m",
+      "bytes": 673,
+      "sha256": "b6b8a11f99f47abcf43130c528e1c9c22121f9eacd65c765cc3779c911db870b"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson09_welch.m",
+      "bytes": 943,
+      "sha256": "02d6bcffa9c93122b56ede2605f1427af3689331160bd2743b364703e41256ab"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson10_window_length.m",
+      "bytes": 814,
+      "sha256": "88574713c25574b4db44bb37a5e761cd279172148bdd945837e77ab96efecfcf"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson11_overlap.m",
+      "bytes": 1210,
+      "sha256": "d491e1357a0036ee3a980e4a4ba9e9ad4bbf756a4e2390abe3c0038b308bbc1c"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson12_parametric.m",
+      "bytes": 1192,
+      "sha256": "fab1ee13791386d97ba4c15cb4786adf3504e5999a0f0335f104d2a7c0c9a321"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson13_subspace.m",
+      "bytes": 1578,
+      "sha256": "c27b9991d24ff62e805628f254b6115dce389eac3521b2a86fa2a0e5d3618632"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/07_decimation.md",
+      "bytes": 1768,
+      "sha256": "edeed7970ffdd23197c3b8c274c6fad9f1099584712acce34f956ff076e84047"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/09_interpolation.md",
+      "bytes": 1243,
+      "sha256": "cd7f2286384d11e2f3e80ef01fba7b9e46142eadff7b2421f8ce251dc1d10529"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/13_import_signal.md",
+      "bytes": 1785,
+      "sha256": "b398bc00e32849bf87e256da65e9be5c81691b23eae57e2fd7bcfe96a34c2f33"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson01_generate_signal.m",
+      "bytes": 1242,
+      "sha256": "626c09a7bd2f84227163d7cf3ba57d40b3df82b226f8595a35bbed8585074026"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson02_vary_sine_parameters.m",
+      "bytes": 889,
+      "sha256": "1644ac87b06d8d7c63670c367889b5e7f76e72816d6c7eec9b628ccbaaa623b6"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson03_view_sample_points.m",
+      "bytes": 1495,
+      "sha256": "79f6378ee1eecf3c32e0d7e73ae0c1c49a9588b1873268a2fe17606fe0d43319"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson04_generate_tone.m",
+      "bytes": 1527,
+      "sha256": "9ff20eb77588d3f7d6f971f9e196d8fc6a1e70a4c281a10d0823675653367ec6"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson05_generate_chirp.m",
+      "bytes": 1656,
+      "sha256": "18ddd3c8485ccbcad2dfe2f425aaa9d5f50a97b9dbbac045d9028031a5b8e44f"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson06_listen_to_aliasing.m",
+      "bytes": 1278,
+      "sha256": "dad3ee3eaa23b65496a06a21386e4523e01fadc43f416e95ff616ef71401f672"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson08_listen_to_imaging.m",
+      "bytes": 1085,
+      "sha256": "3e2087a8d8abdb5077f9907ca6aea657977c17e83aa57f117b685758166ac046"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson10_upsample_audio.m",
+      "bytes": 1831,
+      "sha256": "e998d85add601d299fb21fe97bfe22dd48d0b56713b06daa18b538aa26adb135"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson11_resample_watermark.m",
+      "bytes": 1588,
+      "sha256": "12f20070603440e3e480aeff06bc720a8a7295f182be85b997cbfae9a4f31cc3"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson12_square_wave.m",
+      "bytes": 1185,
+      "sha256": "3f6869fdd8f54f1e45811dfba680925aa9a6157793b85e51d37dc976e0951081"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/sumOddHarmonics.m",
+      "bytes": 582,
+      "sha256": "2df54de7003b585b877431ea0525abae1fa169ec57baf51fd4fc128c59697231"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson01_gear_spectra.m",
+      "bytes": 932,
+      "sha256": "21d79d9535ac5959cc6c9b81e62d25996936e7ed0d130e8f78f562d54a0eb94d"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson02_window_length.m",
+      "bytes": 670,
+      "sha256": "10a6ae8998ac018c2e92d770b15bd6b82bf90df7d65051e968dfb6c76566d5f5"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson03_spectrogram.m",
+      "bytes": 1068,
+      "sha256": "3404c285cf54766380855ec0d913b5b22a90ec0c9f24fe1f0bf14319d14224ff"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson04_time_resolution.m",
+      "bytes": 883,
+      "sha256": "ec7ea7672ae6c22126da5d9047e18fdc08147c11e0b7b7584c7c9c916dade9dd"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson05_spectrogram_matrix.m",
+      "bytes": 1258,
+      "sha256": "27dbd2f1be5e337a6c109badae3e6dac084c2ab83d3590867f73d9ea5bd99873"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson06_scalogram.m",
+      "bytes": 831,
+      "sha256": "4b0ab89f26d2542ad37a9055aa51c99c9258346dea73752640c1486bafc38b35"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson07_frequency_resolution.m",
+      "bytes": 784,
+      "sha256": "3c955d1410d7c7968f7fc0af525a66ee931cb957531c6a4cd3487ca2130c10bf"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson08_scalogram_matrix.m",
+      "bytes": 1161,
+      "sha256": "28cb55dd548ed0a7fd264f4b1a8b37bc9b18b3bbde5db4096d34aaac10ffd0be"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmltfa/lesson09_fan_fault_project.m",
+      "bytes": 1999,
+      "sha256": "1a4980eca70cc3bcb40a9edc0b65d49cf918bc8735cfdfd8236d109eb81dcbd8"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/03_power_spectrum.md",
+      "bytes": 1141,
+      "sha256": "d43dd922455254086bdfb8cafdbe10bd177f511f7fe4656b3c5daca760eb2b0b"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/04_compare_signals.md",
+      "bytes": 1123,
+      "sha256": "e39cc9b62d6922119c05df401d728aa16361493793607bc4e22d670bf46bbb2d"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/05_resample_signals.md",
+      "bytes": 1305,
+      "sha256": "c7f9d716168acac2129e5115f861688587e014df6c668957f44a34c6291882ee"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/06_extract_regions.md",
+      "bytes": 1074,
+      "sha256": "88cdcdd3f8a8b549c34021748ea6b4a016f116e072d455cd9686f4a446e6ee65"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/07_custom_preprocessing.md",
+      "bytes": 1460,
+      "sha256": "3cbc065fa2aa3665e0189c78c99d12e64502bae69009d923cb49f0b0d4072e70"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/09_customize_spectrum.md",
+      "bytes": 878,
+      "sha256": "b8fce1ef418191d19dea33b92731f16926bfd1b5f2dbf8e9b30bbe82bddb6f17"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/10_time_frequency_plots.md",
+      "bytes": 1065,
+      "sha256": "e6f4705655fcab8387b706037d1d29bc293018829b5f31e972eb3c3ee4696af7"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/11_lowpass_filter.md",
+      "bytes": 1462,
+      "sha256": "31e95875bce6c3b5dfb918248f8b8d0bc3adff0dcda2dc99de8b4ca7039c9da5"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/12_bandpass_filter.md",
+      "bytes": 1224,
+      "sha256": "dd8285c0f22b67ab9d595ac0f0e645262297dba04057fb4ac118a701a2c62c15"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/14_signal_measurements_gui.md",
+      "bytes": 2049,
+      "sha256": "dab40a6e0e6c176b78832c0bcb3a81633f7cc09047e2f35492b1912e0f1bb0a0"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson01_generate_signals.m",
+      "bytes": 1546,
+      "sha256": "a70003e1dc92526eea5c6f0b397e963c7816d69c4df1df6e879e17dcb747d552"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson02_import_signal.m",
+      "bytes": 867,
+      "sha256": "67c4afbf028515b2ceeb22cfd7e80375e0b2756ff060027ad2a36b14618ea3d1"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson08_align_signals.m",
+      "bytes": 1405,
+      "sha256": "c792e88848bea370ef423ce68285945d6c8b26c426cd4932234cf24a257d0d95"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson13_generated_code.m",
+      "bytes": 1030,
+      "sha256": "f3cfecb07841728472ae4cf307c503fe07e366d7b332a52543a8f245a38bbfb0"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson14_signal_measurements.m",
+      "bytes": 1844,
+      "sha256": "46f7e0c756db0c3ae950b3eaf18b8c6fdc7f33a7e24b688c15050d747f39cbee"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/nm2cm.m",
+      "bytes": 430,
+      "sha256": "80c7c65536279fc60dbe3cd668bd5332f296c75962261e503962d12b86e0e2d9"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/preprocess.m",
+      "bytes": 439,
+      "sha256": "2455b6dd283bae69c9730dea44c045a061aa16eefb1cfa1c4e39ce41ba9ee414"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/steepness_comparison.m",
+      "bytes": 606,
+      "sha256": "58a447c5245d025d0364f03fa92e3298ef9646bca50b0d11e28f4fe6c55cc6fb"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/wanc_spect.m",
+      "bytes": 904,
+      "sha256": "82d98bca176053e638194f496f84c0b5c0fae2b98e7b386ebedb71f2d3e93066"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy_progress.json",
+      "bytes": 160600,
+      "sha256": "8f43a3b7df0c8a17f5f592c3d131eeb91c2afa3497b414181c3a8298cd1304d7"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/course_inventory.json",
+      "bytes": 10537,
+      "sha256": "81026399a15186d3e4d9470099f968db54a82506407e57857405127325526114"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "bytes": 3087,
+      "sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/data/synthetic_signal.csv",
+      "bytes": 89465,
+      "sha256": "ddfc89e2f808e1ea7e3d3e3db58b40d09961bc0113bcdd7ee1f65f611b8d50bc"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/filter_design_analysis.m",
+      "bytes": 1997,
+      "sha256": "eedbb89f80a028f4d1a5481c602e5e7059b7fbbb2a8a6cad09612a53dfe4db76"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/onramp_signal_workflow.m",
+      "bytes": 1578,
+      "sha256": "8357a6f4e422f990cff59ff6b853cf97bcac82ee897f06167b9f131f4cdb10c9"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/run_all.m",
+      "bytes": 628,
+      "sha256": "0a3391ba6bee49a48be7815e7d92691f58b509b695ac0e386b473c833be87e6f"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/signal_generation_resampling.m",
+      "bytes": 1816,
+      "sha256": "4b70ac470cf9c16052d67b2ab46f8817168b2f80cb86f4503b997b3a1cd35062"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/spectral_analysis_methods.m",
+      "bytes": 1711,
+      "sha256": "b97a678ebbcbd1bfd042d1bfe3343002f019bdcb0526d1fcc1b1128f68ebb4fc"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/time_frequency_methods.m",
+      "bytes": 1235,
+      "sha256": "436f3035270ec670372befbf16d6d58db0e9d51e76a2abdc59ccf5b06eccd281"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/verify_practice.m",
+      "bytes": 6010,
+      "sha256": "0a6c6f974b8422efae7b0c42a1e761dae2157a51ecb4e60ee84a04293982b7ea"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/wearable_preprocessing.m",
+      "bytes": 1952,
+      "sha256": "a7ccb4eb4f51059a35b5f014f52844e7f337dd0461d94723cf069cca07a9963e"
+    },
+    {
+      "path": "05_mathworks/Python_Companion/07_python_signal_processing_companion.ipynb",
+      "bytes": 7141,
+      "sha256": "13a0164230dbe70ccaab9499a49063e8a58da17201d309e2f4a1611406a6fd7c"
+    },
+    {
+      "path": "05_mathworks/Python_Companion/wearable_utils.py",
+      "bytes": 1849,
+      "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9"
+    },
+    {
+      "path": "05_mathworks/README.md",
+      "bytes": 693,
+      "sha256": "a9651726472b47775a790ea41f542965d0a396b4a81180b619d0243e1d3c474f"
+    },
+    {
+      "path": "EXERCISE_INDEX.md",
+      "bytes": 17526,
+      "sha256": "a09355ed085450d4595868b483336d56a1eafc4d7531cf76ae0450484fc9520d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4996,
+      "sha256": "f2f65a4b4b7d7e67638cbc3716a83bcd91a8bd00ca591cdc35a3993cabc8d597"
+    },
+    {
+      "path": "RUN_ORDER.md",
+      "bytes": 6259,
+      "sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1848,
+      "sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1"
+    },
+    {
+      "path": "START_HERE_COLAB.ipynb",
+      "bytes": 18816,
+      "sha256": "0863fc08616a3f2de04cf2bac9e2bdb6aa154ce06b429c4800efa9d972b5793b"
+    },
+    {
+      "path": "UPLOAD_GUIDE.md",
+      "bytes": 1309,
+      "sha256": "0b501efd1853de71b4ec33216e07e352512e110afc10633339c15c40db5cb915"
+    },
+    {
+      "path": "WORK_INDEX.md",
+      "bytes": 18407,
+      "sha256": "fac7fd3718dd15f926086e517675607a57bcba0ef49fc8d6265860508c479358"
+    },
+    {
+      "path": "colab_full_runner.py",
+      "bytes": 27593,
+      "sha256": "7fe3ff227843517c868157aa6b3b4e08aa9eb9517390ee503d39e4cafe14908c"
+    },
+    {
+      "path": "colab_runtime.py",
+      "bytes": 20822,
+      "sha256": "e11bedb13e1bd71a71c01cc49e558d05c89b057259fe52e64301d0c4d626a140"
+    },
+    {
+      "path": "completion_criteria/audit_mit_hosted.py",
+      "bytes": 16761,
+      "sha256": "ecc87250b55071349f04bb448846419b8303e12f437e10645cc80dc1945ac043"
+    },
+    {
+      "path": "completion_criteria/fastai_full_run_criteria.json",
+      "bytes": 183212,
+      "sha256": "03d3afdea87b0b8ac4e47e5ae9be418188d10c10668201943ec592c56ea6c89f"
+    },
+    {
+      "path": "completion_criteria/fastai_original_00_07_source_provenance.json",
+      "bytes": 9371,
+      "sha256": "e9359e9b44bc609bdfd65c5079cb87e5304dae4121c5c05188c05023515bd6b3"
+    },
+    {
+      "path": "completion_criteria/fastai_originals_source_provenance.json",
+      "bytes": 10259,
+      "sha256": "2736f240ddcb83b93275fd5c41558f984836113875d5d984dfc48bd19ee08db7"
+    },
+    {
+      "path": "completion_criteria/google_completion_criteria.json",
+      "bytes": 7125,
+      "sha256": "00d794114b14ca5637ad3ecc7d09d349c7563eba404aeac5142190a98d8508ef"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_hf_public_class_table.json",
+      "bytes": 49572,
+      "sha256": "79b904f353f934784c981218dfd15bec972df9b89c8ffcc67c12c625d250e07c"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_public_metadata_provenance.json",
+      "bytes": 5379,
+      "sha256": "6239a676daeea02ac7daa21ea6ad5f100314cd1ea306bd97418f1b58fd278849"
+    },
+    {
+      "path": "completion_criteria/imagenet_public_metadata_tensorflow_LICENSE",
+      "bytes": 11512,
+      "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385"
+    },
+    {
+      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "bytes": 6373,
+      "sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0"
+    },
+    {
+      "path": "completion_criteria/mit_completion_criteria.json",
+      "bytes": 10878,
+      "sha256": "145f659817df02a6db2f0544b5be4561f562ccb1ba993d9de440c2da88057ef6"
+    },
+    {
+      "path": "completion_criteria/mit_service_continuation_criteria.json",
+      "bytes": 1514,
+      "sha256": "240ebb3edaf3d95b02649e20625b0bee6e2d463203d1322f6677595ebd34111f"
+    },
+    {
+      "path": "completion_criteria/objective_remaining_deep_dive_objective_experiments_criteria.json",
+      "bytes": 3200,
+      "sha256": "c449ae09b8f77e19b60a8c81f87502ccf4f6e29f1a9356c332dc0d8a9f68ca54"
+    },
+    {
+      "path": "completion_criteria/prepare_imagenet_public_metadata.py",
+      "bytes": 11822,
+      "sha256": "3c649ace5cff8274b09e26fbde5040a95a1233d7a4c2d9da0894443d6f756360"
+    },
+    {
+      "path": "course_persistence.py",
+      "bytes": 45724,
+      "sha256": "f14f7282d4b1e718b01858a61a2dca8b60f5135ba9971fc7923c50bf12cca3d2"
+    },
+    {
+      "path": "exercise_manifest.json",
+      "bytes": 65155,
+      "sha256": "c1cd06926edc1e396832de9a9bbd74b0ed9095085e2a29ea04767f425823e2c0"
+    },
+    {
+      "path": "local_variants/04_fastai_part2/22_noise-pred_pair_return.ipynb",
+      "bytes": 29100,
+      "sha256": "aed79b71edf7513aebde606b4631412ef4068bab306deef58d09aa3f25131a18"
+    },
+    {
+      "path": "local_variants/04_fastai_part2/30_lsun_diffusion-simple_numeric_shard_assertions.ipynb",
+      "bytes": 45466,
+      "sha256": "960ae992c5d42bed19fed02e4866eeed29d4c4370dcf6b87821fcdbc949be592"
+    },
+    {
+      "path": "local_variants/LOCAL_VARIANT_PROVENANCE.json",
+      "bytes": 3599,
+      "sha256": "26e40574be59cf5c981def7025f95e3d107090bdde0bc2631f5ec3b336766d80"
+    },
+    {
+      "path": "local_variants/README.md",
+      "bytes": 2951,
+      "sha256": "d12597e977ec7e4a0618153fddbb6601d9733393a10f78d6e660b98bb4194cde"
+    },
+    {
+      "path": "provenance/ONLINE_OFFLINE_MERGE.json",
+      "bytes": 1734,
+      "sha256": "b75835f0c09128269e4bd72961c48399d42e77235f2146f904f0f12e5fdb0e05"
+    },
+    {
+      "path": "provenance/ORIGINAL_SOURCE_SHA256SUMS.json",
+      "bytes": 28440,
+      "sha256": "35f171fca4821b493730a83b19aec417d0f328dd19a6041b111d2e26953b88ca"
+    },
+    {
+      "path": "provenance/PUBLIC_COPY_CHANGES.json",
+      "bytes": 3905,
+      "sha256": "51b3c37c194eeaab8239792dd37b67e59af644be6f4328bd449139fb620cd040"
+    },
+    {
+      "path": "provenance/SOURCE_COPY_MAP.json",
+      "bytes": 113181,
+      "sha256": "0d3ab1f57a451e3f4446757a3683341f347e43df68eb61809289ee5be4a70983"
+    },
+    {
+      "path": "references/05_fairness_income_legacy.ipynb.txt",
+      "bytes": 40156,
+      "sha256": "a13478ea18c733240be7e0c50fa8cbad4f3333fa460eec0a176b96a273189212"
+    },
+    {
+      "path": "references/fastai_assets_2026-10-19.json",
+      "bytes": 8216,
+      "sha256": "5529240714b7879ce70a03fc31025aee91cd3ecfc2b6a575a965fe6dd516f393"
+    },
+    {
+      "path": "results/EXERCISE_RESULTS.md",
+      "bytes": 17721,
+      "sha256": "c6ce05335865a4b91609375b1bd9416a042593266f12d3a723e537444bd5b2db"
+    },
+    {
+      "path": "results/EXERCISE_STATUS.csv",
+      "bytes": 19818,
+      "sha256": "f1ae5f36072984c8a810a064965e2cdda5a47f429c0ce10b43c910e9512b52d8"
+    },
+    {
+      "path": "results/LOCAL_BACKUP_STATUS.json",
+      "bytes": 520,
+      "sha256": "9f72f7de287b5ad529ced5d2b3b9207039621b141aff4d75f11d20ec501704b9"
+    },
+    {
+      "path": "results/PROGRESS_SNAPSHOT.json",
+      "bytes": 44122,
+      "sha256": "f81074a575bb441fed73fc1b1f14d5a06c7c5d4143306bc002012fe08bbe2ff5"
+    },
+    {
+      "path": "results/PUBLISHED_RESULT_INDEX.csv",
+      "bytes": 12487,
+      "sha256": "b959f5c914175b6bc73f26f31b4bfa655d49295daf277f60fe7f165b090efbaa"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 2085,
+      "sha256": "a2ff42774f4fd15002b36953618baf031aa56851a25a23334ee8f87ea7ec13d1"
+    },
+    {
+      "path": "results/RESULT_FILES.json",
+      "bytes": 128752,
+      "sha256": "9ea7ecc13911a2d3730acb95743cc9eb0d032e1150af7f063fa313917843bd64"
+    },
+    {
+      "path": "results/audio/02_pt_music_generation.wav",
+      "bytes": 4615004,
+      "sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61"
+    },
+    {
+      "path": "results/audio/02_tf_music_generation.wav",
+      "bytes": 2469540,
+      "sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2"
+    },
+    {
+      "path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
+      "bytes": 695524,
+      "sha256": "fa6fb5acd42a6826c92d51154dd03d613404c4027fdb00622d97d41489f0f521"
+    },
+    {
+      "path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_067_output_001.jpg",
+      "bytes": 251454,
+      "sha256": "473e1ff404e6557b399252910857bb7b609986125c1fb9e5ed05ab497b298e4e"
+    },
+    {
+      "path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_073_output_001.jpg",
+      "bytes": 3750507,
+      "sha256": "aeaab9f4cf085933675b0b68e129d63a194b40958bd64fbe8fab7069ff42ea08"
+    },
+    {
+      "path": "results/figures/fastai_training_controls.png",
+      "bytes": 20459,
+      "sha256": "04a97353b322e106d668cc829c5aa5bf996a3b8e8f031e4920a1dcddb4a82e9a"
+    },
+    {
+      "path": "results/figures/google_subject_evaluation.png",
+      "bytes": 24140,
+      "sha256": "d49533f882da65245d1643d51896d7a6e199f42bc34115bbf8361746efb2182b"
+    },
+    {
+      "path": "results/figures/python_signal_processing.png",
+      "bytes": 80291,
+      "sha256": "df9653e7ec4e32515a55e2a8dc2e339b884f67531f9eac6ad717d52a5bb0c7fa"
+    },
+    {
+      "path": "results/metrics/01_google_mlcc/06_subject_independent_evaluation/06_subject_independent_evaluation.json",
+      "bytes": 1536,
+      "sha256": "9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895"
+    },
+    {
+      "path": "results/metrics/02_mit_6s191/06_tf_lab2_debiasing/TF06_FULL_FINAL_AUDIT_20261023T010300Z-c781f8.json",
+      "bytes": 63740,
+      "sha256": "9b05973dfc5fb423fcc3e7f7429041c7526ecae262e1e6a7e9d5f6bed702331e"
+    },
+    {
+      "path": "results/metrics/03_fastai/15_collaborative_filtering/MOVIELENS_LEDGER_SOURCE_OUTPUT_VALIDATION_2026-10-19_20261019T065112UTC.json",
+      "bytes": 3009,
+      "sha256": "fe4e85cda4d75ba71af13fbde9eb9e2815150a7d7d6f0be5ae79c049e6ff8e20"
+    },
+    {
+      "path": "results/metrics/04_fastai_part2/15_DDPM/ADDITIVE_RECOVERY_FINAL_AUDIT_20261021T122126-2e5a7b19_20261021T134255Z-cf4b2b.json",
+      "bytes": 29771,
+      "sha256": "822b1606d1af34a43dcaa60aa7f084cfa7199b066334dce44993a496a118e849"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/01_linear_regression_taxi.ipynb",
+      "bytes": 826458,
+      "sha256": "80d596ae398ffa3c5005280a1363511643116cf26656bd557950a2a531da0508"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/02_binary_classification_rice.ipynb",
+      "bytes": 1310477,
+      "sha256": "82536bde3b9a33f93093e3cfdb7425f6dc18876df908a066c43908e5935a8b08"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/03_numerical_data_statistics.ipynb",
+      "bytes": 44236,
+      "sha256": "7da69d92c7bbe18c5cd9057aa3125dfb993d099fbf50fdc4a9f5aa555f36ff9a"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/04_numerical_data_bad_values.ipynb",
+      "bytes": 317872,
+      "sha256": "d98ca3d76ddb0cb4d808af710d689bf7999c4d0f76a961cd9edd3c7c87c1a039"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/05_fairness_income_colab.ipynb",
+      "bytes": 279515,
+      "sha256": "f479687666dc75c18c831ba511cbd54edf144f099795bfe99e0c939db8e33123"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/05b_fairness_portable.ipynb",
+      "bytes": 15880,
+      "sha256": "5ad6ee33b2b086f2bac3a5980654d5c5de52c50fd1fb73b706a31d09d81623c4"
+    },
+    {
+      "path": "results/saved_notebooks/01_google_mlcc/06_subject_independent_evaluation.ipynb",
+      "bytes": 45554,
+      "sha256": "18de64216d199da586bbca48c702de976c15ef62dcf3d874e7f6cd91557b1e21"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/01_pt_tensor_and_gradient_exercises.ipynb",
+      "bytes": 69895,
+      "sha256": "e0e8e9f6da6ec6bd49fc885ba2e058adc739ab503a67449eb6ae213a9685956e"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/01_tf_tensor_and_gradient_exercises.ipynb",
+      "bytes": 66321,
+      "sha256": "e513a375a4ad9f5c190324da87130f307d1e87fa620e4c8dbc4fbe05aa7c5de1"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/02_pt_music_generation.ipynb",
+      "bytes": 61738,
+      "sha256": "773489070cf94640a16a5717919d9c67ed7313ffe9c88a1b72ef1c881cc498fe"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/02_tf_music_generation.ipynb",
+      "bytes": 63487,
+      "sha256": "f203fc4a5e36fe4292cd9ec7a2b8ccce99068cc7ae76aed3b36c52a8a24330a0"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/03_wearable_lstm_gru_attention.ipynb",
+      "bytes": 14474,
+      "sha256": "e143947a4718a5db457ee3f6d2611ef5cac621a8d6fb200eafb361bfb33c6eb3"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/04_transformer_contrastive_prototype.ipynb",
+      "bytes": 12896,
+      "sha256": "d47a93ea4b54b55486c91bd4b32f13202f5045c0e7d373fdfd94c6371835600d"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/05_pt_lab2_mnist.ipynb",
+      "bytes": 207166,
+      "sha256": "9530c6c9906e52b632721e5afc98e1b9003b628d4189a1e708fefdf0b734d24d"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/05_tf_lab2_mnist.ipynb",
+      "bytes": 239870,
+      "sha256": "308719ea7302342b1ce8cc62ae5cb27dbd4645e896c0502b0598dcd0c4095a25"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/06_pt_lab2_debiasing.ipynb",
+      "bytes": 1737646,
+      "sha256": "8b2cabaf7ed42c57224183a736239bbd2bc5e1693dea5bd78782f6bb79861c94"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/06_tf_lab2_debiasing.ipynb",
+      "bytes": 103498,
+      "sha256": "0eb978ae597ceb72027eee4815e1802dd9e035eeb5d2f67b1ddbedeee7ebf83a"
+    },
+    {
+      "path": "results/saved_notebooks/02_mit_6s191/07_lab3_llm_finetuning.ipynb",
+      "bytes": 568749,
+      "sha256": "1655f8f403654e3e65ea9b4ac20884de268868ca4522e9b9890c1794adfef87f"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/00_image_classifier.ipynb",
+      "bytes": 28603,
+      "sha256": "1f141fe69b790b032bd13e3db54114c521884ad9fbd1a1153a7119fd2310c464"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/01_jupyter_notebook_exercises.ipynb",
+      "bytes": 46058,
+      "sha256": "2f74e80b1b25367194189614915ada9496240938a3a97c8c9f46160bf941bd0c"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/02_export_and_reload_model.ipynb",
+      "bytes": 17871,
+      "sha256": "bf5d53ea702d43c2a5ef669f2b2bdde29c4e38d1bc3f1b392d16e087874c1c46"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/03_compare_image_models.ipynb",
+      "bytes": 31004,
+      "sha256": "2127383b0a748ee7a0c59405fd2055ed617b28f449a6f6046f4713e10b6769e1"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/04_neural_network_foundations.ipynb",
+      "bytes": 105407,
+      "sha256": "16bffed7c7d24ea7c68ed96d32e1b0bffe1dcdbdba168f867762366cda48efd5"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/05_titanic_models_from_scratch.ipynb",
+      "bytes": 15942,
+      "sha256": "1d4afba190d8e28203cf623f4b91bf6c800fbfc624ed365e044ee160a6a44fc0"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/06_fastai_framework_and_ensemble.ipynb",
+      "bytes": 38064,
+      "sha256": "b23b597decb6e2ea9837da1c81b5ff4fc8a13656f94384cc19fe83f45accb4ff"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/07_trees_and_random_forests.ipynb",
+      "bytes": 94076,
+      "sha256": "af9abb7f56a38521a59bd47248dd12ed094ad51f33612d7d070b7b10c43ee571"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/08_chapter4_coding_questions_and_mnist.ipynb",
+      "bytes": 64611,
+      "sha256": "dfdf57567cae97e5453729e33f100d9264132de802568bb047f7cf6bccb6aa86"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/09_wearable_training_and_ethics.ipynb",
+      "bytes": 237076,
+      "sha256": "ef47d62efa7a43d1cae12f3431afb19b67b30b9a5de5597f8ea07b8c373549b1"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/10_paddy_first_steps.ipynb",
+      "bytes": 900806,
+      "sha256": "e7ccf87fac5f487a50e484e27481fe6bc114a6c545d501de2d0687747f34226a"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/11_paddy_small_models.ipynb",
+      "bytes": 143597,
+      "sha256": "1bd27d8e74c94872a3be0416f20c7876e58c40999fdaa0cf978d255f2cc6d796"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/13_paddy_multi_target.ipynb",
+      "bytes": 79036,
+      "sha256": "e3a424431a60fdeac9b75ec8a2ce995e87c6f5d52ac4b9d24052aca98d6c6f54"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/14_nlp_patent_matching.ipynb",
+      "bytes": 271496,
+      "sha256": "5236b7313e304debdcc1caabd1f72e2c8de72147f5c24c0aaabc6f25a300db1e"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/15_collaborative_filtering.ipynb",
+      "bytes": 76141,
+      "sha256": "54e21c9225f3e7ccd6411f8c1094c6f43fba43546b6adcb3e3cf712663af9f7a"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/16_convolutions.ipynb",
+      "bytes": 1504409,
+      "sha256": "f6355ac3d5f32d28f7ee218c7a88729fe1a0b4709c674dcce0ffe3f507bd75a6"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/17_original_00_bird_classifier.ipynb",
+      "bytes": 824673,
+      "sha256": "d0c2f5cffc4ec58772af3262f1e3a7e3f48d53cdd8d7cf191153641bc3803051"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/18_original_01_jupyter.ipynb",
+      "bytes": 48531,
+      "sha256": "bc22e0cc07c9438d3ce09ba7aea84a2598e004794d4787dd544ff5ea8ee0f198"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/19_original_02_save_pet_model.ipynb",
+      "bytes": 36146,
+      "sha256": "564d2188f01e080dbe22aa2343b2a3c633cf1c1325c8711f44755c0729de982c"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/20_original_03_image_model_benchmarks.ipynb",
+      "bytes": 152655,
+      "sha256": "f0b86ef498ad787cc654d16fb31fb348f581d1cdd1cc6c0f5c8a115672b81d15"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/21_original_04_neural_net_foundations.ipynb",
+      "bytes": 242323,
+      "sha256": "39c0fd0c9c5b259821d57840dca16d5eaba552e365cb47dd0d9a7a6b55bc35f7"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/22_original_05_titanic_from_scratch.ipynb",
+      "bytes": 211534,
+      "sha256": "3ff7eccb5e2ca585b50c3b8c920aee3cc6d8422e85835e12255172eba30e9602"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/23_original_06_titanic_framework.ipynb",
+      "bytes": 137012,
+      "sha256": "5203e9bd39a549ad32a5e051f7b636e78295112e1ab55df30a4990d99810c27b"
+    },
+    {
+      "path": "results/saved_notebooks/03_fastai/24_original_07_random_forests.ipynb",
+      "bytes": 236446,
+      "sha256": "348248c95b1a1ff995629740729fe998a28f43c99cfc5c3692d40789fa4ebd21"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/01_matmul.ipynb",
+      "bytes": 202252,
+      "sha256": "2cdbe24048538bda181a52ceb30ab3a003097a4b4d29519caf721bc8a28f958c"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/02_meanshift.ipynb",
+      "bytes": 444034,
+      "sha256": "e72c6639e3e6bb9a3ade8d8d0b779537c5c9dee689efc4672f981cca5160870b"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/03_backprop.ipynb",
+      "bytes": 45298,
+      "sha256": "9ac94593478a745b968b61b4b99ad59a0898606d96d6a8f46c7742e75095b206"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/04_minibatch_training.ipynb",
+      "bytes": 119660,
+      "sha256": "b5132baf5ade5048b5e43a551f0ea1f7438d0293949153d985d2698f8d5c9cbf"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/05_datasets.ipynb",
+      "bytes": 233189,
+      "sha256": "f54962148544eb25882fdcece2e2c908886fa5c654dd473fd2cb328b0f622042"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/06_foundations.ipynb",
+      "bytes": 54201,
+      "sha256": "61ce72d6607225f84f00b710240d1e2d4c64276ed3818e7260bfe9a01e85cd68"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/07_convolutions.ipynb",
+      "bytes": 329445,
+      "sha256": "d9990b64d493dcf70df6f7a5eb216efbbdfb2e8ca0c64cea201c33ad0af374eb"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/08_autoencoder.ipynb",
+      "bytes": 428367,
+      "sha256": "5f7ac64640efb5f983d81226d71143cfaf0340d30e2e8f555663912ff0fabaa9"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/09_learner.ipynb",
+      "bytes": 149776,
+      "sha256": "a0d84a32b85d40b757581915d33de93aabae332385ba4a26f27a2eaa8c8c7bea"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/10_activations.ipynb",
+      "bytes": 151875,
+      "sha256": "a1db98a4e95e125e3565ec62ea468568ecbbc94e91c8207865da4886fad38c5b"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/11_initializing.ipynb",
+      "bytes": 206693,
+      "sha256": "36e6602845d51305677af8f3bc15bf5a51cc808b80edbeffddb3eada0ace3335"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/12_accel_sgd.ipynb",
+      "bytes": 171558,
+      "sha256": "c832793bc264c830416c095a0d1ac6e544e0c6eee969d314955a650ada8600b3"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/13_resnet.ipynb",
+      "bytes": 133792,
+      "sha256": "380071c78c3d43ae12ef386d9282e003c2d9ef67218796ab6321a757ee16b68f"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/14_augment.ipynb",
+      "bytes": 371796,
+      "sha256": "a7678fe6ae96b609ff35d80a49fd5fb76626f099bcb9fdd28a0f218379ca73ad"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/15_DDPM.ipynb",
+      "bytes": 225062,
+      "sha256": "726594220e54087d881c1f0502d82edbe91a00eea53cfc7cddb840e8874c2fda"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/16A_StyleTransfer.ipynb",
+      "bytes": 133115,
+      "sha256": "bf8dce20bad3886db55b25f386d6fa1ced57589e95ff18530fa08675167f1292"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/16B_NCA.ipynb",
+      "bytes": 145956,
+      "sha256": "b98347df9f9025db581a7dbca6112381fc00f141bd3ed1c7d5f4e261ab1f5db0"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/17_DDPM_v2.ipynb",
+      "bytes": 145600,
+      "sha256": "ee32992921ce6332df9118b90e520c7965b7e1aeed87b290fa41bb55e2a963e2"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/27_attention.ipynb",
+      "bytes": 18669,
+      "sha256": "6ae1a85cd168794125586611c58abc76ddd22a06b11b6d05e02ff69b0721a83e"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/01_stable_diffusion.ipynb",
+      "bytes": 1632385,
+      "sha256": "895fe3a2f4bd69631c9476149d233f8021852bcff3381803318762c4178ef7b3"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/02_stable_diffusion_deep_dive.ipynb",
+      "bytes": 1184903,
+      "sha256": "73735c71914d91fe8135316453f3f8716f0187bf75784114496e9629c45e4e75"
+    },
+    {
+      "path": "results/saved_notebooks/04_fastai_part2/diffusion_intro/03_textual_inversion_inference.ipynb",
+      "bytes": 216703,
+      "sha256": "bb8680ea3a99b2312dd39edcbc42a20881385ce84e2aa749b46d20d86e296037"
+    },
+    {
+      "path": "results/saved_notebooks/05_mathworks/07_python_signal_processing_companion.ipynb",
+      "bytes": 207106,
+      "sha256": "2031663a3d70f041052173af2fdd8753aa0262970a062524a755ed7359e209bc"
+    },
+    {
+      "path": "scripts/bootstrap_colab.py",
+      "bytes": 11109,
+      "sha256": "3dfbb2abe4cfe4513b35f4ecf5ce13057649506a85b8443f3aac3f67c472d688"
+    },
+    {
+      "path": "scripts/build_bootstrap_notebook.py",
+      "bytes": 5107,
+      "sha256": "bfa11e55800014860ef2fec70e3e977357e04d86c215a204eda2cf6bec6fb1e9"
+    },
+    {
+      "path": "scripts/download_teaching_data.py",
+      "bytes": 2193,
+      "sha256": "62e97dae8afef402d029560eb419c91de32cce5d113a2a6357ab47aed932d7bb"
+    },
+    {
+      "path": "scripts/teaching_data_manifest.json",
+      "bytes": 1504,
+      "sha256": "46cfa337e568fb1cd61b645d429a6b6e23b8fd2ec4f6f051d63d8cd43c4da440"
+    },
+    {
+      "path": "tests/test_bootstrap_colab.py",
+      "bytes": 6452,
+      "sha256": "b355b3a6582733af4c12a67262f5caf95da978bb619dcf9fe4bfbb0a2929b3ed"
+    }
+  ],
+  "excludes_self_and_git_directory": true
+}
