@@ -36,6 +36,18 @@ launchers and repeated source archives were omitted. Both hosted and local nativ
 result notebooks are represented; a later download date alone did not supersede
 a newer validated local run. See [the merge record](provenance/ONLINE_OFFLINE_MERGE.json).
 
+## MathWorks completion update — verified 27 October 2026
+
+The refreshed authenticated [MathWorks My Courses](https://matlabacademy.mathworks.com/mycourses)
+page shows **Completed (6)**: Signal Processing Onramp, the complete Core pathway
+and all four constituent courses. This verifies the student's completion report;
+all six official certificate views and their original screenshots are saved
+offline. Original provider PDFs have not been downloaded. The two plan allocations total
+**1 CP (0.33 + 0.67)** and **12 estimated study hours (4 + 8)**, with the reported
+study period extended to 27 October. See the [MathWorks guide](05_mathworks/README.md).
+The September account snapshot remains historical. This update does not alter
+the 64/84 coding ledger or resolve native MATLAB startup error 5201.
+
 ## Run in Colab
 
 Open [START_HERE_COLAB.ipynb](START_HERE_COLAB.ipynb). For a private repository,

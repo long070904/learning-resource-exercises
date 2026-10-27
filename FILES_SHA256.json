@@ -702,23 +702,28 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
-      "bytes": 60627,
-      "sha256": "d333d5c477bd477753971b15449d4654ff3d746cabf367bfcda78f9359a49196"
+      "bytes": 62533,
+      "sha256": "b0600bd56fd9601927efa60b739f4f1215e545a2114cd34e4084b5335b9ec462"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
-      "bytes": 5671,
-      "sha256": "683b899a0615ce115d71cfb21215f24a97f4854202ddd8e3eae40914261308f8"
+      "bytes": 6526,
+      "sha256": "2288888802a885ee286f363b1c98288d6c7a00364f14a151e4d85fb944313de3"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/CURRENT_STATUS_2026-10-27.json",
+      "bytes": 12631,
+      "sha256": "375ee2c6494978214e61ef6d868d4fecf43301d82a4da82ed07edc97d3e0a8dc"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/README.md",
-      "bytes": 4811,
-      "sha256": "b29b2e643bd1ec43eb3b8cc4fbb129b353d43c097b09ef135eb748eda7213510"
+      "bytes": 6723,
+      "sha256": "f71c931979fa4ba34fa7d44336f72c8a5a0716b4ea8f7b5f8bcfc377af037864"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
-      "bytes": 964,
-      "sha256": "68b126ff68e3635f9da358a98977f0170bc15143e53d2bd0e5b98537287dec6f"
+      "bytes": 2864,
+      "sha256": "49e38de277b8ece57ac3cefb08ce6ff8498e007ebf2b687cb6658ba561e73b08"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
@@ -1186,6 +1191,11 @@
       "sha256": "a7ccb4eb4f51059a35b5f014f52844e7f337dd0461d94723cf069cca07a9963e"
     },
     {
+      "path": "05_mathworks/CURRENT_STATUS_2026-10-27.json",
+      "bytes": 12631,
+      "sha256": "375ee2c6494978214e61ef6d868d4fecf43301d82a4da82ed07edc97d3e0a8dc"
+    },
+    {
       "path": "05_mathworks/Python_Companion/07_python_signal_processing_companion.ipynb",
       "bytes": 7141,
       "sha256": "13a0164230dbe70ccaab9499a49063e8a58da17201d309e2f4a1611406a6fd7c"
@@ -1197,8 +1207,13 @@
     },
     {
       "path": "05_mathworks/README.md",
-      "bytes": 693,
-      "sha256": "a9651726472b47775a790ea41f542965d0a396b4a81180b619d0243e1d3c474f"
+      "bytes": 1931,
+      "sha256": "93615bbbe414f4cc0fe13816245e98966b27122610cea4ace29dd81532422bfa"
+    },
+    {
+      "path": "05_mathworks/evidence/current_completion_2026_10_27/EVIDENCE_METADATA.json",
+      "bytes": 12948,
+      "sha256": "f3127080702a0e747b0d821b2173a8f247081c6fd9f3f00cb47fbbf42e5d020e"
     },
     {
       "path": "EXERCISE_INDEX.md",
@@ -1207,8 +1222,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4996,
-      "sha256": "f2f65a4b4b7d7e67638cbc3716a83bcd91a8bd00ca591cdc35a3993cabc8d597"
+      "bytes": 5814,
+      "sha256": "7a58f6b77f55f01d1d9ccccc8d064cf6faa799cab68282d0189a66192271856e"
     },
     {
       "path": "RUN_ORDER.md",
@@ -1232,8 +1247,8 @@
     },
     {
       "path": "WORK_INDEX.md",
-      "bytes": 18407,
-      "sha256": "fac7fd3718dd15f926086e517675607a57bcba0ef49fc8d6265860508c479358"
+      "bytes": 18488,
+      "sha256": "4689ea2f1d9919f366febc52ae7b1f91dbcf2df96223e811313edad87581668d"
     },
     {
       "path": "colab_full_runner.py",
@@ -1816,5 +1831,12 @@
       "sha256": "b355b3a6582733af4c12a67262f5caf95da978bb619dcf9fe4bfbb0a2929b3ed"
     }
   ],
-  "excludes_self_and_git_directory": true
+  "excludes_self_and_git_directory": true,
+  "current_documentation_update": {
+    "as_of": "2026-10-27",
+    "scope": "Current authenticated MathWorks portal completion and student-confirmed plan-based estimated study records",
+    "original_scientific_outputs_unchanged": true,
+    "original_academy_progress_json_unchanged": true,
+    "no_new_execution_or_publication": true
+  }
 }

@@ -1,4 +1,35 @@
-# Verified Academy progress
+# MathWorks Academy progress
+
+## Current completion status — verified 27 October 2026
+
+**Completed — authenticated MathWorks portal verified.** After refreshing
+[`My Courses`](https://matlabacademy.mathworks.com/mycourses), the account shows
+**Completed (6)**: Signal Processing Onramp; the Core Signal Processing Techniques
+in MATLAB pathway; and all four constituent courses (Signal Generation and
+Resampling, Spectral Analysis Techniques, Time-Frequency Analysis, and Filter
+Design and Analysis Methods). This confirms the student's completion report.
+All six official certificate views and their original screenshots have been
+saved offline. Original provider PDFs have not been downloaded. Onramp was
+completed on 2 October; the complete Core pathway was completed on 27 October.
+
+Both learning-plan allocations are included: Onramp **0.33 CP / 4 estimated hours**
+and Core **0.67 CP / 8 estimated hours**, totalling **1 CP / 12 estimated hours**.
+The student adopted the 1A planned hours as estimates and extended the reported
+study period from **14 September to 27 October 2026**. These are estimates, not
+measured study-time logs. The CP allocation records the student's plan-based claim
+and does not replace the coordinator's assessment of credit.
+
+See [CURRENT_STATUS_2026-10-27.json](CURRENT_STATUS_2026-10-27.json). The historic
+172 graded passes, 28 code examples and 14 GUI activities remain the verified
+exercise counts. Native MATLAB startup error **5201** remains unresolved, and
+standalone practice replay remains unverified. The Python companion remains a
+separate synthetic exercise.
+
+## Historical verified Academy progress — 28 September 2026
+
+The text below is preserved as a dated record. Statements that surveys were
+unanswered or that certificates were not claimed describe the September
+verification, and are superseded for current status by the refreshed portal above.
 
 Updated 28 September 2026 (Australia/Sydney). Earlier verification dates remain in the JSON history. Results below were observed in signed-in sessions of the hosted Academy grader, not inferred from local execution. The temporary agreement prompt encountered when opening the next course has cleared; its resolution is recorded below.
 

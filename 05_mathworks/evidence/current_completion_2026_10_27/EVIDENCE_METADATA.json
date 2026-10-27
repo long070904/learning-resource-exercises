@@ -1,0 +1,331 @@
+{
+  "as_of": "2026-10-27",
+  "timezone": "Australia/Sydney",
+  "completed_account_entries": 6,
+  "verification_basis": "Refreshed authenticated MathWorks My Courses portal; exact original evidence saved offline",
+  "portal_evidence": {
+    "filename": "completed_courses_ax.txt",
+    "bytes": 6652,
+    "sha256": "dc8b2e513cd613a00d3d0830c3de1c11a449cded38bf7f19ad965d127e67548c"
+  },
+  "course_and_pathway_titles": [
+    "Signal Processing Onramp",
+    "Signal Generation and Resampling",
+    "Spectral Analysis Techniques",
+    "Time-Frequency Analysis",
+    "Filter Design and Analysis Methods",
+    "Core Signal Processing Techniques in MATLAB"
+  ],
+  "individually_verified_certificate_views": [
+    {
+      "course_id": "lpmlcspt",
+      "title": "Core Signal Processing Techniques in MATLAB",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": null,
+      "completion_date": "2026-10-27",
+      "evidence_file_hashes": [
+        {
+          "filename": "core_learning_path_certificate.png",
+          "bytes": 26572,
+          "sha256": "5c668e3af407cc1542bc8775baf4bc2fd5b3eea0e85802e2181b2bdc3ae39f4a",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "core_learning_path_certificate_ax.txt",
+          "bytes": 1235,
+          "sha256": "bfb96f13b71c4f6b3227cd9a15967577a539ff346b0969968d09691a4b1fe62a",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "core_learning_path_certificate_full.png",
+          "bytes": 66344,
+          "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    },
+    {
+      "course_id": "otmlfdam",
+      "title": "Filter Design and Analysis Methods",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": 100,
+      "completion_date": "2026-10-02",
+      "evidence_file_hashes": [
+        {
+          "filename": "filter_design_analysis_certificate.png",
+          "bytes": 27043,
+          "sha256": "a460a135da03de432f98a8e93a918950e116e2fe12b7b8f69dde4d734cb14e31",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "filter_design_analysis_certificate_ax.txt",
+          "bytes": 923,
+          "sha256": "dbaf08f958ed386fd95954713973350e9a2c441e6ee2df7dba07e975d7651de5",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "filter_design_analysis_certificate_full.png",
+          "bytes": 68743,
+          "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    },
+    {
+      "course_id": "otmlsgr",
+      "title": "Signal Generation and Resampling",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": 100,
+      "completion_date": "2026-10-02",
+      "evidence_file_hashes": [
+        {
+          "filename": "signal_generation_resampling_certificate.png",
+          "bytes": 35763,
+          "sha256": "e851ece2257621a662dda81fd74b517d15c7abd2f2077063ec443371652a91f8",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "signal_generation_resampling_certificate_ax.txt",
+          "bytes": 911,
+          "sha256": "1540f52cee684f4d98191d77c72d351d646c044a14f9372b3601cb9059eddf5c",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "signal_generation_resampling_certificate_full.png",
+          "bytes": 68317,
+          "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    },
+    {
+      "course_id": "signalprocessing",
+      "title": "Signal Processing Onramp",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": 100,
+      "completion_date": "2026-10-02",
+      "evidence_file_hashes": [
+        {
+          "filename": "signal_processing_onramp_certificate.png",
+          "bytes": 57905,
+          "sha256": "deef6b438e50ddcb74b5574ef4d5b6e2d89ec55543a4071927a8f0129a09d937",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "signal_processing_onramp_certificate_ax.txt",
+          "bytes": 880,
+          "sha256": "6971c888980667f4a16c153cfdb1f8598e76cb24d1d368b0b9b9dd24992fd8dc",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "signal_processing_onramp_certificate_full.png",
+          "bytes": 67426,
+          "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    },
+    {
+      "course_id": "otmlsat",
+      "title": "Spectral Analysis Techniques",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": 100,
+      "completion_date": "2026-10-27",
+      "evidence_file_hashes": [
+        {
+          "filename": "spectral_analysis_certificate.png",
+          "bytes": 23616,
+          "sha256": "bc65954fe2bb1739d7970263d8024f34cf889611bb5868082f18cef7a9185d6e",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "spectral_analysis_certificate_ax.txt",
+          "bytes": 892,
+          "sha256": "0a9549208f0af4373071662bbcde80b0d6370454012d1d93757ff25026399a90",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "spectral_analysis_certificate_full.png",
+          "bytes": 67856,
+          "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    },
+    {
+      "course_id": "otmltfa",
+      "title": "Time-Frequency Analysis",
+      "provider_certificate_view_verified": true,
+      "completion_percentage": 100,
+      "completion_date": "2026-10-27",
+      "evidence_file_hashes": [
+        {
+          "filename": "time_frequency_analysis_certificate.png",
+          "bytes": 26017,
+          "sha256": "2d20bc5a5364141e23d25a705c05bce2464363b4a0ebe9745f443cbf8dc9ecaf",
+          "type": "original_certificate_screenshot"
+        },
+        {
+          "filename": "time_frequency_analysis_certificate_ax.txt",
+          "bytes": 867,
+          "sha256": "b1ee7123f975ff60942562ce9108b6eddf9f96b5c8957a95d5111c13dbfe4048",
+          "type": "original_certificate_accessibility_text"
+        },
+        {
+          "filename": "time_frequency_analysis_certificate_full.png",
+          "bytes": 67012,
+          "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+          "type": "original_certificate_full_screenshot"
+        }
+      ],
+      "original_pdf_downloaded": false,
+      "certificate_share_url": "retained_only_in_offline_original_evidence"
+    }
+  ],
+  "original_certificate_pdfs_downloaded": false,
+  "original_certificate_urls_and_screenshots_kept_offline": true,
+  "offline_original_evidence_file_count": 21,
+  "full_certificate_screenshot_count": 6,
+  "portal_overview_screenshot_count": 2,
+  "offline_original_evidence_inventory": [
+    {
+      "filename": "completed_courses.png",
+      "bytes": 76877,
+      "sha256": "4d84a1c6ace65db3eecfccaff3f0813d80f5e1c399aca23186ad29c49e129f9d",
+      "type": "original_portal_screenshot"
+    },
+    {
+      "filename": "completed_courses_ax.txt",
+      "bytes": 6652,
+      "sha256": "dc8b2e513cd613a00d3d0830c3de1c11a449cded38bf7f19ad965d127e67548c",
+      "type": "portal_accessibility_text"
+    },
+    {
+      "filename": "completed_courses_full.png",
+      "bytes": 132507,
+      "sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f",
+      "type": "original_portal_full_screenshot"
+    },
+    {
+      "filename": "core_learning_path_certificate.png",
+      "bytes": 26572,
+      "sha256": "5c668e3af407cc1542bc8775baf4bc2fd5b3eea0e85802e2181b2bdc3ae39f4a",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "core_learning_path_certificate_ax.txt",
+      "bytes": 1235,
+      "sha256": "bfb96f13b71c4f6b3227cd9a15967577a539ff346b0969968d09691a4b1fe62a",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "core_learning_path_certificate_full.png",
+      "bytes": 66344,
+      "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+      "type": "original_certificate_full_screenshot"
+    },
+    {
+      "filename": "filter_design_analysis_certificate.png",
+      "bytes": 27043,
+      "sha256": "a460a135da03de432f98a8e93a918950e116e2fe12b7b8f69dde4d734cb14e31",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "filter_design_analysis_certificate_ax.txt",
+      "bytes": 923,
+      "sha256": "dbaf08f958ed386fd95954713973350e9a2c441e6ee2df7dba07e975d7651de5",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "filter_design_analysis_certificate_full.png",
+      "bytes": 68743,
+      "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+      "type": "original_certificate_full_screenshot"
+    },
+    {
+      "filename": "signal_generation_resampling_certificate.png",
+      "bytes": 35763,
+      "sha256": "e851ece2257621a662dda81fd74b517d15c7abd2f2077063ec443371652a91f8",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "signal_generation_resampling_certificate_ax.txt",
+      "bytes": 911,
+      "sha256": "1540f52cee684f4d98191d77c72d351d646c044a14f9372b3601cb9059eddf5c",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "signal_generation_resampling_certificate_full.png",
+      "bytes": 68317,
+      "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+      "type": "original_certificate_full_screenshot"
+    },
+    {
+      "filename": "signal_processing_onramp_certificate.png",
+      "bytes": 57905,
+      "sha256": "deef6b438e50ddcb74b5574ef4d5b6e2d89ec55543a4071927a8f0129a09d937",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "signal_processing_onramp_certificate_ax.txt",
+      "bytes": 880,
+      "sha256": "6971c888980667f4a16c153cfdb1f8598e76cb24d1d368b0b9b9dd24992fd8dc",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "signal_processing_onramp_certificate_full.png",
+      "bytes": 67426,
+      "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+      "type": "original_certificate_full_screenshot"
+    },
+    {
+      "filename": "spectral_analysis_certificate.png",
+      "bytes": 23616,
+      "sha256": "bc65954fe2bb1739d7970263d8024f34cf889611bb5868082f18cef7a9185d6e",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "spectral_analysis_certificate_ax.txt",
+      "bytes": 892,
+      "sha256": "0a9549208f0af4373071662bbcde80b0d6370454012d1d93757ff25026399a90",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "spectral_analysis_certificate_full.png",
+      "bytes": 67856,
+      "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+      "type": "original_certificate_full_screenshot"
+    },
+    {
+      "filename": "time_frequency_analysis_certificate.png",
+      "bytes": 26017,
+      "sha256": "2d20bc5a5364141e23d25a705c05bce2464363b4a0ebe9745f443cbf8dc9ecaf",
+      "type": "original_certificate_screenshot"
+    },
+    {
+      "filename": "time_frequency_analysis_certificate_ax.txt",
+      "bytes": 867,
+      "sha256": "b1ee7123f975ff60942562ce9108b6eddf9f96b5c8957a95d5111c13dbfe4048",
+      "type": "original_certificate_accessibility_text"
+    },
+    {
+      "filename": "time_frequency_analysis_certificate_full.png",
+      "bytes": 67012,
+      "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+      "type": "original_certificate_full_screenshot"
+    }
+  ],
+  "repository_current_evidence_files": [],
+  "repository_evidence_copy_status": "Metadata only. Original portal/certificate URLs, accessibility text and screenshots are retained offline.",
+  "no_new_course_execution_or_training": true
+}

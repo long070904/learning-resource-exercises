@@ -92,7 +92,7 @@ Use the source link to run an exercise and the result link to inspect existing o
 
 ## Additional resources
 
-- [MathWorks scripts and practice](05_mathworks/README.md)
+- [MathWorks scripts and practice — all plan courses and Core pathway completed, portal verified 27 October 2026](05_mathworks/README.md)
 - [Saved synthetic Python signal-processing companion](results/saved_notebooks/05_mathworks/07_python_signal_processing_companion.ipynb)
 - [Reviewed pending local source variants](local_variants/README.md)
 - [Original exercise attribution and runtime profiles](EXERCISE_INDEX.md)

@@ -1,5 +1,19 @@
 # MathWorks course map
 
+## Current completion — verified 27 October 2026
+
+The refreshed authenticated [MathWorks My Courses](https://matlabacademy.mathworks.com/mycourses)
+page shows **Completed (6)**: Onramp, the Core pathway and all four Core courses.
+See [CURRENT_STATUS_2026-10-27.json](CURRENT_STATUS_2026-10-27.json) and the
+[current guide](README.md). All six official certificate views and their original screenshots are saved offline. Original provider PDFs have not been downloaded.
+The two plan allocations total **1 CP (0.33 + 0.67)** and **12 estimated hours
+(4 + 8)**, with the student-reported study period ending 27 October.
+
+## Historical course-outline inventory and September observations
+
+The survey-pending/header observations and completion flags below are the
+original September record. They do not describe the refreshed current account.
+
 Public outlines checked on 19 September 2026. The two resource links cover one introductory course and a pathway containing four further courses. The [MathWorks announcement](https://www.mathworks.com/matlabcentral/discussions/highlights/875537-new-online-training-courses) confirms that grouping.
 
 The entries below paraphrase the public module topics, in course order. A module is not an exercise: the public pages do not disclose each graded task, its required variables, its data, or its expected output. This map is an outline inventory. Verified authenticated work is now recorded separately in [ACADEMY_PROGRESS.md](ACADEMY_PROGRESS.md), which is the current source for individual task results. No certificate completion is claimed.
