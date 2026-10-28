@@ -21,19 +21,6 @@ listed separately.
 
 ## Progress
 
-The saved-execution review dated **25 October 2026** records:
-
-| Resource | Saved runs | Still pending |
-|---|---:|---:|
-| Google MLCC | 7 of 7 | 0 |
-| MIT 6.S191 | 11 of 12 | 1 |
-| fast.ai Part 1 | 24 of 25 | 1 |
-| fast.ai Part 2 | 22 of 40 | 18 |
-| **Total** | **64 of 84** | **20** |
-
-These are notebook execution records. They do not certify lecture viewing,
-provider quizzes or personal understanding. The [results guide](results/README.md)
-explains saved runs, pending work and retained errors.
 
 MathWorks is outside this notebook count. Onramp and all four Core courses are
 complete, along with the overlapping Core learning path. Completion was checked
