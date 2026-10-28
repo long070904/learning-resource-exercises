@@ -1,5 +1,11 @@
 # MathWorks course map
 
+## Certificate evidence added 28 October 2026
+
+[Open all six MathWorks certificate screenshots and the completed-courses overview](../../certificates/README.md).
+The images and official certificate links are now included in this repository;
+exact offline originals remain preserved. The verification date remains 27 October 2026.
+
 ## Current completion — verified 27 October 2026
 
 The refreshed authenticated [MathWorks My Courses](https://matlabacademy.mathworks.com/mycourses)

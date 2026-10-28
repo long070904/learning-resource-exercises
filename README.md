@@ -1,5 +1,11 @@
 # Learning resource exercises and saved results
 
+## Certificate evidence added 28 October 2026
+
+[Open all six MathWorks certificate screenshots and the completed-courses overview](certificates/README.md).
+The images and official certificate links are now included in this repository;
+exact offline originals remain preserved. The verification date remains 27 October 2026.
+
 Combined course code and selected results from Google Machine Learning Crash
 Course, MIT 6.S191, fast.ai Parts 1 and 2, and MathWorks signal-processing study.
 The collection brings together hosted Colab work and local execution evidence.
@@ -15,6 +21,7 @@ the differences between original evidence and compact publication versions.
 | `02_mit_6s191` | 12 MIT course and application source notebooks, plus helpers |
 | `03_fastai` | 25 Part 1 exercise and companion source notebooks |
 | `04_fastai_part2` | 40 Part 2 source notebooks, miniai and diffusion helpers |
+| `certificates` | Original MathWorks certificate screenshots, completion overview and verification links |
 | `05_mathworks` | Academy MATLAB exports, practice scripts and a Python companion |
 | `results/saved_notebooks` | Saved outputs for all 64 audited exercises and the separate Python signal companion |
 | `results/audio`, `results/figures`, `results/metrics` | Small selected outputs and bound evidence files |

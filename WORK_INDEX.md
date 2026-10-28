@@ -1,5 +1,7 @@
 # Code and saved-result index
 
+[Open course certificates and completion screenshots](certificates/README.md).
+
 The 84 main exercises retain the audited 25 October status: 64 with saved evidence and 20 pending.
 Use the source link to run an exercise and the result link to inspect existing outputs. Native/local paths in saved outputs are historical.
 

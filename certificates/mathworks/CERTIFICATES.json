@@ -1,0 +1,129 @@
+{
+  "provider": "MathWorks",
+  "verified_date": "2026-10-27",
+  "repository_added_date": "2026-10-28",
+  "learner_name": "Long Phan",
+  "individual_courses_completed": 5,
+  "learning_paths_completed": 1,
+  "original_provider_pdf_downloaded": false,
+  "image_transformations": "None; exact bytes from original browser captures",
+  "completed_courses_screenshot": "completed_courses_full.png",
+  "completed_courses_screenshot_sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f",
+  "certificates": [
+    {
+      "title": "Signal Processing Onramp",
+      "kind": "individual_course",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-02",
+      "completion_status": "successfully_completed",
+      "completion_percent": 100,
+      "course_url": "https://matlabacademy.mathworks.com/en/details/signal-processing-onramp/signalprocessing",
+      "screenshot_file": "signal_processing_onramp_certificate_full.png",
+      "screenshot_sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=03288f19-b70d-4fb7-948f-1de28498f8aa",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    },
+    {
+      "title": "Signal Generation and Resampling",
+      "kind": "individual_course",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-02",
+      "completion_status": "successfully_completed",
+      "completion_percent": 100,
+      "course_url": "https://matlabacademy.mathworks.com/en/details/signal-generation-and-resampling/otmlsgr",
+      "screenshot_file": "signal_generation_resampling_certificate_full.png",
+      "screenshot_sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f24cd752-2f92-4773-8213-d26855001000",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    },
+    {
+      "title": "Spectral Analysis Techniques",
+      "kind": "individual_course",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-27",
+      "completion_status": "successfully_completed",
+      "completion_percent": 100,
+      "course_url": "https://matlabacademy.mathworks.com/en/details/spectral-analysis-techniques/otmlsat",
+      "screenshot_file": "spectral_analysis_certificate_full.png",
+      "screenshot_sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3ed7866f-3a00-4cf9-9a38-5a2f9708534d",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    },
+    {
+      "title": "Time-Frequency Analysis",
+      "kind": "individual_course",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-27",
+      "completion_status": "successfully_completed",
+      "completion_percent": 100,
+      "course_url": "https://matlabacademy.mathworks.com/en/details/time-frequency-analysis/otmltfa",
+      "screenshot_file": "time_frequency_analysis_certificate_full.png",
+      "screenshot_sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=ce1baa3b-cee4-491c-890d-16676fe3d375",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    },
+    {
+      "title": "Filter Design and Analysis Methods",
+      "kind": "individual_course",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-02",
+      "completion_status": "successfully_completed",
+      "completion_percent": 100,
+      "course_url": "https://matlabacademy.mathworks.com/en/details/filter-design-and-analysis-methods/otmlfdam",
+      "screenshot_file": "filter_design_analysis_certificate_full.png",
+      "screenshot_sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d413cf1a-450b-4fa7-a193-052096eb36d7",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    },
+    {
+      "title": "Core Signal Processing Techniques in MATLAB",
+      "kind": "learning_path",
+      "learner_name": "Long Phan",
+      "issued_date": "2026-10-27",
+      "completion_status": "successfully_completed",
+      "completion_percent": null,
+      "course_url": "https://matlabacademy.mathworks.com/details/core-signal-processing-techniques-in-matlab/lpmlcspt",
+      "screenshot_file": "core_learning_path_certificate_full.png",
+      "screenshot_sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+      "official_certificate_url": "https://matlabacademy.mathworks.com/progress/share/learningpath/certificate.html?id=d4397bb7-84dc-46ab-8d57-101aec8fd462",
+      "evidence_type": "Original unedited screenshot of official MathWorks certificate page; not an exported certificate PDF"
+    }
+  ],
+  "files": [
+    {
+      "path": "certificates/mathworks/signal_processing_onramp_certificate_full.png",
+      "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+      "bytes": 67426
+    },
+    {
+      "path": "certificates/mathworks/signal_generation_resampling_certificate_full.png",
+      "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+      "bytes": 68317
+    },
+    {
+      "path": "certificates/mathworks/spectral_analysis_certificate_full.png",
+      "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+      "bytes": 67856
+    },
+    {
+      "path": "certificates/mathworks/time_frequency_analysis_certificate_full.png",
+      "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+      "bytes": 67012
+    },
+    {
+      "path": "certificates/mathworks/filter_design_analysis_certificate_full.png",
+      "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+      "bytes": 68743
+    },
+    {
+      "path": "certificates/mathworks/core_learning_path_certificate_full.png",
+      "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+      "bytes": 66344
+    },
+    {
+      "path": "certificates/mathworks/completed_courses_full.png",
+      "sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f",
+      "bytes": 132507
+    }
+  ]
+}

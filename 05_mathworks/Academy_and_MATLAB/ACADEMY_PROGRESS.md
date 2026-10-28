@@ -1,5 +1,11 @@
 # MathWorks Academy progress
 
+## Certificate evidence added 28 October 2026
+
+[Open all six MathWorks certificate screenshots and the completed-courses overview](../../certificates/README.md).
+The images and official certificate links are now included in this repository;
+exact offline originals remain preserved. The verification date remains 27 October 2026.
+
 ## Current completion status — verified 27 October 2026
 
 **Completed — authenticated MathWorks portal verified.** After refreshing

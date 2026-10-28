@@ -1,5 +1,11 @@
 # MathWorks learning work
 
+## Certificate evidence added 28 October 2026
+
+[Open all six MathWorks certificate screenshots and the completed-courses overview](../certificates/README.md).
+The images and official certificate links are now included in this repository;
+exact offline originals remain preserved. The verification date remains 27 October 2026.
+
 **Current status: completed — authenticated portal verified 27 October 2026.**
 The refreshed [My Courses](https://matlabacademy.mathworks.com/mycourses) page
 shows Completed (6): Signal Processing Onramp, the Core pathway, and its four

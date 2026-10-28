@@ -126,14 +126,14 @@
       "sha256": "6dc857d6dc06c4394f13c582ba9104b31a19203320ca0fa6ac9137ed97bd04ae"
     },
     {
-      "path": "02_mit_6s191/LICENSE_MIT.txt",
-      "bytes": 1123,
-      "sha256": "50d8ed007f1bcacd060bb7bcc2e9dca7627062da19df2ac0b8e7cf9c1b4fa195"
-    },
-    {
       "path": "02_mit_6s191/data/irish.abc",
       "bytes": 197618,
       "sha256": "df3782d5f7b5a2f4c66aa7c13f13008d5f48757b3f5f51620cd6c1ceb2c53023"
+    },
+    {
+      "path": "02_mit_6s191/LICENSE_MIT.txt",
+      "bytes": 1123,
+      "sha256": "50d8ed007f1bcacd060bb7bcc2e9dca7627062da19df2ac0b8e7cf9c1b4fa195"
     },
     {
       "path": "02_mit_6s191/wearable_utils.py",
@@ -271,11 +271,6 @@
       "sha256": "760e2f6eb60bda5a549cf2e80db97f2af2132f843d6d70c70ec09c2550244e4c"
     },
     {
-      "path": "03_fastai/LICENSE_FASTBOOK",
-      "bytes": 35254,
-      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee"
-    },
-    {
       "path": "03_fastai/convolution_workbook_exercise.py",
       "bytes": 16610,
       "sha256": "ecacb93aef6846c82d6a9eebc4809e1a6766410f04783ac132f247935af3a8fc"
@@ -289,6 +284,11 @@
       "path": "03_fastai/fastai_utils.py",
       "bytes": 2029,
       "sha256": "a03e913e1c07f55aedd56ee6128096f3f952f4f8be22f83c4a22002589c4bd18"
+    },
+    {
+      "path": "03_fastai/LICENSE_FASTBOOK",
+      "bytes": 35254,
+      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee"
     },
     {
       "path": "03_fastai/resources/conv-example.xlsx",
@@ -496,11 +496,6 @@
       "sha256": "4fe643f1b9753a1414e3a20d64233cb7a9e18206d41ff6c4eb13e354a3cad5e1"
     },
     {
-      "path": "04_fastai_part2/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
-    },
-    {
       "path": "04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
       "bytes": 10000,
       "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15"
@@ -526,14 +521,14 @@
       "sha256": "2af7f82df8ca91e9bb484db737a48dfb94758a37fc75b4c790e35007e60ae0a2"
     },
     {
-      "path": "04_fastai_part2/diffusion_intro/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
-    },
-    {
       "path": "04_fastai_part2/diffusion_intro/learned_embeds.bin",
       "bytes": 3819,
       "sha256": "f2e23a8f2d3628ed77acb8151751ecd4efc4017e8da86bc29af10f855ca308d9"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
       "path": "04_fastai_part2/diffusion_intro/textual_inversion_training.py",
@@ -614,6 +609,11 @@
       "path": "04_fastai_part2/images/grizzly.jpg",
       "bytes": 697626,
       "sha256": "2f12ed680dca7a5ccd0e9c9522365c7374a154c69ffa2b19f32723f45499f1ac"
+    },
+    {
+      "path": "04_fastai_part2/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
       "path": "04_fastai_part2/miniai/__init__.py",
@@ -699,31 +699,6 @@
       "path": "04_fastai_part2/miniai/training.py",
       "bytes": 1976,
       "sha256": "fee9abd077324dde823935917d1d973463efc9903142378aa28416ba65369e6e"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
-      "bytes": 62533,
-      "sha256": "b0600bd56fd9601927efa60b739f4f1215e545a2114cd34e4084b5335b9ec462"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
-      "bytes": 6526,
-      "sha256": "2288888802a885ee286f363b1c98288d6c7a00364f14a151e4d85fb944313de3"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/CURRENT_STATUS_2026-10-27.json",
-      "bytes": 12631,
-      "sha256": "375ee2c6494978214e61ef6d868d4fecf43301d82a4da82ed07edc97d3e0a8dc"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/README.md",
-      "bytes": 6723,
-      "sha256": "f71c931979fa4ba34fa7d44336f72c8a5a0716b4ea8f7b5f8bcfc377af037864"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
-      "bytes": 2864,
-      "sha256": "49e38de277b8ece57ac3cefb08ce6ff8498e007ebf2b687cb6658ba561e73b08"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
@@ -1136,14 +1111,24 @@
       "sha256": "8f43a3b7df0c8a17f5f592c3d131eeb91c2afa3497b414181c3a8298cd1304d7"
     },
     {
+      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "bytes": 62870,
+      "sha256": "af53ffe5f7670472c4ed50cb1f42e3b792953644d556d1f32fa0184d8123f8a2"
+    },
+    {
       "path": "05_mathworks/Academy_and_MATLAB/course_inventory.json",
       "bytes": 10537,
       "sha256": "81026399a15186d3e4d9470099f968db54a82506407e57857405127325526114"
     },
     {
-      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
-      "bytes": 3087,
-      "sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af"
+      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
+      "bytes": 6863,
+      "sha256": "eb390decea988ddc5ff18725d8817594cbe3b9f3e0abfb52e4a48b61e8791f3c"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/CURRENT_STATUS_2026-10-27.json",
+      "bytes": 14681,
+      "sha256": "88c7daf9c88fd360e235b542ad25663970ea7c3a12d0e5789fe810bcf8baa014"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/practice/data/synthetic_signal.csv",
@@ -1181,6 +1166,11 @@
       "sha256": "436f3035270ec670372befbf16d6d58db0e9d51e76a2abdc59ccf5b06eccd281"
     },
     {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "bytes": 3087,
+      "sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af"
+    },
+    {
       "path": "05_mathworks/Academy_and_MATLAB/practice/verify_practice.m",
       "bytes": 6010,
       "sha256": "0a6c6f974b8422efae7b0c42a1e761dae2157a51ecb4e60ee84a04293982b7ea"
@@ -1191,9 +1181,24 @@
       "sha256": "a7ccb4eb4f51059a35b5f014f52844e7f337dd0461d94723cf069cca07a9963e"
     },
     {
+      "path": "05_mathworks/Academy_and_MATLAB/README.md",
+      "bytes": 7060,
+      "sha256": "a91a1240d3a2e4c32c7482a7071737214666928bab5633093af70ce8015e4cdf"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
+      "bytes": 3201,
+      "sha256": "799e5a52a0067d286a14758f4062ad31a152b69fd4db1c969cfee3f3276dcb10"
+    },
+    {
       "path": "05_mathworks/CURRENT_STATUS_2026-10-27.json",
-      "bytes": 12631,
-      "sha256": "375ee2c6494978214e61ef6d868d4fecf43301d82a4da82ed07edc97d3e0a8dc"
+      "bytes": 14681,
+      "sha256": "88c7daf9c88fd360e235b542ad25663970ea7c3a12d0e5789fe810bcf8baa014"
+    },
+    {
+      "path": "05_mathworks/evidence/current_completion_2026_10_27/EVIDENCE_METADATA.json",
+      "bytes": 16384,
+      "sha256": "296f82c99d6f32bdd057d5852dd1d9f6e08a1c05cbdd70157c4bb1f9b47873df"
     },
     {
       "path": "05_mathworks/Python_Companion/07_python_signal_processing_companion.ipynb",
@@ -1207,48 +1212,53 @@
     },
     {
       "path": "05_mathworks/README.md",
-      "bytes": 1931,
-      "sha256": "93615bbbe414f4cc0fe13816245e98966b27122610cea4ace29dd81532422bfa"
+      "bytes": 2265,
+      "sha256": "fa4cfd5d66e6cdf17bebcbd668398c4084191ac7a7f4fe0c89da623fad0718fc"
     },
     {
-      "path": "05_mathworks/evidence/current_completion_2026_10_27/EVIDENCE_METADATA.json",
-      "bytes": 12948,
-      "sha256": "f3127080702a0e747b0d821b2173a8f247081c6fd9f3f00cb47fbbf42e5d020e"
+      "path": "certificates/mathworks/CERTIFICATES.json",
+      "bytes": 6767,
+      "sha256": "a5fad94d2c775bf806b98c7f45698baf9e69c2e698f0b1f133a3186423e29fef"
     },
     {
-      "path": "EXERCISE_INDEX.md",
-      "bytes": 17526,
-      "sha256": "a09355ed085450d4595868b483336d56a1eafc4d7531cf76ae0450484fc9520d"
+      "path": "certificates/mathworks/completed_courses_full.png",
+      "bytes": 132507,
+      "sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f"
     },
     {
-      "path": "README.md",
-      "bytes": 5814,
-      "sha256": "7a58f6b77f55f01d1d9ccccc8d064cf6faa799cab68282d0189a66192271856e"
+      "path": "certificates/mathworks/core_learning_path_certificate_full.png",
+      "bytes": 66344,
+      "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5"
     },
     {
-      "path": "RUN_ORDER.md",
-      "bytes": 6259,
-      "sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a"
+      "path": "certificates/mathworks/filter_design_analysis_certificate_full.png",
+      "bytes": 68743,
+      "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae"
     },
     {
-      "path": "SOURCES.md",
-      "bytes": 1848,
-      "sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1"
+      "path": "certificates/mathworks/signal_generation_resampling_certificate_full.png",
+      "bytes": 68317,
+      "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080"
     },
     {
-      "path": "START_HERE_COLAB.ipynb",
-      "bytes": 18816,
-      "sha256": "0863fc08616a3f2de04cf2bac9e2bdb6aa154ce06b429c4800efa9d972b5793b"
+      "path": "certificates/mathworks/signal_processing_onramp_certificate_full.png",
+      "bytes": 67426,
+      "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181"
     },
     {
-      "path": "UPLOAD_GUIDE.md",
-      "bytes": 1309,
-      "sha256": "0b501efd1853de71b4ec33216e07e352512e110afc10633339c15c40db5cb915"
+      "path": "certificates/mathworks/spectral_analysis_certificate_full.png",
+      "bytes": 67856,
+      "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192"
     },
     {
-      "path": "WORK_INDEX.md",
-      "bytes": 18488,
-      "sha256": "4689ea2f1d9919f366febc52ae7b1f91dbcf2df96223e811313edad87581668d"
+      "path": "certificates/mathworks/time_frequency_analysis_certificate_full.png",
+      "bytes": 67012,
+      "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c"
+    },
+    {
+      "path": "certificates/README.md",
+      "bytes": 3207,
+      "sha256": "eeac3fcbf4ecba4331e7ff0f166b88bd2a0d2a5a9820982df1c9150ada468d07"
     },
     {
       "path": "colab_full_runner.py",
@@ -1301,14 +1311,14 @@
       "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385"
     },
     {
-      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
-      "bytes": 6373,
-      "sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0"
-    },
-    {
       "path": "completion_criteria/mit_completion_criteria.json",
       "bytes": 10878,
       "sha256": "145f659817df02a6db2f0544b5be4561f562ccb1ba993d9de440c2da88057ef6"
+    },
+    {
+      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "bytes": 6373,
+      "sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0"
     },
     {
       "path": "completion_criteria/mit_service_continuation_criteria.json",
@@ -1329,6 +1339,11 @@
       "path": "course_persistence.py",
       "bytes": 45724,
       "sha256": "f14f7282d4b1e718b01858a61a2dca8b60f5135ba9971fc7923c50bf12cca3d2"
+    },
+    {
+      "path": "EXERCISE_INDEX.md",
+      "bytes": 17526,
+      "sha256": "a09355ed085450d4595868b483336d56a1eafc4d7531cf76ae0450484fc9520d"
     },
     {
       "path": "exercise_manifest.json",
@@ -1376,6 +1391,11 @@
       "sha256": "0d3ab1f57a451e3f4446757a3683341f347e43df68eb61809289ee5be4a70983"
     },
     {
+      "path": "README.md",
+      "bytes": 6254,
+      "sha256": "6ac8f4471580ef0094d2f32f12e0cdb224e8a2a2d751ac8515ca79ea6c4d1457"
+    },
+    {
       "path": "references/05_fairness_income_legacy.ipynb.txt",
       "bytes": 40156,
       "sha256": "a13478ea18c733240be7e0c50fa8cbad4f3333fa460eec0a176b96a273189212"
@@ -1386,41 +1406,6 @@
       "sha256": "5529240714b7879ce70a03fc31025aee91cd3ecfc2b6a575a965fe6dd516f393"
     },
     {
-      "path": "results/EXERCISE_RESULTS.md",
-      "bytes": 17721,
-      "sha256": "c6ce05335865a4b91609375b1bd9416a042593266f12d3a723e537444bd5b2db"
-    },
-    {
-      "path": "results/EXERCISE_STATUS.csv",
-      "bytes": 19818,
-      "sha256": "f1ae5f36072984c8a810a064965e2cdda5a47f429c0ce10b43c910e9512b52d8"
-    },
-    {
-      "path": "results/LOCAL_BACKUP_STATUS.json",
-      "bytes": 520,
-      "sha256": "9f72f7de287b5ad529ced5d2b3b9207039621b141aff4d75f11d20ec501704b9"
-    },
-    {
-      "path": "results/PROGRESS_SNAPSHOT.json",
-      "bytes": 44122,
-      "sha256": "f81074a575bb441fed73fc1b1f14d5a06c7c5d4143306bc002012fe08bbe2ff5"
-    },
-    {
-      "path": "results/PUBLISHED_RESULT_INDEX.csv",
-      "bytes": 12487,
-      "sha256": "b959f5c914175b6bc73f26f31b4bfa655d49295daf277f60fe7f165b090efbaa"
-    },
-    {
-      "path": "results/README.md",
-      "bytes": 2085,
-      "sha256": "a2ff42774f4fd15002b36953618baf031aa56851a25a23334ee8f87ea7ec13d1"
-    },
-    {
-      "path": "results/RESULT_FILES.json",
-      "bytes": 128752,
-      "sha256": "9ea7ecc13911a2d3730acb95743cc9eb0d032e1150af7f063fa313917843bd64"
-    },
-    {
       "path": "results/audio/02_pt_music_generation.wav",
       "bytes": 4615004,
       "sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61"
@@ -1429,6 +1414,16 @@
       "path": "results/audio/02_tf_music_generation.wav",
       "bytes": 2469540,
       "sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2"
+    },
+    {
+      "path": "results/EXERCISE_RESULTS.md",
+      "bytes": 17721,
+      "sha256": "c6ce05335865a4b91609375b1bd9416a042593266f12d3a723e537444bd5b2db"
+    },
+    {
+      "path": "results/EXERCISE_STATUS.csv",
+      "bytes": 19818,
+      "sha256": "f1ae5f36072984c8a810a064965e2cdda5a47f429c0ce10b43c910e9512b52d8"
     },
     {
       "path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
@@ -1461,6 +1456,11 @@
       "sha256": "df9653e7ec4e32515a55e2a8dc2e339b884f67531f9eac6ad717d52a5bb0c7fa"
     },
     {
+      "path": "results/LOCAL_BACKUP_STATUS.json",
+      "bytes": 520,
+      "sha256": "9f72f7de287b5ad529ced5d2b3b9207039621b141aff4d75f11d20ec501704b9"
+    },
+    {
       "path": "results/metrics/01_google_mlcc/06_subject_independent_evaluation/06_subject_independent_evaluation.json",
       "bytes": 1536,
       "sha256": "9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895"
@@ -1479,6 +1479,26 @@
       "path": "results/metrics/04_fastai_part2/15_DDPM/ADDITIVE_RECOVERY_FINAL_AUDIT_20261021T122126-2e5a7b19_20261021T134255Z-cf4b2b.json",
       "bytes": 29771,
       "sha256": "822b1606d1af34a43dcaa60aa7f084cfa7199b066334dce44993a496a118e849"
+    },
+    {
+      "path": "results/PROGRESS_SNAPSHOT.json",
+      "bytes": 44122,
+      "sha256": "f81074a575bb441fed73fc1b1f14d5a06c7c5d4143306bc002012fe08bbe2ff5"
+    },
+    {
+      "path": "results/PUBLISHED_RESULT_INDEX.csv",
+      "bytes": 12487,
+      "sha256": "b959f5c914175b6bc73f26f31b4bfa655d49295daf277f60fe7f165b090efbaa"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 2085,
+      "sha256": "a2ff42774f4fd15002b36953618baf031aa56851a25a23334ee8f87ea7ec13d1"
+    },
+    {
+      "path": "results/RESULT_FILES.json",
+      "bytes": 128752,
+      "sha256": "9ea7ecc13911a2d3730acb95743cc9eb0d032e1150af7f063fa313917843bd64"
     },
     {
       "path": "results/saved_notebooks/01_google_mlcc/01_linear_regression_taxi.ipynb",
@@ -1806,6 +1826,16 @@
       "sha256": "2031663a3d70f041052173af2fdd8753aa0262970a062524a755ed7359e209bc"
     },
     {
+      "path": "RUN_ORDER.md",
+      "bytes": 6259,
+      "sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a"
+    },
+    {
+      "path": "scripts/__pycache__/bootstrap_colab.cpython-312.pyc",
+      "bytes": 16903,
+      "sha256": "a673c7b586665929c7f018125aa9bcb32cf89d46e92d103f92ef39b2219587d0"
+    },
+    {
       "path": "scripts/bootstrap_colab.py",
       "bytes": 11109,
       "sha256": "3dfbb2abe4cfe4513b35f4ecf5ce13057649506a85b8443f3aac3f67c472d688"
@@ -1826,9 +1856,34 @@
       "sha256": "46cfa337e568fb1cd61b645d429a6b6e23b8fd2ec4f6f051d63d8cd43c4da440"
     },
     {
+      "path": "SOURCES.md",
+      "bytes": 1848,
+      "sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1"
+    },
+    {
+      "path": "START_HERE_COLAB.ipynb",
+      "bytes": 18816,
+      "sha256": "0863fc08616a3f2de04cf2bac9e2bdb6aa154ce06b429c4800efa9d972b5793b"
+    },
+    {
+      "path": "tests/__pycache__/test_bootstrap_colab.cpython-312.pyc",
+      "bytes": 12970,
+      "sha256": "61b63e1b14cac624a36dc590566ed1e6293be94939fa52c442df5d8b869e5bee"
+    },
+    {
       "path": "tests/test_bootstrap_colab.py",
       "bytes": 6452,
       "sha256": "b355b3a6582733af4c12a67262f5caf95da978bb619dcf9fe4bfbb0a2929b3ed"
+    },
+    {
+      "path": "UPLOAD_GUIDE.md",
+      "bytes": 1309,
+      "sha256": "0b501efd1853de71b4ec33216e07e352512e110afc10633339c15c40db5cb915"
+    },
+    {
+      "path": "WORK_INDEX.md",
+      "bytes": 18570,
+      "sha256": "0866bbb73ba5fc6e8944048089a00d77fed3c8972b610dc6f3e4c4e4456dce83"
     }
   ],
   "excludes_self_and_git_directory": true,
@@ -1838,5 +1893,13 @@
     "original_scientific_outputs_unchanged": true,
     "original_academy_progress_json_unchanged": true,
     "no_new_execution_or_publication": true
+  },
+  "certificate_evidence_update": {
+    "added_date": "2026-10-28",
+    "provider_verification_date": "2026-10-27",
+    "original_screenshots": 7,
+    "original_provider_pdfs": 0,
+    "index": "certificates/README.md",
+    "no_new_training": true
   }
 }

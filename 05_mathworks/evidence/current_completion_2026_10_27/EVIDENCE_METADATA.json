@@ -44,7 +44,7 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/learningpath/certificate.html?id=d4397bb7-84dc-46ab-8d57-101aec8fd462"
     },
     {
       "course_id": "otmlfdam",
@@ -73,7 +73,7 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d413cf1a-450b-4fa7-a193-052096eb36d7"
     },
     {
       "course_id": "otmlsgr",
@@ -102,7 +102,7 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f24cd752-2f92-4773-8213-d26855001000"
     },
     {
       "course_id": "signalprocessing",
@@ -131,7 +131,7 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=03288f19-b70d-4fb7-948f-1de28498f8aa"
     },
     {
       "course_id": "otmlsat",
@@ -160,7 +160,7 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3ed7866f-3a00-4cf9-9a38-5a2f9708534d"
     },
     {
       "course_id": "otmltfa",
@@ -189,11 +189,10 @@
         }
       ],
       "original_pdf_downloaded": false,
-      "certificate_share_url": "retained_only_in_offline_original_evidence"
+      "certificate_share_url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=ce1baa3b-cee4-491c-890d-16676fe3d375"
     }
   ],
   "original_certificate_pdfs_downloaded": false,
-  "original_certificate_urls_and_screenshots_kept_offline": true,
   "offline_original_evidence_file_count": 21,
   "full_certificate_screenshot_count": 6,
   "portal_overview_screenshot_count": 2,
@@ -325,7 +324,84 @@
       "type": "original_certificate_full_screenshot"
     }
   ],
-  "repository_current_evidence_files": [],
-  "repository_evidence_copy_status": "Metadata only. Original portal/certificate URLs, accessibility text and screenshots are retained offline.",
-  "no_new_course_execution_or_training": true
+  "repository_current_evidence_files": [
+    {
+      "path": "certificates/mathworks/signal_processing_onramp_certificate_full.png",
+      "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+      "bytes": 67426
+    },
+    {
+      "path": "certificates/mathworks/signal_generation_resampling_certificate_full.png",
+      "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+      "bytes": 68317
+    },
+    {
+      "path": "certificates/mathworks/spectral_analysis_certificate_full.png",
+      "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+      "bytes": 67856
+    },
+    {
+      "path": "certificates/mathworks/time_frequency_analysis_certificate_full.png",
+      "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+      "bytes": 67012
+    },
+    {
+      "path": "certificates/mathworks/filter_design_analysis_certificate_full.png",
+      "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+      "bytes": 68743
+    },
+    {
+      "path": "certificates/mathworks/core_learning_path_certificate_full.png",
+      "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+      "bytes": 66344
+    },
+    {
+      "path": "certificates/mathworks/completed_courses_full.png",
+      "sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f",
+      "bytes": 132507
+    }
+  ],
+  "repository_evidence_copy_status": "Seven exact original screenshots and official certificate links are published under certificates; full offline source records remain preserved.",
+  "no_new_course_execution_or_training": true,
+  "repository_certificate_directory": "certificates/mathworks",
+  "repository_certificate_index": "certificates/README.md",
+  "repository_evidence_added_date": "2026-10-28",
+  "repository_certificate_screenshots": [
+    {
+      "path": "certificates/mathworks/signal_processing_onramp_certificate_full.png",
+      "sha256": "54440a6509faf1a2934202da7748b1db690e53197f2e0e10ba74dd3a695fd181",
+      "bytes": 67426
+    },
+    {
+      "path": "certificates/mathworks/signal_generation_resampling_certificate_full.png",
+      "sha256": "79a4c18283009a9f33884566058e5d869df774f69cb15d412912ac3f92f8b080",
+      "bytes": 68317
+    },
+    {
+      "path": "certificates/mathworks/spectral_analysis_certificate_full.png",
+      "sha256": "553155d6e2583c24a5bdc78c0a4164d62db9c433b1ea45ff69fefe615fe37192",
+      "bytes": 67856
+    },
+    {
+      "path": "certificates/mathworks/time_frequency_analysis_certificate_full.png",
+      "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c",
+      "bytes": 67012
+    },
+    {
+      "path": "certificates/mathworks/filter_design_analysis_certificate_full.png",
+      "sha256": "9c8076b4aa992612b15e257a56bed960e320c8e1f06be86cae4ba013b87a30ae",
+      "bytes": 68743
+    },
+    {
+      "path": "certificates/mathworks/core_learning_path_certificate_full.png",
+      "sha256": "8a6108c9aa5ea1e8e0f2ccab6b2083a5f024bd5757f0f34630cdda890a4c14e5",
+      "bytes": 66344
+    },
+    {
+      "path": "certificates/mathworks/completed_courses_full.png",
+      "sha256": "230eb60a7187ed8ece73428c2488609f9c5ec72bf3a62c89c532dddfda89000f",
+      "bytes": 132507
+    }
+  ],
+  "offline_originals_also_retained": true
 }
