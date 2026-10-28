@@ -51,6 +51,11 @@
       "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac"
     },
     {
+      "path": "01_google_mlcc/README.md",
+      "bytes": 1590,
+      "sha256": "87c6df0f8590387ccd0ae49fa83ef5abb2abf9a9bcf120e84e9af2bad642c5c0"
+    },
+    {
       "path": "01_google_mlcc/wearable_utils.py",
       "bytes": 1849,
       "sha256": "6de4ee45118d96e024bd4e0f3fd3552905b38a1ff01c0a5146578bb0d8263db9"
@@ -122,18 +127,23 @@
     },
     {
       "path": "02_mit_6s191/08_lab3_service_continuation_README.md",
-      "bytes": 8706,
-      "sha256": "6dc857d6dc06c4394f13c582ba9104b31a19203320ca0fa6ac9137ed97bd04ae"
-    },
-    {
-      "path": "02_mit_6s191/data/irish.abc",
-      "bytes": 197618,
-      "sha256": "df3782d5f7b5a2f4c66aa7c13f13008d5f48757b3f5f51620cd6c1ceb2c53023"
+      "bytes": 7768,
+      "sha256": "c35bdcad9a1569e186d57dc16afe7e37ee7fd80a96ce49fbd3a67c677c04290a"
     },
     {
       "path": "02_mit_6s191/LICENSE_MIT.txt",
       "bytes": 1123,
       "sha256": "50d8ed007f1bcacd060bb7bcc2e9dca7627062da19df2ac0b8e7cf9c1b4fa195"
+    },
+    {
+      "path": "02_mit_6s191/README.md",
+      "bytes": 1944,
+      "sha256": "4ef3376dbcc42e993e66f951aed50fa353818b7a819c2eaf421f1ef48e94a9f3"
+    },
+    {
+      "path": "02_mit_6s191/data/irish.abc",
+      "bytes": 197618,
+      "sha256": "df3782d5f7b5a2f4c66aa7c13f13008d5f48757b3f5f51620cd6c1ceb2c53023"
     },
     {
       "path": "02_mit_6s191/wearable_utils.py",
@@ -267,8 +277,18 @@
     },
     {
       "path": "03_fastai/ATTRIBUTION.md",
-      "bytes": 252,
-      "sha256": "760e2f6eb60bda5a549cf2e80db97f2af2132f843d6d70c70ec09c2550244e4c"
+      "bytes": 1076,
+      "sha256": "db8de85d6da546c3442a8d78253ce40e0ec53b9a840e175a104457a5f456d3c0"
+    },
+    {
+      "path": "03_fastai/LICENSE_FASTBOOK",
+      "bytes": 35254,
+      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee"
+    },
+    {
+      "path": "03_fastai/README.md",
+      "bytes": 1547,
+      "sha256": "d413a298fe5a7994a2dd02c581e82959ba64f574445ac7d05fb9cf8f34747575"
     },
     {
       "path": "03_fastai/convolution_workbook_exercise.py",
@@ -284,11 +304,6 @@
       "path": "03_fastai/fastai_utils.py",
       "bytes": 2029,
       "sha256": "a03e913e1c07f55aedd56ee6128096f3f952f4f8be22f83c4a22002589c4bd18"
-    },
-    {
-      "path": "03_fastai/LICENSE_FASTBOOK",
-      "bytes": 35254,
-      "sha256": "8928c97ab246d626c36ee2880bd3fcd77558ca57f4b54b2a0f52dc781a0daeee"
     },
     {
       "path": "03_fastai/resources/conv-example.xlsx",
@@ -496,6 +511,16 @@
       "sha256": "4fe643f1b9753a1414e3a20d64233cb7a9e18206d41ff6c4eb13e354a3cad5e1"
     },
     {
+      "path": "04_fastai_part2/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "04_fastai_part2/README.md",
+      "bytes": 1665,
+      "sha256": "744a6d203673b81464114738847d04de8316045672e447695fcd1d9c3270247a"
+    },
+    {
       "path": "04_fastai_part2/data/ILSVRC/imagenet_lsvrc_2015_synsets.txt",
       "bytes": 10000,
       "sha256": "70002b0ff5de60a3a17a82dbfcff291931f96225ddf941ad2e182fc39e183d15"
@@ -521,14 +546,14 @@
       "sha256": "2af7f82df8ca91e9bb484db737a48dfb94758a37fc75b4c790e35007e60ae0a2"
     },
     {
-      "path": "04_fastai_part2/diffusion_intro/learned_embeds.bin",
-      "bytes": 3819,
-      "sha256": "f2e23a8f2d3628ed77acb8151751ecd4efc4017e8da86bc29af10f855ca308d9"
-    },
-    {
       "path": "04_fastai_part2/diffusion_intro/LICENSE",
       "bytes": 11357,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "04_fastai_part2/diffusion_intro/learned_embeds.bin",
+      "bytes": 3819,
+      "sha256": "f2e23a8f2d3628ed77acb8151751ecd4efc4017e8da86bc29af10f855ca308d9"
     },
     {
       "path": "04_fastai_part2/diffusion_intro/textual_inversion_training.py",
@@ -609,11 +634,6 @@
       "path": "04_fastai_part2/images/grizzly.jpg",
       "bytes": 697626,
       "sha256": "2f12ed680dca7a5ccd0e9c9522365c7374a154c69ffa2b19f32723f45499f1ac"
-    },
-    {
-      "path": "04_fastai_part2/LICENSE",
-      "bytes": 11357,
-      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
       "path": "04_fastai_part2/miniai/__init__.py",
@@ -701,14 +721,39 @@
       "sha256": "fee9abd077324dde823935917d1d973463efc9903142378aa28416ba65369e6e"
     },
     {
+      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "bytes": 62349,
+      "sha256": "add0bb4914f77d1775a840ff56ae78ed2498d81dd37604cb9d65b4443ec12ed4"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
+      "bytes": 6656,
+      "sha256": "0562e8f87ae0900d71a663bbe1e0b2449428bfce3059fdd05777c3e6728f314e"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/CURRENT_STATUS_2026-10-27.json",
+      "bytes": 14681,
+      "sha256": "88c7daf9c88fd360e235b542ad25663970ea7c3a12d0e5789fe810bcf8baa014"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/README.md",
+      "bytes": 6900,
+      "sha256": "04779e8d21f097a585ffebca5d27fecd7630a9cec5c34e56100e019c85541131"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
+      "bytes": 2579,
+      "sha256": "6e6a1271669d83ba6be82f91c41df5dae80affe9b46091e3b2a470a276563f17"
+    },
+    {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter.m",
       "bytes": 1758,
       "sha256": "e7c8f7ea2f9cc56976cc15fe5b862b5e615babdf42e24320cebc282d6d69d124"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter_gui.md",
-      "bytes": 1211,
-      "sha256": "c536c2f33d2a2f53cd8f870ccdccdf9a4707d9cf268e5caaf2958e71a632104a"
+      "bytes": 1140,
+      "sha256": "b5c50c0f9049f88e53ea7060f970db73aeeb3486638ea15be535c9437feebc4b"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter.m",
@@ -717,8 +762,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter_gui.md",
-      "bytes": 1434,
-      "sha256": "4a4105394bc948b82025efe6a07b6f51e1215dcebbbefafdc472ffbb00a7355e"
+      "bytes": 1394,
+      "sha256": "1b5f0c8eb2e210b9c116f59d5cf65d60021c23f63a34ba409bfe4c2069c1d599"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter.m",
@@ -727,8 +772,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter_gui.md",
-      "bytes": 1246,
-      "sha256": "bfc62d975f28ec813de8756b7de9f3d3f6ea1f0055a881bd5a5cc5228fff5b4c"
+      "bytes": 1260,
+      "sha256": "7d5cec96c17c914cab19a46933efb472452793c6175a046b276c9d6b0403e6bb"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer.m",
@@ -737,8 +782,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer_gui.md",
-      "bytes": 1440,
-      "sha256": "d0e2ef6e1aa844252dc6b250132b254b3c3196d4b9c3c54c0a47459d219129f1"
+      "bytes": 1482,
+      "sha256": "acd53faf74ed0ac2db1eed9fd079c1880f6279eff024330ef0c0b37e853026e1"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response.m",
@@ -747,8 +792,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response_gui.md",
-      "bytes": 1179,
-      "sha256": "a0553b6415fb0d45efc25f63bcd1b16f621b9cdc09186c57e8c7f7ec3ed4f1a0"
+      "bytes": 1184,
+      "sha256": "7746ee4aa7f7fde43f4393c09e3e06a6074cb8f7eb45067edd23a2d517e3f84c"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson06_frequency_response.m",
@@ -762,8 +807,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer_gui.md",
-      "bytes": 1221,
-      "sha256": "6afb88c17e437d6a80a73742d4015c4981a1f1c57dbf4828ca913813b7d38eae"
+      "bytes": 1223,
+      "sha256": "f9b822b267504e304f07aeeb36a7229f30640d850d8ea965fc5a92637b98210e"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson08_group_delay.m",
@@ -852,8 +897,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows_gui.md",
-      "bytes": 1561,
-      "sha256": "82832d2f7b7055a634c821c729cd612e607e8f7975e398238ca2fe43ec542827"
+      "bytes": 1541,
+      "sha256": "11f9f073c1e5874a08263ef4179aaf5cb95b2840c94c6a522150126bd5d0ae57"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones.m",
@@ -862,8 +907,8 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones_gui.md",
-      "bytes": 981,
-      "sha256": "4b30ad93488c0c5e0632e31662ca48eca738b289136035e4ebe0a5043654bc66"
+      "bytes": 983,
+      "sha256": "6685283791925ca557fb9b78959220dd09861237efa918af2eb8d139b6a4caf9"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson08_close_tones.m",
@@ -897,18 +942,18 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/07_decimation.md",
-      "bytes": 1768,
-      "sha256": "edeed7970ffdd23197c3b8c274c6fad9f1099584712acce34f956ff076e84047"
+      "bytes": 1765,
+      "sha256": "78fdf0de90e50d1ecb2be9e8ab6ae176bc481ed29f9a7b7fb94221edbde56461"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/09_interpolation.md",
-      "bytes": 1243,
-      "sha256": "cd7f2286384d11e2f3e80ef01fba7b9e46142eadff7b2421f8ce251dc1d10529"
+      "bytes": 1265,
+      "sha256": "ffff22cee7c571dbcbb9c6798ff548cd06b7d12d87ee493e5026f18a0d100a17"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/13_import_signal.md",
-      "bytes": 1785,
-      "sha256": "b398bc00e32849bf87e256da65e9be5c81691b23eae57e2fd7bcfe96a34c2f33"
+      "bytes": 1865,
+      "sha256": "23e6005aa063ccb9c5c8b8bc808a0307d593b6e255ad7ebfd7de9a8f95fce5c2"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/lesson01_generate_signal.m",
@@ -1017,48 +1062,48 @@
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/04_compare_signals.md",
-      "bytes": 1123,
-      "sha256": "e39cc9b62d6922119c05df401d728aa16361493793607bc4e22d670bf46bbb2d"
+      "bytes": 1108,
+      "sha256": "2bb87976fd138cf6763eabd8e9b89c9010f1e7156da0fd088085dde0826299c8"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/05_resample_signals.md",
-      "bytes": 1305,
-      "sha256": "c7f9d716168acac2129e5115f861688587e014df6c668957f44a34c6291882ee"
+      "bytes": 1281,
+      "sha256": "d5fbe93692dc52e3d5c868fbc20fa70a1fa445484b11386892fea5355600aba1"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/06_extract_regions.md",
-      "bytes": 1074,
-      "sha256": "88cdcdd3f8a8b549c34021748ea6b4a016f116e072d455cd9686f4a446e6ee65"
+      "bytes": 1019,
+      "sha256": "65a9212bcee044fda2211d2ecd33e6487b675c55c4d1ad80487160362b22b919"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/07_custom_preprocessing.md",
-      "bytes": 1460,
-      "sha256": "3cbc065fa2aa3665e0189c78c99d12e64502bae69009d923cb49f0b0d4072e70"
+      "bytes": 1432,
+      "sha256": "ef6bd9181569f34abf7e99fe319cdc81633df7b1930ef747c3fcd4a8687831b1"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/09_customize_spectrum.md",
-      "bytes": 878,
-      "sha256": "b8fce1ef418191d19dea33b92731f16926bfd1b5f2dbf8e9b30bbe82bddb6f17"
+      "bytes": 836,
+      "sha256": "d77f690aa67fde546be75e3bd357f9fab2ac870d7340f435b5f824015cd65f68"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/10_time_frequency_plots.md",
-      "bytes": 1065,
-      "sha256": "e6f4705655fcab8387b706037d1d29bc293018829b5f31e972eb3c3ee4696af7"
+      "bytes": 1070,
+      "sha256": "dafd8d009ebce747789a585b2a8d388445d2d0eca2facebd337a838134ef924d"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/11_lowpass_filter.md",
-      "bytes": 1462,
-      "sha256": "31e95875bce6c3b5dfb918248f8b8d0bc3adff0dcda2dc99de8b4ca7039c9da5"
+      "bytes": 1467,
+      "sha256": "5853c59627c163d54f0dd6f491b7b6e32b76ec6bb978b64ca7718991f6d424a6"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/12_bandpass_filter.md",
-      "bytes": 1224,
-      "sha256": "dd8285c0f22b67ab9d595ac0f0e645262297dba04057fb4ac118a701a2c62c15"
+      "bytes": 1201,
+      "sha256": "706bce5de8e0c87acec84ca4b6cd04381fcb1c747869d782a3e4474c32be6617"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/14_signal_measurements_gui.md",
-      "bytes": 2049,
-      "sha256": "dab40a6e0e6c176b78832c0bcb3a81633f7cc09047e2f35492b1912e0f1bb0a0"
+      "bytes": 2061,
+      "sha256": "913a7d3406bb23e243a56ef7c42f9569b7948f1f9955eed370ff303f20a67749"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/lesson01_generate_signals.m",
@@ -1111,24 +1156,14 @@
       "sha256": "8f43a3b7df0c8a17f5f592c3d131eeb91c2afa3497b414181c3a8298cd1304d7"
     },
     {
-      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
-      "bytes": 62870,
-      "sha256": "af53ffe5f7670472c4ed50cb1f42e3b792953644d556d1f32fa0184d8123f8a2"
-    },
-    {
       "path": "05_mathworks/Academy_and_MATLAB/course_inventory.json",
       "bytes": 10537,
       "sha256": "81026399a15186d3e4d9470099f968db54a82506407e57857405127325526114"
     },
     {
-      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
-      "bytes": 6863,
-      "sha256": "eb390decea988ddc5ff18725d8817594cbe3b9f3e0abfb52e4a48b61e8791f3c"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/CURRENT_STATUS_2026-10-27.json",
-      "bytes": 14681,
-      "sha256": "88c7daf9c88fd360e235b542ad25663970ea7c3a12d0e5789fe810bcf8baa014"
+      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "bytes": 2918,
+      "sha256": "c23b344c12392ddf082345f58cb394d1e2a53adaa67e7ea31a762121310916b2"
     },
     {
       "path": "05_mathworks/Academy_and_MATLAB/practice/data/synthetic_signal.csv",
@@ -1166,11 +1201,6 @@
       "sha256": "436f3035270ec670372befbf16d6d58db0e9d51e76a2abdc59ccf5b06eccd281"
     },
     {
-      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
-      "bytes": 3087,
-      "sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af"
-    },
-    {
       "path": "05_mathworks/Academy_and_MATLAB/practice/verify_practice.m",
       "bytes": 6010,
       "sha256": "0a6c6f974b8422efae7b0c42a1e761dae2157a51ecb4e60ee84a04293982b7ea"
@@ -1181,24 +1211,9 @@
       "sha256": "a7ccb4eb4f51059a35b5f014f52844e7f337dd0461d94723cf069cca07a9963e"
     },
     {
-      "path": "05_mathworks/Academy_and_MATLAB/README.md",
-      "bytes": 7060,
-      "sha256": "a91a1240d3a2e4c32c7482a7071737214666928bab5633093af70ce8015e4cdf"
-    },
-    {
-      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
-      "bytes": 3201,
-      "sha256": "799e5a52a0067d286a14758f4062ad31a152b69fd4db1c969cfee3f3276dcb10"
-    },
-    {
       "path": "05_mathworks/CURRENT_STATUS_2026-10-27.json",
       "bytes": 14681,
       "sha256": "88c7daf9c88fd360e235b542ad25663970ea7c3a12d0e5789fe810bcf8baa014"
-    },
-    {
-      "path": "05_mathworks/evidence/current_completion_2026_10_27/EVIDENCE_METADATA.json",
-      "bytes": 16384,
-      "sha256": "296f82c99d6f32bdd057d5852dd1d9f6e08a1c05cbdd70157c4bb1f9b47873df"
     },
     {
       "path": "05_mathworks/Python_Companion/07_python_signal_processing_companion.ipynb",
@@ -1212,8 +1227,53 @@
     },
     {
       "path": "05_mathworks/README.md",
-      "bytes": 2265,
-      "sha256": "fa4cfd5d66e6cdf17bebcbd668398c4084191ac7a7f4fe0c89da623fad0718fc"
+      "bytes": 2691,
+      "sha256": "52d5604ea79a2ee40d9c3b081c824a045c6b054176d9371345dcbe1d4dbe9776"
+    },
+    {
+      "path": "05_mathworks/evidence/current_completion_2026_10_27/EVIDENCE_METADATA.json",
+      "bytes": 16384,
+      "sha256": "296f82c99d6f32bdd057d5852dd1d9f6e08a1c05cbdd70157c4bb1f9b47873df"
+    },
+    {
+      "path": "EXERCISE_INDEX.md",
+      "bytes": 17515,
+      "sha256": "9aac5e56ade09035d4ea312306d09e2a87059e34495369070b0639bbfb69f4cc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4051,
+      "sha256": "49616d62620d7fb659b6266f2c6418bf91e6589b4b637e629975b686c295d40f"
+    },
+    {
+      "path": "RUN_ORDER.md",
+      "bytes": 6065,
+      "sha256": "ddb283958c3a77e8d25798cf5efde64a641c525c2f5a4e9509db6c3a34c80720"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2841,
+      "sha256": "c4ff535f9f18b2a4b5d0c9513510cf2492e429a0fc9b55d66af8f2a1a20a9f98"
+    },
+    {
+      "path": "START_HERE_COLAB.ipynb",
+      "bytes": 18306,
+      "sha256": "68e707d49dca58e70563581fa7467077b3951d9be7c29975dc7c4dcde1855c29"
+    },
+    {
+      "path": "UPLOAD_GUIDE.md",
+      "bytes": 1799,
+      "sha256": "c56c6f65032c95c31fcf9e4b1f232040b250f44b7633ce34f99689bdb8ea5fc2"
+    },
+    {
+      "path": "WORK_INDEX.md",
+      "bytes": 15172,
+      "sha256": "c50df6131a24c0ba295041fc88a84eec060ef394ab95a59f48cd6a6edc7f8d82"
+    },
+    {
+      "path": "certificates/README.md",
+      "bytes": 3181,
+      "sha256": "9d31238c5260ce0e50a506c0ef7e6f6acc45c1b9564e6727d66368a778fe6dc2"
     },
     {
       "path": "certificates/mathworks/CERTIFICATES.json",
@@ -1254,11 +1314,6 @@
       "path": "certificates/mathworks/time_frequency_analysis_certificate_full.png",
       "bytes": 67012,
       "sha256": "f842dc6c7f51b3275bdb9da3b1f3c039e6ad46c0dae7cacebf018db516f6dc6c"
-    },
-    {
-      "path": "certificates/README.md",
-      "bytes": 3207,
-      "sha256": "eeac3fcbf4ecba4331e7ff0f166b88bd2a0d2a5a9820982df1c9150ada468d07"
     },
     {
       "path": "colab_full_runner.py",
@@ -1311,14 +1366,14 @@
       "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385"
     },
     {
+      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "bytes": 6907,
+      "sha256": "19eee1315e7d7f7d768478dbf2d1486e752a09b45333a05c1b88944276583222"
+    },
+    {
       "path": "completion_criteria/mit_completion_criteria.json",
       "bytes": 10878,
       "sha256": "145f659817df02a6db2f0544b5be4561f562ccb1ba993d9de440c2da88057ef6"
-    },
-    {
-      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
-      "bytes": 6373,
-      "sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0"
     },
     {
       "path": "completion_criteria/mit_service_continuation_criteria.json",
@@ -1339,11 +1394,6 @@
       "path": "course_persistence.py",
       "bytes": 45724,
       "sha256": "f14f7282d4b1e718b01858a61a2dca8b60f5135ba9971fc7923c50bf12cca3d2"
-    },
-    {
-      "path": "EXERCISE_INDEX.md",
-      "bytes": 17526,
-      "sha256": "a09355ed085450d4595868b483336d56a1eafc4d7531cf76ae0450484fc9520d"
     },
     {
       "path": "exercise_manifest.json",
@@ -1367,8 +1417,13 @@
     },
     {
       "path": "local_variants/README.md",
-      "bytes": 2951,
-      "sha256": "d12597e977ec7e4a0618153fddbb6601d9733393a10f78d6e660b98bb4194cde"
+      "bytes": 2729,
+      "sha256": "ea30b2405987bf0a2b68f019b71712490c999fc34158ee55f252192cf41d8acb"
+    },
+    {
+      "path": "provenance/DOCUMENTATION_UPDATE_2026-10-28.json",
+      "bytes": 12823,
+      "sha256": "f4d731bdf191d5ddb421554f1f40449dfc375e42a5ac19135bb2bffdd741fd6e"
     },
     {
       "path": "provenance/ONLINE_OFFLINE_MERGE.json",
@@ -1391,11 +1446,6 @@
       "sha256": "0d3ab1f57a451e3f4446757a3683341f347e43df68eb61809289ee5be4a70983"
     },
     {
-      "path": "README.md",
-      "bytes": 6254,
-      "sha256": "6ac8f4471580ef0094d2f32f12e0cdb224e8a2a2d751ac8515ca79ea6c4d1457"
-    },
-    {
       "path": "references/05_fairness_income_legacy.ipynb.txt",
       "bytes": 40156,
       "sha256": "a13478ea18c733240be7e0c50fa8cbad4f3333fa460eec0a176b96a273189212"
@@ -1406,6 +1456,41 @@
       "sha256": "5529240714b7879ce70a03fc31025aee91cd3ecfc2b6a575a965fe6dd516f393"
     },
     {
+      "path": "results/EXERCISE_RESULTS.md",
+      "bytes": 16756,
+      "sha256": "b67270e1a6df32d1a01a2cc882bf0f57c6883f55575b9de2f43cfa6452e39b1c"
+    },
+    {
+      "path": "results/EXERCISE_STATUS.csv",
+      "bytes": 19818,
+      "sha256": "f1ae5f36072984c8a810a064965e2cdda5a47f429c0ce10b43c910e9512b52d8"
+    },
+    {
+      "path": "results/LOCAL_BACKUP_STATUS.json",
+      "bytes": 520,
+      "sha256": "9f72f7de287b5ad529ced5d2b3b9207039621b141aff4d75f11d20ec501704b9"
+    },
+    {
+      "path": "results/PROGRESS_SNAPSHOT.json",
+      "bytes": 44122,
+      "sha256": "f81074a575bb441fed73fc1b1f14d5a06c7c5d4143306bc002012fe08bbe2ff5"
+    },
+    {
+      "path": "results/PUBLISHED_RESULT_INDEX.csv",
+      "bytes": 12487,
+      "sha256": "b959f5c914175b6bc73f26f31b4bfa655d49295daf277f60fe7f165b090efbaa"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 2701,
+      "sha256": "bdc080f54bfbf047c363a5a0ae49b39b471fc3f8e5b81caade10ae4ffc061e6f"
+    },
+    {
+      "path": "results/RESULT_FILES.json",
+      "bytes": 128752,
+      "sha256": "9ea7ecc13911a2d3730acb95743cc9eb0d032e1150af7f063fa313917843bd64"
+    },
+    {
       "path": "results/audio/02_pt_music_generation.wav",
       "bytes": 4615004,
       "sha256": "aad514932c64bf2b89604f5d3008166536a29d37c9344777bfc603414ffecd61"
@@ -1414,16 +1499,6 @@
       "path": "results/audio/02_tf_music_generation.wav",
       "bytes": 2469540,
       "sha256": "f54476bbbc3654200a69ee72cbc9de2ea86ffa766e12456686839e070a2191d2"
-    },
-    {
-      "path": "results/EXERCISE_RESULTS.md",
-      "bytes": 17721,
-      "sha256": "c6ce05335865a4b91609375b1bd9416a042593266f12d3a723e537444bd5b2db"
-    },
-    {
-      "path": "results/EXERCISE_STATUS.csv",
-      "bytes": 19818,
-      "sha256": "f1ae5f36072984c8a810a064965e2cdda5a47f429c0ce10b43c910e9512b52d8"
     },
     {
       "path": "results/figures/04_fastai_part2/diffusion_intro/01_stable_diffusion/cell_029_output_000.jpg",
@@ -1456,11 +1531,6 @@
       "sha256": "df9653e7ec4e32515a55e2a8dc2e339b884f67531f9eac6ad717d52a5bb0c7fa"
     },
     {
-      "path": "results/LOCAL_BACKUP_STATUS.json",
-      "bytes": 520,
-      "sha256": "9f72f7de287b5ad529ced5d2b3b9207039621b141aff4d75f11d20ec501704b9"
-    },
-    {
       "path": "results/metrics/01_google_mlcc/06_subject_independent_evaluation/06_subject_independent_evaluation.json",
       "bytes": 1536,
       "sha256": "9fe94d6294167f68202fc807f9e8ee1b5610c303ce0e2a8d6dfdd7dd6aab6895"
@@ -1479,26 +1549,6 @@
       "path": "results/metrics/04_fastai_part2/15_DDPM/ADDITIVE_RECOVERY_FINAL_AUDIT_20261021T122126-2e5a7b19_20261021T134255Z-cf4b2b.json",
       "bytes": 29771,
       "sha256": "822b1606d1af34a43dcaa60aa7f084cfa7199b066334dce44993a496a118e849"
-    },
-    {
-      "path": "results/PROGRESS_SNAPSHOT.json",
-      "bytes": 44122,
-      "sha256": "f81074a575bb441fed73fc1b1f14d5a06c7c5d4143306bc002012fe08bbe2ff5"
-    },
-    {
-      "path": "results/PUBLISHED_RESULT_INDEX.csv",
-      "bytes": 12487,
-      "sha256": "b959f5c914175b6bc73f26f31b4bfa655d49295daf277f60fe7f165b090efbaa"
-    },
-    {
-      "path": "results/README.md",
-      "bytes": 2085,
-      "sha256": "a2ff42774f4fd15002b36953618baf031aa56851a25a23334ee8f87ea7ec13d1"
-    },
-    {
-      "path": "results/RESULT_FILES.json",
-      "bytes": 128752,
-      "sha256": "9ea7ecc13911a2d3730acb95743cc9eb0d032e1150af7f063fa313917843bd64"
     },
     {
       "path": "results/saved_notebooks/01_google_mlcc/01_linear_regression_taxi.ipynb",
@@ -1826,24 +1876,14 @@
       "sha256": "2031663a3d70f041052173af2fdd8753aa0262970a062524a755ed7359e209bc"
     },
     {
-      "path": "RUN_ORDER.md",
-      "bytes": 6259,
-      "sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a"
-    },
-    {
-      "path": "scripts/__pycache__/bootstrap_colab.cpython-312.pyc",
-      "bytes": 16903,
-      "sha256": "a673c7b586665929c7f018125aa9bcb32cf89d46e92d103f92ef39b2219587d0"
-    },
-    {
       "path": "scripts/bootstrap_colab.py",
       "bytes": 11109,
       "sha256": "3dfbb2abe4cfe4513b35f4ecf5ce13057649506a85b8443f3aac3f67c472d688"
     },
     {
       "path": "scripts/build_bootstrap_notebook.py",
-      "bytes": 5107,
-      "sha256": "bfa11e55800014860ef2fec70e3e977357e04d86c215a204eda2cf6bec6fb1e9"
+      "bytes": 4467,
+      "sha256": "c22ef7761583e3125836b5dd5971f69b5c7e7d39bc7bbf9e500508db336848e0"
     },
     {
       "path": "scripts/download_teaching_data.py",
@@ -1856,43 +1896,16 @@
       "sha256": "46cfa337e568fb1cd61b645d429a6b6e23b8fd2ec4f6f051d63d8cd43c4da440"
     },
     {
-      "path": "SOURCES.md",
-      "bytes": 1848,
-      "sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1"
-    },
-    {
-      "path": "START_HERE_COLAB.ipynb",
-      "bytes": 18816,
-      "sha256": "0863fc08616a3f2de04cf2bac9e2bdb6aa154ce06b429c4800efa9d972b5793b"
-    },
-    {
-      "path": "tests/__pycache__/test_bootstrap_colab.cpython-312.pyc",
-      "bytes": 12970,
-      "sha256": "61b63e1b14cac624a36dc590566ed1e6293be94939fa52c442df5d8b869e5bee"
-    },
-    {
       "path": "tests/test_bootstrap_colab.py",
       "bytes": 6452,
       "sha256": "b355b3a6582733af4c12a67262f5caf95da978bb619dcf9fe4bfbb0a2929b3ed"
-    },
-    {
-      "path": "UPLOAD_GUIDE.md",
-      "bytes": 1309,
-      "sha256": "0b501efd1853de71b4ec33216e07e352512e110afc10633339c15c40db5cb915"
-    },
-    {
-      "path": "WORK_INDEX.md",
-      "bytes": 18570,
-      "sha256": "0866bbb73ba5fc6e8944048089a00d77fed3c8972b610dc6f3e4c4e4456dce83"
     }
   ],
   "excludes_self_and_git_directory": true,
   "current_documentation_update": {
-    "as_of": "2026-10-27",
-    "scope": "Current authenticated MathWorks portal completion and student-confirmed plan-based estimated study records",
-    "original_scientific_outputs_unchanged": true,
-    "original_academy_progress_json_unchanged": true,
-    "no_new_execution_or_publication": true
+    "date": "2026-10-28",
+    "description": "Reader-facing prose and course navigation revised; completion records, scientific results and source notebook paths preserved.",
+    "record": "provenance/DOCUMENTATION_UPDATE_2026-10-28.json"
   },
   "certificate_evidence_update": {
     "added_date": "2026-10-28",

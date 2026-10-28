@@ -10,6 +10,6 @@
 
 For further practice, ran [steepness_comparison.m](steepness_comparison.m)'s commands in the hosted MATLAB command window. The comparison used steepness values 0.5 and 0.99 at a 50 Hz sample rate. Execution returned to the command prompt without errors, `soft` and `sharp` were each 45107×1, and a Figure 1 tab was created.
 
-The resulting figure graphic was obscured by the Signal Analyzer overlay. Its creation was observed, but its plotted curves were not visually inspected. This was an ungraded code run, separate from the three verified GUI tasks.
+The resulting figure graphic was obscured by the Signal Analyzer overlay. The tab confirmed that a figure was created, but the curves could not be inspected. This counts as one ungraded code run alongside the three graded GUI tasks.
 
 The course header was observed at 72%. The script requires the real course `wanc` array to be loaded in the workspace; that data is not bundled here.

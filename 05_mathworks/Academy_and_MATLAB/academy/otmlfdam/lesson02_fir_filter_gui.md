@@ -10,6 +10,6 @@ The Show Code view generated the design in [lesson02_fir_filter.m](lesson02_fir_
 
 For one ungraded GUI comparison, Filter Information was selected. The 80 dB setting showed **length 425**. Changing only the lower-stopband attenuation to 60 dB showed **length 317**. Restoring 80 dB restored length 425. Thus the stronger attenuation added 108 coefficients; the corresponding orders are 424 and 316. The final task setting remains 80 dB.
 
-For one separate ungraded code example, the playback lines `soundsc(yin,fs); pause(3.5); soundsc(yout,fs);` were uncommented and run. Academy reported a completed section with no outputs. The commands executed, but no listening or subjective quality comparison is claimed.
+For one separate ungraded code example, the playback lines `soundsc(yin,fs); pause(3.5); soundsc(yout,fs);` were uncommented and run. Academy reported a completed section with no outputs. The commands ran; listening quality was not assessed.
 
-The replay requires Signal Processing Toolbox and the course `NoisyFlute.wav`, which is not bundled. Its standalone arrangement has not been independently executed.
+The replay requires Signal Processing Toolbox and the course `NoisyFlute.wav`, which is not bundled. The standalone version has not been run independently.

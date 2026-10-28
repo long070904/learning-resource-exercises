@@ -1,35 +1,141 @@
-The separate `08_lab3_service_continuation.ipynb` completes the original MIT Lab 3 service tasks after the full prepared `07_lab3_llm_finetuning.ipynb` training run. It is prepared code, with no service calls executed or completion claimed. It has not been added to the batch manifest.
+# Lab 3 hosted-service continuation
 
-The [official MIT notebook](https://github.com/MITDeepLearning/introtodeeplearning/blob/master/lab3/LLM_Finetuning.ipynb) requires an OpenRouter API judge, a genuine Opik custom metric, monitored inference with feedback, and inspection of the Opik UI. It suggests Gemini 2.5 Flash and explicitly allows free models. Local Qwen scores and JSON traces alone do not complete these service tasks. The Dropbox contest submission is separate from executing the learning exercises.
+[08_lab3_service_continuation.ipynb](08_lab3_service_continuation.ipynb) is prepared
+code for the service tasks that follow the saved Lab 3 training run. This entry
+remains pending, with no completed service run recorded. It is listed in
+`exercise_manifest.json`; the batch runner requires explicit service
+authorisation and the configured credentials before it can proceed.
 
-Run it in a Colab GPU runtime after the main MIT batch has finished. Add the user's own `OPENROUTER_API_KEY` and `OPIK_API_KEY` as Colab Secrets and grant this notebook access. An optional `OPIK_WORKSPACE` field selects an existing workspace. The two named environment variables are an explicit alternative. Keys are never printed, stored in Drive artifacts, or placed in notebook cells. The notebook makes no external service calls with `AUTHORIZE_SERVICE_CALLS=False`; enable it only after the user authorizes the reviewable workflow.
+The [original MIT lab](https://github.com/MITDeepLearning/introtodeeplearning/blob/master/lab3/LLM_Finetuning.ipynb)
+uses an OpenRouter judge, an Opik custom metric, monitored inference with feedback
+and inspection of the Opik interface. Local Qwen scores and JSON traces do not
+complete these tasks. The Dropbox contest submission is separate and is not
+included here.
 
-For the parent batch runner, explicit `HAILONG_AUTHORIZE_LAB3_SERVICES=1` enables the same gate. `HAILONG_ALLOW_PAID_LAB3_JUDGE=1` is the separate paid-model gate. `HAILONG_LAB3_JUDGE_MODEL` optionally selects one of the two documented judges, and `HAILONG_LAB3_TRAINING_RUN_ID` optionally selects the exact verified saved run. These flags default to absent/disabled. The authorized parent master can retrieve Colab Secrets visibly and pass only the two keys plus these flags to the 08 child subprocess; the fresh nbclient kernel reads environment keys first. Do not dump that environment into logs or runner records. Do not send keys to any other course subprocess.
+## Before running
 
-The default judge is `google/gemma-2-9b-it:free`, a larger model than the 1.2B performer. [Its official model page](https://openrouter.ai/google/gemma-2-9b-it:free) currently lists free pricing. Availability remains dependent on providers and account quotas. The [official OpenRouter free-tier tutorial](https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter/) gives 50 requests per day and 20 per minute without purchased credits. This notebook permits 45 requests per session and rolling 24 hours by default and waits at least 3.2 seconds between new requests. Other applications share the same account quota. Run only one continuation instance at a time, and leave headroom for any other account use.
+Use a Colab GPU runtime after the main training batch has finished. Add your own
+`OPENROUTER_API_KEY` and `OPIK_API_KEY` to Colab Secrets and grant this notebook
+access. The same environment variables are an alternative. `OPIK_WORKSPACE`
+optionally selects an existing workspace. Keep keys out of notebook cells,
+outputs, Drive artifacts and logs.
 
-The full 3-probe and 20/20/20 comparison plus a monitored example needs 64 logical evaluations before extra experiments. This continuation includes nine rubric trials, twelve matched training-duration trials, and three monitored questions, giving 87 logical evaluations. Exact duplicate text/rubric requests can reuse saved real responses, so the number of new requests can be smaller. A free run normally continues across days. Failed requests also consume quota. The notebook saves requests, raw responses, normalized scores, failure types, and remaining steps in Drive. OpenAI SDK automatic retries are disabled. A request recorded as pending or delivery-uncertain requires explicit `RETRY_UNCERTAIN_REQUESTS=True` before retrying. A failed request or malformed score JSON requires explicit `RETRY_FAILED_REQUESTS=True`; neither is silently retried or assigned a fabricated score. A server 429 stops further requests for 24 hours. Choosing the original `google/gemini-2.5-flash` requires `ALLOW_PAID_JUDGE=True` and usable account credits; it is never selected by default. Current [Gemini pricing](https://openrouter.ai/google/gemini-2.5-flash) is $0.30 input/$2.50 output per million tokens, subject to change.
+The notebook makes no service calls while `AUTHORIZE_SERVICE_CALLS=False`.
+Enable it only when you intend to send the reviewed requests through your own
+accounts. Paid judging has a separate `ALLOW_PAID_JUDGE` gate.
 
-[Opik cloud](https://www.comet.com/docs/opik/quickstart) supports a free account. [The current free plan](https://www.comet.com/site/pricing/) includes 25,000 spans per month with 60-day retention; this lab does not require a paid plan. A genuine self-hosted Opik server/UI is a vendor-supported alternative, but this particular continuation targets cloud SDK authentication and does not deploy a server. The SDK's [configuration](https://www.comet.com/docs/opik/tracing/advanced/sdk_configuration) documents the cloud key and optional workspace.
+| Parent-runner setting | Purpose |
+|---|---|
+| `HAILONG_AUTHORIZE_LAB3_SERVICES=1` | Enables the service-call gate. |
+| `HAILONG_ALLOW_PAID_LAB3_JUDGE=1` | Separately allows a paid judge. |
+| `HAILONG_LAB3_JUDGE_MODEL` | Selects one of the two documented judge models. |
+| `HAILONG_LAB3_TRAINING_RUN_ID` | Selects the exact saved training run to verify. |
 
-Before reading keys or sending service requests, the notebook verifies:
+These settings are disabled or absent by default. An authorised parent runner
+can pass the two required keys and settings to the continuation's subprocess.
+The fresh notebook kernel reads environment keys first. Do not print the
+environment or pass these credentials to other course notebooks.
 
-- The hosted runner record, every executed code cell, full mode, saved output notebook SHA-256, and the approved prepared source SHA-256.
-- A matching actual training run ID, all original exercise evidence, two real 200-update histories, valid saved adapters, and the recorded adapter round-trip check.
-- The SHA-256 of the exact training JSON, generation/control CSV files, training-duration texts, and adapter files. A subsequent change refuses resumption.
+## Judge, quotas and resuming
 
-Current approved prepared Lab 3 source SHA-256: `de35ad31546210e89f3b1355b08f3d58ffed9029cf6e1092d944209dd20a6f6a`. If the parent repairs that notebook further, review the repair and update this approved hash before building the continuation again. Do not bypass the check. An incomplete or reduced run must finish the original training first; this notebook neither fabricates evidence nor loads an unrelated adapter. It creates no new training run and does not rerun training.
+The configured default is `google/gemma-2-9b-it:free`, a larger model than the
+1.2B performer. The alternative `google/gemini-2.5-flash` needs
+`ALLOW_PAID_JUDGE=True` and account credit. Check the provider's current model
+availability, prices and account quotas before starting; the model identifier
+and earlier free-tier assumptions are not a guarantee of service availability.
 
-All service outputs persist under:
+The notebook's own defaults permit 45 requests per session and rolling 24 hours,
+with at least 3.2 seconds between new requests. Other applications share the
+same account quota, so run one continuation at a time and leave headroom.
+Failed requests may also consume quota.
 
-`MyDrive/HaiLong_Colab_Results/02_mit_6s191/results/07_lab3_llm_finetuning/<actual-training-run-id>/official_services_<judge-id-hash>/`
+The original three probes, 20/20/20 comparison and monitored example require
+64 logical evaluations. The continuation adds nine rubric trials, twelve
+matched training-duration trials and three monitored questions: 87 logical
+evaluations in total. Exact duplicate text/rubric requests can reuse saved real
+responses, so fewer new API calls may be needed. A quota-limited run may need
+more than one day.
 
-The quota ledger spans these continuations at `.../results/lab3_openrouter_attempt_ledger.json`. Resume with the same training run and judge. The original rubric, probe texts, 20 held-out generations, matched positive/negative controls, distributions, rubric comparison, 100/200-update comparison, and original monitored question remain explicit. Training-run generation texts are reused only after hash verification; old local judge scores are discarded. Genuine Opik tracing covers the initial model inference. After quota interruptions, saved answers may be reused inside a new trace with that reuse and the initial inference trace ID recorded.
+Requests, raw responses, normalised scores, failure types and remaining steps
+are saved in Drive. Automatic OpenAI SDK retries are disabled. A delivery-uncertain
+request requires `RETRY_UNCERTAIN_REQUESTS=True` before another attempt; a failed
+request or malformed score requires `RETRY_FAILED_REQUESTS=True`. Neither is
+silently retried or given an invented score. A server 429 stops further requests
+for 24 hours.
 
-Actual Opik traces are flushed and fetched back from the server. Their output, feedback score, and trace ID must match the saved inference. The UI project link comes from `Opik.get_project_url()`; it is not invented. Open the link, inspect the trace IDs/input/output/feedback, and only then record `OPIK_UI_INSPECTED=True` with a brief observation in the last cell. The code distinguishes API/metric/server-trace completion from the separate UI check. It claims no provider certification, personal understanding/authorship, or contest entry.
+Relevant provider pages:
 
-The real API judge selects the 100-update or 200-update saved adapter using the larger mean score on six matched held-out questions; ties prefer 200 updates. This uses measured feedback to improve the selected performer on that validation comparison, with its small-sample limits recorded. Both adapters came from the actual complete training run. The restored selected adapter also re-executes the original unchanged Yoda test-text next-token negative log likelihood. If the 200-update adapter is retained, the measurement must agree with the saved training run; the 100-update result is a separate actual measurement. The test text is not used for model selection.
+- [Configured Gemma judge](https://openrouter.ai/google/gemma-2-9b-it:free)
+- [Alternative Gemini judge](https://openrouter.ai/google/gemini-2.5-flash)
+- [OpenRouter free-tier guidance](https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter/)
+- [Opik cloud quickstart](https://www.comet.com/docs/opik/quickstart)
+- [Opik plans](https://www.comet.com/site/pricing/)
+- [Opik SDK configuration](https://www.comet.com/docs/opik/tracing/advanced/sdk_configuration)
 
-`08_lab3_service_continuation.py` is the reviewable source. The local source builder under `execution/2026-10-03/mit` serializes its `# %%` cells into the standalone notebook without running them; no helper import is needed to execute this standalone notebook. All code cells have empty outputs and no execution count. Validation performed locally covers Python syntax, notebook structure, default authorization refusal, pure JSON score parsing, and empty-root audit behavior. Hosted service execution still requires the user's authorized, configured accounts and an actual completed training run.
+This continuation uses Opik cloud authentication. A self-hosted Opik server is
+a vendor-supported alternative, but this notebook does not deploy one. Check
+the account's current limits and retention settings rather than relying on an
+old plan allowance.
 
-`completion_criteria/audit_mit_hosted.py` is the separate read-only artifact helper for the main batch. It needs its sibling `service_scope_audit.json`. It imports no ML packages and never runs cells or loads checkpoints. With Drive mounted, run `python audit_mit_hosted.py --output /content/mit_hosted_audit.json`; `--output` writes only the explicitly named report. Without that option it prints JSON to stdout. It inventories the nine original MIT notebooks separately from two synthetic research prototypes and reports missing evidence explicitly.
+## Verifying the saved training run
+
+Before reading keys or sending requests, the notebook checks:
+
+- The runner record, every executed code cell, full-run mode, the saved output
+  notebook hash and the approved prepared-source hash.
+- A matching run ID, original exercise evidence, two real 200-update histories,
+  saved adapters and the adapter restoration check.
+- The hashes of the training JSON, generation/control CSVs, training-duration
+  texts and adapter files. Changed artifacts prevent resumption.
+
+The approved prepared Lab 3 source hash is
+`de35ad31546210e89f3b1355b08f3d58ffed9029cf6e1092d944209dd20a6f6a`.
+If that source changes, review the change and update the approved hash before
+using the continuation. An incomplete or reduced training run must finish its
+training requirements first. The continuation neither loads an unrelated
+adapter nor starts a new training run.
+
+Service outputs are stored under:
+
+```text
+MyDrive/HaiLong_Colab_Results/02_mit_6s191/results/07_lab3_llm_finetuning/<actual-training-run-id>/official_services_<judge-id-hash>/
+```
+
+The shared quota ledger is `results/lab3_openrouter_attempt_ledger.json`. Resume
+with the same training run and judge. The original rubric, probes, held-out
+generations, positive/negative controls, distributions, rubric comparison,
+100/200-update comparison and monitored question remain explicit. Verified
+generation texts may be reused; old local judge scores are discarded. Genuine
+Opik tracing covers the initial inference. If a saved answer is reused after a
+quota interruption, the new trace records the reuse and initial trace ID.
+
+## Feedback and the Opik interface
+
+Actual Opik traces are flushed and fetched back from the server. Their output,
+feedback score and trace ID must agree with the saved inference. The project
+link comes from `Opik.get_project_url()`. Open it and inspect the trace input,
+output and feedback before setting `OPIK_UI_INSPECTED=True` and entering a brief
+observation. Server/API completion and this personal UI check are separate.
+
+The API judge compares the 100-update and 200-update adapters on six matched
+held-out questions, selecting the higher mean score; ties retain 200 updates.
+Both adapters must come from the verified training run. This is a small
+validation comparison, not a general performance claim. The selected adapter
+then re-runs the original unchanged Yoda test-text next-token negative log
+likelihood. If the 200-update adapter is retained, the measurement must agree
+with the saved run. The test text is not used to select an adapter.
+
+## Source and audit support
+
+[08_lab3_service_continuation.py](08_lab3_service_continuation.py) is the readable
+cell-based source for the standalone notebook. Its code cells have empty outputs
+and no execution counts. Local checks covered syntax, notebook structure,
+default refusal to make unauthorised calls, JSON score parsing and missing-root
+audit behaviour. They do not establish a successful hosted-service run.
+
+The separate [read-only MIT audit helper](../completion_criteria/audit_mit_hosted.py)
+examines saved files without importing ML packages, running cells or loading
+checkpoints. Its required `service_scope_audit.json` is not bundled here; supply
+the matching original criteria through `--scope`. `--output` writes only the
+named JSON report; otherwise results go to standard output. The helper keeps
+the nine original course notebooks separate from the two synthetic prototypes.

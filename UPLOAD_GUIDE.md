@@ -1,27 +1,38 @@
-# Repository folder
+# Maintaining the repository
 
-Upload **GitHub_Learning_Resources** only. It combines the current course sources,
-useful online/local saved results, small supporting outputs and the reviewed
-local variants. Do not select its parent workspace or the full offline backup.
+The local checkout is `GitHub_Learning_Resources`. It is connected to the public
+[learning-resource-exercises repository](https://github.com/long070904/learning-resource-exercises).
+Open this folder in GitHub Desktop when updating the work.
 
-The intended destination is a new private repository:
-https://github.com/long070904/learning-resource-exercises
+## Adding new work
 
-Publication status is recorded separately in the local task's upload receipt.
-The existence of this guide or a local commit does not establish a successful
-GitHub push. If authentication is pending, reconnect the intended GitHub account
-before publishing. No credentials are stored in this folder.
+1. Put the source in its existing course folder.
+2. Add a useful saved notebook or small output to `results`, and update the
+   [work index](WORK_INDEX.md). Label unfinished or unsuccessful runs clearly.
+3. Review the changed files for credentials, personal paths, large datasets and
+   model checkpoints before committing.
+4. Commit the changes and use **Push origin**. This checkout already has a
+   remote; it does not need a nested repository.
 
-## If using GitHub Desktop later
+The `.gitignore` covers common checkpoint, archive, credential and environment
+files. Still review each upload, particularly notebooks with saved output.
 
-1. Sign in and add this exact local repository folder.
-2. Review the current commit and remote rather than creating a nested repository.
-3. Use Publish repository only if no remote exists; otherwise use Push origin.
+## What belongs here
 
-## Full local backup
+Keep runnable code, short instructions, useful figures, metrics and selected
+saved notebooks. Keep course credits and local-adaptation notes with the work.
 
-`Offline_Backup_2026-10-27` is the verified 1,778-file cloud snapshot. Its
-`INDEX.html` opens the complete code/results/logs/checkpoint inventory offline.
-`ALL_LEARNING_RESOURCES_2026-10-25` contains the original local review collection.
-Both remain outside this lightweight repository. Do not upload them as additional
-GitHub folders.
+Store full checkpoints, raw datasets, environments and private assessment
+documents in the offline backup or another suitable location. The parent
+workspace contains more than the GitHub project and is not the upload folder.
+
+## Full backups
+
+`Offline_Backup_2026-10-27` contains the 1,778-file cloud snapshot, including
+larger results, logs and checkpoints. Its `INDEX.html` opens the backup inventory.
+`ALL_LEARNING_RESOURCES_2026-10-25` retains the original local review collection.
+Both folders are separate from this checkout.
+
+Historical hashes are retained in `provenance` and `results/RESULT_FILES.json`.
+Preserve those records when editing documentation and refresh the current
+[file checksums](FILES_SHA256.json).

@@ -1,13 +1,14 @@
 # Course certificates and completion screenshots
 
-Verified provider completion evidence, added to this repository on 28 October 2026.
-The original MathWorks pages were checked and captured on 27 October 2026.
-These seven PNGs retain the original capture bytes. They are certificate-page
-screenshots and a completed-course overview; no original provider PDFs are claimed.
+The MathWorks certificate pages and completion overview were checked on
+**27 October 2026** and added to this repository on **28 October**. All seven
+PNGs are the original browser captures. Provider PDF certificates are not
+included.
 
 ## MathWorks
 
-The five individual courses and the Core learning path were verified completed.
+Five individual courses and the Core learning path are complete. The table links
+to their original screenshots and the official provider pages.
 
 | Course or pathway | Certificate issue date | Original certificate screenshot | Provider verification |
 |---|---|---|---|
@@ -27,15 +28,16 @@ The pathway includes four of those courses, so these are not six separate course
 
 ## Other resources
 
-No additional provider certificates or whole-course completion screenshots were
-found for Google MLCC, MIT 6.S191, fast.ai or TRM in the saved coursework records.
-Their exercise sources and saved outputs remain available through
-[the work index](../WORK_INDEX.md); a completed notebook or a module badge is not
-being represented here as completion of an entire course.
+The saved records do not include whole-course certificates or completion
+screenshots for Google MLCC, MIT 6.S191, fast.ai or TRM. Their code and saved
+outputs are linked in [the work index](../WORK_INDEX.md). A finished notebook or
+module badge supports that piece of work, rather than completion of the whole
+course.
 
-## Evidence scope
+## What the certificates show
 
-These certificates establish provider-recorded MathWorks completion. They do not
-change the coding catalog of 64/84 saved executions, certify local MATLAB replay,
-or validate results on a physiological benchmark. The earlier account snapshots
-and full offline originals remain preserved.
+The certificates confirm MathWorks course completion. The wider coding
+collection still has **64/84 saved executions**, and local MATLAB practice has
+not been verified. Course completion also does not establish performance on a
+physiological benchmark. Earlier account snapshots and the full offline
+originals are retained.

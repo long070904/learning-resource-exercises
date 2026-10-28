@@ -1,35 +1,28 @@
 # MathWorks survey history
 
-## Certificate evidence added 28 October 2026
+## Current status
 
-[Open all six MathWorks certificate screenshots and the completed-courses overview](../../certificates/README.md).
-The images and official certificate links are now included in this repository;
-exact offline originals remain preserved. The verification date remains 27 October 2026.
+All five courses and the overlapping Core pathway were complete when the
+signed-in [`My Courses`](https://matlabacademy.mathworks.com/mycourses) page
+was checked on **27 October 2026**. Onramp was completed on **2 October** and
+the Core pathway on **27 October**. The survey-pending notes below describe
+September, before that completion check.
 
-## Current completion status — verified 27 October 2026
+[View the six certificate screenshots and completion overview](../../certificates/README.md).
+The original screenshots were saved offline and added to GitHub on 28 October;
+provider PDFs have not been downloaded. The
+[completion record](CURRENT_STATUS_2026-10-27.json) and [main guide](README.md)
+give the current status, including **172 graded passes, 28 code examples and
+14 GUI activities** from the September exercise record.
 
-**Completed — authenticated MathWorks portal verified.** After refreshing
-[`My Courses`](https://matlabacademy.mathworks.com/mycourses), the account shows
-**Completed (6)**: Signal Processing Onramp; the Core Signal Processing Techniques
-in MATLAB pathway; and all four constituent courses (Signal Generation and
-Resampling, Spectral Analysis Techniques, Time-Frequency Analysis, and Filter
-Design and Analysis Methods). This confirms the student's completion report.
-All six official certificate views and their original screenshots have been
-saved offline. Original provider PDFs have not been downloaded. Onramp was
-completed on 2 October; the complete Core pathway was completed on 27 October.
+The plan allocates **0.33 CP / 4 estimated hours** to Onramp and **0.67 CP /
+8 estimated hours** to Core: **1 CP / 12 estimated hours**, over the reported
+period **14 September–27 October 2026**. These are 1A-based estimates rather
+than timed study logs; assessment credit remains the coordinator's decision.
 
-Both learning-plan allocations are included: Onramp **0.33 CP / 4 estimated hours**
-and Core **0.67 CP / 8 estimated hours**, totalling **1 CP / 12 estimated hours**.
-The student adopted the 1A planned hours as estimates and extended the reported
-study period from **14 September to 27 October 2026**. These are estimates, not
-measured study-time logs. The CP allocation records the student's plan-based claim
-and does not replace the coordinator's assessment of credit.
-
-See [CURRENT_STATUS_2026-10-27.json](CURRENT_STATUS_2026-10-27.json). The historic
-172 graded passes, 28 code examples and 14 GUI activities remain the verified
-exercise counts. Native MATLAB startup error **5201** remains unresolved, and
-standalone practice replay remains unverified. The Python companion remains a
-separate synthetic exercise.
+Local MATLAB startup error **5201** remains unresolved. The hosted completion
+record does not verify local practice execution, and the Python companion is
+a separate synthetic exercise.
 
 ## Historical survey links and last September observations
 

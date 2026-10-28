@@ -4,4 +4,4 @@
 
 For the ungraded GUI follow-up, opened Window Designer and applied a default-length **64-sample rectangular** `window_1`. Added `window_2` as a **64-sample Kaiser window with beta 10** and applied it. Selected both entries using the list and Shift+Up. A screenshot confirmed both windows in the time and frequency overlays.
 
-This comparison counts as one ungraded GUI activity. It is separate from the graded task, whose Kaiser window uses the course signal length rather than 64. All three Compare Different Windows slides were read. The course header was observed at 53%.
+This comparison counts as one ungraded GUI activity. The graded task uses a Kaiser window matched to the course signal length; the follow-up uses 64 samples. All three Compare Different Windows slides were read. The course header was observed at 53%.

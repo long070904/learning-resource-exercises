@@ -1,19 +1,20 @@
 # MathWorks course map
 
-## Certificate evidence added 28 October 2026
+## Current completion
 
-[Open all six MathWorks certificate screenshots and the completed-courses overview](../../certificates/README.md).
-The images and official certificate links are now included in this repository;
-exact offline originals remain preserved. The verification date remains 27 October 2026.
+Signal Processing Onramp and the four-course Core pathway are complete. The
+signed-in [My Courses](https://matlabacademy.mathworks.com/mycourses) check on
+**27 October 2026** showed six completed entries: five courses and their
+overlapping Core pathway.
 
-## Current completion — verified 27 October 2026
+[Certificates and completion overview](../../certificates/README.md) |
+[Course dates and status](CURRENT_STATUS_2026-10-27.json) |
+[Code and practice guide](README.md)
 
-The refreshed authenticated [MathWorks My Courses](https://matlabacademy.mathworks.com/mycourses)
-page shows **Completed (6)**: Onramp, the Core pathway and all four Core courses.
-See [CURRENT_STATUS_2026-10-27.json](CURRENT_STATUS_2026-10-27.json) and the
-[current guide](README.md). All six official certificate views and their original screenshots are saved offline. Original provider PDFs have not been downloaded.
-The two plan allocations total **1 CP (0.33 + 0.67)** and **12 estimated hours
-(4 + 8)**, with the student-reported study period ending 27 October.
+The six original certificate screenshots were checked on 27 October, saved
+offline and added to GitHub on 28 October. Provider PDFs have not been downloaded.
+The plan allocates **1 CP (0.33 + 0.67)** and **12 estimated hours (4 + 8)**,
+with the reported study period ending **27 October 2026**.
 
 ## Historical course-outline inventory and September observations
 

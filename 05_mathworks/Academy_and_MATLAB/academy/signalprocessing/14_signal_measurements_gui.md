@@ -10,6 +10,6 @@ Task 6 used `quakeSec = t(maxIndices);` and passed. The ungraded follow-up plott
 
 The plain `.m` record uses `maxIndices = islocalmax(pwr,MinProminence=10);`. Its output was checked against the actual live-task `maxIndices` with `assert(isequal(maxIndices,islocalmax(pwr,MinProminence=10)));`, which returned without error in the hosted command window. The GUI checks remain the evidence for Tasks 4–5; this additional assertion establishes that the saved code reproduces their index output on the course data.
 
-The displayed event times, in seconds, were 115.33, 149.73, 184.13, 211.65, 235.73, 273.57, 388.81, 521.25, 572.85, 584.89, 624.45, 698.41, 713.89, and 825.69. These values reflect the displayed precision. The verification assertion is not counted as another practice exercise.
+The displayed event times, in seconds, were 115.33, 149.73, 184.13, 211.65, 235.73, 273.57, 388.81, 521.25, 572.85, 584.89, 624.45, 698.41, 713.89, and 825.69. These values reflect the displayed precision. The assertion checks the saved implementation; it adds no practice-exercise count.
 
-Before this lesson, the header was observed at 80%; this is a historical observation. No 84% observation was inferred from these passes. See [current progress](../../ACADEMY_PROGRESS.md) for the later verified header and pending survey.
+Before this lesson, the header was observed at 80%; this is a historical observation. No 84% observation was inferred from these passes. See [current progress](../../ACADEMY_PROGRESS.md) for the later course record and completion status.

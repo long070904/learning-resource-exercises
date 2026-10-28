@@ -10,4 +10,4 @@
 
 Using `paxT` retained the recording's irregular sample times. The app displayed `*Fs:50.0000Hz`; that display does not mean the explicit time vector was replaced with a uniform grid.
 
-The further-practice explanatory notes were reviewed. They requested no additional operation, so no extra execution or grader result is claimed. The course header was observed at 28%. Course workspace data were used inside the hosted runtime.
+The further-practice explanatory notes were reviewed. They required no further operation and added no execution or grader result. The course header was observed at 28%. Course workspace data were used inside the hosted runtime.

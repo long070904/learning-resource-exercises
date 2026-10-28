@@ -1,39 +1,39 @@
-# Reviewed local source variants (pending exercises)
+# Local variants for two pending exercises
 
-These two alternatives preserve useful local correctness repairs that are absent
-from the original 84-notebook source catalogue. They are **prepared source**, with
-no saved training outputs, and add no exercise-completion credit. The original
-course notebooks and previous evidence remain unchanged.
+These two notebooks contain small corrections to pending fast.ai Part 2
+exercises. They are prepared source files, with no saved training outputs and
+no additional completion credit. The corresponding notebooks in the main
+84-entry collection remain unchanged.
 
-| Variant | Exact change | Existing evidence and limit |
+| Variant | Change | Validation and remaining work |
 |---|---|---|
-| `04_fastai_part2/22_noise-pred_pair_return.ipynb` | Source cell 48 (zero-based 47) returns `(x0, xt)` rather than only `x0`, matching the following sampler's two-value unpack. The preceding equations/RNG stay unchanged. | A saved tiny CPU fixture checked the pair against the original local values, preserved RNG and reproduced the old failure. Full training has not been run. |
-| `04_fastai_part2/30_lsun_diffusion-simple_numeric_shard_assertions.ipynb` | Source cell 16 (zero-based 15) retains the original numeric-shard selectors and checks 173,220 train + 19,811 validation images, 193,031 total, instead of incorrectly expecting all 303,125 archive images in that selected split. | Existing full archive/split metadata supports the assertion. Training, validation selectors, 15 epochs, models and samplers were not changed or executed by this preparation. |
+| [Noise-prediction pair return](04_fastai_part2/22_noise-pred_pair_return.ipynb) | Cell 48 (zero-based index 47) returns `(x0, xt)` instead of only `x0`, matching the sampler's two-value unpacking. The equations and random-number sequence are unchanged. | A small saved CPU check reproduced the original failure and checked the returned pair against the original local values. Full training has not run. |
+| [LSUN numeric-shard assertions](04_fastai_part2/30_lsun_diffusion-simple_numeric_shard_assertions.ipynb) | Cell 16 (zero-based index 15) retains the numeric-shard selection and checks 173,220 training plus 19,811 validation images: 193,031 in total. The selected split does not contain all 303,125 archive images. | Existing archive and split metadata support the corrected assertion. The selectors, 15-epoch budget, models and samplers were not changed or executed during this preparation. |
 
-## Integration and execution identity
+## Running a variant
 
-Both notebooks keep their original course setup and persistence cells. They need
-the repository's shared helpers, original prerequisites and datasets; they are
-not standalone files. Their embedded setup still names the corresponding main
-course notebook. They are not registered as separate entries in the original
-84-entry batch launcher, and their edited source must not inherit a successful
-record from the unmodified source. An isolated clone/explicit variant-identity
-integration is required before promoting either file into an execution workflow.
-The first Markdown cell retains the historical Colab/Drive setup text; the root
-repository README explains the current GitHub clone bootstrap.
+Both files retain the course setup and persistence cells, so they need the
+repository's shared helpers, original datasets and other prerequisites. They
+are not standalone notebooks. The historical setup cells still name the
+corresponding main course notebook, and neither variant is registered as a
+separate exercise in the batch launcher.
 
-No environment, model weights, dataset archive, authentication material, local
-release controller or old checkpoint-restoration framework is bundled here.
+Before running either variant, give it a separate execution identity and result
+location. A result from the unchanged main notebook must not be reused as proof
+that the edited variant ran. The [repository README](../README.md) explains the
+GitHub clone setup; the first Markdown cell in each variant retains the earlier
+Colab/Drive instructions.
 
-## Attribution and provenance
+## Sources and file history
 
-These are local AI-assisted adaptations of fast.ai course22p2 teaching notebooks.
-Each notebook retains its pinned upstream source URL in its first Markdown cell.
-Keep the existing Part 2 Apache-2.0 notice at `../04_fastai_part2/LICENSE` and the
-repository `../SOURCES.md` with these adaptations. No replacement blanket licence
-or claim of original student authorship is made.
+These are AI-assisted local adaptations of fast.ai course22p2 notebooks. Their
+first Markdown cells retain the pinned upstream source URLs. Keep the existing
+[Part 2 Apache-2.0 licence](../04_fastai_part2/LICENSE) and
+[source credits](../SOURCES.md) with the files.
 
-`LOCAL_VARIANT_PROVENANCE.json` records original/variant/copy SHA256 values,
-changed cells, prior limited validation and exact upstream source links. Both
-staged notebooks are byte-exact copies of their reviewed variants; no privacy
-substitutions were needed. No new training or expanded tests were run to stage them.
+[LOCAL_VARIANT_PROVENANCE.json](LOCAL_VARIANT_PROVENANCE.json) records the original,
+variant and repository-copy hashes, changed cells, upstream links and limited
+validation. The repository copies match the reviewed variants byte for byte;
+no privacy substitutions were needed. No new training or broader tests were
+run when these files were added. Datasets, model weights, credentials and the
+local checkpoint-restoration tools are not included.

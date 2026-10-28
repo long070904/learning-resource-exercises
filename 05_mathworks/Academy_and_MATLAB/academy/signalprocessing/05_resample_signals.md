@@ -10,4 +10,4 @@
 
 The app reported `wanc_slow` as **126000 samples at 50 Hz**. For the ungraded follow-up, all five signals were selected and both time and power-spectrum views were visible. The spectra for `wanc_slow`, `harp`, and `pax_uniform` ended at 25 Hz; original `wanc` extended to 50 Hz. These limits correspond to half of their respective uniform sampling rates.
 
-The follow-up was a performed GUI comparison, not an additional graded task. The header was observed at 36%. All actions used the course workspace in the hosted Academy runtime.
+The follow-up counts as one ungraded GUI comparison. The header was observed at 36%. All actions used the course workspace in the hosted Academy runtime.

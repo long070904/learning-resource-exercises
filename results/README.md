@@ -1,34 +1,55 @@
-# Saved online and local results
+# Saved exercise results
 
-Open [EXERCISE_RESULTS.md](EXERCISE_RESULTS.md) or the repository's
-[WORK_INDEX.md](../WORK_INDEX.md) to find each source and saved result.
+This folder brings together saved outputs from Colab and local runs. Use the
+[exercise results table](EXERCISE_RESULTS.md) to inspect a result, or the main
+[code and result index](../WORK_INDEX.md) to find both its source and output.
 
-The 25 October audited record has 64 completed saved results out of 84 exercises:
-Google 7/7, MIT 11/12, fast.ai Part 1 24/25 and Part 2 22/40. Twenty are pending.
-These are saved execution records, not provider course certificates.
+The audit dated 25 October 2026 records **64 saved executions from 84 exercises**,
+with **20 still pending**:
 
-`saved_notebooks` contains all 64 compact publication copies and the separate
-synthetic Python signal-processing companion. Forty-two of the 64 course result
-notebooks are exact originals; 22 have documented privacy or compaction changes.
-The copies preserve code, execution counts and existing scientific outputs.
-Where duplicate large image encodings or inline audio were omitted, the change
-is recorded rather than described as an original-byte copy. Two small exact
-music WAVs, selected figures and bound evidence JSONs are included separately.
+| Resource | Saved executions | Exercise entries |
+|---|---:|---:|
+| Google MLCC | 7 | 7 |
+| MIT 6.S191 | 11 | 12 |
+| fast.ai Part 1 | 24 | 25 |
+| fast.ai Part 2 | 22 | 40 |
 
-`RESULT_FILES.json` records original and publication hashes, byte counts, changes
-and evidence bindings. `PUBLISHED_RESULT_INDEX.csv` lists source/result paths for
-all 84 exercises. The historical source and result hashes in
-`EXERCISE_STATUS.csv` and `PROGRESS_SNAPSHOT.json` still identify the canonical
-originals. Use the new publication manifest for the hashes of edited copies.
+These counts describe the saved exercise collection. They do not establish
+provider course certification, lecture attendance or personal understanding.
+The fast.ai wearable-training notebook also has an unfilled personal ethics
+response, despite its saved technical outputs.
 
-The saved DDPM15 notebook retains a historical error output. Its recovered
-completion is supported by the included separate audited recovery evidence;
-this repository does not label that notebook error-free. Native saved results
-can also contain historical runtime settings: read them as evidence and use
-the main source folders for new execution.
+## What is included
 
-The full original notebooks, repeated histories, data archives and trained model
-states remain in the separate local review collection and verified offline cloud
-backup. No training or inference was performed to produce these publication
-copies. The `figures` teaching examples use synthetic/teaching data and are not
-new wearable research experiment results.
+- `saved_notebooks/`: all 64 course result notebooks and a separate synthetic
+  Python signal-processing companion.
+- `audio/`: two original generated music WAV files from the MIT exercises.
+- `figures/`: selected saved images and teaching plots.
+- `metrics/`: selected numerical results and supporting validation records.
+
+Of the 64 course result notebooks, 42 are exact copies of the original saved
+files. The other 22 have documented privacy or file-size changes. Their code,
+execution counts and existing scientific outputs are preserved. Where a large
+duplicate image encoding or inline audio was removed, the publication record
+identifies that change.
+
+## Checking a file
+
+[RESULT_FILES.json](RESULT_FILES.json) lists the original and published hashes,
+file sizes, changes and associated evidence. Use its published-file hashes to
+check copies in this repository. The older hashes in
+[EXERCISE_STATUS.csv](EXERCISE_STATUS.csv) and
+[PROGRESS_SNAPSHOT.json](PROGRESS_SNAPSHOT.json) identify the original saved
+files. [PUBLISHED_RESULT_INDEX.csv](PUBLISHED_RESULT_INDEX.csv) maps all 84 source
+entries to their published results, where available.
+
+DDPM15 retains the error from its original validation-curve check. A separate
+recovery audit supports its saved completion record; the notebook itself is
+not an error-free execution. Other outputs may retain historical runtime paths
+or settings. Use the main course source folders when starting a new run.
+
+The complete original notebooks, repeated run histories, dataset archives and
+model checkpoints remain in the separate local collection and verified offline
+cloud backup. No training or inference was performed to prepare these publication
+copies. The wearable-style and signal-processing examples use synthetic data;
+their plots and scores are teaching results, not physiological research findings.

@@ -20,24 +20,29 @@ notebook={
              'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},
              'language_info':{'name':'python'}},
  'cells':[
-  cell('markdown', '''# Set up the learning resources in Colab
+  cell('markdown', '''# Set up the exercises in Colab
 
 Repository: https://github.com/long070904/learning-resource-exercises
 
-This setup notebook unpacks the source repository and lists its exercises. It does **not** install every course environment, start training, or establish that an exercise is complete.
+Download the source ZIP from GitHub using **Code → Download ZIP**, then open this
+notebook in a fresh Colab runtime. The repository is public, so no GitHub token
+is needed.
 
-## Private repository: use a downloaded ZIP
+1. Run the setup-helper cell below.
+2. Run the upload cell and choose the repository ZIP.
+3. Run the listing cell to see the available exercises.
 
-1. While signed in to GitHub, open the repository and choose **Code → Download ZIP**.
-2. Open this `START_HERE_COLAB.ipynb` in Colab. Use a fresh runtime.
-3. Run the next three code cells. When the upload picker opens, choose that one repository ZIP.
+Files are unpacked into `/content/HaiLong_Colab_Exercises`, the location used by
+the course notebooks. Existing files there are preserved; use a fresh runtime
+or a different destination for another source ZIP.
 
-No GitHub token, password, Google Drive mount, or fixed historical ZIP hash is needed. Files are extracted into `/content/HaiLong_Colab_Exercises`. Existing work at that destination is preserved; another ZIP requires a fresh runtime or another destination.
-
-The bootstrap requires Python 3.10 or newer. Course notebooks have their own package and hardware requirements. A T4 GPU is useful for GPU exercises; basic data exercises can use a CPU runtime.
+This step prepares the files. Package installation and training happen in the
+chosen course notebook. Setup needs Python 3.10 or newer; each exercise lists
+its own package and hardware requirements. Basic data exercises can use a CPU,
+while longer training work generally needs a GPU.
 '''),
   cell('code', '# Safe source-package setup helpers. This cell does not download or run course code.\n'+definitions),
-  cell('code', '''# Upload exactly the repository ZIP downloaded while signed in to GitHub.
+  cell('code', '''# Upload the repository source ZIP.
 from google.colab import files
 from pathlib import Path
 
@@ -52,41 +57,49 @@ print('Required helper module files are present; none were imported or executed.
   cell('code', '''# List source notebooks only. No training or dependency installation starts here.
 exercise_sources = list_exercises(repository)
 '''),
-  cell('markdown', '''## Open and run an exercise
+  cell('markdown', '''## Run an exercise
 
-Use the paths listed above and `EXERCISE_INDEX.md` to select an exercise. Read `RUN_ORDER.md` and its own setup cell before running it.
+Choose a source notebook from the list or `EXERCISE_INDEX.md`, then read its setup
+cell and `RUN_ORDER.md`.
 
-Colab notebooks can have separate runtimes. Setting up this notebook does not guarantee that another notebook has these files. In the exercise notebook, insert and run the **setup-helper cell and ZIP-upload cell above** before its existing setup cell. That creates `/content/HaiLong_Colab_Exercises` in the runtime that will execute the exercise. Then follow the exercise's own cells and package profile.
+Colab notebooks may use separate runtimes. If the chosen exercise cannot find
+the course files, copy the **setup-helper and ZIP-upload cells** from this
+notebook into that exercise and run them before its existing setup. The files
+then live in the runtime that will execute the exercise.
 
-The teaching-data downloader restores the five omitted public CSV/MNIST inputs, about 117 MB in total. Run it only if the selected exercise needs those files:
+### Public-clone option
 
-```python
-import subprocess, sys
-subprocess.run([sys.executable, str(repository / 'scripts/download_teaching_data.py'), '--all'], check=True)
-```
-
-Competition datasets, restricted ImageNet data, service credentials and full model checkpoints are not in this source ZIP. Follow the relevant exercise instructions and progress records for those requirements. Save outputs and logs to your own persistent storage before a temporary Colab runtime ends.
-
-## Optional route if the repository is made public
-
-After running the setup-helper cell, you can use the following **instead of** the ZIP-upload cell, only when the repository is publicly readable:
+After running the setup-helper cell, this is another way to obtain the public
+repository. Use it in place of the ZIP-upload cell:
 
 ```python
 repository = prepare_public_clone()
 exercise_sources = list_exercises(repository)
 ```
 
-An unauthenticated clone does not provide access to a private repository. The signed-in GitHub ZIP route above works without placing credentials in notebook code.
+### Data and saved work
 
-## Local use
+The teaching-data downloader restores five omitted public Google/MNIST files,
+about 117 MB in total. Run it if the chosen exercise needs them:
 
-From an existing local source checkout, list exercises without extracting anything:
+```python
+import subprocess, sys
+subprocess.run([sys.executable, str(repository / 'scripts/download_teaching_data.py'), '--all'], check=True)
+```
+
+Competition datasets, restricted ImageNet data, service credentials and full
+checkpoints are supplied separately. Follow the relevant exercise's instructions,
+and save outputs and logs to persistent storage before ending the runtime.
+
+### Local use
+
+List exercises from an existing local checkout:
 
 ```text
 python scripts/bootstrap_colab.py --list .
 ```
 
-Or unpack a downloaded repository ZIP into a new local directory:
+Or unpack a source ZIP into a new directory:
 
 ```text
 python scripts/bootstrap_colab.py --zip path/to/download.zip --destination path/to/new-course-folder

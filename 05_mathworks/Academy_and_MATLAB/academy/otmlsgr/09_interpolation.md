@@ -10,4 +10,4 @@
 
 For the optional follow-up, imported `sigbad` and assigned 18000 Hz. Displayed one signal at a time and invoked the enabled Play control for original `sig` at 3000 Hz, `sigbad` at 18000 Hz, and `sigint` at 18000 Hz. The final UI showed Play enabled and Stop disabled.
 
-These playback actions count as one ungraded GUI activity. The agent did not hear the audio or assess its quality, and no additional code example is counted. The course header was observed at 70%.
+The playback steps count together as one ungraded GUI activity, without an additional code example. The AI-assisted check covered the controls; listening quality was not assessed. The course header was observed at 70%.

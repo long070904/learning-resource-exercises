@@ -1,0 +1,246 @@
+{
+  "date_local": "2026-10-28",
+  "source_commit": "51ae1de923d620da6ab1bbc9aebbbd07d88795a5",
+  "purpose": "Clearer reader-facing course guides, progress tables and Colab setup instructions.",
+  "assistance": "AI-assisted editorial revision; original course credits and existing assistance disclosures retained.",
+  "changes": [
+    {
+      "path": "01_google_mlcc/README.md",
+      "previous_sha256": null,
+      "current_sha256": "87c6df0f8590387ccd0ae49fa83ef5abb2abf9a9bcf120e84e9af2bad642c5c0"
+    },
+    {
+      "path": "02_mit_6s191/08_lab3_service_continuation_README.md",
+      "previous_sha256": "6dc857d6dc06c4394f13c582ba9104b31a19203320ca0fa6ac9137ed97bd04ae",
+      "current_sha256": "c35bdcad9a1569e186d57dc16afe7e37ee7fd80a96ce49fbd3a67c677c04290a"
+    },
+    {
+      "path": "02_mit_6s191/README.md",
+      "previous_sha256": null,
+      "current_sha256": "4ef3376dbcc42e993e66f951aed50fa353818b7a819c2eaf421f1ef48e94a9f3"
+    },
+    {
+      "path": "03_fastai/ATTRIBUTION.md",
+      "previous_sha256": "760e2f6eb60bda5a549cf2e80db97f2af2132f843d6d70c70ec09c2550244e4c",
+      "current_sha256": "db8de85d6da546c3442a8d78253ce40e0ec53b9a840e175a104457a5f456d3c0"
+    },
+    {
+      "path": "03_fastai/README.md",
+      "previous_sha256": null,
+      "current_sha256": "d413a298fe5a7994a2dd02c581e82959ba64f574445ac7d05fb9cf8f34747575"
+    },
+    {
+      "path": "04_fastai_part2/README.md",
+      "previous_sha256": null,
+      "current_sha256": "744a6d203673b81464114738847d04de8316045672e447695fcd1d9c3270247a"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/ACADEMY_PROGRESS.md",
+      "previous_sha256": "af53ffe5f7670472c4ed50cb1f42e3b792953644d556d1f32fa0184d8123f8a2",
+      "current_sha256": "add0bb4914f77d1775a840ff56ae78ed2498d81dd37604cb9d65b4443ec12ed4"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/COURSE_MAP.md",
+      "previous_sha256": "eb390decea988ddc5ff18725d8817594cbe3b9f3e0abfb52e4a48b61e8791f3c",
+      "current_sha256": "0562e8f87ae0900d71a663bbe1e0b2449428bfce3059fdd05777c3e6728f314e"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/README.md",
+      "previous_sha256": "a91a1240d3a2e4c32c7482a7071737214666928bab5633093af70ce8015e4cdf",
+      "current_sha256": "04779e8d21f097a585ffebca5d27fecd7630a9cec5c34e56100e019c85541131"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/SURVEYS.md",
+      "previous_sha256": "799e5a52a0067d286a14758f4062ad31a152b69fd4db1c969cfee3f3276dcb10",
+      "current_sha256": "6e6a1271669d83ba6be82f91c41df5dae80affe9b46091e3b2a470a276563f17"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson01_design_filter_gui.md",
+      "previous_sha256": "c536c2f33d2a2f53cd8f870ccdccdf9a4707d9cf268e5caaf2958e71a632104a",
+      "current_sha256": "b5c50c0f9049f88e53ea7060f970db73aeeb3486638ea15be535c9437feebc4b"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson02_fir_filter_gui.md",
+      "previous_sha256": "4a4105394bc948b82025efe6a07b6f51e1215dcebbbefafdc472ffbb00a7355e",
+      "current_sha256": "1b5f0c8eb2e210b9c116f59d5cf65d60021c23f63a34ba409bfe4c2069c1d599"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson03_iir_filter_gui.md",
+      "previous_sha256": "bfc62d975f28ec813de8756b7de9f3d3f6ea1f0055a881bd5a5cc5228fff5b4c",
+      "current_sha256": "7d5cec96c17c914cab19a46933efb472452793c6175a046b276c9d6b0403e6bb"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson04_filter_designer_gui.md",
+      "previous_sha256": "d0e2ef6e1aa844252dc6b250132b254b3c3196d4b9c3c54c0a47459d219129f1",
+      "current_sha256": "acd53faf74ed0ac2db1eed9fd079c1880f6279eff024330ef0c0b37e853026e1"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson05_impulse_response_gui.md",
+      "previous_sha256": "a0553b6415fb0d45efc25f63bcd1b16f621b9cdc09186c57e8c7f7ec3ed4f1a0",
+      "current_sha256": "7746ee4aa7f7fde43f4393c09e3e06a6074cb8f7eb45067edd23a2d517e3f84c"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlfdam/lesson07_filter_analyzer_gui.md",
+      "previous_sha256": "6afb88c17e437d6a80a73742d4015c4981a1f1c57dbf4828ca913813b7d38eae",
+      "current_sha256": "f9b822b267504e304f07aeeb36a7229f30640d850d8ea965fc5a92637b98210e"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson06_windows_gui.md",
+      "previous_sha256": "82832d2f7b7055a634c821c729cd612e607e8f7975e398238ca2fe43ec542827",
+      "current_sha256": "11f9f073c1e5874a08263ef4179aaf5cb95b2840c94c6a522150126bd5d0ae57"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsat/lesson07_tiny_tones_gui.md",
+      "previous_sha256": "4b30ad93488c0c5e0632e31662ca48eca738b289136035e4ebe0a5043654bc66",
+      "current_sha256": "6685283791925ca557fb9b78959220dd09861237efa918af2eb8d139b6a4caf9"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/07_decimation.md",
+      "previous_sha256": "edeed7970ffdd23197c3b8c274c6fad9f1099584712acce34f956ff076e84047",
+      "current_sha256": "78fdf0de90e50d1ecb2be9e8ab6ae176bc481ed29f9a7b7fb94221edbde56461"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/09_interpolation.md",
+      "previous_sha256": "cd7f2286384d11e2f3e80ef01fba7b9e46142eadff7b2421f8ce251dc1d10529",
+      "current_sha256": "ffff22cee7c571dbcbb9c6798ff548cd06b7d12d87ee493e5026f18a0d100a17"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/otmlsgr/13_import_signal.md",
+      "previous_sha256": "b398bc00e32849bf87e256da65e9be5c81691b23eae57e2fd7bcfe96a34c2f33",
+      "current_sha256": "23e6005aa063ccb9c5c8b8bc808a0307d593b6e255ad7ebfd7de9a8f95fce5c2"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/04_compare_signals.md",
+      "previous_sha256": "e39cc9b62d6922119c05df401d728aa16361493793607bc4e22d670bf46bbb2d",
+      "current_sha256": "2bb87976fd138cf6763eabd8e9b89c9010f1e7156da0fd088085dde0826299c8"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/05_resample_signals.md",
+      "previous_sha256": "c7f9d716168acac2129e5115f861688587e014df6c668957f44a34c6291882ee",
+      "current_sha256": "d5fbe93692dc52e3d5c868fbc20fa70a1fa445484b11386892fea5355600aba1"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/06_extract_regions.md",
+      "previous_sha256": "88cdcdd3f8a8b549c34021748ea6b4a016f116e072d455cd9686f4a446e6ee65",
+      "current_sha256": "65a9212bcee044fda2211d2ecd33e6487b675c55c4d1ad80487160362b22b919"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/07_custom_preprocessing.md",
+      "previous_sha256": "3cbc065fa2aa3665e0189c78c99d12e64502bae69009d923cb49f0b0d4072e70",
+      "current_sha256": "ef6bd9181569f34abf7e99fe319cdc81633df7b1930ef747c3fcd4a8687831b1"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/09_customize_spectrum.md",
+      "previous_sha256": "b8fce1ef418191d19dea33b92731f16926bfd1b5f2dbf8e9b30bbe82bddb6f17",
+      "current_sha256": "d77f690aa67fde546be75e3bd357f9fab2ac870d7340f435b5f824015cd65f68"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/10_time_frequency_plots.md",
+      "previous_sha256": "e6f4705655fcab8387b706037d1d29bc293018829b5f31e972eb3c3ee4696af7",
+      "current_sha256": "dafd8d009ebce747789a585b2a8d388445d2d0eca2facebd337a838134ef924d"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/11_lowpass_filter.md",
+      "previous_sha256": "31e95875bce6c3b5dfb918248f8b8d0bc3adff0dcda2dc99de8b4ca7039c9da5",
+      "current_sha256": "5853c59627c163d54f0dd6f491b7b6e32b76ec6bb978b64ca7718991f6d424a6"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/12_bandpass_filter.md",
+      "previous_sha256": "dd8285c0f22b67ab9d595ac0f0e645262297dba04057fb4ac118a701a2c62c15",
+      "current_sha256": "706bce5de8e0c87acec84ca4b6cd04381fcb1c747869d782a3e4474c32be6617"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/academy/signalprocessing/14_signal_measurements_gui.md",
+      "previous_sha256": "dab40a6e0e6c176b78832c0bcb3a81633f7cc09047e2f35492b1912e0f1bb0a0",
+      "current_sha256": "913a7d3406bb23e243a56ef7c42f9569b7948f1f9955eed370ff303f20a67749"
+    },
+    {
+      "path": "05_mathworks/Academy_and_MATLAB/practice/VERIFICATION.md",
+      "previous_sha256": "672f1737aa7b09b7b95888642b50601d4f3308e0d6e9ad869d7c17cef6e584af",
+      "current_sha256": "c23b344c12392ddf082345f58cb394d1e2a53adaa67e7ea31a762121310916b2"
+    },
+    {
+      "path": "05_mathworks/README.md",
+      "previous_sha256": "fa4cfd5d66e6cdf17bebcbd668398c4084191ac7a7f4fe0c89da623fad0718fc",
+      "current_sha256": "52d5604ea79a2ee40d9c3b081c824a045c6b054176d9371345dcbe1d4dbe9776"
+    },
+    {
+      "path": "EXERCISE_INDEX.md",
+      "previous_sha256": "a09355ed085450d4595868b483336d56a1eafc4d7531cf76ae0450484fc9520d",
+      "current_sha256": "9aac5e56ade09035d4ea312306d09e2a87059e34495369070b0639bbfb69f4cc"
+    },
+    {
+      "path": "README.md",
+      "previous_sha256": "6ac8f4471580ef0094d2f32f12e0cdb224e8a2a2d751ac8515ca79ea6c4d1457",
+      "current_sha256": "49616d62620d7fb659b6266f2c6418bf91e6589b4b637e629975b686c295d40f"
+    },
+    {
+      "path": "RUN_ORDER.md",
+      "previous_sha256": "5431712f569f009f61606425c2c0caf64bb1e54d4a36e6cccc89b4201cec0b6a",
+      "current_sha256": "ddb283958c3a77e8d25798cf5efde64a641c525c2f5a4e9509db6c3a34c80720"
+    },
+    {
+      "path": "SOURCES.md",
+      "previous_sha256": "8b4e8024eac78d335a49d1e8471bb33c2101402d47632a1ee9c6a87aee757bb1",
+      "current_sha256": "c4ff535f9f18b2a4b5d0c9513510cf2492e429a0fc9b55d66af8f2a1a20a9f98"
+    },
+    {
+      "path": "START_HERE_COLAB.ipynb",
+      "previous_sha256": "0863fc08616a3f2de04cf2bac9e2bdb6aa154ce06b429c4800efa9d972b5793b",
+      "current_sha256": "68e707d49dca58e70563581fa7467077b3951d9be7c29975dc7c4dcde1855c29"
+    },
+    {
+      "path": "UPLOAD_GUIDE.md",
+      "previous_sha256": "0b501efd1853de71b4ec33216e07e352512e110afc10633339c15c40db5cb915",
+      "current_sha256": "c56c6f65032c95c31fcf9e4b1f232040b250f44b7633ce34f99689bdb8ea5fc2"
+    },
+    {
+      "path": "WORK_INDEX.md",
+      "previous_sha256": "0866bbb73ba5fc6e8944048089a00d77fed3c8972b610dc6f3e4c4e4456dce83",
+      "current_sha256": "c50df6131a24c0ba295041fc88a84eec060ef394ab95a59f48cd6a6edc7f8d82"
+    },
+    {
+      "path": "certificates/README.md",
+      "previous_sha256": "eeac3fcbf4ecba4331e7ff0f166b88bd2a0d2a5a9820982df1c9150ada468d07",
+      "current_sha256": "9d31238c5260ce0e50a506c0ef7e6f6acc45c1b9564e6727d66368a778fe6dc2"
+    },
+    {
+      "path": "completion_criteria/mit_HOSTED_RUN_REQUIREMENTS.md",
+      "previous_sha256": "f1eb90e3955a9d9d25a00059a0530a03e02d28f74b8ad0eb338a7de8734219f0",
+      "current_sha256": "19eee1315e7d7f7d768478dbf2d1486e752a09b45333a05c1b88944276583222"
+    },
+    {
+      "path": "local_variants/README.md",
+      "previous_sha256": "d12597e977ec7e4a0618153fddbb6601d9733393a10f78d6e660b98bb4194cde",
+      "current_sha256": "ea30b2405987bf0a2b68f019b71712490c999fc34158ee55f252192cf41d8acb"
+    },
+    {
+      "path": "results/EXERCISE_RESULTS.md",
+      "previous_sha256": "c6ce05335865a4b91609375b1bd9416a042593266f12d3a723e537444bd5b2db",
+      "current_sha256": "b67270e1a6df32d1a01a2cc882bf0f57c6883f55575b9de2f43cfa6452e39b1c"
+    },
+    {
+      "path": "results/README.md",
+      "previous_sha256": "a2ff42774f4fd15002b36953618baf031aa56851a25a23334ee8f87ea7ec13d1",
+      "current_sha256": "bdc080f54bfbf047c363a5a0ae49b39b471fc3f8e5b81caade10ae4ffc061e6f"
+    },
+    {
+      "path": "scripts/build_bootstrap_notebook.py",
+      "previous_sha256": "bfa11e55800014860ef2fec70e3e977357e04d86c215a204eda2cf6bec6fb1e9",
+      "current_sha256": "c22ef7761583e3125836b5dd5971f69b5c7e7d39bc7bbf9e500508db336848e0"
+    }
+  ],
+  "main_exercise_notebooks_unchanged": 84,
+  "saved_result_notebooks_unchanged": 65,
+  "course_status_and_scientific_outputs_unchanged": true,
+  "paths_renamed": false,
+  "bootstrap_code_AST_unchanged": true,
+  "bootstrap_markdown_cells_revised": 2,
+  "training_or_inference_executed": false,
+  "historical_provenance_records_preserved": true,
+  "validation": [
+    "All relative Markdown links and heading anchors checked.",
+    "84 source entries, 64 saved results and 20 pending rows match the existing status records.",
+    "Ten existing Colab bootstrap safety tests passed."
+  ]
+}
